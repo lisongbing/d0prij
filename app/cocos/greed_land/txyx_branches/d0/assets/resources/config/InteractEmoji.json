@@ -1,0 +1,12 @@
+{
+"1":{"Idx":1,"ShopID":1,"desc":"拖鞋","Fly":1,"Animation":"txie","Sound":"song_Tuoxie"},
+"2":{"Idx":2,"ShopID":2,"desc":"鲜花","Fly":0,"Animation":"rose","Sound":"song_Hua"},
+"3":{"Idx":3,"ShopID":3,"desc":"鸡蛋","Fly":1,"Animation":"egg","Sound":"song_Jidan"},
+"4":{"Idx":4,"ShopID":4,"desc":"亲吻","Fly":0,"Animation":"chun","Sound":"song_Feiwen"},
+"5":{"Idx":5,"ShopID":5,"desc":"鞭炮","Fly":1,"Animation":"boom","Sound":"song_Bianpao"},
+"6":{"Idx":6,"ShopID":6,"desc":"红包","Fly":0,"Animation":"hbao","Sound":"song_Hongbao"},
+"7":{"Idx":7,"ShopID":7,"desc":"红酒","Fly":0,"Animation":"jbei","Sound":"song_Ganbei"},
+"8":{"Idx":8,"ShopID":8,"desc":"麻将","Fly":1,"Animation":"mj","Sound":"song_Majiang"},
+"9":{"Idx":9,"ShopID":9,"desc":"香烟","Fly":0,"Animation":"dhji","Sound":"song_Yan"},
+"10":{"Idx":10,"ShopID":10,"desc":"番茄","Fly":1,"Animation":"fqie","Sound":"song_Fanqie"}
+}

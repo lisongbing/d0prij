@@ -1,0 +1,20 @@
+{
+  "ver": "1.1.2",
+  "uuid": "f7a63114-0e28-4712-a85c-9984ecd88ca5",
+  "isBundle": false,
+  "bundleName": "daer",
+  "priority": 1,
+  "compressionType": {
+    "wechatgame": "subpackage"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": false
+  },
+  "subMetas": {}
+}

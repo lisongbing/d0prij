@@ -1,0 +1,14 @@
+{
+"1":{"id":1,"base_number":0,"top_number":0,"score":3,"fan_number":1},
+"2":{"id":2,"base_number":10,"top_number":10,"score":5,"fan_number":1},
+"3":{"id":3,"base_number":11,"top_number":20,"score":3,"fan_number":1},
+"4":{"id":4,"base_number":21,"top_number":30,"score":4,"fan_number":1},
+"5":{"id":5,"base_number":31,"top_number":40,"score":5,"fan_number":1},
+"6":{"id":6,"base_number":41,"top_number":50,"score":6,"fan_number":1},
+"7":{"id":7,"base_number":51,"top_number":60,"score":7,"fan_number":1},
+"8":{"id":8,"base_number":61,"top_number":70,"score":8,"fan_number":1},
+"9":{"id":9,"base_number":71,"top_number":80,"score":9,"fan_number":1},
+"10":{"id":10,"base_number":81,"top_number":90,"score":10,"fan_number":1},
+"11":{"id":11,"base_number":91,"top_number":100,"score":11,"fan_number":1},
+"12":{"id":12,"base_number":-1,"top_number":0,"score":24,"fan_number":1}
+}

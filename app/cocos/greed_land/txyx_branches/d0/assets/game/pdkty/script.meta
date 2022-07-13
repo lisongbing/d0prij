@@ -1,0 +1,20 @@
+{
+  "ver": "1.1.2",
+  "uuid": "f6bb114e-eaef-4863-98ae-9d209f5d9bf0",
+  "isBundle": false,
+  "bundleName": "pdkty",
+  "priority": 1,
+  "compressionType": {
+    "wechatgame": "subpackage"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": false
+  },
+  "subMetas": {}
+}

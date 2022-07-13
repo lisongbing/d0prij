@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "14eb2d12-81a3-4160-9401-3ad1822eeba0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 438,
+  "height": 509,
+  "platformSettings": {},
+  "subMetas": {
+    "d2CardAtlas": {
+      "ver": "1.0.4",
+      "uuid": "14732c00-92e3-4da6-8858-d15cdd3e977c",
+      "rawTextureUuid": "14eb2d12-81a3-4160-9401-3ad1822eeba0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 434,
+      "height": 505,
+      "rawWidth": 438,
+      "rawHeight": 509,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

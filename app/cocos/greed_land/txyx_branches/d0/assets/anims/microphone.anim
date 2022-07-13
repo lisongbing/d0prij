@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "microphone",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.3333333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "props": {
+      "width": [
+        {
+          "frame": 0,
+          "value": 1,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": 23.5,
+          "curve": "constant"
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": 34.5,
+          "curve": "constant"
+        },
+        {
+          "frame": 1,
+          "value": 60,
+          "curve": "constant"
+        },
+        {
+          "frame": 1.3333333333333333,
+          "value": 1
+        }
+      ]
+    }
+  },
+  "events": []
+}

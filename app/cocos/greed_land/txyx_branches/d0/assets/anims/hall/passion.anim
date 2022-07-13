@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "passion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "A3": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": -21
+            },
+            {
+              "frame": 2.4166666666666665,
+              "value": -6
+            },
+            {
+              "frame": 2.5833333333333335,
+              "value": -6
+            },
+            {
+              "frame": 5,
+              "value": -21
+            }
+          ]
+        }
+      },
+      "A2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2.4166666666666665,
+              "value": 0
+            },
+            {
+              "frame": 2.5833333333333335,
+              "value": 0
+            },
+            {
+              "frame": 5,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "A1": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 16
+            },
+            {
+              "frame": 2.4166666666666665,
+              "value": -1
+            },
+            {
+              "frame": 2.5833333333333335,
+              "value": -1
+            },
+            {
+              "frame": 5,
+              "value": 16
+            }
+          ]
+        }
+      },
+      "heart": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 20
+            },
+            {
+              "frame": 2.4166666666666665,
+              "value": 26
+            },
+            {
+              "frame": 2.5833333333333335,
+              "value": 26
+            },
+            {
+              "frame": 5,
+              "value": 20
+            }
+          ]
+        }
+      },
+      "money": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -10
+            },
+            {
+              "frame": 2.4166666666666665,
+              "value": -16
+            },
+            {
+              "frame": 2.5833333333333335,
+              "value": -16
+            },
+            {
+              "frame": 5,
+              "value": -10
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

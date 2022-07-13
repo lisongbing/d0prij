@@ -1,0 +1,6 @@
+{
+"1":{"type":1,"banker":[1,2,3,4],"xian":[1,2,3,4],"taxType":1,"tax":100},
+"2":{"type":2,"banker":[1,2,3,4],"xian":[1,2,3,4],"taxType":1,"tax":0},
+"3":{"type":3,"banker":[1,2,3,4],"xian":[5,10,15,20],"taxType":2,"tax":0},
+"4":{"type":4,"banker":[1,2,3,4],"xian":[5,10,15,20],"taxType":2,"tax":10}
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "4f777bdd-1e6e-46ca-bb63-9124f86873da",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1902,
+  "height": 939,
+  "platformSettings": {},
+  "subMetas": {
+    "hallAtlas0": {
+      "ver": "1.0.4",
+      "uuid": "e5009304-0c26-4c1b-8ff8-81e16dc3c9d1",
+      "rawTextureUuid": "4f777bdd-1e6e-46ca-bb63-9124f86873da",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 1898,
+      "height": 935,
+      "rawWidth": 1902,
+      "rawHeight": 939,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

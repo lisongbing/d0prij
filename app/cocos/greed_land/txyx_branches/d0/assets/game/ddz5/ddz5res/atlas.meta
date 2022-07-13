@@ -1,0 +1,20 @@
+{
+  "ver": "1.1.2",
+  "uuid": "6ce8e7fa-7b7d-49ae-91c2-94544671be3b",
+  "isBundle": false,
+  "bundleName": "ddz5atlas",
+  "priority": 1,
+  "compressionType": {
+    "wechatgame": "default"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": true
+  },
+  "subMetas": {}
+}

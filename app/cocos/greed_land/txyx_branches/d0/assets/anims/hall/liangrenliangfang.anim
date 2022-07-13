@@ -1,0 +1,100 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "liangrenliangfang",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 4.15,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "R": {
+        "props": {
+          "y": [
+            {
+              "frame": 0.15,
+              "value": 4
+            },
+            {
+              "frame": 2.15,
+              "value": 11
+            },
+            {
+              "frame": 4.15,
+              "value": 4
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0.15,
+              "value": 0
+            },
+            {
+              "frame": 2.15,
+              "value": -3
+            },
+            {
+              "frame": 4.15,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "L": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 9
+            },
+            {
+              "frame": 2,
+              "value": 14
+            },
+            {
+              "frame": 4,
+              "value": 9
+            }
+          ],
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": 2
+            },
+            {
+              "frame": 4,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "M": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    }
+  ]
+}

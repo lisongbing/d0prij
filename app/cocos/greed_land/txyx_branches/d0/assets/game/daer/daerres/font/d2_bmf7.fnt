@@ -1,0 +1,24 @@
+info face="Arial" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=26 scaleW=400 scaleH=22 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="d2_bmf7.png"
+chars count=20
+char id=48   x=240   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=49   x=255   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=50   x=270   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=51   x=285   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=52   x=300   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=53   x=315   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=54   x=330   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=55   x=345   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=56   x=360   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=57   x=375   y=0     width=14    height=18    xoffset=0     yoffset=0     xadvance=14    page=0  chnl=15
+char id=21507 x=0     y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=22350 x=24    y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=22405 x=48    y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=23545 x=72    y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=23558 x=96    y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=24320 x=120   y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=25307 x=144   y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=30896 x=168   y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=30937 x=192   y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15
+char id=38632 x=216   y=0     width=23    height=21    xoffset=0     yoffset=0     xadvance=23    page=0  chnl=15

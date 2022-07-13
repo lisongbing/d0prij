@@ -1,0 +1,20 @@
+{
+  "ver": "1.1.2",
+  "uuid": "599bf175-7786-400b-9f01-210a8017d139",
+  "isBundle": false,
+  "bundleName": "teajs",
+  "priority": 1,
+  "compressionType": {
+    "wechatgame": "subpackage"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": false
+  },
+  "subMetas": {}
+}

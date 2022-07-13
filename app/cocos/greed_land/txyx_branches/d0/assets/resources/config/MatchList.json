@@ -1,0 +1,5 @@
+{
+"1":{"id":1,"baseScore":1,"limit":0,"NAME":"免费场","type":1},
+"2":{"id":2,"baseScore":5,"limit":50,"NAME":"5金币场","type":2},
+"3":{"id":3,"baseScore":10,"limit":100,"NAME":"10金币场","type":2}
+}

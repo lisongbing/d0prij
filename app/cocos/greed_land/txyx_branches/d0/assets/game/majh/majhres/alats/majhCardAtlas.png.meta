@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "55757352-e728-4381-a868-aa244b374600",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1011,
+  "height": 1495,
+  "platformSettings": {},
+  "subMetas": {
+    "majhCardAtlas": {
+      "ver": "1.0.4",
+      "uuid": "bac84be4-a43f-4716-a0a2-41c9248d7eec",
+      "rawTextureUuid": "55757352-e728-4381-a868-aa244b374600",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1011,
+      "height": 1495,
+      "rawWidth": 1011,
+      "rawHeight": 1495,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

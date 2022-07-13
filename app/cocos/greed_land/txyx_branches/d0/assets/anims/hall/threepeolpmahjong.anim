@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "threepeolpmahjong",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 4.4,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "R": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -22
+            },
+            {
+              "frame": 2,
+              "value": -25
+            },
+            {
+              "frame": 2.25,
+              "value": -25
+            },
+            {
+              "frame": 4.233333333333333,
+              "value": -22
+            }
+          ]
+        }
+      },
+      "L": {
+        "props": {
+          "y": [
+            {
+              "frame": 0.15,
+              "value": 27
+            },
+            {
+              "frame": 2.183333333333333,
+              "value": 35
+            },
+            {
+              "frame": 2.4166666666666665,
+              "value": 35
+            },
+            {
+              "frame": 4.4,
+              "value": 27
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

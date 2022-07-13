@@ -1,0 +1,3410 @@
+syntax="proto3";
+package protocol;
+enum PROTO{
+ 	TEST_GATE=0;
+	TEST_GS=1;
+	IPC=2;
+	LOGIN_FORWARD=3;
+	GS_FORWARD=4;
+	GATE_BROADCAST=5;
+	HEART=2000;
+	COMMON=2001;
+	LOGIN=2002;
+	LOGOUT=2003;
+	OPENMAIL=2016;
+	NOTICE=2017;
+	WITHDRAW=2018;
+	DEPOSIT=2019;
+	NOTIFY_BANK=2020;
+	SET_BANK_PASSWD=2021;
+	VERIFY_BANK_PASSWD=2022;
+	RANKING=2023;
+	MODIFY_USER_INFO=2024;
+	TRANSFER=2025;
+	SHARE=2026;
+	DISTRIBUTION=2027;
+	CLOSE_ACCOUNT=2028;
+	EXCHANGE=2029;
+	BIND=2030;
+	GET_TEAM_REWARD=2031;
+	GET_SHARE_REWARD=2032;
+	CHARGE=2033;
+	CREATE_CLUB=2034;
+	GET_CLUB_LIST=2035;
+	SEARCH_CLUB=2036;
+	JOIN_CLUB=2037;
+	MODIFY_CLUB_INFO=2038;
+	QUIT_CLUB=2039;
+	DISBAND_CLUB=2040;
+	CLUB_APPROVE=2041;
+	GET_CLUB_APPLY_LIST=2042;
+	GET_CLUB_MEMBERS_LIST=2043;
+	SET_CLUB_ADMINISTRATOR=2044;
+	DELETE_CLUB_MEMBER=2045;
+	MODIFY_CLUB_GAME=2046;
+	GET_SHARE_REDPKG=2047;
+	GET_ACTION_LIST=2048;
+	ACTION_RANKING=2049;
+	CREAT_CLUB_ROOM=2050;
+	CLUB_ROOM_LIST=2051;
+	JOIN_CLUB_DESK=2052;
+	MODIFY_CLUB_ROOM_RULE=2053;
+	MODIFY_CLUB_ROOM_DEC=2054;
+	CLUB_ROOM_DESK_INFO=2055;
+	REMOVE_CLUB_ROOM=2056;
+	SET_CLUB_ROOM_MODE=2057;
+	SEND_CLUB_CHANGES=2058;
+	GET_CLUB_DAYS_RECORD=2059;
+	GET_ROOM_LIST=1004;
+	CREATE_ROOM=1005;
+	JOIN_ROOM=1006;
+	QUIT_ROOM=1007;
+	MATCH=1008;
+	NOTIFY_ROOM_LIST=1009;
+	NOTIFY_GAME_STATUS=1010;
+	USER_OP=1011;
+	NOTIFY_MONEY_UPDATE=1012;
+	NOTIFY_JOIN_ROOM=1013;
+	NOTIFY_QUIT_ROOM=1014;
+	NOTIFY_USER_STATUS=1015;
+	NOTIFY_USER_OP=1016;
+	NOTIFY_MJ_PLAYER_RESULT_LIST=1017;
+	TALK_TO_ALL=1018;
+	NOTIFY_GAME_MONEY_UPDATE=1019;
+	GET_ROOM_DATA=1020;
+	GET_PLAYERS_SCORE=1021;
+	PROTO_NOTIFY_SHARE_NUM=1022;
+	BIND_PLAYER_GVOICE_ID=1023;
+	NOTIFY_BIGtWO_PLAYER_RESULT_LIST=1024;
+	NOTIFY_BIGtWO_PLAYER_END_RESULT_LIST=1025;
+	GET_FIGHT_LIST=1026;
+	NOTIFY_GAME_PLAYER_RESULT_LIST=1027;
+	PROTO_NOTIFY_GAME_PLAYER_END_RESULT_LIST=1028;
+	SET_GPS_INFO=1029;
+	NOTIFY_PDK_PLAYER_RESULT_LIST=1030;
+	NOTIFY_PDK_PLAYER_END_RESULT_LIST=1031;
+	GET_CLUB_MAXWIN_LIST=1032;
+	GET_CLUB_MAXWIN_FIGHT=1033;
+	GET_ROOM_IFON=1034;
+	NOTIFY_FIVE_DDZ_PLAYER_RESULT_LIST=1035;
+	NOTIFY_FIVE_DDZ_PLAYER_END_RESULT_LIST=1036;
+	NOTICE_LIST=1037;
+	NOTIFY_NOTICE=1038;
+	COMMIT_AGENT=1039;
+	DIND_RECOMMENTER=1040;
+	GET_BAND_INFO=1041;
+	NOTIFY_LS_PDK_PLAYER_RESULT_LIST=1042;
+	NOTIFY_GX_PDK_PLAYER_RESULT_LIST=1043;
+	NOTIFY_TTPS_END_RESULT_LIST=1044;
+	NOTIFY_GAOX_PDK_PLAYER_RESULT_LIST=1045;
+	CREATE_TEA_HOUSE=2201;
+	APPLY_TEA_HOUSE=2202;
+	AGREE_TEA_HOUSE=2203;
+	REFUSE_TEA_HOUSE=2204;
+	TEA_HOUSE_SETTING_INFO=2205;
+	MODIFY_TEA_HOUSE_SETTING=2206;
+	APPLY_EXIT_TEA_HOUSE=2207;
+	AGREE_EXIT_TEA_HOUSE=2208;
+	REFUSE_EXIT_TEA_HOUSE=2209;
+	KICK_TEA_HOUSE=2210;
+	DISBAND_TEA_HOUSE=2211;
+	FIND_USER_TEA_HOUSE=2212;
+	INVITE_TEA_HOUSE=2213;
+	MINE_TEA_HOUSE_LIST=2214;
+	APPLY_LIST_TEA_HOUSE=2215;
+	MEMBER_LIST_TEA_HOUSE=2216;
+	RECENT_OUTIN_LIST_TEA_HOUSE=2217;
+	DY_SET_TEA_HOUSE=2218;
+	TIMER_SET_TEA_HOUSE=2219;
+	MODIFY_TEA_HOUSE_MEMBER_REMARK=2220;
+	TEA_HOUSE_GET_MEMBER_REMARK=2221;
+	TEA_HOUSE_FORBID_GAME=2222;
+	TEA_HOUSE_FORBID_GAME_ALL=2223;
+	TEA_HOUSE_TWO_PEOPLE=2224;
+	TEA_HOUSE_TWO_PEOPLE_ALL=2225;
+	TEA_HOUSE_SET_FLOOR_LIMIT=2226;
+	TEA_HOUSE_GET_FLOOR_LIMIT=2227;
+	KICK_TEAM_TEA_HOUSE=2228;
+	NOTIFY_TEA_HOUSE_ID=2229;
+	NOTIFY_APPLY_TEA_HOUSE=2230;
+	MINE_APPLY_LIST_TEA_HOUSE=2231;
+	NOTIFY_DY_SETTING=2232;
+        NOTIFY_DISBAND_TEA_HOUSE=2233;
+	GET_TIMER_TEA_HOUSE=2234;
+	CREATE_TEA_HOUSE_ROOM=2235;
+	REMOVE_TEA_HOUSE_ROOM=2236;
+	MODIFY_TEA_HOUSE_ROOM_NAME=2237;
+	MODIFY_TEA_HOUSE_ROOM_STATUS=2238;
+	MODIFY_TEA_HOUSE_ROOM_RULE=2239;
+	TEA_HOUSE_HALL=2240;
+	TEA_HOUSE_ROOM_DESK_LIST=2241;
+	TEA_HOUSE_DESK_LIST=2242;
+	NOTIFY_TEA_HOUSE_ADD_DESK=2243;
+	NOTIFY_TEA_HOUSE_REMOVE_DESK=2244;
+	JOIN_TEA_HOUSE_DESK=2245;
+	DISBAND_TEA_HOUSE_DESK=2246;
+	NOTIFY_CHANGE_TEA_HOUSE_DESK=2248;
+	NOTIFY_EXIT_TEA_HOUSE_DESK=2249;
+	NOTIFY_ADD_TEA_HOUSE_ROOM=2250;
+	NOTIFY_MODIFY_TEA_HOUSE_ROOM=2251;
+	NOTIFY_DELETE_TEA_HOUSE_ROOM=2252;
+	NOTIFY_TEA_HOUSE_ROOM_NAME=2253;
+	NOTIFY_TEA_HOUSE_ROOM_STATUS=2254;
+	NOTIFY_TEA_HOUSE_READY=2255;
+	NOTIFY_TEA_HOUSE_GAME_NUM=2256;
+        NOTIFY_TEA_HOUSE_APPLY_COUNT=2257;
+	TEA_HOUSE_TEAM_LIST=2258;
+	CREATE_TEA_HOUSE_TEAM=2259;
+	ASSIGN_TEA_HOUSE_TEAM=2260;
+	TRANSFER_TEA_HOUSE_TEAM=2261;
+	TEA_HOUSE_GET_CONTRIBUE_RATE=2262;
+	TEA_HOUSE_SET_CONTRIBUE_RATE=2263;
+	TEA_HOUSE_CLEAN_ZERO_LIST=2264;
+	TEA_HOUSE_SET_CLEAN_ZERO=2265;
+	TEA_HOUSE_TEAM_STAT_LIST=2266;
+	TEA_HOUSE_TEAM_DIRECT_CLEAN=2267;
+	TEA_HOUSE_TEAM_SET_CORDON=2268;
+	TEA_HOUSE_GET_MY_RECORD_LIST=2272;
+	TEA_HOUSE_GET_MEMBER_RECORD_LIST=2273;
+	TEA_HOUSE_GET_RECENT_RECORD_LIST=2274;
+	TEA_HOUSE_GET_DETAIL_RECORD_LIST=2275;
+	TEA_HOUSE_GET_CIRCLE_RECORD_LIST=2276;
+	TEA_HOUSE_GET_TEAM_RECORD_LIST=2277;
+	TEA_HOUSE_GET_GOLD_MATCH_DATE_LIST=2278;
+	TEA_HOUSE_RECORD_TOTAL_SCORE_DATE_LIST=2279;
+	GET_GOLD_MATCH_OPEN=2281;
+	MODIFY_GOLD_MATCH_OPEN=2282;
+	GET_GOLD_MATCH_SETTING=2283;
+	MODIFY_GOLD_MATCH_SETTING=2284;
+	PAUSE_GOLD_MATCH=2285;
+	APPLY_GOLD_MATCH=2286;
+	GOLD_MATCH_APPLY_LIST=2287;
+	AGREE_GOLD_MATCH=2288;
+	REFUSE_GOLD_MATCH=2289;
+	KICK_GOLD_MATCH=2290;
+	COMPENSATE_GOLD_MATCH=2291;
+	ADJUST_CREDIT_GOLD_MATCH=2292;
+	GOLD_MATCH_GOLD_LIST=2293;
+	GOLD_MATCH_RANK_LIST=2294;
+	GOLD_MATCH_TEAM_LIST=2295;
+	GOLD_MATCH_CREDIT_LOG_LIST=2296;
+	NOTIFY_GOLD_MATCH_OPEN=2297;
+	NOTIFY_GOLD_MATCH_PAUSE=2298;
+	NOTIFY_GOLD_MATCH_GOLD=2299;
+	NOTIFY_GOLD_MATCH_CREDIT=2300;
+	MODIFY_GOLD_MATCH_CREDIT_OPEN=2301;
+	NOTIFY_GOLD_MATCH_CREDIT_OPEN=2302;
+	GET_MINE_GOLD_MATCH=2303;
+	NOTIFY_MINE_GOLD_MATCH=2304;
+	NOTIFY_GOLD_MATCH_AUTHORIZE=2305;
+	NOTIFY_TEA_HOUSE_NAME=2306;
+	UPGRADE_TEA_HOUSE_POSITION=2307;
+	CANCEL_TEA_HOUSE_POSITION=2308;
+	FILTER_TEA_HOUSE_MEMBER=2309;
+	IMPORTING_TEA_HOUSE=2310;
+	IMPORTING_TEA_HOUSE_LIST=2311;
+	NOTIFY_JOIN_TEA_HOUSE=2312;
+	NOTIFY_EXIT_TEA_HOUSE=2313;
+	INVITE_TH_PLAYER_LIST=2314;
+	INVITE_TH_PLAYER=2315;
+	INVITE_TH_ALL_PLAYER=2316;
+	NOTIFY_TH_GAME_INVITE=2317;
+	NOTIFY_TEA_HOUSE_MONEY=2318;
+	NOTIFY_GOLD_MATCH_FEE=2319;
+	NOTIFY_GOLD_COMPENSATE_TIPS=2320;
+	KICK_TEAHOUSE_DESK=2321;
+	TEA_HOUSE_ASSOCIATE_LIST=2322;
+	TEA_HOUSE_SET_ASSOCIATE=2323;
+	TEA_HOUSE_CHANGE_DESK=2324;
+	TEA_HOUSE_ROOM_DESKS=2325;
+	TEA_HOUSE_CHANGE_DESK_LIST=2326;
+	TEA_HOUSE_ENTER_SCENE=2327;
+	TEA_HOUSE_QUIT_SCENE=2328;
+	NOTIFY_TEA_HOUSE_SCENE_CHANGE=2329;
+	TEA_HOUSE_BLACK_GROUP_LIST=2330;
+	TEA_HOUSE_BLACK_GROUP=2331;
+	TEA_HOUSE_BLACK_GROUP_OPER=2332;
+	NOTIFY_TEA_HOUSE_BLACK_GROUP_DEL=2333;
+	TEA_HOUSE_BLACK_GROUP_RENAME=2334;
+	TEA_HOUSE_BLACK_GROUP_FILTER=2335;
+	TEA_HOUSE_BLACK_GROUP_SAVE=2345;
+	GOLD_MATCH_INVITE_LIST=2336;
+	GOLD_MATCH_INVITE=2337;
+	STRONGBOX_PWD_SET=2338;
+	STRONGBOX_LOGIN=2339;
+	STRONGBOX_GET_GOLD=2340;
+	STRONGBOX_WITHDRAW=2341;
+	STRONGBOX_INCOME_LIST=2342;
+	TEA_HOUSE_MEMBER_SET_CORDON=2343;
+	NOTIFY_TEA_HOUSE_DESK_COUNT=2344;
+	KICK_GAME=2401;
+	FEN_BAO=2402;
+	SHI_MING_REN_ZHENG=2403;
+	GET_PHONE_VALIDCODE=2501;
+	BIND_PHONE=2502;
+	MODIFY_PHONE_SECRET=2503;
+	CHANGE_PHONE=2504;
+}
+enum ERROR{
+	_=0;
+	OK=1000;
+	USER_NOT_LOGIN=1001;
+	SERVER_NOT_EXIST=1002;
+	DATA=1003;
+	USER_LOGOUT=1004;
+	CREATE_ROOM_FAILED=1005;
+	JOIN_ROOM_FAILED=1006;
+	MATCH_ROOM_FAILED=1007;
+	USER_IN_ROOM=1008;
+	UUID_NOT_EXIST=1009;
+	ACCOUNT_EXIST=1010;
+	ACCOUNT_PASSWD_NOT_MATCH=1011;
+	LOGIN_AGAIN=1012;
+	GOLD_NOT_ENOUGH=1013;
+	ROOMCARD_NOT_ENOUGH=1014;
+	USER_NOT_IN_ROOM=1015;
+	USER_ENOUGH=1016;
+	ROOM_NOT_FOUND=1017;
+	USER_MULTI_LOGIN_DEVICE=1018;
+	BANK_PASSWD=1019;
+	BANK_BALANCES_NOT_ENOUGH=1020;
+	DEPOSIT_GOLD_NOT_ENOUGH=1021;
+	STRING_LENGTH=1022;
+	STRING_HAS_OTHER=1023;
+	TOKEN_INVAILD=1024;
+	USER_NOT_EXIST=1025;
+	SHARE_TOO_MANY=1026;
+	DIAMOND_NOT_ENOUGH=1027;
+	ACCOUNT_BIND_AGAIN=1028;
+	GET_TEAM_REWARD_FAILED=1029;
+	GAME_NUM_LIMIT=1030;
+	GAME_START=1031;
+	GAME_OWNER_QUIT=1032;
+	PLAYER_QUIT=1033;
+	ACHIEVE_FAILED=1034;
+	PAY_AMOUNT=1035;
+	PAY_SERVER=1036;
+	CLUB_NOT_EXIST=1037;
+	CLUB_NOT_EXIST_PLAYER=1038;
+	CLUB_PERMISSION=1039;
+	CLUB_APPLY=1040;
+	CLUB_PLAYER=1041;
+	CLUB_NOT_APPLY=1042;
+	CODE_INVAILD=1043;
+	CLUB_NOT_EXIST_MEMBER=1044;
+	ACTION_IS_END=1045;
+	CREAT_CLUB_PERM=1046;
+	CREAT_CLUB_REACH_MAX=1047;
+	JOIN_OTHER_CLUB_REACH_MAX=1048;
+	OP_CLUB_ROOM_PERM=1049;
+	CLUB_ROOM_NOTEXIST=1050;
+	JOIN_CLUB_ROOM_DESK_FULL=1051;
+	CLUB_OWNER_CARDS_NOT_ENOUGH=1052;
+	CLUB_DISMISS_HAVEPLAYING=1053;
+	CLUB_ROOM_ALLDESKFULL=1054;
+	CLUB_ROOM_REACHDESKMAX=1055;
+	CLUB_NICK_DUPLICATE=1056;
+	CLUB_ROOM_NUM_REACH_MAX=1057;
+	USER_GPS_NOEXIST=1058;
+	CLUB_JOIN_REACHMAX=1059;
+	ORIGIN_NOTEXITGAME=1060;
+	USER_LEVEL_LOW			=1061;
+	USER_NOT_SUBORDINATE=1062;
+	USER_NOT_OWNER			=1063;
+	USER_NOT_COMMON      		=1064;
+	HAVE_SAME_IP=1065;
+	SERVER_MAINTAIN=1066;
+	SERVER_CLOSED=1067;
+	VERSION_NEED_UPDATE=1068;
+	OP_DB_ERROR=1069;
+	COMMIT_AGENT_ENOUGH=1070;
+	DISTANCE_NOT_OK=1071;
+	TEA_HOUSE_NAME_ILLEGAL=1200;
+	TEA_HOUSE_NAME_SHORT=1201;
+	TEA_HOUSE_NAME_LONG=1202;
+	TEA_HOUSE_NAME_SENSITIVE=1203;
+	TEA_HOUSE_NAME_REPEAT=1204;
+	TEA_HOUSE_SYSTEM_ERROR=1205;
+	TEA_HOUSE_NOT_FOUND=1206;
+	TEA_HOUSE_HAVE_APPLY=1207;
+	TEA_HOUSE_HAVE_JOIN=1208;
+	TEA_HOUSE_APPLY_NOT_FOUND=1209;
+	TEA_HOUSE_MEMBER_NOT_FOUND=1210;
+	TEA_HOUSE_PARAM_ERROR=1211;
+	TEA_HOUSE_NO_RIGHT_VISITOR=1212;
+	TEA_HOUSE_NO_RIGHT=1213;
+	TEA_HOUSE_MAX_COUNT=1214;
+	TEA_HOUSE_NOT_EXIT=1215;
+	TEA_HOUSE_HAVE_APPLY_EXIT=1216;
+	TEA_HOUSE_CURATOR_NOT_EXIT=1217;
+	NOT_FOUND_USER=1218;
+	TEA_HOUSE_NOT_KICK_POSITION=1219;
+	TEA_HOUSE_TIMER_OPEN_FORMAT_ERROR=1220;
+	TEA_HOUSE_TIMER_CLOSE_FORMAT_ERROR=1221;
+	TEA_HOUSE_FLOOR_IS_CREATED=1222;
+	TEA_HOUSE_FLOOR_IS_REMOVED=1223;
+	TEA_HOUSE_NAME_EMPTY=1224;
+	TEA_HOUSE_ROOM_NAME_EMPTY=1225;
+	TEA_HOUSE_ROOM_NAME_ILLEGAL=1226;
+	TEA_HOUSE_ROOM_NAME_SHORT=1227;
+	TEA_HOUSE_ROOM_NAME_LONG=1228;
+	TEA_HOUSE_ROOM_NAME_SENSITIVE=1229;
+	TEA_HOUSE_ROOM_NAME_REPEAT=1230;
+	TEA_HOUSE_ROOM_NOT_FOUND=1231;
+	TEA_HOUSE_DESK_NOT_FOUND=1232;
+	TEA_HOUSE_DESK_IS_FULL=1233;
+	TEA_HOUSE_DESK_IS_REMOVED=1234;
+	TEA_HOUSE_DESK_IS_JOIN=1235;
+	TEA_HOUSE_TEAM_NOT_FOUND=1236;
+	TEA_HOUSE_TEAM_CREATE_BUSY=1237;
+	TEA_HOUSE_USER_HAVE_POSITION=1238;
+	TEA_HOUSE_USER_NOT_HAVE_POSITION=1239;
+	TEA_HOUSE_YOU_NOT_HAVE_POSITION=1240;
+	TEA_HOUSE_USER_ERROR=1241;
+	TEA_HOUSE_TEAM_HAVE_ASSIGN=1242;
+	TEA_HOUSE_BACK_RATE_BIG_ERROR=1243;
+	TEA_HOUSE_BACK_RATE_MIN_ERROR=1244;
+	TEA_HOUSE_MEMBER_REMARK_EMPTY=1245;
+	TEA_HOUSE_MEMBER_REMARK_ILLEGAL=1246;
+	TEA_HOUSE_MEMBER_REMARK_SHORT=1247;
+	TEA_HOUSE_MEMBER_REMARK_LONG=1248;
+	TEA_HOUSE_MEMBER_REMARK_SENSITIVE=1249;
+	TEA_HOUSE_GAME_NOT_OPEN=1250;
+	TEA_HOUSE_GAME_ADMIN_LIMIT=1251;
+	TEA_HOUSE_NAME_SPECIAL=1252;
+	TEA_HOUSE_ROOM_NAME_SPECIAL=1253;
+	TEA_HOUSE_MEMBER_REMARK_SPECIAL=1254;
+	TEA_HOUSE_REAMRK_EMPTY=1255;
+	TEA_HOUSE_REAMRK_ILLEGAL=1256;
+	TEA_HOUSE_REAMRK_SHORT=1257;
+	TEA_HOUSE_REAMRK_LONG=1258;
+	TEA_HOUSE_REAMRK_SENSITIVE=1259;
+	TEA_HOUSE_REAMRK_SPECIAL=1260;
+	TEA_HOUSE_REAMRK_ERROR=1261;
+	TEA_HOUSE_INTRODUCE_ILLEGAL=1262;
+	TEA_HOUSE_INTRODUCE_SHORT=1263;
+	TEA_HOUSE_INTRODUCE_LONG=1264;
+	TEA_HOUSE_INTRODUCE_SENSITIVE=1265;
+	TEA_HOUSE_INTRODUCE_SPECIAL=1266;
+	GOLD_MATCH_PARAM_NOT_SET=1267;
+	GOLD_MATCH_GOLD_NOT_EQUAL=1268;
+	GOLD_MATCH_HAVE_APPLY=1269;
+	GOLD_MATCH_HAVE_MEMBER=1270;
+	GOLD_MATCH_HAVE_KICK=1271;
+	GOLD_MATCH_APPLY_NOT_FOUND=1272;
+	GOLD_MATCH_NOT_SIGN=1273;
+	CREDIT_NOT_ENOUGH=1274;
+	GOLD_MATCH_IS_OPEND=1275;
+	GOLD_MATCH_IS_CLOSED=1276;
+	GOLD_MATCH_IS_PAUSE=1277;
+	GOLD_MATCH_IS_RESTORE=1278;
+	GOLD_MATCH_NOT_PAUSE_CANT_CLOSE=1279;
+	GOLD_MATCH_PAUSE_CANT_GAME=1280;
+	GOLD_MATCH_CLOSE_CANT_PAUSE=1282;
+	GOLD_MATCH_CLOSE_CANT_RESTORE=1283;
+	GOLD_MATCH_PAUSE_CANT_APPLY=1284;
+	GOLD_MATCH_CLOSE_CANT_APPLY=1285;
+	GOLD_MATCH_NOT_OPEN_CANT_OPEN_CREDIT=1286;
+	GOLD_MATCH_NOT_OPEN_CANT_CLOSE_CREDIT=1287;
+	GOLD_MATCH_CREDIT_CLOSE_CANT_ADUST=1289;
+	GOLD_MATCH_GAMEING_CANT_OPEN=1290;
+	GOLD_MATCH_GAMEING_CANT_CLOSE=1291;
+	TEA_HOUSE_FLOOR_MAX_LIMIT=1292;
+	NOT_AUTHORIZE_CREATE_TEA_HOUSE=1293;
+	NOT_AUTHORIZE_OPEN_GOLD_MATCH=1294;
+	TEA_HOUSE_IS_DY=1295;
+	TEA_HOUSE_IS_TIME_CLOSE=1296;
+	TEA_HOUSE_RECHARGE_LIMIT=1297;
+	YOU_ONLY_PLAY_TWO_PERSON_GAME=1298;
+	YOUR_ROOM_IS_LIMIT=1299;
+	FORBID_PLAY_GAME=1300;
+	GAMEING_CANT_REMOVE_ROOM=1301;
+	GOLD_MATCH_CANT_CHANGE_POS=1302;
+	GOLD_NOT_ENOUGH_DISBAND=1303;
+	GAMEING_CANT_MODIFY_ROOM=1304;
+	NOT_AUTHORIZE_ENTER_DESK=1305;
+	NOT_IN_GAME_CANT_CHANGE_DESK=1306;
+	GAME_STARTED_CHANGE_DESK=1307;
+	ROOM_CARD_TYPE_ERROR=1308;
+	ASSOCIATE_PLAYER_CANNT_SAME_TABLE=1309;
+	PLAYER_GAMING_CANT_KICK=1310;
+	PLAYER_TG_DISBAND=1311;
+	CLIENT_VERSION_TIMEOUT=1312;
+	GAME_MAINTAIN=1313;
+	FEN_BAO_NOT_FOUND=1314;
+	THE_SYSTEM_IS_BUSY=1315;
+	ID_NAME_WRONG_FORMAT=1316;
+	CREDIT_NOT_ENOUGH_NOT_JOIN_DESK=1317;
+	GAMEING_NOT_PUNISH=1318;
+	GAMEING_NOT_COMPENSATE=1319;
+	PHONE_VALID_EXPIRE=1401;
+	PHONE_NUMBER_NOT_MATCH=1402;
+	PHONE_VALID_CODE_NOT_MATCH=1403;
+	PHONE_VALID_CODE_NOT_FIND=1404;
+	PHONE_FORMAT_ERR=1405;
+	PHONE_DAY_REQ_REACH_LIMIT=1406;
+	PHONE_VALID_SERVER_ERR=1407;
+	PHONE_VALID_CODE_GET_ERR=1408;
+	PHONE_ALREADY_BIND=1409;
+	PHONE_NOT_BIND=1410;
+	PHONE_LOGIN_PWD_NOT_MATCH=1411;
+	PHONE_LOGIN_PWD_FORMAT_ERR=1412;
+	BLACK_GROUP_NAME_ILLEGAL=1413;
+	BLACK_GROUP_NAME_SHORT=1414;
+	BLACK_GROUP_NAME_LONG=1415;
+	BLACK_GROUP_NAME_SENSITIVE=1416;
+	GOLD_MATCH_PAUSE_CANT_INVITE=1417;
+	GOLD_MATCH_CLOSE_CANT_INVITE=1418;
+	NOT_BIND_MOBILE_CANT_SET_PWD=1419;
+	BIND_MOBILE_NOT_EQUAL=1420;
+	STRONGBOX_PWD_ILLEGAL=1421;
+	STRONGBOX_PWD_SHORT=1422;
+	STRONGBOX_PWD_LONG=1423;
+	STRONGBOX_PWD_SENSITIVE=1424;
+	GOLD_MATCH_CLOSE_CANT_SET_STRONGBOX=1425;
+	STRONGBOX_PWD_NOT_RIGHT=1426;
+	STRONGBOX_APP_KEY_NOT_RIGHT=1427;
+	STRONGBOX_GOLD_NOT_ENOUGH=1428;
+	TALK_TOO_FAST=1429;
+	LOGIN_BUSY=1430;
+	LOGIN_REPEAT=1431;
+	LOGIN_FULL=1432;
+	LOGIN_NEED_QUEUE=1433;
+	CREDIT_NOT_ENOUGH_NOT_JOIN_DESK1=1434;
+	CREDIT_NOT_ENOUGH_NOT_JOIN_DESK2=1435;
+	CREDIT_NOT_ENOUGH_NOT_JOIN_DESK3=1436;
+	CREDIT_NOT_ENOUGH_NOT_JOIN_DESK4=1437;
+	YOUR_CREDIT_NOT_ENOUGH_NOT_JOIN_DESK=1438;
+	BLACK_PLAYER_CANNT_SAME_TABLE=1439;
+	HAVE_NEW_HOT_UPDATE=1441;
+}
+enum CONST{
+	CONST_UNUSED=0;
+	SYS_USER=-1;
+	TOTAL_USER=10000000;
+}
+enum PLATFORM{
+	PLATFORM_UNUSED=0;
+	GUEST=1;
+	ACCOUNT=2;
+	WECHAT=3;
+	WECHAT_GAME=4;
+	PHONE=5;
+}
+enum GAME{
+	GAME_UNUSED=0;
+	QIANGZHUANG_NIUNIU=1;
+	ZHAJINHUA=2;
+	BAIJIALE=3;
+	MAHJONG_4=4;
+	MAHJONG_3=5;
+	MAHJONG_2=6;
+	SANGONG=7;
+	DACHIXIAO=8;
+	BIGTWO=9;
+	HONGZHONG_MAHJONG=10;
+	PAODEKUAI=11;
+	YINBIN_MAHJONG=12;
+	YINBIN_FIVE_DDZ=13;
+	PAODEKUAI_2=14;
+	NINGYUAN_MAHJONG=15;
+	PAODEKUAI_3=16;
+	PAODEKUAI_4=17;
+	NEIJIANG_MAHJONG=18;
+	LUZHOU_GUIMAHJONG=19;
+	YAOJI_MAHJONG=20;
+	ERQISHI=21;
+	LS_PDK=22;
+	GX_PDK=23;
+	GAOX_PDK=24;
+	GONGX_MJ=25;
+	ERRENYIFANG_MJ=26;
+}
+enum RULE{
+	RULE_UNUSED=0;
+	BIMENG1=1;
+	BIMENG3=2;
+	BIMENG5=3;
+	C3=4;
+	FORWARD=5;
+	ZI_MO_JIA_DI=6;
+	ZI_MO_JIA_FAN=7;
+	DIAN_GANG_HUA_ZI_MO=8;
+	DIAN_GANG_HUA_DIAN_PAO=9;
+	YAO_JIU_JIANG_DUI=10;
+	TIAN_DI_HU=11;
+	HAI_DI_LAO=12;
+	SAN_FAN_FENG_DING=13;
+	SI_FAN_FENG_DING=14;
+	BU_FENG_DING=15;
+	MEN_QING_DUAN_YAO_JIU=16;
+	DAPAI_DANGZHUANG=17;
+	QIANGZHUANG=18;
+	CUOPAI=19;
+	BAOJIU=20;
+}
+enum CLUB_TITLE{
+	CLUB_TITLE_MEMBER=0;
+	CLUB_TITLE_ADMINISTRATOR=1;
+	CLUB_TITLE_OWNER=2;
+}
+enum ORIGIN{
+    SELF_SELECT=0;
+    CHANGNING=1;
+    JIANG_AN=2;
+    XINGWEN=3;
+    LUZHOU=4;
+	YIBIN=5;
+    CHENGDU=6;
+    GAOXIAN=7;
+    GONGXIAN=8;
+    HEJIANG=9;
+    JUNLIANG=10;
+    LESHAN=11;
+    NANXI=12;
+    PINGSHAN=13;
+    XUYONG=14;
+	GULIN=15;
+	MEISHAN=16;
+	ERMEISHAN=17;
+	QIANWEI=18;
+}
+enum GAMEENDRES{
+	NOTUSE=0;
+	END=1;
+	APPLY_DISBAND=2;
+	AUTO_REACH_COUNT=3;
+	GOLD_NOT_ENOUGH_DIS=4;
+	TOUHOUSE_FORCE=5;
+	ERROR_DIS=6;
+}
+option java_multiple_files=true;
+message ClientReq{
+	PROTO api=1;
+	bytes data=2;
+}
+message ClientResp{
+	PROTO api=1;
+	bytes data=2;
+}
+message LoginReq{
+	string uuid=1;
+	string account=2;
+	string pwd=3;
+	PLATFORM platform=4;
+	bool   isNew=5;
+	string code=6;
+	string token=7;
+	string refreshToken=8;
+	int64  inviter=9;
+	string os=10;
+	string clientVersion=11;
+	bool  isReconnect=12 ;
+}
+message LoginResp{
+	int64 id=1;
+	string name=2;
+	int64 gold=3;
+	int64 diamond=4;
+	repeated int64 roomcard=5;
+	int32 gsId=6;
+	int32 roomId=7;
+	string uuid=8;
+	int64  bankGold=9;
+    string icon=10;
+	string signature=11;
+	bool isNew=12;
+	int32 shareCnt=13;
+	int32 shareTotal=14;
+	int32 shareAchieve=15;
+	int32 canOpenRedPkg=16;
+	float achieveRedPkg=17;
+	string ip=18;
+	int64 serverTime=19;
+	int32 sex=20;
+	Gps   gps=21;
+	repeated int32 createClubPerm=22;
+	int32 bindSFZ=23;
+    int32 isNeedBingSFZ=24;
+	string phoneNo=25;
+}
+message ModifyUserInfo{
+	string name=1;
+	string signature=2;
+}
+message OpenMailReq{
+	int32 id=1;
+}
+message NoticeReq{}
+message NoticeResp{
+	repeated NoticeInfo list=1;
+}
+message NoticeInfo{
+	string title=1;
+	string content=2;
+	int64 datetime=3;
+	int32 id=4;
+	bool  opened=5;
+}
+message RankingReq{
+}
+message RankingResp{
+	int64 selfGold=1;
+	int32 selfRank=2;
+	repeated RankingInfo list=3;
+}
+message RankingInfo{
+	string name=1;
+	int64 userid=2;
+	int64 Gold=3;
+	string icon=4;
+	string signature=5;
+}
+message GetActionListReq{}
+message GetActionListResp{
+	repeated ActionInfo list=1;
+}
+message ActionInfo{
+	int32 actionId=1;
+	int32 type=2;
+	int64 start=3;
+	int64 end=4;
+	int64 close=5;
+	string title=6;
+	string content=7;
+	string img=8;
+	int32  isRun=9;
+}
+message ActionRankingReq{
+	int32 actionId=1;
+}
+message ActionRankingResp{
+	int32 actionId=1;
+	int64 selfGold=2;
+	int32 selfRank=3;
+	repeated RankingInfo list=4;
+}
+message DistributionReq{}
+message DistributionResp{
+	int64    userid=1;
+	Team     team=2;
+	repeated Pusher list=3;
+	Employ   employ=4;
+	Achieve  achieve=5;
+}
+message Team{
+	int64     owner=1;
+	int64     incOwner=2;
+	int64     teamer=3;
+	int64     incTeamer=4;
+}
+message Pusher{
+	int64       nextId=1;
+	string      nike=2;
+	int64       nextAchieve=3;
+	int64       ownAchieve=4;
+}
+message Employ{
+	double   week=1;
+	double   available=2;
+	double   total=3;
+	double   next=4;
+}
+message Achieve{
+	int64 week=1;
+	int64 owner=2;
+	int64 next=3;
+}
+message GetTeamRewardReq{}
+message GetShareRewardReq{}
+message ChargeReq{
+	int32 platform=1;
+	int32 amount=2;
+}
+message ChargeResp{
+	int32 platform=1;
+	string toPayUrl=2;
+}
+message GetShareRedPkgReq{}
+message GetShareRedPkgResp{
+	float achieveRedPkg=1;
+}
+message CreateClubReq{
+	string name=1;
+	string desc=2;
+	int32 gameTypes=3;
+	int32 origin=4;
+	int32 clubType=5;
+}
+message CreateClubResp{
+	ClubInfo info=1;
+}
+message ClubInfo{
+	int32 clubId=1;
+	int32 memberCnt=2;
+	int32 roomCnt=3;
+	int32 applyCnt=4;
+	int32 gameTypes=5;
+	int64 ownerId=6;
+	string name=7;
+	string icon=8;
+	string desc=9;
+	string ownerName=10;
+	int32 origin=11;
+	int32 selfPerm=12;
+	int32 clubType=13;
+}
+message GetClubListReq{}
+message GetClubListResp{
+	repeated ClubInfo list=1;
+}
+message SearchClubReq{
+	int32 clubId=1;
+}
+message SearchClubResp{
+	ClubInfo info=1;
+}
+message JoinClubReq{
+	int32 clubId=1;
+}
+message ModifyClubInfoReq{
+	int32 clubId=1;
+	string name=2;
+	string desc=3;
+}
+message QuitClubReq{
+	int32 clubId=1;
+}
+message DisbandClubReq{
+	int32 clubId=1;
+}
+message ClubApplicantInfo{
+	int64 userId=1;
+	string name=2;
+	string icon=3;
+}
+message GetClubApplyListReq{
+	int32 clubId=1;
+}
+message ClubApproveReq{
+	bool agree=1;
+	int32 clubId=2;
+	int64 target=3;
+}
+message ClubApproveResp{
+	ClubMemberInfo member=1;
+}
+message GetClubApplyListResp{
+	int32 clubId=1;
+	repeated ClubApplicantInfo list=2;
+}
+message ClubMemberInfo{
+	CLUB_TITLE title=1;
+	int64 userId=2;
+	int64 loginTime=3;
+	string name=4;
+	string icon=5;
+	bool   online=6;
+}
+message GetClubMembersListReq{
+	int32 clubId=1;
+}
+message GetClubMembersListResp{
+	int32 clubId=1;
+	repeated ClubMemberInfo list=2;
+}
+message SetClubAdministratorReq{
+	CLUB_TITLE title=1;
+	int32 clubId=2;
+	int64 target=3;
+}
+message DeleteClubMemberReq{
+	int32 clubId=1;
+	int64 target=2;
+}
+message ModifyClubGameReq{
+	int32 clubId=1;
+	int32 gameTypes=2;
+}
+message CreateClubRoomReq{
+	int32 clubId=1;
+	repeated int32 rule=2;
+	int32 playNum=3;
+	int32 gameNum=4;
+	GAME gameType=5;
+    RoomConfig roomConfig=6;
+	int64 maxWinSco=7;
+	int64 base=8;
+	ExpendSpeciThing expendSpeciThing=9;
+	int32 origin=10;
+}
+message CreateClubRoomResp{
+	int32 uid=1;
+}
+message RemoveClubRoomReq{
+	int32 clubId=1;
+	int32 uid=2;
+}
+message SetClubRoomModeReq{
+	int32 clubId=1;
+	int32 mode=2;
+}
+message SendClubChangesResp{
+	int32 type=1;
+	int32 clubId=2;
+	int32 mode=3;
+	ClubRoomInfo roomInfo=4;
+	int32 cardNum=5;
+}
+message ClubRoomInfo{
+	repeated int32 rule=1;
+	int32 playNum=2;
+	int32 gameNum=3;
+	GAME gameType=4;
+	repeated ClubRoomDeskInfo deskInfo=5;
+	string dec=6;
+	int32 uid=7;
+	int64 maxWinSco=8;
+	int64 base=9;
+	ExpendSpeciThing expendSpeciThing=10;
+	int32 origin=11;
+}
+message ClubRoomDeskInfo{
+	bool isStart=1;
+	int32 index=2;
+	int32 curNum=3;
+	int32 totalNum=4;
+	repeated DeskPlayer players=5;
+}
+message DeskPlayer{
+	int32 DeskId=1;
+	string Name=2;
+	string Icon=3;
+	bool   online=4;
+}
+message CLubDaysConsumeReq{
+	int32 clubId=1;
+	int32 Day=2;
+	int32 payCardType=3;
+}
+message CLubDaysConsumeResp{
+	int32 clubId=1;
+	repeated clubDayConsumeInfo consumes=2;
+}
+message clubDayConsumeInfo{
+	string date=1;
+	int32 gameNum=2;
+	int32 consumeCard=3;
+	int32 gameCount=4;
+	int32 payCardType=5;
+}
+message ClubRoomListReq{
+	int32 clubId=1;
+}
+message ClubRoomListResp{
+	int32 clubId=1;
+	int32 mode=2;
+	repeated ClubRoomInfo list=3;
+	int32 card=4;
+}
+message JoinClubDeskReq{
+	int32 clubId=1;
+	int32 roomUid=2;
+	int32 deskIndex=3;
+	bool openGps=4;
+}
+message JoinClubDeskResp{
+	oneof msg{
+		CreateRoomResp create=1;
+		JoinRoomResp join=2;
+	}
+}
+message ModifyClubRoomRuleReq{
+	int32 clubId=1;
+	int32 roomUid=2;
+	repeated int32 rule=3;
+	int32 playNum=4;
+	GAME gameType=5;
+	int32 gameNum=6;
+	int64 maxWinSco=7;
+	int64 base=8;
+	ExpendSpeciThing expendSpeciThing=9;
+	int32 origin=10;
+}
+message ModifyClubRoomRuleResp{
+	repeated ClubRoomInfo list=1;
+}
+message ModifyClubRoomDecReq{
+	int32 clubId=1;
+	int32 roomUid=2;
+	string dec=3;
+}
+message ClubRoomDeskInfoReq{
+	int32 clubId=1;
+	int32 roomIndex=2;
+}
+message ClubRoomDeskInfoResp{
+	repeated ClubRoomDeskInfo list=1;
+}
+message CreateTeaHouseReq{
+	string name=1;
+	string remark=2;
+	string introduce=3;
+}
+message CreateTeaHouseResp{
+	int32 teaHouseId=1;
+        string name=2;
+}
+message ApplyTeaHouseReq{
+	int32 teaHouseId=1;
+}
+message AgreeTeaHouseReq{
+	int32 teaHouseId=1;
+	int64 applyId=2;
+}
+message RefuseTeaHouseReq{
+	int32 teaHouseId=1;
+	int64 applyId=2;
+}
+message TeaHouseSettingInfoReq{
+	int32 teaHouseId=1;
+}
+message TeaHouseSettingInfoResp{
+	int32 teaHouseId=1;
+	string name=2;
+	string introduce=3;
+	int32  quanzzjOpen=4;
+	int32  cyzjOpen=5;
+	int32  cyshOpen=6;
+	int32  cylbOpen=7;
+	int32  deskFrontOpen=8;
+	int32  patternOpen=9;
+	int32  purview=10;
+	int32  blurred=11;
+	int32  autoExit=12;
+	int32  forbidKick=13;
+	int32  rankMatch=14;
+	string  complainForbid=15;
+	int32  autoClean=16;
+	string forbidIntegral=17;
+	int32  dyOpen=18;
+	string openTime=19;
+	string closeTime=20;
+	int32  timerOpen=21;
+	int32  timerClosed=22;
+	int32  displayFullNum=23;
+	int32  disbandNum=24;
+}
+message ModifyTeaHouseSettingReq{
+	int32 teaHouseId=1;
+	string name=2;
+	string introduce=3;
+	int32  quanzzjOpen=4;
+	int32  cyzjOpen=5;
+	int32  cyshOpen=6;
+	int32  cylbOpen=7;
+	int32  deskFrontOpen=8;
+	int32  patternOpen=9;
+	int32  purview=10;
+	int32  blurred=11;
+	int32  autoExit=12;
+	int32  forbidKick=13;
+	int32  rankMatch=14;
+	string  complainForbid=15;
+	int32  autoClean=16;
+	string forbidIntegral=17;
+	int32  displayFullNum=18;
+	int32  disbandNum=19;
+}
+message ApplyExitTeaHouseReq{
+	int32 teaHouseId=1;
+}
+message AgreeExitTeaHouseReq{
+	int32 teaHouseId=1;
+	int64 applyId=2;
+}
+message RefuseExitTeaHouseReq{
+	int32 teaHouseId=1;
+	int64 applyId=2;
+}
+message KickTeaHouseReq{
+	int32 teaHouseId=1;
+	int64 memberId=2;
+}
+message DisbandTeaHouseReq{
+	int32 teaHouseId=1;
+}
+message FindUserTeaHouseReq{
+	int64 userId=1;
+}
+message FindUserTeaHouseResp{
+        bool  found=1;
+        int64 userId=2;
+        string name=3;
+	string icon=4;
+}
+message InviteTeaHouseReq{
+        int32 teaHouseId=1;
+	int64 userId=2;
+}
+message TeaHouseInfo{
+        int32   teaHouseId=1;
+        string  name=2;
+        string  icon=3;
+        string  introduce=4;
+	int32   onlineCount=5;
+	int32   totalCount=6;
+        int64   ownerId=7;
+	string  ownerName=8;
+	int32   position=9;
+	int32   createTime=10;
+        bool    mineCreate=11;
+	int32    blurred=12;
+}
+message MineTeaHouseListReq{
+}
+message  MineTeaHouseListResp{
+  repeated TeaHouseInfo list=1;
+   int32    applyJoinCount=2;
+}
+message ApplyUser{
+	 int64    userId=1;
+	 string    name=2;
+	 string   icon=3;
+	 int32    time=4;
+	 int32    complainCount=5;
+}
+message ApplyListTeaHouseReq{
+         int32    teaHouseId=1;
+	 string   searchId=2;
+}
+message  ApplyListTeaHouseResp{
+	  int64    ownerId=1;
+	  string    ownerName=2;
+	  repeated ApplyUser list=3;
+}
+message TeaHouseUser{
+	 int64     userId=1;
+	 string    name=2;
+	 string    icon=3;
+	 int32     position=4;
+	 string    groupName=5;
+	 bool      online=6;
+	 bool      onlyTwoPeople=7;
+	 bool      forbidGame=8;
+	 int32     offlineTime=9;
+	 int32     status=10;
+	 int64     reviewerId=11;
+	 string    reviewerName=12;
+	 int32     teamId=13;
+	 bool      associate=14;
+	 string    remark=15;
+	 int64     memberCordon=16;
+	 int64     todayIntegral=17;
+}
+message  TeamNoInfo{
+    int32   teamId=1;
+    int32   teamNo=2;
+}
+message MemberListTeaHouseReq{
+         int32    teaHouseId=1;
+	 string   searchId=2;
+	 int32    pageNum=3;
+	 int32    pageSize=4;
+	 int32    sortKey=5;
+}
+message  MemberListTeaHouseResp{
+        int32    pageNum=1;
+	int32    pageSize=2;
+	int32    totalCount=3;
+	int32    totalPage=4;
+	int32    teamId=5;
+        string   groupName=6;
+	repeated TeaHouseUser list=7;
+	repeated TeamNoInfo   teamNolist=8;
+	int32    totalPeople=9;
+	int32    totalOnline=10;
+}
+message RecentOutInUser{
+	 int64     userId=1;
+	 string    name=2;
+	 string    icon=3;
+	 bool      online=4;
+	 int32     offlineTime=5;
+	 int32     outInType=6;
+	 int64     reviewerId=7;
+	 string    reviewerName=8;
+	 int32     operateType=9;
+	 int32     time=10;
+}
+message RecentOutInListTeaHouseReq{
+         int32    teaHouseId=1;
+	 string   searchId=2;
+}
+message  RecentOutInListTeaHouseResp{
+	repeated RecentOutInUser list=1;
+}
+message DySetTeaHouseReq{
+	int32 teaHouseId=1;
+	int32 dyOpen=2;
+}
+message TimerSetTeaHouseReq{
+	int32 teaHouseId=1;
+	string openTime=2;
+	string closeTime=3;
+	int32  timerOpen=4;
+	int32  timerClosed=5;
+}
+message ModifyTeaHouseMemberRemarkReq{
+         int32 teaHouseId=1;
+	 int64  memberId=2;
+	 string remark=3;
+}
+message MemberPositionInfo{
+      int64   memberId=1 ;
+      int32   position=2;
+      string  name=3;
+}
+message TeaHouseGetMemberRemarkReq{
+         int32 teaHouseId=1;
+	 int64  memberId=2;
+}
+message TeaHouseGetMemberRemarkResp{
+	 int32   teaHouseId=1;
+	 int64   memberId=2 ;
+	 string  name=3;
+	 string  icon=4;
+	 int32   joinWayType=5;
+	 int64   reviewerId=6;
+	 string  remark=7;
+	 int32   joinTime=8;
+	 int32    position=9;
+	 repeated MemberPositionInfo bindList=10;
+}
+message TeaHouseForbidGameReq{
+         int32 teaHouseId=1;
+	 int64  memberId=2;
+	 bool   forbidGame=3;
+}
+message TeaHouseForbidGameAllReq{
+         int32 teaHouseId=1;
+	 int32  teamId=2;
+	 bool   forbidGame=3;
+}
+message TeaHouseTwoPeopleReq{
+         int32 teaHouseId=1;
+	 int64  memberId=2;
+	 bool   onlyTwoPeople=3;
+}
+message TeaHouseTwoPeopleAllReq{
+         int32 teaHouseId=1;
+	 int32  teamId=2;
+	 bool   onlyTwoPeople=3;
+}
+message TeaHouseSetFloorLimitReq{
+         int32  teaHouseId=1;
+	 int64  memberId=2;
+	 bool   add=3;
+	 repeated int32 list=4;
+}
+message TeaHouseSetFloorLimitResp{
+         int32  teaHouseId=1;
+	 int64  memberId=2;
+         repeated TeaHouseFloorLimitInfo list=3;
+	 repeated TeaHouseFloorLimitInfo limitList=4;
+}
+message TeaHouseFloorLimitInfo{
+	int32   floor=1;
+	string  name=2;
+	int32   gameType=3;
+	int32   origin=4;
+}
+message TeaHouseGetFloorLimitReq{
+         int32  teaHouseId=1;
+	 int64  memberId=2;
+}
+message TeaHouseGetFloorLimitResp{
+         int32  teaHouseId=1;
+	 int64  memberId=2;
+         repeated TeaHouseFloorLimitInfo list=3;
+	 repeated TeaHouseFloorLimitInfo limitList=4;
+}
+message KickTeamTeaHouseReq{
+	int32 teaHouseId=1;
+	int32 teamId=2;
+}
+message KickTeamTeaHouseResp{
+}
+message NotifyTeaHouseIdResp{
+        int64   userId=1;
+	int32   teaHouseId=2;
+        string  name=3;
+	int32   position=4;
+        int32   teamId=5;
+	int32   teamNo=6;
+	string  groupName=7;
+}
+message NotifyApplyTeaHouseResp{
+	int32     teaHouseId=1;
+	int32     applyType=2;
+        ApplyUser user=3;
+}
+message MineApplyUser{
+	 int64    userId=1;
+	 string    name=2;
+	 string   icon=3;
+	 int32    time=4;
+	 int32    complainCount=5;
+	 int32    teaHouseId=6;
+	 int64    ownerId=7;
+	 string    ownerName=8;
+}
+message MineApplyListTeaHouseReq{
+}
+message  MineApplyListTeaHouseResp{
+	  repeated MineApplyUser list=1;
+}
+message  NotifyDySettingResp{
+          int32    teaHouseId=1;
+          int32    dyOpen=2;
+}
+message  NotifyDisbandTeaHouseResp{
+          int32    teaHouseId=1;
+}
+message GetTimerTeaHouseReq{
+	int32 teaHouseId=1;
+}
+message GetTimerTeaHouseResp{
+	int32 teaHouseId=1;
+	string openTime=2;
+	string closeTime=3;
+	int32  timerOpen=4;
+	int32  timerClosed=5;
+}
+message WinnerRoomRule{
+	int64  minScore=1;
+	int64  maxScore=2;
+	int64  consumeGold=3;
+	int64  bottomGold=4;
+}
+message GoldMatchRoomRule{
+	int64  joinGold=1;
+	int64  disbandGold=2;
+	int32  exitType=3;
+	int32  lotteryType=4;
+	int64  consumeGold=5;
+	repeated WinnerRoomRule winnerRuleList=6;
+	int64  ticket=7;
+}
+message CreateTeaHouseRoomReq{
+	int32 teaHouseId=1;
+	int32 floor=2;
+	string name=3;
+	int64 base=4;
+	int32 playNum=5;
+	int32 gameNum=6;
+	int32 gameType=7;
+	int64 winnerScore=8;
+	repeated int32 rule=9;
+	repeated int32 specialRule=10;
+	ExpendSpeciThing expendSpeciThing=11;
+	GoldMatchRoomRule goldMatchRule=12;
+	int32 origin=13;
+}
+message RemoveTeaHouseRoomReq{
+	int32 teaHouseId=1;
+	int32 floor=2;
+}
+message ModifyTeaHouseRoomNameReq{
+	int32 teaHouseId=1;
+	int32 floor=2;
+	string name=3;
+}
+message ModifyTeaHouseRoomStatusReq{
+	int32 teaHouseId=1;
+	int32 floor=2;
+	bool  closeStatus=3;
+}
+message ModifyTeaHouseRoomRuleReq{
+	int32 teaHouseId=1;
+	int32 floor=2;
+	int64 base=3;
+	string name=4;
+	int32 playNum=5;
+	int32 gameNum=6;
+	int32 gameType=7;
+	int64 winnerScore=8;
+	repeated int32 rule=9;
+	repeated int32 specialRule=10;
+	ExpendSpeciThing expendSpeciThing=11;
+	GoldMatchRoomRule goldMatchRule=12;
+	int32 origin=13;
+}
+message TeaHouseRoomRule{
+	int32 floor=1;
+	string name=2;
+	bool  closeStatus=3;
+	int64 base=4;
+	int32 playNum=5;
+	int32 gameNum=6;
+	int32 gameType=7;
+	int64 winnerScore=8;
+	repeated int32 rule=9;
+	repeated int32 specialRule=10;
+	ExpendSpeciThing expendSpeciThing=11;
+	GoldMatchRoomRule goldMatchRule=12;
+	int32 origin=13;
+}
+message TeaHouseHallReq{
+	int32 teaHouseId=1;
+}
+message TeaHouseHallResp{
+	int32   teaHouseId=1;
+	string  name=2;
+	string  icon=3;
+	string  introduce=4;
+	int32   onlineCount=5;
+	int32   totalCount=6;
+	int64   ownerId=7;
+	string  ownerName=8;
+	bool     closeStatus=9;
+	int32    position=10;
+	int32    roomCard=11;
+	int32    blurred=12;
+	bool     matchOpen=13;
+	int64    gold=14;
+	int32    signMatchStatus=15;
+	int64    mineMatchFee=16;
+	int32    mineFeeIndex=17;
+	int32    matchTime=18;
+	int64    matchFee=19;
+	int32    feeRate1=20;
+	int32    feeRate2=21;
+	bool     goldMatchAuth=22;
+	int32    dyOpen=23;
+	int32    teamId=24;
+	repeated TeaHouseRoomRule list=25;
+	int32    applyJoinCount=26;
+	int32    applyExitCount=27;
+	int32    applyGoldMathCount=28;
+	int32    totalDeskCount=29;
+	bool     cordonAuth=30;
+}
+message TeaHouseDeskPlayer{
+        int64  pid=1;
+	string name=2;
+	string icon=3;
+	bool   online=4;
+	bool  isReady=5;
+}
+message TeaHouseRoomDesk{
+	int32 floor=1;
+	int32 deskNo=2;
+	int32 gameType=3;
+	int32 playNum=4;
+	bool  isStart=5;
+	int32 curNum=6;
+	int32 totalNum=7;
+	int32 origin=8;
+	repeated TeaHouseDeskPlayer playerList=9;
+	string name=10;
+}
+message TeaHouseRoomDeskListReq{
+        int32 teaHouseId=1;
+        int32 floor=2;
+}
+message TeaHouseRoomDeskListResp{
+         int32 teaHouseId=1;
+	 int32 floor=2;
+	 repeated TeaHouseRoomDesk deskList=3;
+}
+message TeaHouseDeskListReq{
+        int32 teaHouseId=1;
+	int32 searchIndex=2;
+}
+message TeaHouseDeskListResp{
+         int32 teaHouseId=1;
+	 int32 searchIndex=2;
+	 repeated TeaHouseRoomDesk deskList=3;
+}
+message NotifyTeaHouseAddDeskResp{
+         int32 teaHouseId=1;
+         TeaHouseRoomDesk desk=2;
+}
+message  NotifyTeaHouseRemoveDeskResp{
+         int32 teaHouseId=1;
+	 int32 floor=2;
+         int32 deskNo=3;
+}
+message JoinTeaHouseDeskReq{
+        int32 teaHouseId=1;
+	int32 floor=2;
+	int32 deskNo=3;
+	bool openGps=4;
+}
+message DisbandTeaHouseDeskReq{
+         int32 teaHouseId=1;
+	 int32 floor=2;
+	 int32 deskNo=3;
+}
+message  NotifyChangeTeaHouseDeskResp{
+         int32 teaHouseId=1;
+         TeaHouseRoomDesk desk=2;
+}
+message  NotifyExitTeaHouseDeskResp{
+         int32 teaHouseId=1;
+	 int32 floor=2;
+	 int32 deskNo=3;
+	 int64 pid=4;
+}
+message  NotifyAddTeaHouseRoomResp{
+          int32    teaHouseId=1;
+          TeaHouseRoomRule roomRule=9;
+}
+message  NotifyModifyTeaHouseRoomResp{
+          int32    teaHouseId=1;
+          TeaHouseRoomRule roomRule=9;
+}
+message  NotifyDeleteTeaHouseRoomResp{
+          int32    teaHouseId=1;
+         int32     floor=2;
+}
+message  NotifyTeaHouseRoomNameResp{
+          int32    teaHouseId=1;
+          int32     floor=2;
+	  string    name=3;
+}
+message  NotifyTeaHouseRoomStatusResp{
+          int32    teaHouseId=1;
+          int32    floor=2;
+	  bool     closeStatus=3;
+}
+message  NotifyTeaHousePlayerReadyResp{
+          int32    teaHouseId=1;
+          int32    floor=2;
+	  int32    deskNo=3;
+	  int64    pid=4;
+	  bool     isReady=5;
+}
+message  NotifyTeaHouseGameNumResp{
+	int32    teaHouseId=1;
+	int32    floor=2;
+	int32    deskNo=3;
+	bool     isStart=4;
+	int32    curNum=5;
+	int32    totalNum=6;
+}
+message  NotifyTeaHouseApplyCountResp{
+	int32    teaHouseId=1;
+	int32    applyType=2;
+	int32    applyCount=3;
+}
+message TeaHouseTeamInfo{
+	int32  teamId=1 ;
+	int32  teamNo=2 ;
+	int64  userId=3;
+	int32  position=4;
+	string name=5;
+	string icon=6;
+	float  totalGameCount=7;
+	float  effectCount=8;
+	float  winCount=9;
+	int32  contribute=10;
+	float  contributeRate=11;
+	int32  level=12;
+	int32  createTime=13;
+	int32  zeroTime=14;
+	double score=15;
+	int64  cordon=16;
+	int64  memberCordon=17;
+	int64  todayIntegral=18;
+}
+message  TeaHouseTeamListReq{
+	int32    teaHouseId=1;
+	int32    teamId=2 ;
+	string   searchId=3;
+	bool     searchUp=4;
+	int32    pageNum=5;
+	int32    pageSize=6;
+	int32    sortKey=7;
+}
+message TeaHouseTeamListResp{
+	int32    teaHouseId=1;
+	int32    teamId=2 ;
+	int32    pageNum=3;
+	int32    pageSize=4;
+	int32    totalCount=5;
+	int32    totalPage=6;
+	int32    teamNo=7 ;
+	int64    userId=8;
+	int32    position=9;
+	float    totalGameCount=10;
+	float    effectCount=11;
+	float    winCount=12;
+	int32    contribute=13;
+	float    contributeRate=14;
+	int32    level=15;
+	int32    peopleCount=16;
+	int32    createPosition=17;
+	string   name=18;
+	string   icon=19;
+	double   score=20;
+	repeated TeaHouseTeamInfo list=21;
+}
+message  CreateTeaHouseTeamReq{
+         int32   teaHouseId=1;
+	 int32   parentTeamId=2;
+	 int64   destUserId=3;
+	 int32   destPosition=4;
+}
+message  AssignTeaHouseTeamReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2;
+	 int64   destUserId=3;
+}
+message  TransferTeaHouseTeamReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2;
+	 int64   destUserId1=3;
+	 int64   destUserId2=4;
+}
+message  TeaHouseGetContribueRateReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+}
+message TeaHouseGetContribueRateResp{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+         float   contributeRate=3;
+}
+message  TeaHouseSetContribueRateReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+         float  contributeRate=3;
+}
+message TeaHouseSetContribueRateResp{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+         float  contributeRate=3;
+}
+message CleanZeroInfo{
+	float   totalCount=1;
+	float   effectCount=2;
+	float   winCount=3;
+	int32   time=4;
+	string   name=5;
+	double  score=6;
+}
+message  TeaHouseCleanZeroListReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+}
+message TeaHouseCleanZeroListResp{
+	int32   teaHouseId=1;
+	int32   teamId=2 ;
+	float   totalCount=3;
+	float   effectCount=4;
+	float   winCount=5;
+	double  score=6;
+	repeated CleanZeroInfo list=7;
+}
+message  TeaHouseSetCleanZeroReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+}
+message  TeaHouseTeamStatInfo{
+         int32   floor=1;
+	 float   totalCount=2;
+         float   effectCount=3;
+         float   winCount=4;
+}
+message  TeaHouseTeamStatListReq{
+         int32   teaHouseId=1;
+	 int32   teamId=2 ;
+	 int32    pageNum=3;
+	 int32    pageSize=4;
+}
+message TeaHouseTeamStatListResp{
+        int32    teaHouseId=1;
+	int32    teamId=2 ;
+        int32    pageNum=3;
+	int32    pageSize=4;
+	int32    totalCount=5;
+	int32    totalPage=6;
+        float    allTotalCount=7;
+        float    allEffectCount=8;
+        float    allWinCount=9;
+	repeated TeaHouseTeamStatInfo list=10;
+}
+message  TeaHouseTeamDirectCleanReq{
+	int32   teaHouseId=1;
+	int32   teamId=2 ;
+}
+message  TeaHouseTeamSetCordonReq{
+	int32   teaHouseId=1;
+	int32   teamId=2 ;
+	int64   cordon=3 ;
+}
+message GetGoldMatchOpenReq{
+     int32    teaHouseId=1;
+}
+message GetGoldMatchOpenResp{
+    int32    teaHouseId=1;
+    bool     goldMatchOpen=2;
+}
+message ModifyGoldMatchOpenReq{
+     int32    teaHouseId=1;
+     bool     goldMatchOpen=2;
+}
+message ModifyGoldMatchOpenResp{
+    int32    teaHouseId=1;
+    bool     goldMatchOpen=2;
+}
+message GetGoldMatchSettingReq{
+     int32    teaHouseId=1;
+}
+message GetGoldMatchSettingResp{
+    int32    teaHouseId=1;
+    int64    matchFee=2;
+    bool     feeOpen1=3;
+    bool     feeOpen2=4;
+    int32    feeRate1=5;
+    int32    feeRate2=6;
+    bool     reviewOpen=7;
+    bool     matchPause=8;
+}
+message ModifyGoldMatchSettingReq{
+    int32    teaHouseId=1;
+    int64    matchFee=2;
+    bool     feeOpen1=3;
+    bool     feeOpen2=4;
+    int32    feeRate1=5;
+    int32    feeRate2=6;
+    bool     reviewOpen=7;
+}
+message ModifyGoldMatchSettingResp{
+    int32    teaHouseId=1;
+    int64    matchFee=2;
+    bool     feeOpen1=3;
+    bool     feeOpen2=4;
+    int32    feeRate1=5;
+    int32    feeRate2=6;
+    bool     reviewOpen=7;
+}
+message PauseGoldMatchReq{
+    int32    teaHouseId=1;
+    bool     matchPause=2;
+}
+message ApplyGoldMatchReq{
+    int32    teaHouseId=1;
+    int64    gold=2;
+    int32    rate=3;
+}
+message GoldMatchApplyUser{
+	 int64     userId=1;
+	 string    name=2;
+	 string    icon=3;
+	 int32     time=4;
+	 int64     gold=5;
+	 string    teamName=6;
+}
+message GoldMatchApplyListReq{
+         int32    teaHouseId=1;
+	 string   searchId=2;
+	 int32    index=3;
+	 int32    pageSize=4;
+}
+message  GoldMatchApplyListResp{
+	 int32    teaHouseId=1;
+	 int32    index=2;
+	 int32    pageSize=3;
+	 int32    totalCount=4;
+	 int32    applyCount=5;
+	 repeated GoldMatchApplyUser list=6;
+}
+message AgreeGoldMatchReq{
+	int32 teaHouseId=1;
+	int64 applyId=2;
+}
+message RefuseGoldMatchReq{
+	int32 teaHouseId=1;
+	int64 applyId=2;
+}
+message KickGoldMatchReq{
+	int32 teaHouseId=1;
+	int64 memberId=2;
+}
+message CompensateGoldMatchReq{
+	int32 teaHouseId=1;
+	int64 memberId=2;
+	bool  add=3;
+	int64 gold=4;
+}
+message CompensateGoldMatchResp{
+	int32 teaHouseId=1;
+	int64 memberId=2;
+	int64 gold=3;
+}
+message AdjustCreditGoldMatchReq{
+        int32 teaHouseId=1;
+	int32 teamId=2;
+	int64 credit=3;
+}
+message AdjustCreditGoldMatchResp{
+	int32 teaHouseId=1;
+	int32 teamId=2;
+	int64 credit=3;
+}
+message GoldMatchGoldLogInfo{
+	int64   userId=1;
+        int32   position=2;
+	string  name=3;
+	string  icon=4;
+	int64   gold=5;
+	int32   teamId=6;
+        string  teamName=7;
+        string  event=8;
+        int64   reviewerId=9;
+        string  reviewerName=10;
+	string  reviewerIcon=11;
+	int32     time=12;
+}
+message GoldMatchGoldListReq{
+         int32    teaHouseId=1;
+	 bool     mineApprove=2;
+	 string   searchId=3;
+	 int32    pageNum=4;
+	 int32    pageSize=5;
+}
+message  GoldMatchGoldListResp{
+	 int32    teaHouseId=1;
+	 int32    pageNum=2;
+	 int32    pageSize=3;
+	 int32    totalCount=4;
+	 int32    totalPage=5;
+	 repeated GoldMatchGoldLogInfo list=6;
+}
+message GoldMatchRankInfo{
+        int32   rank=1;
+	int64   userId=2;
+        int32   position=3;
+	string  name=4;
+	string  icon=5;
+	int64   gold=6;
+	int32   matchCount=7;
+	bool    power=8;
+}
+message GoldMatchRankListReq{
+         int32    teaHouseId=1;
+	 bool     mineApprove=2;
+	 string   searchId=3;
+	 int32    index=4;
+	 int32    pageSize=5;
+	 int32    totalCount=6;
+}
+message  GoldMatchRankListResp{
+	 int32    teaHouseId=1;
+	 int32    index=2;
+	 int32    pageSize=3;
+	 int32    totalCount=4;
+         int32    totalMatchCount=5;
+	 int64    totalGold=6;
+         int32    totalPeopleCount=7;
+	 repeated GoldMatchRankInfo list=8;
+}
+message GoldMatchTeamInfo{
+        int32   teamId=1;
+        int64   userId=2;
+        int32   position=3;
+	string  name=4;
+	string  icon=5;
+	int64   credit=6;
+	bool    power=7;
+	int64   cordon=8;
+	int64   gold=9;
+	float   contributeRate=10;
+	int64   tdayDraw=11;
+	int64   tdayActualDraw=12;
+	int64   tdayPresonDraw=13;
+	int64   ydayDraw=14;
+	int64   ydayActualDraw=15;
+	int64   ydayPresonDraw=16;
+	int64   teamGold=17;
+}
+message  GoldMatchTeamListReq{
+         int32    teaHouseId=1;
+	 string   searchId=2;
+	 int32    index=3;
+	 int32    pageSize=4;
+}
+message  GoldMatchTeamListResp{
+	 int32    teaHouseId=1;
+         int32    index=2;
+	 int32    pageSize=3;
+	 int32    totalCount=4;
+         bool     creditOpen=5;
+	 repeated GoldMatchTeamInfo list=6;
+}
+message CreditLogInfo{
+        int32   teamId=1;
+        int64   userId=2;
+        int32   position=3;
+	string  name=4;
+	int64   credit=5;
+        int64   beforeCredit=6;
+	int64   afterCredit=7;
+	int32   time=8;
+}
+message  GoldMatchCreditListReq{
+         int32    teaHouseId=1;
+	 int32    teamId=2;
+	 int32    pageNum=3;
+	 int32    pageSize=4;
+}
+message  GoldMatchCreditListResp{
+	 int32    teaHouseId=1;
+	 int32    teamId=2;
+         int64    credit=3;
+	 int32    pageNum=4;
+	 int32    pageSize=5;
+	 int32    totalCount=6;
+	 int32    totalPage=7;
+	 repeated CreditLogInfo list=8;
+}
+message  NotifyGoldMatchOpenResp{
+	 int32    teaHouseId=1;
+	 bool     goldMatchOpen=2;
+}
+message  NotifyGoldMatchPauseResp{
+	 int32    teaHouseId=1;
+	 bool     matchPause=2;
+}
+message  NotifyGoldMatchGoldResp{
+	 int32    teaHouseId=1;
+	 int64    memberId=2;
+	 int64    gold=3;
+	 int64    totalGold=4;
+}
+message  NotifyGoldMatchCreditResp{
+	 int32    teaHouseId=1;
+	 int32    teamId=2;
+	 int64    credit=3;
+	 int64    totalCredit=4;
+}
+message  ModifyCreditOpenReq{
+         int32    teaHouseId=1;
+	 bool   creditOpen=2;
+}
+message  NotifyCreditOpenResp{
+	 int32    teaHouseId=1;
+	 bool   creditOpen=2;
+}
+message  GetMineGoldMatchReq{
+        int32    teaHouseId=1;
+}
+message  GetMineGoldMatchResp{
+	int32    teaHouseId=1;
+	int32    signMatchStatus=2;
+	int64    mineMatchFee=3;
+	int32    mineFeeIndex=4;
+	int32    matchTime=5;
+	int64    matchFee=6;
+	int32    feeRate1=7;
+	int32    feeRate2=8;
+}
+message  NotifyMineGoldMatchResp{
+	int32    teaHouseId=1;
+	int32    signMatchStatus=2;
+	int64    mineMatchFee=3;
+	int32    mineFeeIndex=4;
+	int32    matchTime=5;
+	int64    matchFee=6;
+	int32    feeRate1=7;
+	int32    feeRate2=8;
+}
+message  NotifyGoldMatchAuthorizeResp{
+          int32    teaHouseId=1;
+          bool     goldMatchAuth=2;
+}
+message  NotifyTeaHouseNameResp{
+          int32       teaHouseId=1;
+          string      name=2;
+          string      introduce=3;
+}
+message  UpgradeTeaHousePositionReq{
+         int32   teaHouseId=1;
+	 int64   destUserId=2;
+	 int32   destPosition=3;
+}
+message  CancelTeaHousePositionReq{
+         int32   teaHouseId=1;
+	 int64   destUserId=2;
+}
+message FilterMember{
+	 int64     userId=1;
+	 string    name=2;
+	 string    icon=3;
+}
+message FilterTeaHouseMemberReq{
+	 int32   teaHouseId=1;
+         int32   teamId=2;
+	 string  searchId=3;
+	 int32   searchType=4;
+}
+message FilterTeaHouseMemberResp{
+	 int32   teaHouseId=1;
+         repeated FilterMember list=2;
+}
+message  ImportingTeaHouseReq{
+	 int32   teaHouseId=1;
+         int32   destTeaHouseId=2;
+}
+message ImportingTeaHouseInfo{
+	 int32   teaHouseId=1;
+	 string    name=2;
+}
+message ImportingTeaHouseListReq{
+	int32   teaHouseId=1;
+}
+message ImportingTeaHouseListResp{
+	repeated ImportingTeaHouseInfo list=1;
+}
+message  NotifyJoinTeaHouseResp{
+          int32       teaHouseId=1;
+}
+message  NotifyExitTeaHouseResp{
+          int32       teaHouseId=1;
+}
+message ThPlayerInfo{
+	 int64     userId=1;
+	 string    name=2;
+	 string    icon=3;
+	 bool      online=4;
+	 int32     status=5;
+}
+message InviteThPlayerListReq{
+	int32    teaHouseId=1;
+	bool     filterStart=2;
+	int32    pageNum=3;
+	int32    pageSize=4;
+}
+message  InviteThPlayerListResp{
+	int32    teaHouseId=1;
+	int32    pageNum=2;
+	int32    pageSize=3;
+	int32    totalCount=4;
+	int32    totalPage=5;
+	repeated ThPlayerInfo   list=6;
+}
+message  InviteThPlayerJoinGameReq{
+	int32    teaHouseId=1;
+	int64    userId=2;
+	int32    floor=3;
+	int32    deskNo=4;
+}
+message  InviteThAllPlayerJoinGameReq{
+     int32    teaHouseId=1;
+     int32    floor=2;
+     int32    deskNo=3;
+}
+message  NotifyThGameInviteResp{
+	int32    teaHouseId=1;
+	string   teaHouseName=2;
+	int32    floor=3;
+	int32    deskNo=4;
+	int64    userId=5;
+	string   name=6;
+	int32    gameType=7;
+	int32    origin=8;
+	bool     openGps=9;
+}
+message  NotifyTeaHouseMoneyResp{
+	int32    teaHouseId=1;
+	int32    type=2;
+	int64    value=3;
+}
+message  NotifyGoldMatchFeeResp{
+    int32    teaHouseId=1;
+    int64    matchFee=2;
+    bool     feeOpen1=3;
+    bool     feeOpen2=4;
+    int32    feeRate1=5;
+    int32    feeRate2=6;
+}
+message NotifyGoldCompensateTipsResp{
+	int32 teaHouseId=1;
+	int64 leaderId=2;
+	string leaderName=3;
+	bool  add=4;
+	int64 gold=5;
+}
+message KickTeaHouseDeskReq{
+        int32 teaHouseId=1;
+	int32 floor=2;
+	int32 deskNo=3;
+        int64 userId=4;
+}
+message AssociateUser{
+	 int64     userId=1;
+	 string    name=2;
+	 string    icon=3;
+}
+message TeaHouseAssociateListReq{
+	int32    teaHouseId=1;
+	bool     associate=2;
+	int64    targetUserId=3;
+	string   searchId=4;
+	int32    pageNum=5;
+	int32    pageSize=6;
+}
+message TeaHouseAssociateListResp{
+	int32    teaHouseId=1;
+	bool     associate=2;
+	int64    targetUserId=3;
+	int32    pageNum=4;
+	int32    pageSize=5;
+	int32    totalCount=6;
+	int32    totalPage=7;
+	repeated AssociateUser   list=8;
+}
+message TeaHouseSetAssociateReq{
+	int32    teaHouseId=1;
+	bool     associate=2;
+	int64    targetUserId=3;
+	repeated int64   list=4;
+}
+message TeaHouseChangeDeskReq{
+        int32 teaHouseId=1;
+	int32 floor=2;
+	int32 deskNo=3;
+	bool openGps=4;
+}
+message TeaHouseRoomDesksReq{
+	int32 teaHouseId=1;
+	int32 floor=2;
+	int32 searchIndex=3;
+}
+message TeaHouseRoomDesksResp{
+	int32 teaHouseId=1;
+	int32 floor=2;
+	int32 searchIndex=3;
+	TeaHouseRoomRule rule=4;
+	repeated TeaHouseRoomDesk deskList=5;
+}
+message TeaHouseChangeDeskListReq{
+         int32    teaHouseId=1;
+	 int32    floor=2;
+	 int32    pageNum=3;
+	 int32    pageSize=4;
+}
+message  TeaHouseChangeDeskListResp{
+	 int32    teaHouseId=1;
+	 int32    floor=2;
+	 int32    pageNum=3;
+	 int32    pageSize=4;
+	 int32    totalCount=5;
+	 int32    totalPage=6;
+	 repeated TeaHouseRoomDesk list=7;
+}
+message TeaHouseEnterSceneReq{
+         int32    teaHouseId=1;
+	 int32    floor=2;
+}
+message TeaHouseQuitSceneReq{
+         int32    teaHouseId=1;
+}
+message  NotifyTeaHouseSceneChangeResp{
+	 int32    teaHouseId=1;
+	 int32    floor=2;
+}
+message TeaHouseBlackGroupInfo{
+	int32  groupId=1;
+	string groupName=2;
+	repeated string iconList=3;
+}
+message TeaHouseBlackGroupListReq{
+	int32    teaHouseId=1;
+	int32    pageNum=2;
+	int32    pageSize=3;
+	string   searchId=4;
+}
+message  TeaHouseBlackGroupListResp{
+	int32    teaHouseId=1;
+	int32    pageNum=2;
+	int32    pageSize=3;
+	int32    totalCount=4;
+	int32    totalPage=5;
+	repeated TeaHouseBlackGroupInfo list=6;
+}
+message BlackGroupMemberInfo{
+	 int64   memberId=1 ;
+	 string  name=2;
+	 string  icon=3;
+	 int32   position=4;
+	 bool    online=5;
+	 string  teamGroup=6;
+}
+message TeaHouseBlackGroupReq{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+	int32    index=3;
+	int32    pageSize=4;
+}
+message  TeaHouseBlackGroupResp{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+	string   groupName=3;
+	int32    limitCount=4;
+	int32    index=5;
+	int32    pageSize=6;
+	int32    totalCount=7;
+	repeated BlackGroupMemberInfo list=8;
+}
+message TeaHouseBlackGroupOperReq{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+	int64    memberId=3 ;
+	bool     add=4;
+}
+message  NotifyTeaBlackGroupDelResp{
+	 int32    teaHouseId=1;
+	 int32    groupId=2;
+}
+message TeaHouseBlackGroupRenameReq{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+	string   groupName=3;
+}
+message TeaHouseBlackGroupFilterReq{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+	int32    index=3;
+	int32    pageSize=4;
+	string   searchId=5;
+}
+message TeaHouseBlackGroupFilterResp{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+	int32    index=3;
+	int32    pageSize=4;
+	int32    totalCount=5;
+	repeated BlackGroupMemberInfo list=6;
+}
+message  TeaHouseBlackSaveReq{
+	int32    teaHouseId=1;
+	int32    groupId=2;
+}
+message GoldMatchInviteMemberInfo{
+	int64   userId=1;
+	string  name=2;
+	string  icon=3;
+}
+message GoldMatchInviteListReq{
+	int32    teaHouseId=1;
+	int32    pageNum=2;
+	int32    pageSize=3;
+	string   searchId=4;
+}
+message  GoldMatchInviteListResp{
+	int32    teaHouseId=1;
+	int32    pageNum=2;
+	int32    pageSize=3;
+	int32    totalCount=4;
+	int32    totalPage=5;
+	repeated GoldMatchInviteMemberInfo list=6;
+}
+message GoldMatchInviteReq{
+	int32    teaHouseId=1;
+	int64    destUserId=2;
+	int64    gold=3;
+	int32    rate=4;
+}
+message StrongboxPwdSetReq{
+	int32    teaHouseId=1;
+	string   oldPwd=2;
+	string   pwd=3;
+}
+message StrongboxLoginReq{
+	int32    teaHouseId=1;
+	string   pwd=2;
+}
+message  StrongboxLoginResp{
+	int32    teaHouseId=1;
+	int64    gold=2;
+	string   secretKey=3;
+}
+message StrongboxGetGoldReq{
+	int32    teaHouseId=1;
+}
+message  StrongboxGetGoldResp{
+	int32    teaHouseId=1;
+	int64    gold=2;
+}
+message StrongboxWithdrawReq{
+	int32    teaHouseId=1;
+	int64    outGold=2;
+	string   secretKey=3;
+}
+message  StrongboxWithdrawResp{
+	int32    teaHouseId=1;
+	int64    outGold=2;
+	int64    gold=3;
+}
+message StrongboxIncomeLogInfo{
+	int64   gold=1;
+        int64   beforeGold=2;
+	int64   afterGold=3;
+	int32   time=4;
+	int32   eventType=5;
+}
+message StrongboxIncomeListReq{
+	int32    teaHouseId=1;
+	int32    searchType=2;
+	int32    pageNum=3;
+	int32    pageSize=4;
+}
+message  StrongboxIncomeListResp{
+	int32    teaHouseId=1;
+	int32    searchType=2;
+	int32    pageNum=3;
+	int32    pageSize=4;
+	int32    totalCount=5;
+	int32    totalPage=6;
+	int64    totalIncome=7;
+	repeated StrongboxIncomeLogInfo list=8;
+}
+message  TeaHouseMemberSetCordonReq{
+	int32   teaHouseId=1;
+	int64   memberId=2 ;
+	int64   cordon=3 ;
+}
+message  NotifyTeaHouseDeskCountResp{
+	 int32    teaHouseId=1;
+	 int32    totalDeskCount=2;
+}
+message KickGameReq{
+	int64 uid=1;
+	int32 passwd=2;
+}
+message GetRoomListReq{
+	GAME gameType=1;
+	int32 clubId=2;
+}
+message GetRoomListResp{
+	GAME gameType=1;
+	repeated RoomInfo list=2;
+	bool isFresh=3;
+	int32 clubId=4;
+}
+message ExchangeReq{
+	int32 type=1;
+	int32 amount=2;
+}
+message WithDrawReq{
+	int32 passwd=1;
+	int64 cnt=2;
+}
+message DepositReq{
+	int32 passwd=1;
+	int64 cnt=2;
+}
+message SetBankPasswdReq{
+	int32 old=1;
+	int32 new=2;
+}
+message BankUpdateNtf{
+	int64 cnt=1;
+}
+message VerifyBankPasswdReq{
+	int32 passwd=1;
+}
+message TransferReq{
+	int64 uid=1;
+	int64 gold=2;
+	int32 passwd=3;
+	int32 card=4;
+}
+message ShareReq{}
+message CloseAccountReq{}
+message CloseAccountResp{}
+message SendPlayerLocation{
+	string longitude=1;
+	string latitude=2;
+}
+message MJPlayerResultListNtf{
+	repeated MJPlayerResultInfo list=1;
+}
+message BigTwoPlayerResultListNtf{
+	int64 huer=1;
+	int64 dianpaoer=2;
+	repeated int32 remaincards=3;
+	repeated BigTwoResultInfo list=4;
+}
+message BigTwoPlayerEndResultListNtf{
+	int32 num=1;
+	repeated BigTwoEndResultInfo list=2;
+}
+message GetMultipleFightGradeReq{
+	int32 page=1;
+}
+message GetMultipleFightGradeResp{
+	repeated FightGradeInfo list=1;
+}
+message GamePlayerResultListNtf{
+	GAME game=1;
+	oneof reslut{
+		HongZhongMahjongResultNtf result=2;
+	}
+}
+message PdkPlayerResultListNtf{
+	int64   winUid=1;
+	int64   base=2;
+	int32   round=3;
+	int64   time=4;
+	repeated PdkResultInfo list=5;
+}
+message PdkResultInfo{
+    int64   uid=1;
+	int64   winlose=2;
+    int32   bombnum=3;
+	int64   totalscore=4;
+	int64   bombscore=5;
+	repeated int32 deskcards=6;
+	repeated int32 handcards=7;
+}
+message PdkPlayerEndResultListNtf{
+	int32 num=1;
+	repeated PdkEndResultInfo list=2;
+}
+message PdkEndResultInfo{
+    int64   uid=1;
+	int64   totalScore=2;
+	int32   totalRoomCard=3;
+	int32 	consumeRoomCard=4;
+}
+message FiveDdzPlayerResultListNtf{
+	int32   winType=1;
+	int64   base=2;
+	int64   baseScore=3;
+	int32   round=4;
+	int64   time=5;
+	repeated DdzResultInfo list=6;
+}
+message DdzResultInfo{
+	int64   uid=1;
+	int64   winlose=2;
+	int64   totalscore=3;
+	int32   identity=4;
+	int32   scoreRate=5;
+	int32   gengValue=6;
+	int32   banker=7;
+	repeated int32 deskcards=8;
+	repeated int32 handcards=9;
+}
+message  DdzPlayerEndResultListNtf{
+	int32 num=1;
+	repeated DdzEndResultInfo list=2;
+}
+message  DdzEndResultInfo{
+	int64   uid=1;
+	int64   totalScore=2;
+	int32   totalRoomCard=3;
+	int32 	consumeRoomCard=4;
+}
+message LeShanPdkPlayerResultListNtf{
+	int64   winUid=1;
+	int64   base=2;
+	int32   round=3;
+	int64   time=4;
+	repeated LeShanPdkResultInfo list=5;
+}
+message LeShanPdkResultInfo{
+	int64   uid=1;
+	int64   winlose=2;
+	int32   bombnum=3;
+	int64   totalscore=4;
+	int64   bombscore=5;
+	repeated int32 deskcards=6;
+	repeated int32 handcards=7;
+	int64   mingTangScore=8;
+	bool    isZhaNiao=9;
+	repeated int32 mingTang=10;
+}
+message GongXianPdkPlayerResultListNtf{
+	int64   winUid=1;
+	int64   base=2;
+	int32   round=3;
+	int64   time=4;
+	repeated GongXianPdkResultInfo list=5;
+}
+message GongXianPdkResultInfo{
+	int64   uid=1;
+	int64   winlose=2;
+	int32   bombnum=3;
+	int64   totalscore=4;
+	int64   bombscore=5;
+	repeated int32 deskcards=6;
+	repeated int32 handcards=7;
+	bool    isBaoPei=8;
+	bool    isChengFive=9;
+}
+message TTPSEndResultListNtf{
+	int64   roomType=1;
+	int32   roomId=2;
+	int32   round=3;
+	int64   time=4;
+	repeated TTPSPlayerResultInfo list=5;
+}
+message TTPSPlayerResultInfo{
+	int64   uid=1;
+	int64   winlose=2;
+	int64   totalscore=3;
+	int32   qiangNum=4;
+	int32   dangZhuanNum=5;
+	int32   tuiNum=6;
+}
+message GaoXianPdkPlayerResultListNtf{
+	int64   winUid=1;
+	int64   base=2;
+	int32   round=3;
+	int64   time=4;
+	repeated GaoXianPdkResultInfo list=5;
+}
+message GaoXianPdkResultInfo{
+	int64   uid=1;
+	int64   winlose=2;
+	int32   bombnum=3;
+	int64   totalscore=4;
+	int64   bombscore=5;
+	repeated int32 deskcards=6;
+	repeated int32 handcards=7;
+}
+message HongZhongMahjongResultNtf{
+	repeated int32 remaincards=1;
+	repeated PersonPerGameResult allPerResult=2;
+	int32 gameNum=3;
+	repeated int32 maValue=4;
+}
+message PersonPerGameResult{
+	int64 uid=1;
+	repeated int32 mingtang=2;
+	repeated int64 hand=3;
+	int32 fun=4;
+	int32 guiNum=5;
+	int64 win=6;
+	repeated  HongZhongMahjongPutOut putout=7;
+	repeated HongZhongMahjongdetailWin details=8;
+	bool isFengDing=9;
+}
+message HongZhongMahjongPutOut{
+	repeated int32 cards=1;
+}
+message HongZhongMahjongdetailWin{
+	string type=1;
+	string name=2;
+	int64  winValue=3;
+}
+message GamePlayerEndResultListNtf{
+	int32 num=1;
+	repeated GameEndResultInfo list=2;
+}
+message GameEndResultInfo{
+	int64   winlose=1;
+	int32   totalRoomCard=2;
+	int32 	consumeRoomCard=3;
+	int64   uid=4;
+	MahjongEndRecord mahjongEndRecord=5;
+}
+message MahjongEndRecord{
+	int32 zimoCn=1;
+	int32 jiepaoCn=2;
+	int32 dianpaoCn=3;
+	int32 angangCn=4;
+	int32 minggangCn=5;
+	int32 chajiaoCn=6;
+	int32 wujiaoCn=7;
+	int32 huazuCn=8;
+	int32 chahuazuCn=9;
+}
+message BigTwoEndResultInfo{
+	int64   winlose=1;
+	int32   totalRoomCard=2;
+	int32 	consumeRoomCard=3;
+	int64   uid=4;
+}
+message MultipleFightGradeInfo{
+	repeated FightGradeInfo list=1;
+}
+message LotteryInfo{
+     int64 userId=1;
+     int64 lotteryScore=2;
+     int64 ticket=3;
+}
+message LotteryResult{
+     int32 lotteryType=1;
+     int64 bottomGold=2;
+}
+message FightGradeInfo{
+	int64 start=1;
+	int64 end=2;
+	int32 roomId=3;
+	int32 num 	=4;
+	repeated PersonFight totalFight=5;
+	repeated PersonFight detailFight=6;
+	repeated string replayIds=7;
+	int32 clubId=8;
+	GAME    gameType=9;
+	ORIGIN  origin=10;
+	bool    owner=11;
+	MaxWin  maxwin=12;
+	int32   clubRoomId=13;
+	bool    isTeaHouse=14;
+	bool    isPerfet=15;
+	int32   gameConsume=16;
+	int32   totalGameNum=17;
+	int64   ownerId=18;
+	repeated LotteryInfo lotteryList=19;
+	LotteryResult  lotteryResult=20;
+	int64 userId=21;
+	string userName=22;
+	GAMEENDRES  endRes=23;
+	int32 consumeRoomCard=24;
+ }
+message MaxWin{
+	repeated int64 userIds=1;
+	string roomType=2;
+	bool  isPerfet=3;
+	int32 payCardType=4;
+}
+/*message UserIdAndName{
+	int64 uid=1;
+	string name=2;
+	int32 win=3;
+}*/
+message PersonFight{
+	string name=1;
+	repeated int64 fight=2;
+	int64 uid=3;
+	string icon=4;
+	int64 gold=5;
+	repeated fightTime fightTime=6;
+}
+message fightTime{
+	int64 startTime=1;
+	int64 endTime=2;
+}
+/*
+	平胡=1 << (iota)
+	大对子
+	暗七对
+	清一色
+	将对
+	带幺
+	天胡
+	地胡
+	自摸
+	杠上花
+	海底捞
+	胡
+	金钩钓
+	杠上炮
+	抢杠
+	杠
+	下雨
+	刮风
+	呼叫转移
+*/
+message MJPlayerResultInfo{
+	int32 hu=1;
+	int32 huInfo=2;
+	int32 gen=3;
+	int32 points=4;
+	int32 money=5;
+	int32 exclude=6;
+	int64 uid=7;
+	repeated int32 hand=8;
+	repeated int32 show=9;
+	repeated MJPlayerResultDetailInfo details=10;
+}
+message MJPlayerResultDetailInfo{
+	int32 info=1;
+	int32 points=2;
+	int64 uid=3;
+	int32 money=4;
+	int32 gen=5;
+}
+message BigTwoResultInfo{
+	int64   winlose=1;
+	int64   base=2;
+	int32 	hufan=3;
+	int32 	huxi=4;
+	int64   uid=5;
+	int32   hucard=6;
+	repeated int32 mingtang=7;
+    repeated BigTwoCards hand=8;
+	repeated BigTwoCards putout=9;
+	repeated HongZhongMahjongdetailWin details=10;
+}
+message BigTwoCards{
+	repeated int32 cards=1;
+}
+message BigTwoInfo{
+	repeated int32 hand=1;
+	repeated int32 nouse=2;
+	repeated BigTwoCards putout=3;
+	int32 op=4;
+	repeated int32 bustCards=5;
+}
+message BigTwoCardInfo{
+	bool play=1;
+	int64 uid=2;
+	int32 value=3;
+}
+message RoomInfo{
+	GAME gameType=1;
+	int64 id=2;
+	int32 cnt=3;
+	int32 gsId=4;
+	int32 clubId=5;
+	int32 type=6;
+	int32 roomId=7;
+	int64 base=8;
+	int64 limit=9;
+	int32 status=10;
+	int64 end=11;
+	int64 now=12;
+	int64 dealer=13;
+	int64 start=14;
+	int32 total=15;
+	int32 round=16;
+	int32 bet=17;
+	int32 cardNum=18;
+	int32 rule=19;
+	int32 power=20;
+	int64 owner=21;
+	int32 curGameNum=22;
+	int32 GameNum=23;
+	int64 CurPlayer=24;
+	repeated int32 NewRlue=25;
+	int32 origin=26;
+	BigTwoCardInfo opcard=27;
+	repeated int64 applyStatus=28;
+	RoomClubDeskInfo clubdesk=29;
+	PaoDeKuaiRoomInfo paodekuai=30;
+	int32 benjing=31;
+	string clubName=32;
+	repeated int64 expand=33;
+	int64 maxwinsco=34;
+	GoldMatchRoomRule goldMatchRoomRule=35;
+	repeated int64 autoCountDown=36;
+	ExpendSpeciThing expendSpeciThing=41;
+	BigTwoCardInfo showOpcard=42;
+	string opTimeStamp=43;
+}
+message PaoDeKuaiRoomInfo{
+	repeated int32 cardRecord=1;
+}
+message RoomClubDeskInfo{
+	int32 roomUid=1;
+	int32 deskIndex=2;
+}
+message Player{
+	bool  isAuto=1;
+	bool isView=2;
+	int32 hu=3;
+	int32 exclude=4;
+	int32 op=5;
+	int32 huType=6;
+	int32 cardNum=7;
+	int32 status=8;
+	int32 deskId=9;
+	int32 result=10;
+	int32 reward=11;
+	int32 bet=12;
+	int32 power=13;
+	int32 gVoiceId=14;
+	int64 start=15;
+	int64 end=16;
+	int64 money=17;
+	int64 uid=18;
+	string icon=19;
+	string name=20;
+	string ip=21;
+	repeated int32 cards=22;
+	repeated int32 show=23;
+	repeated int32 fold=24;
+	repeated int32 clubList=25;
+	MJPlayerResultInfo mjResult=26;
+	BigTwoInfo bigtwoInfo=27;
+	repeated int64 roomCard=28;
+	int32 sex=29;
+	Gps   gps=30;
+	int32 piao=31;
+	repeated int64 expand=32;
+	bool online=33;
+	string gVoiceToken=34;
+	int64  gold=35;
+	bool isAutoHu=36;
+	int32 outLineTime=37;
+	int64 luckValue=38;
+}
+message Gps{
+	string longitude=1;
+	string latitude=2;
+}
+message CreateRoomReq{
+	bool  isView=1;
+	GAME gameType=2;
+	int32 type=3;
+	int64 base=4;
+	int32 gameNum=5;
+	int32 rule=6;
+	int32 clubId=7;
+	ORIGIN origin=8;
+	int32 tickectMode=9;
+	int32 startNum=10;
+    repeated int32 bigTwoRlue=11;
+	bool openGps=12;
+	ExpendSpeciThing expendSpeciThing=13;
+}
+message ExpendSpeciThing{
+	oneof expendPerGame{
+	    NingYuanSpeciRule ningYuanSpeciRule=1;
+	    Hold hold=2;
+	}
+}
+message NingYuanSpeciRule{
+	int32 addBeiStrip=1;
+	int32 addFenStrip=2;
+	int32 addFen=3;
+}
+message Hold{
+}
+message  RoomConfig{
+    int32 StartScore=1;
+    int32 KickScore=2;
+    int32 BottomScore=3;
+    int32 GiveAwayStartScore=4;
+    int32 IsFixed=5;
+    int32 IsScale=6;
+    int32 FixedScore=7;
+    float ScaleScore=8;
+    int32 GiveOne=9;
+    int32 GiveTwo=10;
+    int32 GiveThree=11;
+    int32 GuaranteedOne=12;
+    int32 GuaranteedTwo=13;
+    int32 GuaranteedThree=14;
+}
+message CreateRoomResp{
+	RoomInfo room=1;
+	Player one=2;
+}
+message JoinRoomReq{
+	int32 gsId=1;
+	int32 roomId=2;
+	bool openGps=3;
+}
+message JoinRoomResp{
+	RoomInfo room=1;
+	Player one=2;
+	repeated Player others=3;
+}
+message GetRoomDataReq{
+}
+message GetRoomDataResp{
+	RoomInfo room=1;
+	Player one=2;
+	repeated Player others=3;
+}
+message TalkToAllReq{
+	int32 id=1;
+	int32 type=2;
+	string content=3;
+	int64 target=4;
+}
+message TalkToAllResp{
+	int64 uid=1;
+	int32 id=2;
+	int32 type=3;
+	string content=4;
+	int64 target=5;
+}
+message QuitRoomReq{}
+message RoomListNtf{
+	GAME gameType=1;
+	int32 clubId=2;
+	repeated RoomInfo list=3;
+}
+message JoinRoomNtf{
+	Player other=1;
+}
+message QuitRoomNtf{
+	int64 uid=1;
+	ERROR error=2;
+}
+message MatchReq{
+	GAME gameType=1;
+	int32 matchType=2;
+}
+message BindRecommenterReq{
+	string code=1;
+}
+message BindReommentInfoReq{
+}
+message BindReommentInfoResp{
+	string code=1;
+	string mycode=2;
+	int32  recommentNum=3;
+	int32  recommentCardNum=4;
+}
+message MatchResp{
+	RoomInfo room=1;
+	Player one=2;
+	repeated Player others=3;
+}
+message LogoutReq{}
+message LogoutResp{}
+message CommonResp{
+	PROTO api=1;
+	ERROR err=2;
+}
+message HeartReq{}
+message HeartResp{}
+message BindReq{
+	PLATFORM platform=1;
+	string code=2;
+	string account=3;
+	string pwd=4;
+	string token=5;
+	string refreshToken=6;
+}
+message MoneyUpdateNtf{
+	repeated MoneyInfo list=1;
+}
+message GetPlayerScoreReq{}
+message GetPlayerScoreResp{
+	repeated ScoreInfo list=1;
+	int64 data=2;
+}
+message ScoreInfo{
+	repeated int64 values=1;
+	int64 total=2;
+	int64 uid=3;
+	string name=4;
+	string icon=5;
+}
+message MoneyInfo{
+	int32 type=1;
+	int64 value=2;
+	ORIGIN origin=3;
+}
+message GameMoneyUpdateNtf{
+	int64 value=1;
+	int64 uid=2;
+}
+message ShareNumNtf{
+	int32 total=1;
+	int32 achieve=2;
+	int32 canOpen=3;
+}
+message PlayFieldClubMemberReq{
+	int32 clubId=1;
+	int64 userId=2;
+}
+message PlayFieldClubMemberResp{
+	int32 clubId=1;
+	repeated ClubMemberInfoTree list=2;
+}
+message ClubMemberInfoTree{
+	CLUB_TITLE title=1;
+	int64 id=2;
+	int64 superiorId=3;
+	 int64 integral=4;
+	int32 grade	=5;
+	float proportion=6;
+	repeated ClubMemberInfoTree list=7;
+}
+message SetProportionReq{
+int32 clubId=1;
+int64 userId=2;
+int64 target=3;
+float proportion=4;
+}
+message SetIntegralReq{
+int32 clubId=1;
+int64 userId=2;
+int64 target=3;
+int64 integral=4;
+}
+message SetClubModeReq{
+int32 clubId=1;
+int32 splitModeType=2;
+int64 userId=3;
+}
+message PlayFieldPermissionReq{
+int32 clubId=1;
+int64 userId=2;
+int64 target=3;
+uint32 newLevel=4;
+}
+message BindPlayerGVoiceIDReq{
+	int32 gVoiceId=1;
+}
+message BindPlayerGVoiceIDResp{
+	int64 uid=1;
+	int32 gVoiceId=2;
+}
+message SetGpsInfoReq{
+    Gps gps=1;
+	int64 uid=2;
+}
+message SetGpsInfoResp{
+	Gps gps=1;
+	int64 uid=2;
+}
+message GetClubMaxWinReq{
+	GAME gameType=1;
+	int64 uid=2;
+	int32 clubId=3;
+	int64 date=4;
+	int32 page=5;
+	int32 payCardType=6;
+	int32 origin=7;
+}
+message GetClubMaxWinResp{
+	repeated ClubMaxWinInfo list=1;
+	int32 curPage=2;
+	int32 totoalPage=3;
+	int32 allWinCn=4;
+	int32 allWinPoint=5;
+	int32 allGames=6;
+	int32 allPerfetGames=7;
+	int64 timesteamp=8;
+}
+message ClubMaxWinInfo{
+	string game=1;
+	int64  uid=2;
+	string name=3;
+	int32  maxCn=4;
+	int64  win=5;
+	string roomType=6;
+	int32  totalGames=7;
+	int32  perfetGames=8;
+	int32  gameType=9;
+	int32  payCardType=10;
+	int32 origin=11;
+}
+message GetClubMaxFightReq{
+	GAME gameType=1;
+	int64 uid=2;
+	int32 clubId=3;
+	int64 date=4;
+	int32 page=5;
+	string roomType=6;
+	int32 origin=7;
+}
+message GetClubMaxFightResp{
+	repeated FightGradeInfo list=1;
+	int32 curPage=2;
+	int32 totoalPage=3;
+}
+message GetRoomInfoReq{
+	int32 roomId=1;
+}
+message GetRoomInfoResp{
+	repeated int32 rules=1;
+	int32 origin=2;
+	int32 gameType=3;
+}
+message CommitAgentReq{
+	string origin=1;
+	string phone=2;
+	string wx=3;
+}
+message UserStatusNtf{
+	int64 id=1;
+	GAME gameType=2;
+	int32 status=3;
+	int64 end=4;
+	int64 start=5;
+}
+message GameStatusNtf{
+	GAME gameType=1;
+	int32 status=2;
+	int64 end=3;
+	int64 start=4;
+	int64 oper=5;
+}
+message UserOPNtf{
+	int64 id=1;
+	GAME gameType=2;
+	OP op=3;
+}
+message UserOpReq{
+	GAME gameType=1;
+	OP  op=2;
+}
+message NoticeListReq{}
+message NoticeListResp{
+}
+message NoticeListPushResp{
+        int32    itemType=1;
+	repeated NoticeItem list=2;
+}
+message OnePersonFight{
+	int64   uid=1;
+	int32     teamId=2;
+	string  unionId=3;
+	repeated int64 fight=4;
+	string icon=5;
+	string  name=6;
+}
+message TeamTeaHouseRecordResp{
+	int64   uid=1;
+	int32   teaHouseId=2;
+	string  icon=3;
+	string  name=4;
+	string  teamGroup=5;
+	int64   integralNum=6;
+	int64   winCount=7;
+	int32   gameNumCount=8;
+	int32   teamId=9;
+	int32   teamNo=10;
+	int32   disbandCount=11;
+ }
+message TeamTeaHouseRecordReq{
+       int64  timeType=1;
+       int64  selectUserId=2;
+       int32  teaHouseId=3;
+       int32  teamId=4;
+       bool   searchUp=5;
+       int32   recordType=6;
+	   int32   sortType=7;
+	   int32   pageSize=8;
+	    int32   pageNum=9;
+}
+message TeamTeaHouseRecordListResp{
+      repeated TeamTeaHouseRecordResp list=1;
+      int32   teamId=2;
+	  int32 pageNum=3;
+      int32 pageSize=4;
+      int32 totalNum=5;
+      int32 totalPage=6;
+}
+message CircleTeaHouseRecord{
+        int64 uid=1;
+	int32 roomId=2;
+	string unionId=3;
+	repeated FGUser usrList=4;
+	repeated FGDetail detailList=5;
+	string icon=6;
+	string name=7;
+	int64 start=8;
+	bool  isDisband=9;
+	int32 gameNum=10;
+	int32 bigWin=11;
+	int32 origin=12;
+	int32 gameType=13;
+	string fractionStr=14;
+	repeated OnePersonFight  totalFight=15;
+	repeated string replayIds=16;
+	int32 endRes=17;
+	repeated  int64  uidGolds=18;
+	repeated fightTime fightTime=19;
+	MyThRecordRoomInfo roomInfo=20;
+}
+message CircleTeaHouseRecordReq{
+      int64  timeType=1;
+      int32   pageSize=2;
+      int64   selectUserId=3;
+      int32  teaHouseId=4;
+      int32  roomId=5;
+      int32   pageNum=6;
+      int32 boutType=7;
+      int32     gameType=8;
+      int32   recordType=10;
+      int32     originType=11;
+}
+message CircleTeaHouseRecordResp{
+     int32 pageNum=1;
+     int32 pageSize=2;
+     int32 totalNum=3;
+     int32 totalPage=4;
+     int32 todayCount=5;
+     int32 disbandNum=6;
+     int32 completeNum=7;
+     repeated  CircleTeaHouseRecord list=8;
+}
+message DetailTeaHouseRecordResp{
+     int64   uid=1;
+     int32     roomId=2;
+     string  unionId=3;
+     repeated int32 fight=4;
+     string  name=5;
+     int32     gameType=6;
+}
+message DetailTeaHouseRecordReq{
+     int64  timeType=1;
+     int32   pageSize=2;
+     int64   selectUserId=3;
+     int32  teaHouseId=4;
+     int32  roomId=5;
+     int32   pageNum=6;
+     int32   recordType=7;
+}
+message RecentTeaHouseRecordResp{
+     int32 pageNum=1;
+     int32 pageSize=2;
+     int32 totalNum=3;
+     int32 totalPage=4;
+     repeated  MyTeaHouseRecord list=5;
+}
+message RecentTeaHouseRecordReq{
+     int64  timeType=1;
+     int32   pageSize=2;
+     int64   selectUserId=3;
+     int32  teaHouseId=4;
+     int32  roomId=5;
+     int32   pageNum=6;
+     int32   recordType=7;
+}
+message MemberTeaHouseRecord{
+     int64   uid=1;
+     string icon=2;
+     string  name=3;
+     string           teamGroup=4;
+     int32         disbandCount=5;
+     float         winCount=6;
+     int32        gameNumCount=7;
+     int64           integralNum=8;
+}
+message SelectMemberTeaHouse{
+     string selectValue=1;
+}
+message MemberTeaHouseRecordResp{
+     int32 pageNum=1;
+     int32 pageSize=2;
+     int32 totalNum=3;
+     int32 totalPage=4;
+     float         totalWinCount=5;
+     int64 totalIntegralNum=6;
+     int32           totalGamblingNum=7;
+     repeated MemberTeaHouseRecord  list=8;
+	 repeated SelectMemberTeaHouse  selectList=9;
+}
+message MemberTeaHouseRecordReq{
+     int64  timeType=1;
+     int32   pageSize=2;
+     int64   selectUserId=3;
+     int32  teaHouseId=4;
+     int32  roomId=5;
+     int32  gameType=6;
+     int32   pageNum=7;
+     int32   recordType=8;
+     int32     originType=9;
+	 int32   sortType=10;
+	 string   teamGroup=11;
+}
+message MyTeaHouseRecord{
+    int64   uid=1;
+    int32     roomId=2;
+    string  unionId=3;
+    repeated OnePersonFight detailFight=4;
+    string icon=5;
+    string  name=6;
+    int64 start=7;
+    bool isDisband=8;
+    int32 gameNum=9;
+    int32 bigWin=10;
+    repeated OnePersonFight  totalFight=11;
+}
+message FGUser{
+	int64   uid=1;
+	int32   teamId=2;
+	string  unionId=3;
+	string  icon=4;
+	string  name=5;
+}
+message FGDetail{
+       repeated int64 fight=4;
+}
+message MyThRecordGold{
+	int64 uid=1;
+	string name=2;
+	string icon=3;
+	int64 startGold=4;
+	int64 winGold=5;
+}
+message MyThRecordRoomInfo{
+	int32 roomId=1;
+	int64 startTime=2;
+	string dissolveReason=3;
+	repeated MyThRecordGold  list=5;
+}
+message MyThRecord{
+	int64 uid=1;
+	int32 roomId=2;
+	string unionId=3;
+	repeated FGUser usrList=4;
+	repeated FGDetail detailList=5;
+	string icon=6;
+	string name=7;
+	int64 start=8;
+	bool  isDisband=9;
+	int32 gameNum=10;
+	int32 bigWin=11;
+	int32 origin=12;
+	int32 gameType=13;
+	repeated OnePersonFight  totalFight=14;
+	repeated string replayIds=15;
+	repeated fightTime fightTime=16;
+	MyThRecordRoomInfo roomInfo=17;
+}
+message TeaHouseRecordReq{
+    int64  timeType=1;
+    int32   pageSize=2;
+    int64   selectUserId=3;
+    int32  teaHouseId=4;
+    int32  roomId=5;
+    int32  gameType=6;
+    int32   pageNum=7;
+    int32   recordType=8;
+    int32     originType=9;
+	int32     selectType=10;
+}
+message MyTeaHouseRecordResp{
+    int32 pageNum=1;
+    int32 pageSize=2;
+    int32 totalNum=3;
+    int32 totalPage=4;
+    float         totalWinCount=5;
+    int64 totalIntegralNum=6;
+    int32           totalGamblingNum=7;
+    repeated MyThRecord  list=8;
+}
+message GoldMatchDateLogReq{
+	int32            teaHouseId=1;
+	int32            dateNo=2;
+	int32            teamId=3;
+	int32   pageSize=4;
+	int32   pageNum=5;
+	int64  timeType=6;
+	int64   selectUserId=7;
+}
+message GoldMatchDateTeamIdInfo{
+	int32 teamId=1;
+	string teamIdStr=2;
+}
+message GoldMatchDateLogInfo{
+	int64  	 uid=1;
+	string 	icon=2;
+	string 	 name=3;
+	int64 signUpGold=4;
+	int64 lotteryGold=5;
+	int64 breakGold=6;
+	int64 makeUpGold=7;
+	int64 punishGold=8;
+	int32 lotteryNum=9;
+	int64 bigWinNum=10;
+	int64 currentGold=11;
+	string teamGroup=12;
+	int32 position=13;
+	int64  contribute=14;
+    int64  backContribute=15;
+	int64  FuGold=16;
+}
+message GoldMatchSumResultResp{
+	int64 signUpGold=1;
+	int64 lotteryGold=2;
+	int64 breakGold=3;
+	int64 makeUpGold=4;
+	int64 punishGold=5;
+	int32 lotteryNum=6;
+	int64 bigWinNum=7;
+	int64 currentGold=8;
+	int64  contribute=9;
+    int64  backContribute=10;
+	int64  backFuFen=11;
+}
+message GoldMatchDateLogResp{
+	int32 pageNum=1;
+	int32 pageSize=2;
+	int32 totalNum=3;
+	int32 totalPage=4;
+	repeated GoldMatchDateLogInfo  list=5;
+	repeated GoldMatchDateTeamIdInfo  teamList=6;
+	GoldMatchSumResultResp sumResp=7;
+}
+message RecordTotalScoreReq{
+	int32            teaHouseId=1;
+	int32            roomId=2;
+}
+message RecordTotalScore{
+	int64   uid=1;
+    bool isMax=2;
+    string icon=3;
+    string  name=4;
+	int64 integralNum=5;
+}
+message RecordTotalScoreResp{
+	int32  gameType=1;
+    int32     roomId=2;
+    int64 start=3;
+	repeated RecordTotalScore  list=4;
+}
+message FenBaoReq{
+	int32 configId=1;
+}
+message FenBaoResp{
+	int32 configId=1;
+	string gameName=2;
+	string version=3;
+}
+message ShiMingReq{
+	string name=1;
+	string idName=2;
+}
+message GetPhoneValidCodeReq{
+	int32 type=1;
+	string phoneNo=2;
+}
+message BindPhoneReq{
+	string phoneNo=1;
+	string secret=2;
+	string validCode=3;
+	PLATFORM  plateForm=4;
+}
+message ModifyPhoneLoginSecretReq{
+	string phoneNo=1;
+	string secret=2;
+	string validCode=3;
+}
+message ModifyPhoneLoginReq{
+	string sourcePhoneNo=1;
+	string targePhoneNo=2;
+	string validCode=3;
+}
+message NoticeItem{
+        int32   noticeType=1;
+	int32   playCount=2;
+	int32   colorType=3;
+	int32   gapTime=4;
+	string  content=5;
+	string  url=6;
+}
+message OP{
+	int32 k=1;
+	repeated int64 v=2;
+	bool isAuto=3;
+	string timeStamp=4;
+}
+message TEST_GATE_REQ{
+	int64 start=1;
+}
+message TEST_GS_REQ{
+	int64 id=1;
+}
+message TEST_GS_RESP{
+	string data=1;
+}

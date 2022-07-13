@@ -1,0 +1,3579 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "userxieyi",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 18
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 97
+      },
+      {
+        "__id__": 98
+      },
+      {
+        "__id__": 99
+      }
+    ],
+    "_prefab": {
+      "__id__": 100
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1920,
+      "height": 1080
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        960,
+        540,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Sprite",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_opacity": 175,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1920,
+      "height": 1080
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "80b61f44-5d08-4886-bec0-777e36fa363c"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "alignMode": 0,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 1136,
+    "_originalHeight": 640,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "c2K6+otBNIm4tpajXJgu60",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Sprite",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 7
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 11
+      }
+    ],
+    "_prefab": {
+      "__id__": 12
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1462.6,
+      "height": 853.4
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0.4,
+        -8.9,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "New Label",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 6
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "_prefab": {
+      "__id__": 10
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 175,
+      "g": 61,
+      "b": 45,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 128.78,
+      "height": 64
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        1.4900000000000002,
+        374.829,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "声  明",
+    "_N$string": "声  明",
+    "_fontSize": 50,
+    "_lineHeight": 50,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.LabelOutline",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 231,
+      "b": 104,
+      "a": 255
+    },
+    "_width": 0.5,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "12OiYPrphEbandyFq54wZx",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 6
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "3c962376-c905-41e5-8356-6c79fe462bc9"
+    },
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "8ba24ea7-99b6-4b11-999f-64db8e29ee9a"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "83YZLHvzxMIpV5S6DttQoa",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "btn_back",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 14
+      },
+      {
+        "__id__": 15
+      }
+    ],
+    "_prefab": {
+      "__id__": 17
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 61,
+      "height": 59
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        670.4,
+        362.955,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1.7,
+        1.7,
+        0
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 13
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "80a2af22-7c01-4097-ba89-fcc6e5741be7"
+    },
+    "_type": 0,
+    "_sizeMode": 2,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "b301b362-2bf3-4b44-b77d-fd50d06d31b8"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Button",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 13
+    },
+    "_enabled": true,
+    "_normalMaterial": {
+      "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+    },
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 0.95,
+    "clickEvents": [
+      {
+        "__id__": 16
+      }
+    ],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": true,
+    "_N$transition": 3,
+    "transition": 3,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 13
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 1
+    },
+    "component": "",
+    "_componentId": "1c862cfjYVLXbcxWLuhDsoC",
+    "handler": "onClickBack",
+    "customEventData": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "1eFW2+jJlNSYhz9TuKJSNC",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Node_ctt",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 19
+      },
+      {
+        "__id__": 22
+      },
+      {
+        "__id__": 71
+      }
+    ],
+    "_active": true,
+    "_components": [],
+    "_prefab": {
+      "__id__": 96
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -98.975,
+        -10.273,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "mail_img9_0",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 18
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 20
+      }
+    ],
+    "_prefab": {
+      "__id__": 21
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 363.8,
+      "height": 747.5
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -632.1,
+        -425.5,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 19
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "705e1577-2439-4e67-b0f2-430731218fd4"
+    },
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "8ba24ea7-99b6-4b11-999f-64db8e29ee9a"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "23EPepEbJDupio2PaZkZhp",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "mail_list",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 18
+    },
+    "_children": [
+      {
+        "__id__": 23
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 69
+      }
+    ],
+    "_prefab": {
+      "__id__": 70
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 184,
+      "g": 184,
+      "b": 184,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 403,
+      "height": 720
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -429.55,
+        -49.121,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "view",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 22
+    },
+    "_children": [
+      {
+        "__id__": 24
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 66
+      },
+      {
+        "__id__": 67
+      }
+    ],
+    "_prefab": {
+      "__id__": 68
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 403,
+      "height": 720
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "content",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 23
+    },
+    "_children": [
+      {
+        "__id__": 25
+      },
+      {
+        "__id__": 44
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 63
+      },
+      {
+        "__id__": 64
+      }
+    ],
+    "_prefab": {
+      "__id__": 65
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 278
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        10,
+        357.895,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "itm1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 24
+    },
+    "_children": [
+      {
+        "__id__": 26
+      },
+      {
+        "__id__": 32
+      },
+      {
+        "__id__": 38
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 41
+      }
+    ],
+    "_prefab": {
+      "__id__": 43
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 139
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -1,
+        -69.5,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Background",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 25
+    },
+    "_children": [
+      {
+        "__id__": 27
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 30
+      }
+    ],
+    "_prefab": {
+      "__id__": 31
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 139
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0.469,
+        -0.703000000000003,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "title",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 26
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 28
+      }
+    ],
+    "_prefab": {
+      "__id__": 29
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 87,
+      "g": 22,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 200,
+      "height": 63
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -28.436,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 27
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "服务条款",
+    "_N$string": "服务条款",
+    "_fontSize": 50,
+    "_lineHeight": 50,
+    "_enableWrapText": false,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "740Rs3wFJAFpUOc7TAtilR",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 26
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": null,
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "19n6sSljFNz4l0jeMmniOD",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "checkmark",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 25
+    },
+    "_children": [
+      {
+        "__id__": 33
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 36
+      }
+    ],
+    "_prefab": {
+      "__id__": 37
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 139
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0.469,
+        -0.703000000000003,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "title",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 32
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 34
+      }
+    ],
+    "_prefab": {
+      "__id__": 35
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 87,
+      "g": 22,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 200,
+      "height": 63
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "服务条款",
+    "_N$string": "服务条款",
+    "_fontSize": 50,
+    "_lineHeight": 50,
+    "_enableWrapText": false,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "d7vHz+8SBMPZ5l0iZbS++n",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 32
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "fccf9cb2-ac8d-4de3-bfd4-8a0cc46c4b43"
+    },
+    "_type": 0,
+    "_sizeMode": 2,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": false,
+    "_atlas": {
+      "__uuid__": "b301b362-2bf3-4b44-b77d-fd50d06d31b8"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "4aa4r3eDFILZL9UnAMAvSy",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "mail_line_1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 25
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 39
+      }
+    ],
+    "_prefab": {
+      "__id__": 40
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 363.8,
+      "height": 3
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -29.76,
+        -78.388,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 38
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "1a681d6b-e5c4-471d-8b80-af965267720a"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "b14kRauz9N1Io2kXm+sObV",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Toggle",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 25
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 0,
+    "transition": 0,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 25
+    },
+    "_N$isChecked": true,
+    "toggleGroup": null,
+    "checkMark": {
+      "__id__": 36
+    },
+    "checkEvents": [
+      {
+        "__id__": 42
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 1
+    },
+    "component": "",
+    "_componentId": "1c862cfjYVLXbcxWLuhDsoC",
+    "handler": "onCheckTag",
+    "customEventData": "1"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "78MWjPlgFMgJnbk0zSS0zp",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "itm2",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 24
+    },
+    "_children": [
+      {
+        "__id__": 45
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 57
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 60
+      }
+    ],
+    "_prefab": {
+      "__id__": 62
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 139
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -1,
+        -208.5,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Background",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 44
+    },
+    "_children": [
+      {
+        "__id__": 46
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 49
+      }
+    ],
+    "_prefab": {
+      "__id__": 50
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 139
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0.469,
+        -0.703000000000003,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "title",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 45
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 47
+      }
+    ],
+    "_prefab": {
+      "__id__": 48
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 87,
+      "g": 22,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 200,
+      "height": 63
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -28.436,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 46
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "用户协议",
+    "_N$string": "用户协议",
+    "_fontSize": 50,
+    "_lineHeight": 50,
+    "_enableWrapText": false,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "a73COWwDNKqImL6ZTZB2h6",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": null,
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "20oWr1XuFAIZLYam5Dws+G",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "checkmark",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 44
+    },
+    "_children": [
+      {
+        "__id__": 52
+      }
+    ],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 55
+      }
+    ],
+    "_prefab": {
+      "__id__": 56
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 139
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0.469,
+        -0.703000000000003,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "title",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 51
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 53
+      }
+    ],
+    "_prefab": {
+      "__id__": 54
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 87,
+      "g": 22,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 142,
+      "height": 35
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 52
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "用户协议",
+    "_N$string": "用户协议",
+    "_fontSize": 50,
+    "_lineHeight": 50,
+    "_enableWrapText": false,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "64OEhwfTdAs4bDY2yea7iG",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 51
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "fccf9cb2-ac8d-4de3-bfd4-8a0cc46c4b43"
+    },
+    "_type": 0,
+    "_sizeMode": 2,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": false,
+    "_atlas": {
+      "__uuid__": "b301b362-2bf3-4b44-b77d-fd50d06d31b8"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "1aDVMVdaJHFITrGxLNW5S7",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "mail_line_1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 44
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 58
+      }
+    ],
+    "_prefab": {
+      "__id__": 59
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 363.8,
+      "height": 3
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -29.76,
+        -78.388,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "1a681d6b-e5c4-471d-8b80-af965267720a"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "af1PmgtCZFZpcky/c31eXc",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Toggle",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 44
+    },
+    "_enabled": true,
+    "_normalMaterial": null,
+    "_grayMaterial": null,
+    "duration": 0.1,
+    "zoomScale": 1.2,
+    "clickEvents": [],
+    "_N$interactable": true,
+    "_N$enableAutoGrayEffect": false,
+    "_N$transition": 0,
+    "transition": 0,
+    "_N$normalColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "pressedColor": {
+      "__type__": "cc.Color",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255
+    },
+    "_N$hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "hoverColor": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_N$disabledColor": {
+      "__type__": "cc.Color",
+      "r": 124,
+      "g": 124,
+      "b": 124,
+      "a": 255
+    },
+    "_N$normalSprite": null,
+    "_N$pressedSprite": null,
+    "pressedSprite": null,
+    "_N$hoverSprite": null,
+    "hoverSprite": null,
+    "_N$disabledSprite": null,
+    "_N$target": {
+      "__id__": 44
+    },
+    "_N$isChecked": false,
+    "toggleGroup": null,
+    "checkMark": {
+      "__id__": 55
+    },
+    "checkEvents": [
+      {
+        "__id__": 61
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ClickEvent",
+    "target": {
+      "__id__": 1
+    },
+    "component": "",
+    "_componentId": "1c862cfjYVLXbcxWLuhDsoC",
+    "handler": "onCheckTag",
+    "customEventData": "2"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "caP5kY5ZlGP7sB7m4Jqj7t",
+    "sync": false
+  },
+  {
+    "__type__": "cc.ToggleContainer",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 24
+    },
+    "_enabled": true,
+    "allowSwitchOff": false,
+    "checkEvents": [],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Layout",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 24
+    },
+    "_enabled": true,
+    "_layoutSize": {
+      "__type__": "cc.Size",
+      "width": 388,
+      "height": 278
+    },
+    "_resize": 1,
+    "_N$layoutType": 2,
+    "_N$cellSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_N$startAxis": 0,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 0,
+    "_N$paddingBottom": 0,
+    "_N$spacingX": 0,
+    "_N$spacingY": 0,
+    "_N$verticalDirection": 1,
+    "_N$horizontalDirection": 0,
+    "_N$affectedByScale": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "dafmZOMzlBN5dGCufxpNEC",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Mask",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 23
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": null,
+    "_type": 0,
+    "_segments": 64,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 23
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 700,
+    "_originalHeight": 423,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "87are7DgtG3ZnCmT3oG6Xw",
+    "sync": false
+  },
+  {
+    "__type__": "cc.ScrollView",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 22
+    },
+    "_enabled": true,
+    "horizontal": false,
+    "vertical": true,
+    "inertia": true,
+    "brake": 0.75,
+    "elastic": true,
+    "bounceDuration": 0.23,
+    "scrollEvents": [],
+    "cancelInnerEvents": true,
+    "_N$content": {
+      "__id__": 24
+    },
+    "content": {
+      "__id__": 24
+    },
+    "_N$horizontalScrollBar": null,
+    "_N$verticalScrollBar": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "46FYeWo4lKeJkfbM9/pseb",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "sv_ctt",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 18
+    },
+    "_children": [
+      {
+        "__id__": 72
+      },
+      {
+        "__id__": 79
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 77
+      }
+    ],
+    "_prefab": {
+      "__id__": 95
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 184,
+      "g": 184,
+      "b": 184,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1033,
+      "height": 717
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        296,
+        -45,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "scrollBar",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 71
+    },
+    "_children": [
+      {
+        "__id__": 73
+      }
+    ],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 76
+      },
+      {
+        "__id__": 92
+      },
+      {
+        "__id__": 93
+      }
+    ],
+    "_prefab": {
+      "__id__": 94
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 12,
+      "height": 430
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 1,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        310.09,
+        1.085000000000008,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bar",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 72
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 74
+      }
+    ],
+    "_prefab": {
+      "__id__": 75
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 10,
+      "height": 15.376299376299377
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -11,
+        199.62370062370064,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 73
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "5c3bb932-6c3c-468f-88a9-c8c61d458641"
+    },
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "59h032xhJIwKRmN84WF90K",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Scrollbar",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 72
+    },
+    "_enabled": true,
+    "_scrollView": {
+      "__id__": 77
+    },
+    "_touching": false,
+    "_opacity": 255,
+    "enableAutoHide": true,
+    "autoHideTime": 1,
+    "_N$handle": {
+      "__id__": 74
+    },
+    "_N$direction": 1,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.ScrollView",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 71
+    },
+    "_enabled": true,
+    "horizontal": false,
+    "vertical": true,
+    "inertia": true,
+    "brake": 0.75,
+    "elastic": true,
+    "bounceDuration": 0.23,
+    "scrollEvents": [],
+    "cancelInnerEvents": true,
+    "_N$content": {
+      "__id__": 78
+    },
+    "content": {
+      "__id__": 78
+    },
+    "_N$horizontalScrollBar": null,
+    "_N$verticalScrollBar": {
+      "__id__": 76
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "content",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 79
+    },
+    "_children": [
+      {
+        "__id__": 83
+      },
+      {
+        "__id__": 86
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 89
+      },
+      {
+        "__id__": 90
+      }
+    ],
+    "_prefab": {
+      "__id__": 91
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1033,
+      "height": 20200
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 1
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        356.347,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "view",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 71
+    },
+    "_children": [
+      {
+        "__id__": 78
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 80
+      },
+      {
+        "__id__": 81
+      }
+    ],
+    "_prefab": {
+      "__id__": 82
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1033,
+      "height": 717
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Mask",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_spriteFrame": null,
+    "_type": 0,
+    "_segments": 64,
+    "_N$alphaThreshold": 1,
+    "_N$inverted": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": -2,
+    "_right": 2,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 700,
+    "_originalHeight": 423,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "96csH9u8pIXauAsO2oe/P9",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 78
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 84
+      }
+    ],
+    "_prefab": {
+      "__id__": 85
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 87,
+      "g": 22,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1033,
+      "height": 20200
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -0.2,
+        -10100,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 83
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "隐私政策\n圈圈游戏及旗下各关联公司（以下统称“我们”）（公司名称为：四川有佳信息技术有限公司，注册地址为：中国自由贸易试验区成都高新区天府三街19号1栋1单元13层1301）致力于保护其在线用户（以下统称“用户”或者“您”）的个人信息和隐私安全。为了给您提供更加准确、更具个性化的服务，我们将会按照本隐私政策的规定使用和披露您的相关信息。本隐私政策描述了在您使用我们任何游戏或应用程序以及其他服务（以下简称“服务”或“游戏”）时，我们在收集、使用及披露资料(包括您的个人资料)等各方面的做法。\n在使用圈圈游戏服务前，请您务必仔细阅读并透彻理解本政策，特别是以粗体/粗体下划线标识的条款，您应重点阅读，在确认充分理解并同意后再开始使用。\n如果您是儿童，请通知您的监护人共同阅读本政策，并在您使用圈圈游戏服务、提交个人信息之前，寻求您的监护人的同意和指导。您于线上点击同意本政策，或者您使用/继续使用圈圈游戏服务、提交个人信息，都表示您已获得您的监护人的许可，您的监护人均同意我们按照本政策（包括更新版本）收集、使用、储存、分享、转让和披露您的个人信息。\n如果您不同意本政策的内容，将可能导致圈圈游戏服务无法正常运行，或者无法达到我们拟达到的服务效果，您应立即停止访问/使用圈圈游戏服务。您使用或继续使用圈圈游戏服务，都表示您同意我们按照本政策（包括更新版本）收集、使用、储存、分享、转让和披露您的个人信息。\n在阅读完本政策后，如您对本政策或与本政策相关的事宜有任何问题，您可通过quanyuwangluo6666@outlook.com联系我们，我们会尽快为您作出解答。\n目录\n一、我们收集和使用个人信息的方式、目的及范围\n二、我们可能的个人信息披露、分享或者转让\n三、第三方服务\n四、访问帐户和配置文件\n五、我们如何储存和保护个人信息\n六、您的选择\n七、您的权利\n八、未成人保护\n九、变更\n十、Cookies及同类技术\n十一、如何联系我们\n一、我们收集和使用个人信息的方式、目的及范围\n（一）我们将通过以下方式收集和获得您的个人信息：\n1、您提供的信息。\n（1）您在注册圈圈游戏服务的帐号或使用圈圈游戏服务时，向我们提供的信息；\n（2）您通过圈圈游戏服务向其他方提供的共享信息，以及您使用圈圈游戏服务时所储存的信息。\n请注意，如您在圈圈游戏服务中其他用户可见的公开区域内上传或发布的信息、您对其他人上传或发布的信息作出的回应中公开您的信息，该等信息可能会被他人收集并加以使用。当您发现他人不正当地收集或使用您的信息时，可通过本政策“如何联系我们”章节所列的反馈渠道联系我们。\n2、我们获取的您的信息。\n您在使用圈圈游戏服务时，我们收集、汇总、记录的信息，例如日志信息、位置信息、设备信息。\n3、从第三方获取的信息。\n（1）我们可能从第三方获取您授权共享的帐号信息（包括用户名、头像、昵称）并在您同意本政策后将您的第三方帐号与您的圈圈游戏服务帐号绑定，使您可以通过第三方帐号直接登录并使用圈圈游戏服务。\n（2）公开化信息：如公开政府数据库等公共资源。\n（二）我们会出于以下目的，收集和使用您以下类型的个人信息：\n1、帮助您完成注册及登录\n为了创建您的账号、用户名和密码，您需要提供基本注册或登录信息，包括个人电话号码、电子邮箱地址、应用账户信息、第三方账号授权信息。个人电话号码属于敏感信息，我们会严格按照本政策约定的方式使用。\n您也可以在注册、登录或后续使用过程中，填写或补充您的其他额外信息（例如您的昵称、头像、性别、出生日期），这将有助于我们给您提供个性化的推荐和更优的服务体验，但如果您不提供这些信息，并不会影响您使用圈圈游戏服务的基本功能。\n2、实现身份认证\n依照相关法律法规规定及监管要求，或为满足用户身份真实核验、保障系统和服务安全及其他特定服务功能等需要，我们可能需要您提供真实身份信息、设备信息（例如姓名和身份证号码）以完成身份认证。如果您不提供上述信息，我们将不能向您提供相关的功能及服务。\n为实现身份认证的目的，您同意并授权我们可以自行或委托第三方向有关身份认证机构（如个人征信机构、政府部门等）提供、查询、核对您的前述身份信息。真实身份属于敏感信息，我们会严格按照本政策约定的方式使用。\n3、维护游戏基础功能的正常运行\n在您使用我们服务过程中，为识别帐号异常状态、了解产品适配性、维护基础功能的正常运行、保护您个人的虚拟财产以及配合政府有关部门的审查，我们可能会自动收集、储存关于您使用的服务以及使用方式的信息并将这些信息进行关联，这些信息及目的包括：\n（1）服务（或通讯）日志信息：当您使用我们的服务时，我们可能会自动收集您对我们服务的详细使用情况，作为有关网络日志保存。如：游戏日志信息，例如登录日志、物品日志、游戏对局信息、交友记录等，以便您能够在客户端查看您的游戏历史记录，同时用于游戏运营统计分析、游戏排行榜功能、客服投诉处理及其他游戏安全分析，并为提升您的游戏体验，我们可能把前述信息同步至该游戏后续版本或您正在使用的我们提供的其他产品中。\n（2）设备信息：我们可能会根据您在软件安装及使用中授予的具体权限，接收并记录您所使用的设备相关信息，读取电话状态。如您的IMEI、MAC、Serial、SIM卡IMSI识别码、设备机型、操作系统及版本、客户端版本、设备分辨率、包名、设备设置、进程及软件列表、唯一设备标识符、软硬件特征信息）、设备所在位置相关信息（例如IP 地址、GPS位置以及能够提供相关信息的WLAN接入点、蓝牙和基站传感器信息）。我们收集这些信息是为了向您提供我们基本服务和基础功能。\n请注意，单独的设备信息、日志信息是无法识别特定自然人身份的信息。如果我们将这类非个人信息与其他信息结合用于识别特定自然人身份，或者将其与个人信息结合使用，则在结合使用期间，这类非个人信息将被视为个人信息，除取得您授权或法律法规另有规定外，我们会将该类个人信息做匿名化、去标识化处理。这些信息在结合使用期间，将作为您的个人信息按照本隐私政策处理与保护。\n4、帮助您完成下单、支付并向您交付商品或服务\n（1）当您在圈圈游戏服务中订购具体商品及/或服务时，我们会通过系统为您生成购买该商品及/或服务的订单。在下单过程中，您可能需提供个人身份信息、姓名、联系电话、支付状态信息。特殊情况下，可能还需要您的收获地址和邮政编码。如果您拒绝提供此类信息，我们将无法完成相关交付服务。\n（2）为展示您帐号的订单信息，我们会收集您在使用圈圈游戏服务过程中产生的订单信息（例如您所购买的商品或服务信息、具体订单号、订单创建时间、交易金额）用于向您展示及便于您对订单进行管理；\n（3）为完成订单支付、交付商品或服务、确认交易状态及为您提供售后与争议解决服务，我们会通过您基于交易所选择的交易对象、支付机构、等收集与交易进度相关的您的帐号、订单、交易、支付，或将您的交易信息共享给上述服务提供者。\n（4）当您使用游戏产品的消费功能时，我们会收集您的充值记录、消费记录等信息，以便您查询您的交易记录，同时尽最大程度保护您的虚拟物品安全。充值记录、消费记录属于敏感信息，收集上述信息为实现游戏产品的消费功能所必须，否则将无法完成交易。\n5、游戏互动功能。\n当您在游戏中通过文字、图片、语音、视频及其他方式与其他玩家进行互动，我们可能会收集并保存您发送的上述信息内容用于过滤色情、暴力、政治、辱骂、恶意广告等不当内容，以此净化游戏环境，维护健康的上网环境。您的上述信息以及您的头像、昵称信息会接入第三方sdk进行核查。\n6、为您提供客服或其他用户响应功能\n当您联系我们的客服或使用其他用户响应功能时（例如提出售中售后申请、个人信息保护投诉或建议、其他客户投诉和需求），我们可能需要您提供必要的个人信息以匹配并核验您的用户身份，以便保障您的帐号与系统安全。我们可能还会保存您的联系方式（您与我们联系时使用的或您向我们主动提供的其他联系方式）、您与我们的通信/通话记录和内容、与您需求相关联的其他必要信息，以便与您联系或帮助您解决问题，或记录相关问题的处理方案及结果。\n7、向您发出通知\n我们可能在必需时（例如当我们由于系统维护而暂停某一单项服务、变更、终止提供某一单项服务时）向您发出与服务有关的通知。因此我们可能会收集使用您的个人电话号码、电子邮箱、设备信息。\n如您不希望继续接收我们推送的消息，您可要求我们停止推送，例如：根据短信退订指引要求我们停止发送推广短信，或在移动端设备中进行设置，不再接收我们推送的消息。如果以上途径没有解决您的问题，您也可以通过quanquanhuyu6666@outlook.com的来通知我停止发送通知/关闭定向通知。\n8、为您提供个性化需求：为了为您提供本地化内容或者为您提供我们认为您会感兴趣的游戏、电影和电视节目的定制和个性化观看推荐，\n我们可能会收集使用您的地理位置，地理位置属于敏感信息。\n您的互联网服务提供商，;\n您的广告信息：广告标识符，如移动设备、平板电脑、流媒体设备上包含此类标识符的广告标识符; 通过cookies、网络信标等技术收集的信息，包括广告数据(如广告的可用性和投放情况、网站URL、日期和时间等信息)。\n您的软件信息：如软件特征(包括软件类型和配置)、连接信息、页面浏览量统计、引用源(如引用url)、IP地址(可能会告诉我们您的一般位置)、浏览器等；\n根据您的上述以确定您的喜好定向推送，如果您不喜欢此项服务，可通过quanquanhuyu6666@outlook.com联系我们取消定向推送，我们会为您提供非定向推送。\n•9、为您提供安全保障：为提高您使用我们及合作伙伴提供服务的安全性，保护您或其他用户或公众的人身财产安全免遭侵害，更好地预防钓鱼网站、欺诈、网络漏洞、计算机病毒、网络攻击、网络侵入等安全风险，预防、发现和调查潜在的禁止或非法活动，包括欺诈和执行我们的条款(如确定免费试用的资格); 我们可能会收集、使用或整合您的帐号信息、交易信息、设备信息、日志信息以及我们关联公司、合作伙伴取得您授权或依据法律共享的信息，来综合判断您帐号及交易风险、进行身份验证、检测及防范安全事件，并依法采取必要的记录、审计、分析、处置措施。\n•10、服务优化：\n（1）为分析和理解我们的用户，改善我们的服务(包括我们的用户界面体验)，优化内容选择、推荐算法和交付;您同意我们可能会把您的个人信息分享给第三方进行数据分析 ，同时我们会与第三方签订严格的保密协议，要求第三方采取技术措施等手段保障分享给第三方的数据不会被泄露或者用作其他用途。\n（2）为了更好地向您提供游戏服务，改善游戏体验，我们可对您游戏账号中的昵称、头像以及在游戏中的相关操作信息、游戏信息等信息（以下称“该等信息”。该等信息具体包括但不限于您的登录状态、对战信息/状态、成就信息等）进行使用，并可向您本人或其他用户或好友展示该等信息。我们可能会视游戏产品具体情况为您提供相关权限，以便您可以对是否展示前述相关信息进行相应设置。您同意该等信息我们可能会提供给第三方进行归因分析。\n•11、评估、改善我们的服务：与您沟通关于我们的服务(例如,电子邮件、推送通知短信、在线消息传递渠道)，这样我们可以向您发送圈圈游戏的相关新闻,有关新功能的详细信息、特价,促销公告和消费者调查,帮助您完成操作请求,如密码重置请求。\n12、您理解并同意，部分单项服务可能需要您在您的设备中开启特定的访问权限，以实现这些权限所涉及信息的收集和使用。我们不会一次性要求您开启所有权限，只有当您使用我们提供的某种功能时，我们才会请求使用相应权限。我们可能申请使用以下权限：如：\n（1）在您开启相册和/或相机（摄像头）权限后，您能够上传、拍摄照片/图片/视频，实现发布信息和评论、截图或与客服沟通提供证明等功能；\n（2）在您开启通讯录权限后，我们可以获取您的通讯录好友信息，邀请您的好友使用圈圈游戏服务、向您认识的人分享内容/产品等功能；\n（3）在您开启麦克风、录音和相关语音权限后，您能够使用语音功能与我们的产品、他人进行信息交互，或与客服联系等；\n（4）在您开启位置权限后，我们可以获取您的位置信息（可能包括精准位置和粗略位置，位置信息属于敏感信息），以便让您与附近的朋友进行信息交互或向您推送个性化内容；区分不同地区用户并进行数据统计与精细化运营；开启排行榜功能。\n（5）在您开启我们可读取/写入您日历的权限后，我们可以获取您的日程时间，以便为您提供记录、提醒等功能。\n（6）在您开启读取、修改、写入SD权限或存储权限后，我们会下载游戏资源并储存在SD卡上或者手机存储空间上。\n（7）在您开启读取手机状态和身份信息后，我们会根据设备进行用户充值限制；根据设备信息区分真实用户，防止批量注册虚假用户刷游戏资产。\n（8）获取您的短信权限，包括发送，接收、读取，我们使用短信权限会给您发送、接收、读取验证码，给您发送具体的通知、营销信息。\n当您需要关闭这些功能权限时，大多数移动设备都会支持您的这项需求，具体方法请参考或联系您移动设备的服务商或生产商。请您注意，您开启任一权限即代表您授权我们可以收集和使用相关信息来为您提供对应服务，您一旦关闭任一权限即代表您取消了授权，我们将不再基于对应权限继续收集和使用相关信息，也无法为您提供该权限所对应的服务。但是，您关闭权限的决定不会影响此前基于您的授权所进行的信息收集及使用，但是您可以通过联系我们删除您的个人信息。\n13、征得授权同意的例外\n根据相关法律法规规定，以下情形中收集您的信息无需征得您的授权同意：\n（1）与国家安全、国防安全有关的；\n（2）与公共安全、公共卫生、重大公共利益有关的；\n（3）与犯罪侦查、起诉、审判和判决执行等有关的；\n（4）出于维护信息主体或其他个人的生命、财产等重大合法权益但又很难得到您本人同意的；\n（5）所收集的信息是您自行向社会公众公开的；\n（6）从合法公开披露的信息中收集信息的，如合法的新闻报道、政府信息公开等渠道；\n（7）根据您的要求签订合同所必需的；\n（8）用于维护圈圈游戏服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；\n（9）为合法的新闻报道所必需的；\n（10）学术研究机构基于公共利益开展统计或学术研究所必要，且对外提供学术研究或描述的结果时，对结果中所包含的信息进行去标识化处理的；\n（11）法律法规规定的其他情形。\n二、我们可能的个人信息披露、分享或者转让\n我们仅会在以下情况下，且采取符合业界标准的安全防护措施的前提下，才会披露、分享、转让您的个人信息：:\n（一）服务供应商:\n我们使用其他公司、代理商或承包商(“服务供应商”)代表我们提供服务或协助我们向您提供服务。例如,为了向您提供更好的服务，我们需要服务供应商为我们进行市场营销、广告、个性化和优化服务,处理信用卡交易或其他支付方式,提供客户服务以收集债务,分析和提高数据(包括数据用户的交互与我们的服务),处理和管理消费者调查。\n（二）促销活动:\n我们可能提供联合促销，为了您能更好地参与，我们可能会与第三方共享您的信息。在完成这些类型的促销活动时，我们可能会分享您的姓名和其他与完成奖励有关的信息。请注意，这些第三方对他们自己的隐私政策负责。\n•（三）信息安全:\n我们及其服务供应商可能披露或使用您的个人和其他信息,我们及其服务供应商合理地相信这样的披露：(a)需要满足任何适用法律、监管、法律程序,或政府请求,(b)履行适用的使用条款,包括调查潜在的侵犯,(c)检测、预防、或其他地址非法或可疑非法活动(包括支付欺诈),安全或技术问题,或(d)保护我们及您或公众的权利、财产或安全在法律允许的范围内免受损害。\n•（四）业务转移:\n对于我们的任何重组、合并、出售或其他资产转让，我们将在提前通过推送通知、公告等形式告知您相关情形后，转让您包括个人信息在内的帐号信息，接收方将会按照相应的法律法规及不低于本隐私政策所要求的标准继续保护您的个人信息。\n（五）游戏排行\n您同意我们将您的游戏数据（包括您的昵称、荣誉称号、段位、头像、头衔等）用于排行榜功能，展示给参与排行榜功能的玩家。\n（六）基础信息查看\n您同意在对局内、或者游戏内的游戏好友可能看到您的游戏信息（包括您的昵称、荣誉称号、段位、头像、头衔、胜率等）。\n三、第三方服务\n我们的服务可以通过和/或利用第三方平台操作的功能(如语音控制)或第三方的网站链接提供，这些第三方的信息处理政策可能与我们的政策不同。\n圈圈游戏服务可能接入或链接至第三方提供的社交媒体或其他服务（包括网站或其他服务形式）。包括：\n1、您可利用“分享”键将某些圈圈游戏服务内容分享到第三方服务，或您将第三方服务内容分享到圈圈游戏服务。这些功能可能会收集您的信息（包括您的日志信息），并可能在您的电脑装置COOKIES，从而正常运行上述功能；\n2、我们通过广告或我们服务的其他方式向您提供链接，使您可以链接至第三方的服务或网站；及\n3、其他接入第三方服务的情形。例如，为实现本政策中声明的目的，我们可能会接入第三方服务商提供的SDK或其他类似的应用程序，并将我们依照本政策收集的您的某些信息共享给该等第三方服务商，以便提供更好的客户服务和用户体验。目前，我们接入的第三方服务商主要包括以下几种类型：\n（1）用于广告相关服务，包括广告展示、广告数据监测/统计等；\n（2）用于消息推送功能，包括手机厂商Push推送、特定事件提醒、个性化内容推荐等；\n（3）用于支付相关服务，包括订单支付、交易行为核验、收入结算、支付信息汇总统计等；\n（4）用于在您同意的情况下获取设备位置权限、搜集设备信息和日志信息等；\n（5）用于第三方授权服务，包括第三方帐号登陆、将有关内容分享至第三方产品等；\n（6）用于支持产品功能模块（如有），包括在线直播、视频播放、语音识别、AR、智能客服、弹幕播放、内容存储等；\n（7）用于优化产品性能，包括提高硬件配网能力、降低服务器成本、功能热修复等；\n（8）用于帐号安全、产品加固相关服务，包括网络监测、域名解析（HTTPDNS）、防劫持、反垃圾反作弊、加解密服务等。\n（9）用于一键登陆功能，我们的产品为改善注册及登录界面用户体验，集成第三方SDK一键登录服务：闪验SDK，用于帮助实现用户一键登录行为。为了实现网关取号技术，闪验SDK需要获取IP地址、网卡（MAC)地址、国际移动设备识别码（IMEI）、OAID（替代IMEI）、sim卡信息，并会收集手机机型、系统类型、系统版本、网络环境、网关取号报错日志等以提供统计分析服务能力。\n我们仅会出于正当、必要、特定的目的共享您的信息。对我们与之共享信息的第三方服务商，我们会要求他们履行相关保密义务并采取相应的安全措施。\n该等第三方社交媒体或其他服务由相关的第三方负责运营。您使用该等第三方的社交媒体服务或其他服务（包括您向该等第三方提供的任何信息），须受第三方自己的服务条款及信息保护声明（而非本政策）约束，您需要仔细阅读其条款。本政策仅适用于我们所收集的个人信息，并不适用于任何第三方提供的服务或第三方的信息使用规则。如您发现这些第三方社交媒体或其他服务存在风险时，建议您终止相关操作以保护您的合法权益。\n四、访问帐户和配置文件\n为方便您访问帐户，当您使用圈圈游戏服务时，您可以使用“在此设备上记住我”功能。该功能使用的技术使我们能够提供直接的帐户访问，并帮助管理圈圈游戏服务，而无需再次访问该服务时重新输入任何密码或其他用户标识。\n您可以按照我们的相关提示，在设备上选择删除访问您的帐户。公共或共享设备的用户应该在每次访问结束时退出。如果您出售或退回一台计算机，您应该在此之前注销并停用该设备。如果您没有维护您的密码或设备的安全性，或未能注销或停用您的设备，后续用户可能能够访问您的帐户，包括您的个人信息。\n如果您分享或者允许别人访问您的账户,他们将能看到您的信息(如您的浏览历史、评级、评论和账户信息。\n五、我们如何储存和保护个人信息\n我们仅在本政策所述目的所必需期间和法律法规要求的最短时限内储存您的个人信息。如我们终止服务或运营，我们将及时停止继续收集您个人信息的活动，同时会遵守相关法律法规要求提前向您通知，并在终止服务或运营后对您的个人信息进行删除或匿名化处理，但法律法规或监管部门另有规定的除外。\n我们在中华人民共和国境内运营中收集和产生的个人信息，储存在中国境内，以下情形除外：\n1、法律法规有明确规定；\n2、获得您的授权同意；\n3、您使用的圈圈游戏服务涉及跨境，圈圈游戏需要向境外提供您的个人信息的。\n针对以上情形，我们会确保依据本政策及国家法律法规要求对您的个人信息提供足够的保护。\n我们非常重视信息安全，成立了专门的安全团队，并采取一切合理可行的措施，保护您的个人信息：\n（一）数据安全技术措施\n我们会采用符合业界标准的安全防护措施，包括建立合理的制度规范、安全技术来防止您的个人信息遭到未经授权的访问使用、修改，避免数据的损坏或丢失。\n我们的服务采取了多种加密技术，例如在某些圈圈游戏服务中，我们将利用加密技术来保护您的个人信息，采取加密技术对您的个人信息进行加密保存，并通过隔离技术进行隔离。\n在个人信息使用时，例如信息展示、信息关联计算，我们会采用多种数据脱敏技术增强信息在使用中的安全性。\n我们还会采用严格的数据访问权限控制和多重身份认证技术保护个人信息，避免数据被违规使用。\n（二）我们为保护个人信息采取的其他安全措施\n我们通过建立数据分类分级制度、数据安全管理规范、数据安全开发规范来管理规范个人信息的储存和使用。\n我们通过信息接触者保密协议、监控和审计机制来对数据进行全面安全控制。我们还会举办安全和隐私保护培训课程，加强员工的安全意识以及对于保护信息重要性的认识。\n（三）我们仅允许有必要知晓这些信息的圈圈游戏员工、合作伙伴访问您的个人信息，并为此设置了严格的访问权限控制和监控机制。我们同时要求可能接触到您的个人信息的所有人员履行相应的保密义务。如果未能履行这些义务，可能会被追究法律责任或被中止与圈圈游戏的合作关系。\n（四）我们会采取一切合理可行的措施，确保未收集无关的个人信息。\n（五）互联网并非绝对安全的环境，而且电子邮件、即时通讯、社交软件或其他服务软件等与其他用户的交流方式无法确定是否完全加密，我们建议您使用此类工具时请使用复杂密码，并注意保护您的信息安全。\n（六）互联网环境并非百分之百安全，我们将尽力确保或担保您发送给我们的个人信息的安全性。如果我们的物理、技术、或管理防护设施遭到破坏，导致个人信息被非授权访问、公开披露、篡改、或毁坏，导致您的合法权益受损，我们将承担相应的法律责任。\n六、您的选择\n电子邮件和短信。如果您不再希望通过电子邮件或短信接收我们的某些通信，您可以按照我们的相关提示，在设备上选择取消订阅。\n推送通知。您可以选择接收来自我们的移动推送通知。您也可以选择定向推送或者关闭定向推送，如果您随后决定不再接收这些通知，您可以使用移动设备的设置功能来关闭它们。\n兴趣广告:兴趣广告是根据您在互联网上使用的各种应用程序和网站，根据您可能的兴趣量身定制的在线广告。如果您正在使用网站或应用，那么可以使用cookie和web beacon来收集信息，以帮助确定您可能的兴趣。如果您正在使用包含广告标识符的移动设备、平板电脑或流媒体设备，那么该标识符可用于帮助确定您可能的兴趣.。\n以上您的选择可以通过您的设备上的相关设置进行更改，如果您没有发现相关的设置，您也可以通过邮箱yooyoodianxin@163.com联系我们来更改您以上的选择。\n七、您的权利\n您可以随时访问您的个人信息，包括但不限于您的帐户信息、联系信息、圈圈游戏支付信息以及其他相关信息，或更新我们持有的关于您的过时或不准确的个人信息。如您发现我们违反法律、行政法规的规定或者双方的约定收集、使用您的个人信息，您可以要求我们删除。在您访问、修改和删除相关信息时，我们可能会要求您进行身份验证，以保障帐户的安全。您可以随时通过quanquanhuyu6666@outlook.com联系我们来访问、更正、删除您的个人信息或者注销您的账号，我们将会在15个工作日内完成。\n您可以选择是否披露信息。有些信息是使用圈圈游戏服务所必需的，但大多数其他信息的提供是由您决定的。您可以通过删除信息、关闭设备功能、邮件联系我们等方式改变您授权我们继续收集、使用信息的范围或撤回您的授权。当您撤回授权后，我们无法继续为您提供撤回授权所对应的服务，也不再处理您相应的信息。但您撤回授权的决定，不会影响此前基于您的授权而开展的信息处理。\n八、未成人保护\n为了保护未成年人健康成长，我们的游戏会接入未成年人防沉迷系统，您必须年满18岁才能订阅我们全部的服务，18岁以下的个人可以使用我们的服务，但必须得到父母或合法监护人的参与、监督和批准。\n九、变更\n为了给您提供更好的服务，我们可能会根据圈圈游戏服务的更新情况及法律法规的相关要求适时修改本政策的条款。如有任何更改(包括更改何时生效)，我们将在本政策生效前通过网站公告、推送通知、弹窗提示或其他方式来通知您，您如果不同意该等变更，可以选择停止使用圈圈游戏服务；如您仍然继续使用圈圈游戏服务的，即表示您已充分阅读、理解并同意受经修订的本政策的约束。\n十、Cookies及同类技术\n我们希望您了解我们对这些技术的使用，因此本节将解释我们使用的技术类型、它们的用途以及您对它们使用的选择。\n1.cookies和广告标识符是什么?\ncookie是一种小的数据文件，通常在您浏览、使用网站和在线服务时存储在您的设备上。它们被广泛用于使网站更加有效地运作以及提供报告信息和协助服务或广告个性化。广告标识符与cookie类似，在许多移动设备和平板以及某些流媒体设备上都可以找到。与cookie一样，广告标识符也被用来提高在线广告的相关性。\n2.为什么使用cookie和广告标识符?\n•使用cookie和广告标识符可以让我们为您在上网时提供更为便捷的服务。\n3. 如何选择cookies和广告标识符?\n关于cookies的更多信息将通过我们的网站、应用以及其他类型的在线跟踪(包括由第三方收集的有关您的在线活动时间或您感兴趣的广告等)您，指导您有选择性地进行点击。\n十一、如何联系我们\n如对本隐私政策或我们使用您的个人信息、cookie或类似技术有任何疑问、投诉；或者对于您的授权、选择有任何更改；您都可以请通过电子邮件quanquanhuyu6666@outlook.com与我们的数据保护中心/隐私办公室联系，通常我们会在15个工作日之内对您回复。\n您的个人资料的管控者是圈圈游戏。请注意，如果您联络我们协助您，为了您和我们的安全，我们可能需要先核实您的身份，然后才会满足您的要求。\n更新并生效于2021年09月09日\n四川有佳信息技术有限公司\n",
+    "_N$string": "隐私政策\n圈圈游戏及旗下各关联公司（以下统称“我们”）（公司名称为：四川有佳信息技术有限公司，注册地址为：中国自由贸易试验区成都高新区天府三街19号1栋1单元13层1301）致力于保护其在线用户（以下统称“用户”或者“您”）的个人信息和隐私安全。为了给您提供更加准确、更具个性化的服务，我们将会按照本隐私政策的规定使用和披露您的相关信息。本隐私政策描述了在您使用我们任何游戏或应用程序以及其他服务（以下简称“服务”或“游戏”）时，我们在收集、使用及披露资料(包括您的个人资料)等各方面的做法。\n在使用圈圈游戏服务前，请您务必仔细阅读并透彻理解本政策，特别是以粗体/粗体下划线标识的条款，您应重点阅读，在确认充分理解并同意后再开始使用。\n如果您是儿童，请通知您的监护人共同阅读本政策，并在您使用圈圈游戏服务、提交个人信息之前，寻求您的监护人的同意和指导。您于线上点击同意本政策，或者您使用/继续使用圈圈游戏服务、提交个人信息，都表示您已获得您的监护人的许可，您的监护人均同意我们按照本政策（包括更新版本）收集、使用、储存、分享、转让和披露您的个人信息。\n如果您不同意本政策的内容，将可能导致圈圈游戏服务无法正常运行，或者无法达到我们拟达到的服务效果，您应立即停止访问/使用圈圈游戏服务。您使用或继续使用圈圈游戏服务，都表示您同意我们按照本政策（包括更新版本）收集、使用、储存、分享、转让和披露您的个人信息。\n在阅读完本政策后，如您对本政策或与本政策相关的事宜有任何问题，您可通过quanyuwangluo6666@outlook.com联系我们，我们会尽快为您作出解答。\n目录\n一、我们收集和使用个人信息的方式、目的及范围\n二、我们可能的个人信息披露、分享或者转让\n三、第三方服务\n四、访问帐户和配置文件\n五、我们如何储存和保护个人信息\n六、您的选择\n七、您的权利\n八、未成人保护\n九、变更\n十、Cookies及同类技术\n十一、如何联系我们\n一、我们收集和使用个人信息的方式、目的及范围\n（一）我们将通过以下方式收集和获得您的个人信息：\n1、您提供的信息。\n（1）您在注册圈圈游戏服务的帐号或使用圈圈游戏服务时，向我们提供的信息；\n（2）您通过圈圈游戏服务向其他方提供的共享信息，以及您使用圈圈游戏服务时所储存的信息。\n请注意，如您在圈圈游戏服务中其他用户可见的公开区域内上传或发布的信息、您对其他人上传或发布的信息作出的回应中公开您的信息，该等信息可能会被他人收集并加以使用。当您发现他人不正当地收集或使用您的信息时，可通过本政策“如何联系我们”章节所列的反馈渠道联系我们。\n2、我们获取的您的信息。\n您在使用圈圈游戏服务时，我们收集、汇总、记录的信息，例如日志信息、位置信息、设备信息。\n3、从第三方获取的信息。\n（1）我们可能从第三方获取您授权共享的帐号信息（包括用户名、头像、昵称）并在您同意本政策后将您的第三方帐号与您的圈圈游戏服务帐号绑定，使您可以通过第三方帐号直接登录并使用圈圈游戏服务。\n（2）公开化信息：如公开政府数据库等公共资源。\n（二）我们会出于以下目的，收集和使用您以下类型的个人信息：\n1、帮助您完成注册及登录\n为了创建您的账号、用户名和密码，您需要提供基本注册或登录信息，包括个人电话号码、电子邮箱地址、应用账户信息、第三方账号授权信息。个人电话号码属于敏感信息，我们会严格按照本政策约定的方式使用。\n您也可以在注册、登录或后续使用过程中，填写或补充您的其他额外信息（例如您的昵称、头像、性别、出生日期），这将有助于我们给您提供个性化的推荐和更优的服务体验，但如果您不提供这些信息，并不会影响您使用圈圈游戏服务的基本功能。\n2、实现身份认证\n依照相关法律法规规定及监管要求，或为满足用户身份真实核验、保障系统和服务安全及其他特定服务功能等需要，我们可能需要您提供真实身份信息、设备信息（例如姓名和身份证号码）以完成身份认证。如果您不提供上述信息，我们将不能向您提供相关的功能及服务。\n为实现身份认证的目的，您同意并授权我们可以自行或委托第三方向有关身份认证机构（如个人征信机构、政府部门等）提供、查询、核对您的前述身份信息。真实身份属于敏感信息，我们会严格按照本政策约定的方式使用。\n3、维护游戏基础功能的正常运行\n在您使用我们服务过程中，为识别帐号异常状态、了解产品适配性、维护基础功能的正常运行、保护您个人的虚拟财产以及配合政府有关部门的审查，我们可能会自动收集、储存关于您使用的服务以及使用方式的信息并将这些信息进行关联，这些信息及目的包括：\n（1）服务（或通讯）日志信息：当您使用我们的服务时，我们可能会自动收集您对我们服务的详细使用情况，作为有关网络日志保存。如：游戏日志信息，例如登录日志、物品日志、游戏对局信息、交友记录等，以便您能够在客户端查看您的游戏历史记录，同时用于游戏运营统计分析、游戏排行榜功能、客服投诉处理及其他游戏安全分析，并为提升您的游戏体验，我们可能把前述信息同步至该游戏后续版本或您正在使用的我们提供的其他产品中。\n（2）设备信息：我们可能会根据您在软件安装及使用中授予的具体权限，接收并记录您所使用的设备相关信息，读取电话状态。如您的IMEI、MAC、Serial、SIM卡IMSI识别码、设备机型、操作系统及版本、客户端版本、设备分辨率、包名、设备设置、进程及软件列表、唯一设备标识符、软硬件特征信息）、设备所在位置相关信息（例如IP 地址、GPS位置以及能够提供相关信息的WLAN接入点、蓝牙和基站传感器信息）。我们收集这些信息是为了向您提供我们基本服务和基础功能。\n请注意，单独的设备信息、日志信息是无法识别特定自然人身份的信息。如果我们将这类非个人信息与其他信息结合用于识别特定自然人身份，或者将其与个人信息结合使用，则在结合使用期间，这类非个人信息将被视为个人信息，除取得您授权或法律法规另有规定外，我们会将该类个人信息做匿名化、去标识化处理。这些信息在结合使用期间，将作为您的个人信息按照本隐私政策处理与保护。\n4、帮助您完成下单、支付并向您交付商品或服务\n（1）当您在圈圈游戏服务中订购具体商品及/或服务时，我们会通过系统为您生成购买该商品及/或服务的订单。在下单过程中，您可能需提供个人身份信息、姓名、联系电话、支付状态信息。特殊情况下，可能还需要您的收获地址和邮政编码。如果您拒绝提供此类信息，我们将无法完成相关交付服务。\n（2）为展示您帐号的订单信息，我们会收集您在使用圈圈游戏服务过程中产生的订单信息（例如您所购买的商品或服务信息、具体订单号、订单创建时间、交易金额）用于向您展示及便于您对订单进行管理；\n（3）为完成订单支付、交付商品或服务、确认交易状态及为您提供售后与争议解决服务，我们会通过您基于交易所选择的交易对象、支付机构、等收集与交易进度相关的您的帐号、订单、交易、支付，或将您的交易信息共享给上述服务提供者。\n（4）当您使用游戏产品的消费功能时，我们会收集您的充值记录、消费记录等信息，以便您查询您的交易记录，同时尽最大程度保护您的虚拟物品安全。充值记录、消费记录属于敏感信息，收集上述信息为实现游戏产品的消费功能所必须，否则将无法完成交易。\n5、游戏互动功能。\n当您在游戏中通过文字、图片、语音、视频及其他方式与其他玩家进行互动，我们可能会收集并保存您发送的上述信息内容用于过滤色情、暴力、政治、辱骂、恶意广告等不当内容，以此净化游戏环境，维护健康的上网环境。您的上述信息以及您的头像、昵称信息会接入第三方sdk进行核查。\n6、为您提供客服或其他用户响应功能\n当您联系我们的客服或使用其他用户响应功能时（例如提出售中售后申请、个人信息保护投诉或建议、其他客户投诉和需求），我们可能需要您提供必要的个人信息以匹配并核验您的用户身份，以便保障您的帐号与系统安全。我们可能还会保存您的联系方式（您与我们联系时使用的或您向我们主动提供的其他联系方式）、您与我们的通信/通话记录和内容、与您需求相关联的其他必要信息，以便与您联系或帮助您解决问题，或记录相关问题的处理方案及结果。\n7、向您发出通知\n我们可能在必需时（例如当我们由于系统维护而暂停某一单项服务、变更、终止提供某一单项服务时）向您发出与服务有关的通知。因此我们可能会收集使用您的个人电话号码、电子邮箱、设备信息。\n如您不希望继续接收我们推送的消息，您可要求我们停止推送，例如：根据短信退订指引要求我们停止发送推广短信，或在移动端设备中进行设置，不再接收我们推送的消息。如果以上途径没有解决您的问题，您也可以通过quanquanhuyu6666@outlook.com的来通知我停止发送通知/关闭定向通知。\n8、为您提供个性化需求：为了为您提供本地化内容或者为您提供我们认为您会感兴趣的游戏、电影和电视节目的定制和个性化观看推荐，\n我们可能会收集使用您的地理位置，地理位置属于敏感信息。\n您的互联网服务提供商，;\n您的广告信息：广告标识符，如移动设备、平板电脑、流媒体设备上包含此类标识符的广告标识符; 通过cookies、网络信标等技术收集的信息，包括广告数据(如广告的可用性和投放情况、网站URL、日期和时间等信息)。\n您的软件信息：如软件特征(包括软件类型和配置)、连接信息、页面浏览量统计、引用源(如引用url)、IP地址(可能会告诉我们您的一般位置)、浏览器等；\n根据您的上述以确定您的喜好定向推送，如果您不喜欢此项服务，可通过quanquanhuyu6666@outlook.com联系我们取消定向推送，我们会为您提供非定向推送。\n•9、为您提供安全保障：为提高您使用我们及合作伙伴提供服务的安全性，保护您或其他用户或公众的人身财产安全免遭侵害，更好地预防钓鱼网站、欺诈、网络漏洞、计算机病毒、网络攻击、网络侵入等安全风险，预防、发现和调查潜在的禁止或非法活动，包括欺诈和执行我们的条款(如确定免费试用的资格); 我们可能会收集、使用或整合您的帐号信息、交易信息、设备信息、日志信息以及我们关联公司、合作伙伴取得您授权或依据法律共享的信息，来综合判断您帐号及交易风险、进行身份验证、检测及防范安全事件，并依法采取必要的记录、审计、分析、处置措施。\n•10、服务优化：\n（1）为分析和理解我们的用户，改善我们的服务(包括我们的用户界面体验)，优化内容选择、推荐算法和交付;您同意我们可能会把您的个人信息分享给第三方进行数据分析 ，同时我们会与第三方签订严格的保密协议，要求第三方采取技术措施等手段保障分享给第三方的数据不会被泄露或者用作其他用途。\n（2）为了更好地向您提供游戏服务，改善游戏体验，我们可对您游戏账号中的昵称、头像以及在游戏中的相关操作信息、游戏信息等信息（以下称“该等信息”。该等信息具体包括但不限于您的登录状态、对战信息/状态、成就信息等）进行使用，并可向您本人或其他用户或好友展示该等信息。我们可能会视游戏产品具体情况为您提供相关权限，以便您可以对是否展示前述相关信息进行相应设置。您同意该等信息我们可能会提供给第三方进行归因分析。\n•11、评估、改善我们的服务：与您沟通关于我们的服务(例如,电子邮件、推送通知短信、在线消息传递渠道)，这样我们可以向您发送圈圈游戏的相关新闻,有关新功能的详细信息、特价,促销公告和消费者调查,帮助您完成操作请求,如密码重置请求。\n12、您理解并同意，部分单项服务可能需要您在您的设备中开启特定的访问权限，以实现这些权限所涉及信息的收集和使用。我们不会一次性要求您开启所有权限，只有当您使用我们提供的某种功能时，我们才会请求使用相应权限。我们可能申请使用以下权限：如：\n（1）在您开启相册和/或相机（摄像头）权限后，您能够上传、拍摄照片/图片/视频，实现发布信息和评论、截图或与客服沟通提供证明等功能；\n（2）在您开启通讯录权限后，我们可以获取您的通讯录好友信息，邀请您的好友使用圈圈游戏服务、向您认识的人分享内容/产品等功能；\n（3）在您开启麦克风、录音和相关语音权限后，您能够使用语音功能与我们的产品、他人进行信息交互，或与客服联系等；\n（4）在您开启位置权限后，我们可以获取您的位置信息（可能包括精准位置和粗略位置，位置信息属于敏感信息），以便让您与附近的朋友进行信息交互或向您推送个性化内容；区分不同地区用户并进行数据统计与精细化运营；开启排行榜功能。\n（5）在您开启我们可读取/写入您日历的权限后，我们可以获取您的日程时间，以便为您提供记录、提醒等功能。\n（6）在您开启读取、修改、写入SD权限或存储权限后，我们会下载游戏资源并储存在SD卡上或者手机存储空间上。\n（7）在您开启读取手机状态和身份信息后，我们会根据设备进行用户充值限制；根据设备信息区分真实用户，防止批量注册虚假用户刷游戏资产。\n（8）获取您的短信权限，包括发送，接收、读取，我们使用短信权限会给您发送、接收、读取验证码，给您发送具体的通知、营销信息。\n当您需要关闭这些功能权限时，大多数移动设备都会支持您的这项需求，具体方法请参考或联系您移动设备的服务商或生产商。请您注意，您开启任一权限即代表您授权我们可以收集和使用相关信息来为您提供对应服务，您一旦关闭任一权限即代表您取消了授权，我们将不再基于对应权限继续收集和使用相关信息，也无法为您提供该权限所对应的服务。但是，您关闭权限的决定不会影响此前基于您的授权所进行的信息收集及使用，但是您可以通过联系我们删除您的个人信息。\n13、征得授权同意的例外\n根据相关法律法规规定，以下情形中收集您的信息无需征得您的授权同意：\n（1）与国家安全、国防安全有关的；\n（2）与公共安全、公共卫生、重大公共利益有关的；\n（3）与犯罪侦查、起诉、审判和判决执行等有关的；\n（4）出于维护信息主体或其他个人的生命、财产等重大合法权益但又很难得到您本人同意的；\n（5）所收集的信息是您自行向社会公众公开的；\n（6）从合法公开披露的信息中收集信息的，如合法的新闻报道、政府信息公开等渠道；\n（7）根据您的要求签订合同所必需的；\n（8）用于维护圈圈游戏服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；\n（9）为合法的新闻报道所必需的；\n（10）学术研究机构基于公共利益开展统计或学术研究所必要，且对外提供学术研究或描述的结果时，对结果中所包含的信息进行去标识化处理的；\n（11）法律法规规定的其他情形。\n二、我们可能的个人信息披露、分享或者转让\n我们仅会在以下情况下，且采取符合业界标准的安全防护措施的前提下，才会披露、分享、转让您的个人信息：:\n（一）服务供应商:\n我们使用其他公司、代理商或承包商(“服务供应商”)代表我们提供服务或协助我们向您提供服务。例如,为了向您提供更好的服务，我们需要服务供应商为我们进行市场营销、广告、个性化和优化服务,处理信用卡交易或其他支付方式,提供客户服务以收集债务,分析和提高数据(包括数据用户的交互与我们的服务),处理和管理消费者调查。\n（二）促销活动:\n我们可能提供联合促销，为了您能更好地参与，我们可能会与第三方共享您的信息。在完成这些类型的促销活动时，我们可能会分享您的姓名和其他与完成奖励有关的信息。请注意，这些第三方对他们自己的隐私政策负责。\n•（三）信息安全:\n我们及其服务供应商可能披露或使用您的个人和其他信息,我们及其服务供应商合理地相信这样的披露：(a)需要满足任何适用法律、监管、法律程序,或政府请求,(b)履行适用的使用条款,包括调查潜在的侵犯,(c)检测、预防、或其他地址非法或可疑非法活动(包括支付欺诈),安全或技术问题,或(d)保护我们及您或公众的权利、财产或安全在法律允许的范围内免受损害。\n•（四）业务转移:\n对于我们的任何重组、合并、出售或其他资产转让，我们将在提前通过推送通知、公告等形式告知您相关情形后，转让您包括个人信息在内的帐号信息，接收方将会按照相应的法律法规及不低于本隐私政策所要求的标准继续保护您的个人信息。\n（五）游戏排行\n您同意我们将您的游戏数据（包括您的昵称、荣誉称号、段位、头像、头衔等）用于排行榜功能，展示给参与排行榜功能的玩家。\n（六）基础信息查看\n您同意在对局内、或者游戏内的游戏好友可能看到您的游戏信息（包括您的昵称、荣誉称号、段位、头像、头衔、胜率等）。\n三、第三方服务\n我们的服务可以通过和/或利用第三方平台操作的功能(如语音控制)或第三方的网站链接提供，这些第三方的信息处理政策可能与我们的政策不同。\n圈圈游戏服务可能接入或链接至第三方提供的社交媒体或其他服务（包括网站或其他服务形式）。包括：\n1、您可利用“分享”键将某些圈圈游戏服务内容分享到第三方服务，或您将第三方服务内容分享到圈圈游戏服务。这些功能可能会收集您的信息（包括您的日志信息），并可能在您的电脑装置COOKIES，从而正常运行上述功能；\n2、我们通过广告或我们服务的其他方式向您提供链接，使您可以链接至第三方的服务或网站；及\n3、其他接入第三方服务的情形。例如，为实现本政策中声明的目的，我们可能会接入第三方服务商提供的SDK或其他类似的应用程序，并将我们依照本政策收集的您的某些信息共享给该等第三方服务商，以便提供更好的客户服务和用户体验。目前，我们接入的第三方服务商主要包括以下几种类型：\n（1）用于广告相关服务，包括广告展示、广告数据监测/统计等；\n（2）用于消息推送功能，包括手机厂商Push推送、特定事件提醒、个性化内容推荐等；\n（3）用于支付相关服务，包括订单支付、交易行为核验、收入结算、支付信息汇总统计等；\n（4）用于在您同意的情况下获取设备位置权限、搜集设备信息和日志信息等；\n（5）用于第三方授权服务，包括第三方帐号登陆、将有关内容分享至第三方产品等；\n（6）用于支持产品功能模块（如有），包括在线直播、视频播放、语音识别、AR、智能客服、弹幕播放、内容存储等；\n（7）用于优化产品性能，包括提高硬件配网能力、降低服务器成本、功能热修复等；\n（8）用于帐号安全、产品加固相关服务，包括网络监测、域名解析（HTTPDNS）、防劫持、反垃圾反作弊、加解密服务等。\n（9）用于一键登陆功能，我们的产品为改善注册及登录界面用户体验，集成第三方SDK一键登录服务：闪验SDK，用于帮助实现用户一键登录行为。为了实现网关取号技术，闪验SDK需要获取IP地址、网卡（MAC)地址、国际移动设备识别码（IMEI）、OAID（替代IMEI）、sim卡信息，并会收集手机机型、系统类型、系统版本、网络环境、网关取号报错日志等以提供统计分析服务能力。\n我们仅会出于正当、必要、特定的目的共享您的信息。对我们与之共享信息的第三方服务商，我们会要求他们履行相关保密义务并采取相应的安全措施。\n该等第三方社交媒体或其他服务由相关的第三方负责运营。您使用该等第三方的社交媒体服务或其他服务（包括您向该等第三方提供的任何信息），须受第三方自己的服务条款及信息保护声明（而非本政策）约束，您需要仔细阅读其条款。本政策仅适用于我们所收集的个人信息，并不适用于任何第三方提供的服务或第三方的信息使用规则。如您发现这些第三方社交媒体或其他服务存在风险时，建议您终止相关操作以保护您的合法权益。\n四、访问帐户和配置文件\n为方便您访问帐户，当您使用圈圈游戏服务时，您可以使用“在此设备上记住我”功能。该功能使用的技术使我们能够提供直接的帐户访问，并帮助管理圈圈游戏服务，而无需再次访问该服务时重新输入任何密码或其他用户标识。\n您可以按照我们的相关提示，在设备上选择删除访问您的帐户。公共或共享设备的用户应该在每次访问结束时退出。如果您出售或退回一台计算机，您应该在此之前注销并停用该设备。如果您没有维护您的密码或设备的安全性，或未能注销或停用您的设备，后续用户可能能够访问您的帐户，包括您的个人信息。\n如果您分享或者允许别人访问您的账户,他们将能看到您的信息(如您的浏览历史、评级、评论和账户信息。\n五、我们如何储存和保护个人信息\n我们仅在本政策所述目的所必需期间和法律法规要求的最短时限内储存您的个人信息。如我们终止服务或运营，我们将及时停止继续收集您个人信息的活动，同时会遵守相关法律法规要求提前向您通知，并在终止服务或运营后对您的个人信息进行删除或匿名化处理，但法律法规或监管部门另有规定的除外。\n我们在中华人民共和国境内运营中收集和产生的个人信息，储存在中国境内，以下情形除外：\n1、法律法规有明确规定；\n2、获得您的授权同意；\n3、您使用的圈圈游戏服务涉及跨境，圈圈游戏需要向境外提供您的个人信息的。\n针对以上情形，我们会确保依据本政策及国家法律法规要求对您的个人信息提供足够的保护。\n我们非常重视信息安全，成立了专门的安全团队，并采取一切合理可行的措施，保护您的个人信息：\n（一）数据安全技术措施\n我们会采用符合业界标准的安全防护措施，包括建立合理的制度规范、安全技术来防止您的个人信息遭到未经授权的访问使用、修改，避免数据的损坏或丢失。\n我们的服务采取了多种加密技术，例如在某些圈圈游戏服务中，我们将利用加密技术来保护您的个人信息，采取加密技术对您的个人信息进行加密保存，并通过隔离技术进行隔离。\n在个人信息使用时，例如信息展示、信息关联计算，我们会采用多种数据脱敏技术增强信息在使用中的安全性。\n我们还会采用严格的数据访问权限控制和多重身份认证技术保护个人信息，避免数据被违规使用。\n（二）我们为保护个人信息采取的其他安全措施\n我们通过建立数据分类分级制度、数据安全管理规范、数据安全开发规范来管理规范个人信息的储存和使用。\n我们通过信息接触者保密协议、监控和审计机制来对数据进行全面安全控制。我们还会举办安全和隐私保护培训课程，加强员工的安全意识以及对于保护信息重要性的认识。\n（三）我们仅允许有必要知晓这些信息的圈圈游戏员工、合作伙伴访问您的个人信息，并为此设置了严格的访问权限控制和监控机制。我们同时要求可能接触到您的个人信息的所有人员履行相应的保密义务。如果未能履行这些义务，可能会被追究法律责任或被中止与圈圈游戏的合作关系。\n（四）我们会采取一切合理可行的措施，确保未收集无关的个人信息。\n（五）互联网并非绝对安全的环境，而且电子邮件、即时通讯、社交软件或其他服务软件等与其他用户的交流方式无法确定是否完全加密，我们建议您使用此类工具时请使用复杂密码，并注意保护您的信息安全。\n（六）互联网环境并非百分之百安全，我们将尽力确保或担保您发送给我们的个人信息的安全性。如果我们的物理、技术、或管理防护设施遭到破坏，导致个人信息被非授权访问、公开披露、篡改、或毁坏，导致您的合法权益受损，我们将承担相应的法律责任。\n六、您的选择\n电子邮件和短信。如果您不再希望通过电子邮件或短信接收我们的某些通信，您可以按照我们的相关提示，在设备上选择取消订阅。\n推送通知。您可以选择接收来自我们的移动推送通知。您也可以选择定向推送或者关闭定向推送，如果您随后决定不再接收这些通知，您可以使用移动设备的设置功能来关闭它们。\n兴趣广告:兴趣广告是根据您在互联网上使用的各种应用程序和网站，根据您可能的兴趣量身定制的在线广告。如果您正在使用网站或应用，那么可以使用cookie和web beacon来收集信息，以帮助确定您可能的兴趣。如果您正在使用包含广告标识符的移动设备、平板电脑或流媒体设备，那么该标识符可用于帮助确定您可能的兴趣.。\n以上您的选择可以通过您的设备上的相关设置进行更改，如果您没有发现相关的设置，您也可以通过邮箱yooyoodianxin@163.com联系我们来更改您以上的选择。\n七、您的权利\n您可以随时访问您的个人信息，包括但不限于您的帐户信息、联系信息、圈圈游戏支付信息以及其他相关信息，或更新我们持有的关于您的过时或不准确的个人信息。如您发现我们违反法律、行政法规的规定或者双方的约定收集、使用您的个人信息，您可以要求我们删除。在您访问、修改和删除相关信息时，我们可能会要求您进行身份验证，以保障帐户的安全。您可以随时通过quanquanhuyu6666@outlook.com联系我们来访问、更正、删除您的个人信息或者注销您的账号，我们将会在15个工作日内完成。\n您可以选择是否披露信息。有些信息是使用圈圈游戏服务所必需的，但大多数其他信息的提供是由您决定的。您可以通过删除信息、关闭设备功能、邮件联系我们等方式改变您授权我们继续收集、使用信息的范围或撤回您的授权。当您撤回授权后，我们无法继续为您提供撤回授权所对应的服务，也不再处理您相应的信息。但您撤回授权的决定，不会影响此前基于您的授权而开展的信息处理。\n八、未成人保护\n为了保护未成年人健康成长，我们的游戏会接入未成年人防沉迷系统，您必须年满18岁才能订阅我们全部的服务，18岁以下的个人可以使用我们的服务，但必须得到父母或合法监护人的参与、监督和批准。\n九、变更\n为了给您提供更好的服务，我们可能会根据圈圈游戏服务的更新情况及法律法规的相关要求适时修改本政策的条款。如有任何更改(包括更改何时生效)，我们将在本政策生效前通过网站公告、推送通知、弹窗提示或其他方式来通知您，您如果不同意该等变更，可以选择停止使用圈圈游戏服务；如您仍然继续使用圈圈游戏服务的，即表示您已充分阅读、理解并同意受经修订的本政策的约束。\n十、Cookies及同类技术\n我们希望您了解我们对这些技术的使用，因此本节将解释我们使用的技术类型、它们的用途以及您对它们使用的选择。\n1.cookies和广告标识符是什么?\ncookie是一种小的数据文件，通常在您浏览、使用网站和在线服务时存储在您的设备上。它们被广泛用于使网站更加有效地运作以及提供报告信息和协助服务或广告个性化。广告标识符与cookie类似，在许多移动设备和平板以及某些流媒体设备上都可以找到。与cookie一样，广告标识符也被用来提高在线广告的相关性。\n2.为什么使用cookie和广告标识符?\n•使用cookie和广告标识符可以让我们为您在上网时提供更为便捷的服务。\n3. 如何选择cookies和广告标识符?\n关于cookies的更多信息将通过我们的网站、应用以及其他类型的在线跟踪(包括由第三方收集的有关您的在线活动时间或您感兴趣的广告等)您，指导您有选择性地进行点击。\n十一、如何联系我们\n如对本隐私政策或我们使用您的个人信息、cookie或类似技术有任何疑问、投诉；或者对于您的授权、选择有任何更改；您都可以请通过电子邮件quanquanhuyu6666@outlook.com与我们的数据保护中心/隐私办公室联系，通常我们会在15个工作日之内对您回复。\n您的个人资料的管控者是圈圈游戏。请注意，如果您联络我们协助您，为了您和我们的安全，我们可能需要先核实您的身份，然后才会满足您的要求。\n更新并生效于2021年09月09日\n四川有佳信息技术有限公司\n",
+    "_fontSize": 40,
+    "_lineHeight": 40,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 0,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 2,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "acRb+BSF1Djox9evLDAn82",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "2",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 78
+    },
+    "_children": [],
+    "_active": false,
+    "_components": [
+      {
+        "__id__": 87
+      }
+    ],
+    "_prefab": {
+      "__id__": 88
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 87,
+      "g": 22,
+      "b": 0,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 1033,
+      "height": 21200
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -0.2,
+        -10600,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 86
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "用户服务协议\n\n我们在此特别提醒用户（以下简称“ 您 ” ），在您要使用我们游戏服务前，请仔细阅读本《用户服务协议》（以下简称“ 本协议 ” ）中的各个条款，充分理解各条款的内容，特别是免除或是限制我们责任的条款（以下简称“ 免责条款 ” ），对用户权利进行限制的条款（以下简称 “ 限制条款 ”）、约定争议的解决方式、司法管辖的条款，以及开通或使用某项服务的单独协议。前述免责、限制及争议解决方式和管辖条款可能以黑体加粗、颜色标记或其他合理方式提示您注意，您对该等条款的确认将可能导致您在特定情况下的被动、不便、损失，请您在确认同意本协议之前或在使用我们游戏服务之前再次阅读前述条款。双方确认前述条款并非属于《中华人民共和国民法典》第497 条规定的 “ 免除其责任、加重对方责任、排除对方主要权利的 ” 的条款，并同意该条款的合法性及有效性。  \n\n \n\n除非您已阅读并接受本协议所有条款，否则您不能获得使用我们游戏服务的权利。您点击同意、接受或下一步，或您注册、使用我们游戏服务均视为您已阅读并同意签署本协议。 \n\n\n如果您未满18 周岁，请在法定监护人的陪同下阅读本协议，并特别注意未成年人使用条款，应事先取得父母（监护人）的同意。如您为未成年人的法定监护人，请以法定监护人的身份判断本服务是否符合未成年人 , 并合理设定未成年人娱乐时间，培养未成年人健康游戏习惯。我们会积极按照国家防沉迷政策要求，通过启用防沉迷系统保护未成年人的合法权益，包括可能采取技术措施、禁止未成年人接触不适宜的游戏或者游戏功能、限制未成年人的游戏时间、预防未成年人沉迷网络。作为游戏规则的一部分，我们还将在适当位置发布游戏用户指引和警示说明，包括游戏内容介绍、正确使用游戏的方法以及防止危害发生的方法。所有未成年人用户都应在法定监护人的指导下仔细阅读并遵照执行这些指引和说明；其他玩家在使用游戏服务的过程中应避免发布、产生任何有损未成年人身心健康的内容，共同营造健康游戏环境。\n\n我们有权在必要时修改本协议条款，本协议条款变更后，如果您继续使用我们游戏服务，即视为您已接受修改后的协议。\n\n1、 定义\n\n如无特别说明，下列术语在本协议中的含义为：\n\n1.1  游戏开发者及运营管理者 ：指开发者【 四川有佳信息技术有限公司 】及其关联公司、运营者【{{姓名}}】 （以下可称 “ 我们 ” ）。\n\n1.2  游戏应用 ：指由开发者开发或开发者依法获得相关权利人授权可向用户提供各种服务的应用程序，包括但不限于游戏类服务及今后可能出现的各种服务（以下可称“ 应用 ” 或 “ 网络游戏 ” ）。\n\n1.3  本协议：指本协议正文及其修订版本、游戏规则及其修订版本、《隐私协议》及其修订版本。上述内容一经正式发布，即为本协议不可分割的组成部分，本协议同时还包括《网络游戏服务格式化协议必备条款》。\n\n1.4  游戏规则：指我们不时发布并修订的关于应用或网络游戏的用户守则、玩家条例、游戏公告、提示及通知等内容。\n\n1.5  您：又称“ 玩家 ” 或 “ 用户 ” ，指接受我们服务的自然人。\n\n2 、 游戏帐号\n\n2.1  帐号注册\n\n2.1.1  您承诺按照国家要求，登录实名注册系统并以其真实身份实名注册成为我们的用户。您进行实名注册时，应提供您本人真实、完整、有效的身份信息及其他相关信息，且不得以他人身份资料进行实名注册，否则因此造成的一切后果由您自行承担，且我们有权要求您赔偿因此给我们造成的所有损失 。\n\n2.1.2  您以其真实身份注册成为我们用户后，需要修改所提供的个人资料信息的，您可通过我们官网与我们联系，我们在收到您的相关需求或者问题的反馈后将尽快审核，并在验证您的用户身份后的十五天内予以回复。在您无法有效证明自身身份时，我们有权拒绝提供任何信息或承担任何义务。\n\n2.2  用户帐号使用与保管\n\n2.2.1  您充分理解并同意，我们有权审查您注册所提供的身份信息是否真实、合法、准确、有效，并积极采取技术或是管理等合理措施保障您账号的安全、有效；您有义务妥善保管其账号及密码，并正确安全的使用其账号及密码。任何一方未尽上述义务导致的账号密码遗失、被盗等情形而给您和他人的民事权利造成损害的，应当承担由此产生的法律责任。\n\n2.2.2  您登录后，应承担所持账号的行为产生的全部法律责任。如您发现有他人冒用或者盗用其账号或是密码 、 或任何其他未经您合法授权使用的情形时 ，应及时根据我们提供的有效联系方式通知我们， 您通知我们时，应 提供与您注册身份信息相一致的个人有效身份信息， 我们收到您的有效请求并核实身份后，会结合具体情况采取相应措施（包括但不限于暂停该账号的登录和使用等），我们因根据您的请求采取相应措施而造成您及其他用户损失的，由您自行承担。\n\n2.2.3   若因为您自身原因，而导致账号、密码遭他人非法使用时，我们将不负责处理，由此给用户和他人的民事权利造成损害的，由您自行承担。 您不得将游戏账号以任何方式提供给他人使用（包括成年人提供给未成年人使用的行为），包括但不限于不得以转让、出租、借用等方式提供给他人作包括但不限于直播、录制、代打代练等商业性使用。否则，因此产生任何法律后果及责任均由您自行承担，且我们有权对您的游戏账号采取包括但不限于警告、限制或禁止使用游戏帐号全部或部分功能、删除游戏账号及游戏数据及其他相关信息、封号直至注销的处理措施，因此造成的一切后果由您自行承担 。\n\n2.2.4  如您使用第三方账户作为账号使用和享受应用的，您除应遵守有关该第三方账号的协议、规则，您还同意我们可向该第三方账号的提供方核实该第三方账号的实名认证情况，如该第三方账号的提供方反馈您使用的第三方账号未完成实名认证的，则您应当按照我们的要求进行实名注册，否则我们有权暂停、禁止您继续使用第三方账号作为账号使用和享受应用。因该第三方账号产生的相关问题包括但不限于被盗等，您应自行联系第三方进行解决，我们可视情况提供相应的协助。\n\n2.2.5  您充分理解并同意：为判断或核实您提供的相关实名注册信息是否真实或有效，我们有权将您提供的实名注册信息提供给第三方进行整理、保存及比对等处理。且我们会按照国家相关要求将您的实名注册信息运用于防沉迷系统之中，即我们可能会根据您的实名注册信息判断您是否年满18 周岁、 您提交的实名身份信息是否规范或实名验证是否通过等，从而决定是否对您的账号予以防沉迷限制 。\n\n2.2.6 同时也特别提示您，如您注销游戏账号的，该游戏账号下的相关游戏收益也将会被清除。据此，在您注销本游戏账号前请您确保已妥善处理该游戏账号下的游戏收益或相关的游戏收益已结清。一旦您注销本游戏账号，如届时该游戏账号下还存在游戏收益的（包括在本游戏使用期间已产生的及未来可能产生的游戏收益），我们有权对该游戏账号下的全部游戏收益做清除处理，因此产生的后果由您自行承担。前述游戏收益包括但不限于：游戏会员权益、等级；与游戏角色成长升级相关的所有数据（包括但不限于经验值、荣誉值、声望值、称号等）；尚未使用的网络游戏虚拟货币、虚拟道具及其他虚拟物品（如卡券、金币、钻石、道具及其他等）；已经购买但未到期或未使用完的增值服务；已产生但未消耗完毕的其他游戏收益或未来预期的游戏收益等。\n\n2.3  用户行为规范\n\n2.3.1  您充分了解并同意，您必须为自己游戏账号下的一切行为负责，包括您所发表的任何内容以及由此产生的任何后果 。\n\n2.3.2  您除了可以按照本协议的约定使用网络游戏服务之外，不得未经我们许可以任何方式录制、直播或向他人传播游戏内容，包括但不限于不得利用任何第三方软件进行网络直播、传播等。也不得进行其他任何侵犯网络游戏的知识产权的行为，或者进行其他的有损于我们或其他第三方合法权益的行为 。\n\n2.3.3  网络游戏仅供您进行娱乐活动， 您不得利用网络游戏及相关服务从事任何经营或盈利行为，更不得利用网络游戏及相关服务从事赌博、开设赌场及其他任何违法违规行为，也不得为其他用户从事前述经营、盈利或是违法违规行为提供任何方便或是条件，不得违反国家法律法规及我们的相关规定，以任何形式在游戏中及线下或通过其他平台进行游戏的虚拟货币、游戏豆或是其他虚拟道具的交易。\n\n2.3.4  您不得利用应用及服务发表、传送、传播、储存侵害他人知识产权、商业机密权、肖像权、隐私等合法权利的内容。\n\n2.3.5  您不得进行任何危害计算机网络安全的行为，包括但不限于：使用未经许可的数据或进入未经许可的服务器/ 帐户；未经允许进入公众计算机网络或者他人计算机系统并删除、修改、增加存储信息；未经许可，企图探查、扫描、测试本应用系统或网络的弱点或其他实施破坏网络安全的行为；企图干涉、破坏本应用系统或网站的正常运行，故意传播恶意程序或病毒以及其他破坏干扰正常网络信息服务的行为；伪造 TCP/IP 数据包名称或部分名称。\n\n2.3.6  您不得利用开发者提供的服务，从事任何与本应用无关的行为，包括但不限于以赠送游戏游戏豆、礼品等任何方式，宣传其他应用或游戏，邀请、诱导其他用户使用其他应用；邀请、诱导其他用户放弃、停止使用本应用；损害本应用品牌，破坏本应用秩序等任何行为。\n\n2.3.7  您不得冒充开发者、应用服务管理员或应用论坛管理员、版主发布任何诈骗或虚假信息。\n\n2.3.8  您不得在游戏类应用当中进行恶意刷屏、恶意踢人、恶意耗时等破坏应用公共秩序的行为。\n\n2.3.9  您不得利用网络游戏服务系统传输任何妨碍社会治安或非法、虚假、骚扰性、侮辱性、恐吓性、伤害性、破坏性、挑衅性、淫秽色情性等内容的信息。\n\n2.3.10 您不得利用网络游戏服务系统进行任何可能对互联网的正常运转造成不利影响或进行任何不利于网络游戏的行为。\n\n2.4  请您注意勿在使用本应用及服务中透露自己的各类财产账户、银行卡、信用卡及对应密码等重要资料，否则由此带来的任何损失由您自行承担。\n\n2.5您充分理解并同意：游戏装备、游戏币及其他游戏道具等是我们游戏服务的一部分，我们在此许可您依本协议而获得其使用权。您购买、使用游戏装备、游戏币及其他游戏道具等应遵循本协议、游戏规则的要求。同时，游戏装备、游戏币及其他游戏道具等可能受到一定有效期限的限制，即您在规定的有效期内未使用，除不可抗力或可归责于我们的原因外，一旦有效期届满，将会自动失效。如相关游戏币、游戏装备及其他游戏道具等游戏物品没有标明使用期限，或者标明的使用期限为“永久”或其他具有与“永久”相同或类似意思的内容的（如“无限期”、“无限制”等），则其使用期限为自您获得该游戏物品之日起至该游戏终止运营之日止。\n\n2.6您充分理解并同意，您在游客模式下可能无法购买、使用游戏装备、游戏币及其他游戏道具。且一旦您卸载或重装游戏，或您更换手机、电脑等终端设备或该等终端设备损坏的，您在该游客模式下所有游戏相关数据可能都将会被清空，且无法查询和恢复。如因此造成您任何损失的，均由您自行承担。\n\n \n\n2.7您充分理解并同意，如您使用法定货币成功购买、使用游戏装备、游戏币及其他游戏道具，该行为不可撤销，您所购买、使用的游戏装备、游戏币及其他游戏道具届时将不能退还或兑换成法定货币退还，但法律另有强制性规定的除外。\n\n \n\n2.8您充分理解并同意：为营造健康的游戏环境并维护您在使用游戏服务过程中的合法权益，我们有权对游戏相关内容（包括但不限于游戏充值的日消费额度、月消费额度等）作出调整、更新或优化。\n\n2.9您不得从事任何违法违规或侵犯我们及其他第三方合法权益行为，包括但不限于下列行为：\n（1）实施任何破坏游戏稳定性、公平性或影响游戏正常进行的行为，或破坏、影响游戏服务正常进行的行为，包括但不限于；\n    1）违规及（或）恶意注册、登录游戏的行为，包括恶意批量注册游戏帐号，以及以破坏服务器鉴权、恶意挤服等方式登录游戏行为；\n    2）恶意实施可能导致游戏服务器宕机、卡顿，或其他游戏玩家掉线、延迟等无法正常游戏的行为，如利用DDOS对游戏服务器或其他玩家进行网络流量攻击的行为等；\n    3）利用游戏漏洞获益（包括但不限于刷取虚拟货币、积分或虚拟道具）、破坏游戏环境或给其他玩家造成不良影响的行为；\n    4）消极游戏破坏其他用户游戏体验的行为。包括但不限于恶意伤害或者击杀本方队友，恶意组队，恶意送分、降分，消极挂机、逃跑、故意送人头，以及其他消极游戏，破坏用户游戏体验的行为；\n    5）安装使用影响本游戏平衡的第三方软件的行为；\n    6）您的游戏数据表现异常，影响游戏公平的其他行为。\n（2）同一玩家（或同一IP，或同一物理地址）注册或登录多个游戏帐号；\n（3）游戏对局中采取“双簧作弊”、投注后或对局中故意逃跑导致游戏币、游戏积分或其他虚拟道具输给其他玩家、不合理拖延对局或比赛时间而影响游戏公平性等作弊行为。\n前款规定的处理措施包括但不限于：\n（1）警告；及/或\n（2）禁言，包括但不限于游戏全区禁言、单区禁言以及公共频道禁言；及/或\n（3）内容重置，包括但不限于重置或强制修改您提供或上传的非法昵称、房间名、图片等非法信息或内容等；及/或\n（4）减少或限制您的游戏收益，该游戏收益包括但不限于游戏中与游戏角色成长升级相关的所有数据（如经验值、荣誉值、声望值、称号等）的提升以及游戏中的道具、装备、虚拟货币等虚拟物品的获取；及/或\n（5）删除或注销游戏账号、游戏数据或其他游戏相关信息；及/或\n（6）限制或禁止您进入游戏中的特定场景或使用游戏特定功能；及/或\n（7）强制退出游戏（即“踢出游戏”），包括但不限于强制退出整个游戏，或游戏中的单局对战，或您正在进行中的其他游戏行为；及/或\n（8）暂时或永久性地禁止您游戏账号登录游戏（以下称“封号”）；及/或\n（9）暂时或永久性地禁止您违法违规行为涉及的特定终端（包括但不限于PC终端、移动终端等）登录游戏；及/或\n（10）暂停或终止您使用游戏及相关服务，或单方通知您终止本协议；及/或\n（11）就您的违法违规行为提起相应民事诉讼，追究您的侵权、违约或其他民事责任，并要求您赔偿公司因您违法违规行为所受到的损失（包括公司所受到的直接经济损失、名誉或商誉损失以及公司对外支付的赔偿金、和解费用、律师费用、诉讼费用及其他间接损失），或移交有关行政管理机关给予行政处罚，或者移交司法机关追究您的刑事责任；及/或\n（12）通过游戏规则（包括但不限于用户守则、玩家条例、游戏公告、提示及通知）公布的其他处理措施。\n\n3 、用户信息的收集、使用及保护\n\n3.1  您同意并授权我们为履行本协议之目的收集您的用户信息，这些信息包括您实名注册信息、您游戏账号下的游戏数据以及其他您在使用网络游戏服务的过程中向我们提供或我们基于安全、用户体验优化等考虑而需收集的信息， 我们对您的用户信息的收集将遵循本协议及相关法律的规定 。\n\n3.2  您充分理解并同意： 我们或我们合作的第三方可以根据您的用户信息，通过短信、电话、邮件等各种方式向您提供关于网络游戏的活动信息、推广信息等各类信息。\n\n3.3  您应对通过网络游戏及相关服务了解、接收或可接触到的包括但不限于其他用户在内的任何人的个人信息予以充分尊重，您不应以搜集、复制、存储、传播或以其他任何方式使用其他用户的个人信息，否则，由此产生的后果由您自行承担。\n\n3.4  保护用户信息及隐私是我们的一项基本原则。除本协议另有规定外， 我们游戏服务对用户信息收集、使用及保护等将遵循 《 隐私保护政策 》等协议规定。 我们在此特别提醒用户仔细阅读 “ 隐私保护政策 ” 的全部内容（未成年人应当在其法定监护人陪同下阅读），并选择接受或者不接受本部分内容 。如用户不同意本部分的任意内容，请勿注册或使用我们的服务。\n\n4、 知识产权条款\n\n本应用及服务由开发者或依法获得相关权利人授权合法运营，其知识产权受《中华人民共和国著作权法》及国际版权条约和其他知识产权法律、法规及条约的保护。\n\n4.1 我们是网络游戏的知识产权权利人。 网络游戏 （包括游戏整体及游戏涉及的所有内容、组成部分或构成要素）的一切著作权、商标权、专利权、商业秘密等知识产权及其他合法权益，以及与网络游戏相关的所有信息内容（包括文字、图片、音频、视频、图表、界面设计、版面框架、有关数据或电子文档等）均受中华人民共和国法律、法规和相应的国际条约保护， 我们享有上述知识产权和合法权益，但相关权利人依照法律规定应享有的权利除外。未经我们事先书面同意，您不得以任何方式将网络游戏 （包括游戏整体及游戏涉及的所有内容、组成部分或构成要素）进行商业性使用。\n\n4.2 尽管本协议有其他规定，用户在使用网络游戏服务中产生的游戏数据的所有权和知识产权归我们所有，我们有权保存、处置该游戏数据。其中，对用户购买游戏虚拟货币的购买记录的保存期限将遵守文化部《网络游戏管理暂行办法》有关规定。对其他游戏数据的保存期限由我们自行决定，但国家法律法规另有规定的从其规定。\n\n4.3 网络游戏可能涉及第三方知识产权，而该等第三方对用户基于本协议在网络游戏中使用该等知识产权有要求的， 我们将以适当方式向用户告知该要求，用户应当一并遵守。\n\n5、 服务内容\n\n5.1 在用户遵守本协议及相关法律法规的前提下， 网络游戏给予用户一项不可转让及非排他性的许可，以使用网络游戏服务，包括： \n5.1.1 接收、下载、安装、启动、升级、登录、显示、运行应用； \n5.1.2 在游戏内创建游戏角色，设置角色名；查阅游戏规则、用户个人资料、 游戏对局结果，开设游戏房间、使用聊天功能、社交分享功能； \n5.1.3 使用游戏支持并允许的其他某一项或几项功能。\n\n5.2 网络游戏服务的具体内容由我们根据实际情况提供，我们保留随时变更、中断或终止部分或全部服务的权利。\n\n5.3 我们在提供服务时，可能会对部分服务 ( 例如网络游戏及其他电信增值服务 ) 的用户收取一定的费用。在此情况下， 我们会在相关页面上做出明确提示。如用户不同意支付该等费用，则可不接受相关服务。\n\n您知悉并同意：收费项目、收费标准或消费额度的改变、调整是一种正常的商业行为，您不得因为收费项目、收费标准或消费额度的改变、调整而要求我们进行赔偿或补偿。\n\n5.4 用户应使用正版软件接受服务。\n\n5.5 服务的中断与终止\n\n发生下列情形之一时， 我们有权停止或中断服务器所提供之服务，对因此而产生的不便或损害， 我们不承担任何责任，用户亦在此明确表示不追究我们因行使相关单方中断或终止服务权利而可能导致的一切责任：\n\n5.5.1 定期检查或施工，更新软硬件等； \n5.5.2 服务器遭受损坏，导致无法正常运作； \n5.5.3 突发性的软硬件设备与电子通信设备故障； \n5.5.4 网路提供商线路或其它故障，无法提供服务； \n5.5.5 在紧急情况之下为维护国家安全或其它会员及第三者之人身安全； \n5.5.6 不可抗力及其他第三方原因致使我们无法提供服务； \n5.5.7 由于相关政府机构的要求。\n\n5.5.8 用户违反本服务协议 2.3 条规定。\n\n5. 6   您知悉并同意，出现以下情形之一的， 我们有权将您的游戏账号纳入相应的防沉迷系统，采取相应的防沉迷措施：\n\n5. 6 . 1 系统判断您未满18 周岁的；或\n\n5. 6 . 2 您提交的实名身份信息不规范的；或\n\n5. 6 . 3 您实名验证未通过的；或\n\n5. 6 . 4 其他国家法律法规政策要求或我们有合理理由认为需要纳入防沉迷系统的情形的。\n\n另外，为了进一步提高实名认证的精准度，最大限度防止未成年人冒用他人身份信息，我们可能从第三方平台获取您的游戏账号信息，并基于未成年人保护策略识别记录您的游戏行为，并判断游戏行为是否符合未成年人游戏行为特征。如第三方平台要求您进行人脸识别验证，而您未通过或拒绝的，我们也会将您的游戏账号纳入相应的防沉迷系统，采取相应的防沉迷措施。\n\n5. 7   对纳入相应防沉迷系统的游戏账号，我们有权依据国家有关法律法规及政策规定、本协议其他条款规定或根据您法定监护人的合理要求采取以下一种或多种措施：\n\n5. 7 . 1 将与您游戏相关的信息（包括但不限于您游戏账号的登录信息、充值流水信息等）提供给您的法定监护人，使得您法定监护人可及时或同步了解您游戏情况；\n\n5. 7 . 2 限制您游戏账号的消费额度；\n\n5. 7 . 3 采取技术措施屏蔽某些游戏或游戏的某些功能，或限定您游戏时间或游戏时长；\n\n5. 7 . 4 注销或删除您游戏账号及游戏数据等相关信息；\n\n5. 7 . 5 您法定监护人要求采取的，或我们认为可采取的其他合理措施，以限制或禁止您使用网络游戏 ；\n\n5. 7 . 6 国家法律法规或政策要求的相关措施。\n\n6 、风险与免责\n\n6.1 对于向您所提供的服务， 我们不负任何明示或默示的担保责任，用户应自行承担使用服务所有的风险及因此可能导致的损害，包括而不限于您因使用服务而到我们官方网站下载游戏或资料图片时导致您或您所使用的计算机系统非因我们原因造成的损害，或发生任何资料的流失等。 \n6.2 我们对所提供的服务不保证不出现任何程序BUG, 并对由此可能产生的问题不承担任何赔偿责任。 \n6.3 我们不保证所提供的服务将符合每位用户的要求，不保证服务将不受干扰，也不对服务的及时性、安全性、出错发生以及信息是否能准确、及时、顺利地传送作任何担保。\n\n6.4 我们未授权您从任何第三方通过购买、接受赠与或者其他的方式获得游戏账号、游戏道具、游戏装备、游戏币及其他游戏服务。 我们不对第三方交易行为（第三方交易，是指您从第三方通过购买、接受赠与或者其他的方式获得游戏账号、游戏道具、游戏装备、游戏币及其他游戏服务的行为）负责，并且不受理因任何第三方交易发生纠纷而带来的申诉 。 \n6. 5 用户在此同意并确认，在适用法律允许的最大范围内， 我们所提供的服务是在“ 现状 ” 及 “ 现有 ” 基础上提供给用户使用，不包括任何类型的明示或暗示的担保（包括但不限于适销性、针对特定目的的适用性、所有权、不侵权以及由交易习惯所引发的各种可能性）。 我们不保证用户可按照其所选择的时间和地点访问或使用网络游戏服务，不保证网络游戏服务不会中断或没有错误，不保证缺陷必被纠正，也不保证网络游戏服务均不含病毒或其它有害要素。 \n6. 6 用户在此同意并确认，使用本应用涉及到互联网服务，可能会受到各个环节不稳定因素的影响。因此本应用存在不可抗力、手机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机以及其他任何技术、互联网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。 \n6.7 用户在此同意并确认，使用本应用存在有来自任何他人的包括威胁性的、诽谤性的、令人反感的或非法的内容或行为或对他人权利的侵犯（包括知识产权）的匿名或冒名信息的风险，用户须承担以上风险，开发者对此不作任何类型的担保，不论是明确的或隐含的，包括所有有关信息真实性、适于某一特定用途、所有权和非侵权性的默示担保和条件，对因此导致任何因用户不正当或非法使用本应用产生的直接、间接、偶然、特殊及后续的损害，不承担任何责任。 \n6.8 用户理解本应用同大多数互联网产品一样，易受到各种安全问题的困扰，包括但不限于： \n6.8.1 用户不当透露详细个人资料，被不法分子利用，造成现实生活中的骚扰； \n6.8.2 用户被哄骗、破译密码； \n6.8.3 用户下载安装的其他软件中含有 “ 特洛伊木马 ” 等病毒，威胁到个人手机上信息和数据的安全，继而威胁对本应用及服务的使用。 \n6.9 用户在服务所涉官方网站上所表达的观点、建议、意见和其它内容均为用户本人看法，不代表我们的观点，因此而产生的法律纠纷或责任，与我们无关，均由用户承担。\n\n7 、附则\n\n7.1 本协议签订地为广东省深圳市南山区。 \n7.2 本协议的成立、生效、履行、解释及纠纷的解决，适用于中华人民共和国大陆地区法律。 \n7.3 若因本协议发生任何纠纷或争议，各方应当友好协商解决，协商不成的，均应提交本协议签订地有管辖权的人民法院提起诉讼。\n\n7.4 本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。\n\n7.5 本协议条款无论因何种原因部分无效，其余条款仍有效，对各方具有约束力。\n\n7.6 我们有权在必要时变更本协议条款，您可以在网络游戏的相关页面查阅最新版本的协议条款。本协议条款变更后，如果您继续使用网络游戏服务，即视为您已接受变更后的协议。\n\n                                        \n\n \n\n更新日期： 2021.09.09",
+    "_N$string": "用户服务协议\n\n我们在此特别提醒用户（以下简称“ 您 ” ），在您要使用我们游戏服务前，请仔细阅读本《用户服务协议》（以下简称“ 本协议 ” ）中的各个条款，充分理解各条款的内容，特别是免除或是限制我们责任的条款（以下简称“ 免责条款 ” ），对用户权利进行限制的条款（以下简称 “ 限制条款 ”）、约定争议的解决方式、司法管辖的条款，以及开通或使用某项服务的单独协议。前述免责、限制及争议解决方式和管辖条款可能以黑体加粗、颜色标记或其他合理方式提示您注意，您对该等条款的确认将可能导致您在特定情况下的被动、不便、损失，请您在确认同意本协议之前或在使用我们游戏服务之前再次阅读前述条款。双方确认前述条款并非属于《中华人民共和国民法典》第497 条规定的 “ 免除其责任、加重对方责任、排除对方主要权利的 ” 的条款，并同意该条款的合法性及有效性。  \n\n \n\n除非您已阅读并接受本协议所有条款，否则您不能获得使用我们游戏服务的权利。您点击同意、接受或下一步，或您注册、使用我们游戏服务均视为您已阅读并同意签署本协议。 \n\n\n如果您未满18 周岁，请在法定监护人的陪同下阅读本协议，并特别注意未成年人使用条款，应事先取得父母（监护人）的同意。如您为未成年人的法定监护人，请以法定监护人的身份判断本服务是否符合未成年人 , 并合理设定未成年人娱乐时间，培养未成年人健康游戏习惯。我们会积极按照国家防沉迷政策要求，通过启用防沉迷系统保护未成年人的合法权益，包括可能采取技术措施、禁止未成年人接触不适宜的游戏或者游戏功能、限制未成年人的游戏时间、预防未成年人沉迷网络。作为游戏规则的一部分，我们还将在适当位置发布游戏用户指引和警示说明，包括游戏内容介绍、正确使用游戏的方法以及防止危害发生的方法。所有未成年人用户都应在法定监护人的指导下仔细阅读并遵照执行这些指引和说明；其他玩家在使用游戏服务的过程中应避免发布、产生任何有损未成年人身心健康的内容，共同营造健康游戏环境。\n\n我们有权在必要时修改本协议条款，本协议条款变更后，如果您继续使用我们游戏服务，即视为您已接受修改后的协议。\n\n1、 定义\n\n如无特别说明，下列术语在本协议中的含义为：\n\n1.1  游戏开发者及运营管理者 ：指开发者【 四川有佳信息技术有限公司 】及其关联公司、运营者【{{姓名}}】 （以下可称 “ 我们 ” ）。\n\n1.2  游戏应用 ：指由开发者开发或开发者依法获得相关权利人授权可向用户提供各种服务的应用程序，包括但不限于游戏类服务及今后可能出现的各种服务（以下可称“ 应用 ” 或 “ 网络游戏 ” ）。\n\n1.3  本协议：指本协议正文及其修订版本、游戏规则及其修订版本、《隐私协议》及其修订版本。上述内容一经正式发布，即为本协议不可分割的组成部分，本协议同时还包括《网络游戏服务格式化协议必备条款》。\n\n1.4  游戏规则：指我们不时发布并修订的关于应用或网络游戏的用户守则、玩家条例、游戏公告、提示及通知等内容。\n\n1.5  您：又称“ 玩家 ” 或 “ 用户 ” ，指接受我们服务的自然人。\n\n2 、 游戏帐号\n\n2.1  帐号注册\n\n2.1.1  您承诺按照国家要求，登录实名注册系统并以其真实身份实名注册成为我们的用户。您进行实名注册时，应提供您本人真实、完整、有效的身份信息及其他相关信息，且不得以他人身份资料进行实名注册，否则因此造成的一切后果由您自行承担，且我们有权要求您赔偿因此给我们造成的所有损失 。\n\n2.1.2  您以其真实身份注册成为我们用户后，需要修改所提供的个人资料信息的，您可通过我们官网与我们联系，我们在收到您的相关需求或者问题的反馈后将尽快审核，并在验证您的用户身份后的十五天内予以回复。在您无法有效证明自身身份时，我们有权拒绝提供任何信息或承担任何义务。\n\n2.2  用户帐号使用与保管\n\n2.2.1  您充分理解并同意，我们有权审查您注册所提供的身份信息是否真实、合法、准确、有效，并积极采取技术或是管理等合理措施保障您账号的安全、有效；您有义务妥善保管其账号及密码，并正确安全的使用其账号及密码。任何一方未尽上述义务导致的账号密码遗失、被盗等情形而给您和他人的民事权利造成损害的，应当承担由此产生的法律责任。\n\n2.2.2  您登录后，应承担所持账号的行为产生的全部法律责任。如您发现有他人冒用或者盗用其账号或是密码 、 或任何其他未经您合法授权使用的情形时 ，应及时根据我们提供的有效联系方式通知我们， 您通知我们时，应 提供与您注册身份信息相一致的个人有效身份信息， 我们收到您的有效请求并核实身份后，会结合具体情况采取相应措施（包括但不限于暂停该账号的登录和使用等），我们因根据您的请求采取相应措施而造成您及其他用户损失的，由您自行承担。\n\n2.2.3   若因为您自身原因，而导致账号、密码遭他人非法使用时，我们将不负责处理，由此给用户和他人的民事权利造成损害的，由您自行承担。 您不得将游戏账号以任何方式提供给他人使用（包括成年人提供给未成年人使用的行为），包括但不限于不得以转让、出租、借用等方式提供给他人作包括但不限于直播、录制、代打代练等商业性使用。否则，因此产生任何法律后果及责任均由您自行承担，且我们有权对您的游戏账号采取包括但不限于警告、限制或禁止使用游戏帐号全部或部分功能、删除游戏账号及游戏数据及其他相关信息、封号直至注销的处理措施，因此造成的一切后果由您自行承担 。\n\n2.2.4  如您使用第三方账户作为账号使用和享受应用的，您除应遵守有关该第三方账号的协议、规则，您还同意我们可向该第三方账号的提供方核实该第三方账号的实名认证情况，如该第三方账号的提供方反馈您使用的第三方账号未完成实名认证的，则您应当按照我们的要求进行实名注册，否则我们有权暂停、禁止您继续使用第三方账号作为账号使用和享受应用。因该第三方账号产生的相关问题包括但不限于被盗等，您应自行联系第三方进行解决，我们可视情况提供相应的协助。\n\n2.2.5  您充分理解并同意：为判断或核实您提供的相关实名注册信息是否真实或有效，我们有权将您提供的实名注册信息提供给第三方进行整理、保存及比对等处理。且我们会按照国家相关要求将您的实名注册信息运用于防沉迷系统之中，即我们可能会根据您的实名注册信息判断您是否年满18 周岁、 您提交的实名身份信息是否规范或实名验证是否通过等，从而决定是否对您的账号予以防沉迷限制 。\n\n2.2.6 同时也特别提示您，如您注销游戏账号的，该游戏账号下的相关游戏收益也将会被清除。据此，在您注销本游戏账号前请您确保已妥善处理该游戏账号下的游戏收益或相关的游戏收益已结清。一旦您注销本游戏账号，如届时该游戏账号下还存在游戏收益的（包括在本游戏使用期间已产生的及未来可能产生的游戏收益），我们有权对该游戏账号下的全部游戏收益做清除处理，因此产生的后果由您自行承担。前述游戏收益包括但不限于：游戏会员权益、等级；与游戏角色成长升级相关的所有数据（包括但不限于经验值、荣誉值、声望值、称号等）；尚未使用的网络游戏虚拟货币、虚拟道具及其他虚拟物品（如卡券、金币、钻石、道具及其他等）；已经购买但未到期或未使用完的增值服务；已产生但未消耗完毕的其他游戏收益或未来预期的游戏收益等。\n\n2.3  用户行为规范\n\n2.3.1  您充分了解并同意，您必须为自己游戏账号下的一切行为负责，包括您所发表的任何内容以及由此产生的任何后果 。\n\n2.3.2  您除了可以按照本协议的约定使用网络游戏服务之外，不得未经我们许可以任何方式录制、直播或向他人传播游戏内容，包括但不限于不得利用任何第三方软件进行网络直播、传播等。也不得进行其他任何侵犯网络游戏的知识产权的行为，或者进行其他的有损于我们或其他第三方合法权益的行为 。\n\n2.3.3  网络游戏仅供您进行娱乐活动， 您不得利用网络游戏及相关服务从事任何经营或盈利行为，更不得利用网络游戏及相关服务从事赌博、开设赌场及其他任何违法违规行为，也不得为其他用户从事前述经营、盈利或是违法违规行为提供任何方便或是条件，不得违反国家法律法规及我们的相关规定，以任何形式在游戏中及线下或通过其他平台进行游戏的虚拟货币、游戏豆或是其他虚拟道具的交易。\n\n2.3.4  您不得利用应用及服务发表、传送、传播、储存侵害他人知识产权、商业机密权、肖像权、隐私等合法权利的内容。\n\n2.3.5  您不得进行任何危害计算机网络安全的行为，包括但不限于：使用未经许可的数据或进入未经许可的服务器/ 帐户；未经允许进入公众计算机网络或者他人计算机系统并删除、修改、增加存储信息；未经许可，企图探查、扫描、测试本应用系统或网络的弱点或其他实施破坏网络安全的行为；企图干涉、破坏本应用系统或网站的正常运行，故意传播恶意程序或病毒以及其他破坏干扰正常网络信息服务的行为；伪造 TCP/IP 数据包名称或部分名称。\n\n2.3.6  您不得利用开发者提供的服务，从事任何与本应用无关的行为，包括但不限于以赠送游戏游戏豆、礼品等任何方式，宣传其他应用或游戏，邀请、诱导其他用户使用其他应用；邀请、诱导其他用户放弃、停止使用本应用；损害本应用品牌，破坏本应用秩序等任何行为。\n\n2.3.7  您不得冒充开发者、应用服务管理员或应用论坛管理员、版主发布任何诈骗或虚假信息。\n\n2.3.8  您不得在游戏类应用当中进行恶意刷屏、恶意踢人、恶意耗时等破坏应用公共秩序的行为。\n\n2.3.9  您不得利用网络游戏服务系统传输任何妨碍社会治安或非法、虚假、骚扰性、侮辱性、恐吓性、伤害性、破坏性、挑衅性、淫秽色情性等内容的信息。\n\n2.3.10 您不得利用网络游戏服务系统进行任何可能对互联网的正常运转造成不利影响或进行任何不利于网络游戏的行为。\n\n2.4  请您注意勿在使用本应用及服务中透露自己的各类财产账户、银行卡、信用卡及对应密码等重要资料，否则由此带来的任何损失由您自行承担。\n\n2.5您充分理解并同意：游戏装备、游戏币及其他游戏道具等是我们游戏服务的一部分，我们在此许可您依本协议而获得其使用权。您购买、使用游戏装备、游戏币及其他游戏道具等应遵循本协议、游戏规则的要求。同时，游戏装备、游戏币及其他游戏道具等可能受到一定有效期限的限制，即您在规定的有效期内未使用，除不可抗力或可归责于我们的原因外，一旦有效期届满，将会自动失效。如相关游戏币、游戏装备及其他游戏道具等游戏物品没有标明使用期限，或者标明的使用期限为“永久”或其他具有与“永久”相同或类似意思的内容的（如“无限期”、“无限制”等），则其使用期限为自您获得该游戏物品之日起至该游戏终止运营之日止。\n\n2.6您充分理解并同意，您在游客模式下可能无法购买、使用游戏装备、游戏币及其他游戏道具。且一旦您卸载或重装游戏，或您更换手机、电脑等终端设备或该等终端设备损坏的，您在该游客模式下所有游戏相关数据可能都将会被清空，且无法查询和恢复。如因此造成您任何损失的，均由您自行承担。\n\n \n\n2.7您充分理解并同意，如您使用法定货币成功购买、使用游戏装备、游戏币及其他游戏道具，该行为不可撤销，您所购买、使用的游戏装备、游戏币及其他游戏道具届时将不能退还或兑换成法定货币退还，但法律另有强制性规定的除外。\n\n \n\n2.8您充分理解并同意：为营造健康的游戏环境并维护您在使用游戏服务过程中的合法权益，我们有权对游戏相关内容（包括但不限于游戏充值的日消费额度、月消费额度等）作出调整、更新或优化。\n\n2.9您不得从事任何违法违规或侵犯我们及其他第三方合法权益行为，包括但不限于下列行为：\n（1）实施任何破坏游戏稳定性、公平性或影响游戏正常进行的行为，或破坏、影响游戏服务正常进行的行为，包括但不限于；\n    1）违规及（或）恶意注册、登录游戏的行为，包括恶意批量注册游戏帐号，以及以破坏服务器鉴权、恶意挤服等方式登录游戏行为；\n    2）恶意实施可能导致游戏服务器宕机、卡顿，或其他游戏玩家掉线、延迟等无法正常游戏的行为，如利用DDOS对游戏服务器或其他玩家进行网络流量攻击的行为等；\n    3）利用游戏漏洞获益（包括但不限于刷取虚拟货币、积分或虚拟道具）、破坏游戏环境或给其他玩家造成不良影响的行为；\n    4）消极游戏破坏其他用户游戏体验的行为。包括但不限于恶意伤害或者击杀本方队友，恶意组队，恶意送分、降分，消极挂机、逃跑、故意送人头，以及其他消极游戏，破坏用户游戏体验的行为；\n    5）安装使用影响本游戏平衡的第三方软件的行为；\n    6）您的游戏数据表现异常，影响游戏公平的其他行为。\n（2）同一玩家（或同一IP，或同一物理地址）注册或登录多个游戏帐号；\n（3）游戏对局中采取“双簧作弊”、投注后或对局中故意逃跑导致游戏币、游戏积分或其他虚拟道具输给其他玩家、不合理拖延对局或比赛时间而影响游戏公平性等作弊行为。\n前款规定的处理措施包括但不限于：\n（1）警告；及/或\n（2）禁言，包括但不限于游戏全区禁言、单区禁言以及公共频道禁言；及/或\n（3）内容重置，包括但不限于重置或强制修改您提供或上传的非法昵称、房间名、图片等非法信息或内容等；及/或\n（4）减少或限制您的游戏收益，该游戏收益包括但不限于游戏中与游戏角色成长升级相关的所有数据（如经验值、荣誉值、声望值、称号等）的提升以及游戏中的道具、装备、虚拟货币等虚拟物品的获取；及/或\n（5）删除或注销游戏账号、游戏数据或其他游戏相关信息；及/或\n（6）限制或禁止您进入游戏中的特定场景或使用游戏特定功能；及/或\n（7）强制退出游戏（即“踢出游戏”），包括但不限于强制退出整个游戏，或游戏中的单局对战，或您正在进行中的其他游戏行为；及/或\n（8）暂时或永久性地禁止您游戏账号登录游戏（以下称“封号”）；及/或\n（9）暂时或永久性地禁止您违法违规行为涉及的特定终端（包括但不限于PC终端、移动终端等）登录游戏；及/或\n（10）暂停或终止您使用游戏及相关服务，或单方通知您终止本协议；及/或\n（11）就您的违法违规行为提起相应民事诉讼，追究您的侵权、违约或其他民事责任，并要求您赔偿公司因您违法违规行为所受到的损失（包括公司所受到的直接经济损失、名誉或商誉损失以及公司对外支付的赔偿金、和解费用、律师费用、诉讼费用及其他间接损失），或移交有关行政管理机关给予行政处罚，或者移交司法机关追究您的刑事责任；及/或\n（12）通过游戏规则（包括但不限于用户守则、玩家条例、游戏公告、提示及通知）公布的其他处理措施。\n\n3 、用户信息的收集、使用及保护\n\n3.1  您同意并授权我们为履行本协议之目的收集您的用户信息，这些信息包括您实名注册信息、您游戏账号下的游戏数据以及其他您在使用网络游戏服务的过程中向我们提供或我们基于安全、用户体验优化等考虑而需收集的信息， 我们对您的用户信息的收集将遵循本协议及相关法律的规定 。\n\n3.2  您充分理解并同意： 我们或我们合作的第三方可以根据您的用户信息，通过短信、电话、邮件等各种方式向您提供关于网络游戏的活动信息、推广信息等各类信息。\n\n3.3  您应对通过网络游戏及相关服务了解、接收或可接触到的包括但不限于其他用户在内的任何人的个人信息予以充分尊重，您不应以搜集、复制、存储、传播或以其他任何方式使用其他用户的个人信息，否则，由此产生的后果由您自行承担。\n\n3.4  保护用户信息及隐私是我们的一项基本原则。除本协议另有规定外， 我们游戏服务对用户信息收集、使用及保护等将遵循 《 隐私保护政策 》等协议规定。 我们在此特别提醒用户仔细阅读 “ 隐私保护政策 ” 的全部内容（未成年人应当在其法定监护人陪同下阅读），并选择接受或者不接受本部分内容 。如用户不同意本部分的任意内容，请勿注册或使用我们的服务。\n\n4、 知识产权条款\n\n本应用及服务由开发者或依法获得相关权利人授权合法运营，其知识产权受《中华人民共和国著作权法》及国际版权条约和其他知识产权法律、法规及条约的保护。\n\n4.1 我们是网络游戏的知识产权权利人。 网络游戏 （包括游戏整体及游戏涉及的所有内容、组成部分或构成要素）的一切著作权、商标权、专利权、商业秘密等知识产权及其他合法权益，以及与网络游戏相关的所有信息内容（包括文字、图片、音频、视频、图表、界面设计、版面框架、有关数据或电子文档等）均受中华人民共和国法律、法规和相应的国际条约保护， 我们享有上述知识产权和合法权益，但相关权利人依照法律规定应享有的权利除外。未经我们事先书面同意，您不得以任何方式将网络游戏 （包括游戏整体及游戏涉及的所有内容、组成部分或构成要素）进行商业性使用。\n\n4.2 尽管本协议有其他规定，用户在使用网络游戏服务中产生的游戏数据的所有权和知识产权归我们所有，我们有权保存、处置该游戏数据。其中，对用户购买游戏虚拟货币的购买记录的保存期限将遵守文化部《网络游戏管理暂行办法》有关规定。对其他游戏数据的保存期限由我们自行决定，但国家法律法规另有规定的从其规定。\n\n4.3 网络游戏可能涉及第三方知识产权，而该等第三方对用户基于本协议在网络游戏中使用该等知识产权有要求的， 我们将以适当方式向用户告知该要求，用户应当一并遵守。\n\n5、 服务内容\n\n5.1 在用户遵守本协议及相关法律法规的前提下， 网络游戏给予用户一项不可转让及非排他性的许可，以使用网络游戏服务，包括： \n5.1.1 接收、下载、安装、启动、升级、登录、显示、运行应用； \n5.1.2 在游戏内创建游戏角色，设置角色名；查阅游戏规则、用户个人资料、 游戏对局结果，开设游戏房间、使用聊天功能、社交分享功能； \n5.1.3 使用游戏支持并允许的其他某一项或几项功能。\n\n5.2 网络游戏服务的具体内容由我们根据实际情况提供，我们保留随时变更、中断或终止部分或全部服务的权利。\n\n5.3 我们在提供服务时，可能会对部分服务 ( 例如网络游戏及其他电信增值服务 ) 的用户收取一定的费用。在此情况下， 我们会在相关页面上做出明确提示。如用户不同意支付该等费用，则可不接受相关服务。\n\n您知悉并同意：收费项目、收费标准或消费额度的改变、调整是一种正常的商业行为，您不得因为收费项目、收费标准或消费额度的改变、调整而要求我们进行赔偿或补偿。\n\n5.4 用户应使用正版软件接受服务。\n\n5.5 服务的中断与终止\n\n发生下列情形之一时， 我们有权停止或中断服务器所提供之服务，对因此而产生的不便或损害， 我们不承担任何责任，用户亦在此明确表示不追究我们因行使相关单方中断或终止服务权利而可能导致的一切责任：\n\n5.5.1 定期检查或施工，更新软硬件等； \n5.5.2 服务器遭受损坏，导致无法正常运作； \n5.5.3 突发性的软硬件设备与电子通信设备故障； \n5.5.4 网路提供商线路或其它故障，无法提供服务； \n5.5.5 在紧急情况之下为维护国家安全或其它会员及第三者之人身安全； \n5.5.6 不可抗力及其他第三方原因致使我们无法提供服务； \n5.5.7 由于相关政府机构的要求。\n\n5.5.8 用户违反本服务协议 2.3 条规定。\n\n5. 6   您知悉并同意，出现以下情形之一的， 我们有权将您的游戏账号纳入相应的防沉迷系统，采取相应的防沉迷措施：\n\n5. 6 . 1 系统判断您未满18 周岁的；或\n\n5. 6 . 2 您提交的实名身份信息不规范的；或\n\n5. 6 . 3 您实名验证未通过的；或\n\n5. 6 . 4 其他国家法律法规政策要求或我们有合理理由认为需要纳入防沉迷系统的情形的。\n\n另外，为了进一步提高实名认证的精准度，最大限度防止未成年人冒用他人身份信息，我们可能从第三方平台获取您的游戏账号信息，并基于未成年人保护策略识别记录您的游戏行为，并判断游戏行为是否符合未成年人游戏行为特征。如第三方平台要求您进行人脸识别验证，而您未通过或拒绝的，我们也会将您的游戏账号纳入相应的防沉迷系统，采取相应的防沉迷措施。\n\n5. 7   对纳入相应防沉迷系统的游戏账号，我们有权依据国家有关法律法规及政策规定、本协议其他条款规定或根据您法定监护人的合理要求采取以下一种或多种措施：\n\n5. 7 . 1 将与您游戏相关的信息（包括但不限于您游戏账号的登录信息、充值流水信息等）提供给您的法定监护人，使得您法定监护人可及时或同步了解您游戏情况；\n\n5. 7 . 2 限制您游戏账号的消费额度；\n\n5. 7 . 3 采取技术措施屏蔽某些游戏或游戏的某些功能，或限定您游戏时间或游戏时长；\n\n5. 7 . 4 注销或删除您游戏账号及游戏数据等相关信息；\n\n5. 7 . 5 您法定监护人要求采取的，或我们认为可采取的其他合理措施，以限制或禁止您使用网络游戏 ；\n\n5. 7 . 6 国家法律法规或政策要求的相关措施。\n\n6 、风险与免责\n\n6.1 对于向您所提供的服务， 我们不负任何明示或默示的担保责任，用户应自行承担使用服务所有的风险及因此可能导致的损害，包括而不限于您因使用服务而到我们官方网站下载游戏或资料图片时导致您或您所使用的计算机系统非因我们原因造成的损害，或发生任何资料的流失等。 \n6.2 我们对所提供的服务不保证不出现任何程序BUG, 并对由此可能产生的问题不承担任何赔偿责任。 \n6.3 我们不保证所提供的服务将符合每位用户的要求，不保证服务将不受干扰，也不对服务的及时性、安全性、出错发生以及信息是否能准确、及时、顺利地传送作任何担保。\n\n6.4 我们未授权您从任何第三方通过购买、接受赠与或者其他的方式获得游戏账号、游戏道具、游戏装备、游戏币及其他游戏服务。 我们不对第三方交易行为（第三方交易，是指您从第三方通过购买、接受赠与或者其他的方式获得游戏账号、游戏道具、游戏装备、游戏币及其他游戏服务的行为）负责，并且不受理因任何第三方交易发生纠纷而带来的申诉 。 \n6. 5 用户在此同意并确认，在适用法律允许的最大范围内， 我们所提供的服务是在“ 现状 ” 及 “ 现有 ” 基础上提供给用户使用，不包括任何类型的明示或暗示的担保（包括但不限于适销性、针对特定目的的适用性、所有权、不侵权以及由交易习惯所引发的各种可能性）。 我们不保证用户可按照其所选择的时间和地点访问或使用网络游戏服务，不保证网络游戏服务不会中断或没有错误，不保证缺陷必被纠正，也不保证网络游戏服务均不含病毒或其它有害要素。 \n6. 6 用户在此同意并确认，使用本应用涉及到互联网服务，可能会受到各个环节不稳定因素的影响。因此本应用存在不可抗力、手机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机以及其他任何技术、互联网络、通信线路原因等造成的服务中断或不能满足用户要求的风险。 \n6.7 用户在此同意并确认，使用本应用存在有来自任何他人的包括威胁性的、诽谤性的、令人反感的或非法的内容或行为或对他人权利的侵犯（包括知识产权）的匿名或冒名信息的风险，用户须承担以上风险，开发者对此不作任何类型的担保，不论是明确的或隐含的，包括所有有关信息真实性、适于某一特定用途、所有权和非侵权性的默示担保和条件，对因此导致任何因用户不正当或非法使用本应用产生的直接、间接、偶然、特殊及后续的损害，不承担任何责任。 \n6.8 用户理解本应用同大多数互联网产品一样，易受到各种安全问题的困扰，包括但不限于： \n6.8.1 用户不当透露详细个人资料，被不法分子利用，造成现实生活中的骚扰； \n6.8.2 用户被哄骗、破译密码； \n6.8.3 用户下载安装的其他软件中含有 “ 特洛伊木马 ” 等病毒，威胁到个人手机上信息和数据的安全，继而威胁对本应用及服务的使用。 \n6.9 用户在服务所涉官方网站上所表达的观点、建议、意见和其它内容均为用户本人看法，不代表我们的观点，因此而产生的法律纠纷或责任，与我们无关，均由用户承担。\n\n7 、附则\n\n7.1 本协议签订地为广东省深圳市南山区。 \n7.2 本协议的成立、生效、履行、解释及纠纷的解决，适用于中华人民共和国大陆地区法律。 \n7.3 若因本协议发生任何纠纷或争议，各方应当友好协商解决，协商不成的，均应提交本协议签订地有管辖权的人民法院提起诉讼。\n\n7.4 本协议所有条款的标题仅为阅读方便，本身并无实际涵义，不能作为本协议涵义解释的依据。\n\n7.5 本协议条款无论因何种原因部分无效，其余条款仍有效，对各方具有约束力。\n\n7.6 我们有权在必要时变更本协议条款，您可以在网络游戏的相关页面查阅最新版本的协议条款。本协议条款变更后，如果您继续使用网络游戏服务，即视为您已接受变更后的协议。\n\n                                        \n\n \n\n更新日期： 2021.09.09",
+    "_fontSize": 40,
+    "_lineHeight": 40,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 0,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 3,
+    "_N$cacheMode": 2,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "6daDOctiRF/7EWuJ/z1sWm",
+    "sync": false
+  },
+  {
+    "__type__": "cc.ToggleContainer",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 78
+    },
+    "_enabled": true,
+    "allowSwitchOff": false,
+    "checkEvents": [],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Layout",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 78
+    },
+    "_enabled": true,
+    "_layoutSize": {
+      "__type__": "cc.Size",
+      "width": 1033,
+      "height": 20200
+    },
+    "_resize": 1,
+    "_N$layoutType": 2,
+    "_N$cellSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_N$startAxis": 0,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 0,
+    "_N$paddingBottom": 0,
+    "_N$spacingX": 0,
+    "_N$spacingY": 0,
+    "_N$verticalDirection": 1,
+    "_N$horizontalDirection": 0,
+    "_N$affectedByScale": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "bbl8/pz/hOQ7PX0YhN0fV1",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 72
+    },
+    "_enabled": true,
+    "alignMode": 0,
+    "_target": null,
+    "_alignFlags": 37,
+    "_left": 350.07654921020657,
+    "_right": -10.089999999999975,
+    "_top": -1.0850000000000115,
+    "_bottom": 1.0850000000000115,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 237,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 72
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "5fe5dcaa-b513-4dc5-a166-573627b3a159"
+    },
+    "_type": 1,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "44muArPelAhbXJqu8/ERJX",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "25UfHOiPBI45xOmLlqp6Ex",
+    "sync": false
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "cfoIby6pxGm5xja3sPanv2",
+    "sync": false
+  },
+  {
+    "__type__": "cc.BlockInputEvents",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_id": ""
+  },
+  {
+    "__type__": "1c862cfjYVLXbcxWLuhDsoC",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "alignMode": 0,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 1136,
+    "_originalHeight": 640,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "bef2652d-50cd-4e0d-b45e-aca6727ef911"
+    },
+    "fileId": "",
+    "sync": false
+  }
+]

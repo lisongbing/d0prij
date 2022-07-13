@@ -1,0 +1,143 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "addteneverydays",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 3.8333333333333335,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "poker": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 2
+            },
+            {
+              "frame": 1.8666666666666667,
+              "value": -2
+            },
+            {
+              "frame": 2,
+              "value": -2
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "gold1": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 36
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 42
+            },
+            {
+              "frame": 2,
+              "value": 42
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 36
+            }
+          ]
+        }
+      },
+      "line": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.98
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 1
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 0.98
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.98
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 2,
+              "value": 1
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": 0.98
+            }
+          ]
+        }
+      },
+      "gold2": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -10
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": -7
+            },
+            {
+              "frame": 2,
+              "value": -7
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": -10
+            }
+          ]
+        }
+      },
+      "money": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -34.5
+            },
+            {
+              "frame": 1.8333333333333333,
+              "value": -28
+            },
+            {
+              "frame": 2,
+              "value": -28
+            },
+            {
+              "frame": 3.8333333333333335,
+              "value": -34.5
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

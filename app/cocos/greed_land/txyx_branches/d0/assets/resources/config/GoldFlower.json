@@ -1,0 +1,6 @@
+{
+"1":{"type":1,"betting":[2,3,4,5],"taxType":1,"tax":100},
+"2":{"type":2,"betting":[2,3,4,5],"taxType":1,"tax":0},
+"3":{"type":3,"betting":[2,4,6,10],"taxType":2,"tax":0},
+"4":{"type":4,"betting":[2,4,6,10],"taxType":2,"tax":10}
+}

@@ -1,0 +1,20 @@
+{
+  "ver": "1.1.2",
+  "uuid": "655a46d3-416a-4784-a402-83a951d293f4",
+  "isBundle": false,
+  "bundleName": "halljs",
+  "priority": 1,
+  "compressionType": {
+    "wechatgame": "subpackage"
+  },
+  "optimizeHotUpdate": {
+    "wechatgame": false
+  },
+  "inlineSpriteFrames": {
+    "wechatgame": false
+  },
+  "isRemoteBundle": {
+    "wechatgame": false
+  },
+  "subMetas": {}
+}
