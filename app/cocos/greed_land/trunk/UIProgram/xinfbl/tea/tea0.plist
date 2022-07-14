@@ -6,1887 +6,2179 @@
         <dict>
             <key>fanbiok.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{501,102},{90,38}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{90,38}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{90,38}</string>
+                <key>spriteSourceSize</key>
+                <string>{90,38}</string>
+                <key>textureRect</key>
+                <string>{{585,154},{90,38}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>notice.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{622,356},{29,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{29,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{29,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{29,29}</string>
+                <key>textureRect</key>
+                <string>{{943,593},{29,29}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_cancel.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{346,288},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{881,154},{123,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_caoz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{373,358},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{751,410},{66,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_cg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{695,395},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{533,516},{25,60}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_cgg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{760,393},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{146,572},{55,23}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_dui1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{909,392},{45,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{45,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{45,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{45,29}</string>
+                <key>textureRect</key>
+                <string>{{812,445},{45,29}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_dui2.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{939,218},{49,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{49,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{49,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{49,29}</string>
+                <key>textureRect</key>
+                <string>{{560,531},{49,29}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_dui3.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{664,384},{50,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{50,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{50,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{50,29}</string>
+                <key>textureRect</key>
+                <string>{{560,562},{50,29}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_dz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{698,368},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{645,534},{25,60}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_dzz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{910,335},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{799,384},{55,23}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_er.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{837,418},{29,28}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{29,28}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{29,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{29,28}</string>
+                <key>textureRect</key>
+                <string>{{962,364},{29,28}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_fou.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{527,309},{37,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{37,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{37,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{37,34}</string>
+                <key>textureRect</key>
+                <string>{{819,409},{37,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_guan.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{819,449},{29,28}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{29,28}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{29,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{29,28}</string>
+                <key>textureRect</key>
+                <string>{{876,598},{29,28}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_header.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{935,343},{40,41}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{40,41}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{40,41}</string>
+                <key>spriteSourceSize</key>
+                <string>{40,41}</string>
+                <key>textureRect</key>
+                <string>{{690,590},{40,41}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_jing.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{807,418},{29,28}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{29,28}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{29,28}</string>
+                <key>spriteSourceSize</key>
+                <string>{29,28}</string>
+                <key>textureRect</key>
+                <string>{{974,593},{29,28}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_mag.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{912,267},{66,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,31}</string>
+                <key>textureRect</key>
+                <string>{{992,345},{66,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_mg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{698,341},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{645,561},{25,60}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_mgg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{885,334},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{853,476},{55,23}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_more.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{844,301},{66,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,31}</string>
+                <key>textureRect</key>
+                <string>{{744,444},{66,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_ok.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{864,132},{124,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{124,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{124,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{124,34}</string>
+                <key>textureRect</key>
+                <string>{{701,232},{124,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_qz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{540,392},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{856,382},{25,60}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_qzz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{700,443},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{905,463},{55,23}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_rem.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{483,454},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{858,409},{25,60}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_remm.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{710,316},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{920,408},{55,23}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_selected.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{945,294},{46,47}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{46,47}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{46,47}</string>
+                <key>spriteSourceSize</key>
+                <string>{46,47}</string>
+                <key>textureRect</key>
+                <string>{{976,57},{46,47}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_sure.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{567,446},{38,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{38,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{38,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{38,34}</string>
+                <key>textureRect</key>
+                <string>{{609,593},{38,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_xz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{685,281},{69,33}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{69,33}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{69,33}</string>
+                <key>spriteSourceSize</key>
+                <string>{69,33}</string>
+                <key>textureRect</key>
+                <string>{{418,444},{69,33}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_zero.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{575,189},{108,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{108,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{108,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{108,29}</string>
+                <key>textureRect</key>
+                <string>{{634,444},{108,29}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_zz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{513,392},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{859,436},{25,60}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_header_zzz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{993,335},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{921,433},{55,23}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_zzzz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{486,392},{25,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{25,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{25,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{25,60}</string>
+                <key>textureRect</key>
+                <string>{{878,463},{25,60}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_header_zzzzz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{993,278},{55,23}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{55,23}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{55,23}</string>
+                <key>spriteSourceSize</key>
+                <string>{55,23}</string>
+                <key>textureRect</key>
+                <string>{{930,502},{55,23}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>te_cy_px.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{545,454},{18,20}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{18,20}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{18,20}</string>
+                <key>spriteSourceSize</key>
+                <string>{18,20}</string>
+                <key>textureRect</key>
+                <string>{{629,383},{18,20}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>te_cy_seach_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{648,220},{63,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{63,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{63,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{63,35}</string>
+                <key>textureRect</key>
+                <string>{{320,568},{63,35}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_9_0.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{863,168},{74,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{74,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{74,60}</string>
+                <key>spriteSourceSize</key>
+                <string>{74,60}</string>
+                <key>textureRect</key>
+                <string>{{625,145},{74,60}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_9_1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{460,448},{32,21}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{32,21}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{32,21}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,21}</string>
+                <key>textureRect</key>
+                <string>{{911,560},{32,21}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_9_2.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{653,340},{43,42}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{43,42}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{43,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{43,42}</string>
+                <key>textureRect</key>
+                <string>{{330,520},{43,42}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_add.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{566,298},{76,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{76,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{76,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{76,35}</string>
+                <key>textureRect</key>
+                <string>{{808,268},{76,35}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_back.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{132,421},{59,53}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{84,82}</string>
+                <key>spriteSourceSize</key>
+                <string>{84,82}</string>
+                <key>textureRect</key>
+                <string>{{413,249},{84,82}}</string>
+                <key>textureRotated</key>
                 <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{59,53}}</string>
-                <key>sourceSize</key>
-                <string>{59,53}</string>
             </dict>
             <key>tea_bcsz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,216},{124,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{124,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{124,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{124,34}</string>
+                <key>textureRect</key>
+                <string>{{682,268},{124,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_bm.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{692,114},{31,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{8,0},{31,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{33,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{911,527},{33,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_bmsp.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{757,449},{29,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{9,0},{29,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{31,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{945,560},{31,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_bottom_select.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{804,344},{42,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{42,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{42,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{42,35}</string>
+                <key>textureRect</key>
+                <string>{{816,532},{42,35}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_create_btn.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{746,22},{135,60}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,1},{135,60}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{137,62}</string>
+                <key>spriteSourceSize</key>
+                <string>{137,62}</string>
+                <key>textureRect</key>
+                <string>{{490,340},{137,62}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_create_jiaru.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{725,84},{137,62}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{190,84}</string>
+                <key>spriteSourceSize</key>
+                <string>{190,84}</string>
+                <key>textureRect</key>
+                <string>{{221,249},{190,84}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{137,62}}</string>
-                <key>sourceSize</key>
-                <string>{137,62}</string>
             </dict>
             <key>tea_dtd.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{92,178},{52,207}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{52,207}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{52,207}</string>
+                <key>spriteSourceSize</key>
+                <string>{52,207}</string>
+                <key>textureRect</key>
+                <string>{{701,100},{52,207}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_dtfgx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,98},{165,2}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{165,2}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{165,2}</string>
+                <key>spriteSourceSize</key>
+                <string>{165,2}</string>
+                <key>textureRect</key>
+                <string>{{171,564},{165,2}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_faka.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{350,392},{48,48}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{48,48}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{48,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{48,48}</string>
+                <key>textureRect</key>
+                <string>{{357,583},{48,48}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_fgx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{760,388},{64,3}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,3}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{64,3}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,3}</string>
+                <key>textureRect</key>
+                <string>{{811,477},{64,3}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_frends.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{758,418},{47,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,1},{47,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{47,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{407,584},{47,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_heade_ka_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{576,66},{147,46}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{147,46}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{147,46}</string>
+                <key>spriteSourceSize</key>
+                <string>{147,46}</string>
+                <key>textureRect</key>
+                <string>{{171,568},{147,46}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_header.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{187,421},{54,54}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{54,54}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{54,54}</string>
+                <key>spriteSourceSize</key>
+                <string>{54,54}</string>
+                <key>textureRect</key>
+                <string>{{375,518},{54,54}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_header_all_di.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,2},{583,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{583,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{583,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{583,35}</string>
+                <key>textureRect</key>
+                <string>{{1,111},{583,35}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_header_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{350,442},{40,38}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{40,38}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{40,38}</string>
+                <key>spriteSourceSize</key>
+                <string>{40,38}</string>
+                <key>textureRect</key>
+                <string>{{529,593},{40,38}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_header_di.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{92,39},{268,66}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{268,66}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{268,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{268,66}</string>
+                <key>textureRect</key>
+                <string>{{221,181},{268,66}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_header_palce.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{945,249},{43,43}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{43,43}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{43,43}</string>
+                <key>spriteSourceSize</key>
+                <string>{43,43}</string>
+                <key>textureRect</key>
+                <string>{{645,588},{43,43}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_header_split.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{301,178},{3,48}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{3,48}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{3,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{3,48}</string>
+                <key>textureRect</key>
+                <string>{{707,513},{3,48}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_hzk.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{488,194},{31,51}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{31,51}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{31,51}</string>
+                <key>spriteSourceSize</key>
+                <string>{31,51}</string>
+                <key>textureRect</key>
+                <string>{{629,350},{31,51}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_img9_0.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{883,2},{96,92}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{96,92}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{96,92}</string>
+                <key>spriteSourceSize</key>
+                <string>{96,92}</string>
+                <key>textureRect</key>
+                <string>{{491,148},{96,92}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_img_fangzhu.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{885,391},{38,22}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{38,22}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{38,22}</string>
+                <key>spriteSourceSize</key>
+                <string>{38,22}</string>
+                <key>textureRect</key>
+                <string>{{853,533},{38,22}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_img_fanhui.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{788,449},{31,29}}</string>
-                <key>offset</key>
-                <string>{2,-1}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{10,2},{31,29}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{2,0}</string>
+                <key>spriteSize</key>
+                <string>{33,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{946,527},{33,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_img_touxiang.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{790,148},{71,71}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{71,71}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{71,71}</string>
+                <key>spriteSourceSize</key>
+                <string>{71,71}</string>
+                <key>textureRect</key>
+                <string>{{417,335},{71,71}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_item_col.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{587,2},{282,18}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{479,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{479,31}</string>
+                <key>textureRect</key>
+                <string>{{1,148},{479,31}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{282,18}}</string>
-                <key>sourceSize</key>
-                <string>{282,18}</string>
             </dict>
             <key>tea_jinbi.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{685,187},{92,46}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{92,46}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{92,46}</string>
+                <key>spriteSourceSize</key>
+                <string>{92,46}</string>
+                <key>textureRect</key>
+                <string>{{567,246},{92,46}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_jinbi_bc.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,180},{124,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{124,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{124,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{124,34}</string>
+                <key>textureRect</key>
+                <string>{{682,304},{124,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_ckjl.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{499,227},{92,26}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{92,26}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{92,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{92,26}</string>
+                <key>textureRect</key>
+                <string>{{615,246},{92,26}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_jinbi_cp.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{604,387},{57,27}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{57,27}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{57,27}</string>
+                <key>spriteSourceSize</key>
+                <string>{57,27}</string>
+                <key>textureRect</key>
+                <string>{{996,286},{57,27}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_jinbi_gz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{541,98},{112,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{112,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{112,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{112,32}</string>
+                <key>textureRect</key>
+                <string>{{586,111},{112,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_qdbc.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{575,114},{115,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{115,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{115,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{115,32}</string>
+                <key>textureRect</key>
+                <string>{{682,376},{115,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_qdcf.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{346,324},{115,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{115,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{115,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{115,32}</string>
+                <key>textureRect</key>
+                <string>{{634,410},{115,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_qdtz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{346,252},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{682,340},{123,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_tcbs.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{471,252},{92,26}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{92,26}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{92,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{92,26}</string>
+                <key>textureRect</key>
+                <string>{{917,258},{92,26}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_tzxy.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{990,184},{92,26}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{92,26}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{92,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{92,26}</string>
+                <key>textureRect</key>
+                <string>{{845,263},{92,26}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_jinbi_xl.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{939,168},{49,48}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{49,48}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{49,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{49,48}</string>
+                <key>textureRect</key>
+                <string>{{560,481},{49,48}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_jinbi_zt.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{310,226},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{917,100},{123,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_line.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{187,477},{119,3}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{119,3}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{119,3}</string>
+                <key>spriteSourceSize</key>
+                <string>{119,3}</string>
+                <key>textureRect</key>
+                <string>{{171,616},{119,3}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_logout_de.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{776,290},{66,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,31}</string>
+                <key>textureRect</key>
+                <string>{{431,550},{66,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_more.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{274,357},{39,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{4,1},{39,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{41,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{732,590},{41,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_name_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{400,392},{54,42}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{54,42}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{54,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{54,42}</string>
+                <key>textureRect</key>
+                <string>{{440,583},{54,42}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_no_lixian.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{767,323},{61,19}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{61,19}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{61,19}</string>
+                <key>spriteSourceSize</key>
+                <string>{61,19}</string>
+                <key>textureRect</key>
+                <string>{{707,569},{61,19}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_no_ready.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{566,335},{71,19}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{71,19}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{71,19}</string>
+                <key>spriteSourceSize</key>
+                <string>{71,19}</string>
+                <key>textureRect</key>
+                <string>{{634,513},{71,19}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_pop_agree.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{305,358},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{431,516},{66,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_pop_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,39},{57,212}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{73,194}</string>
+                <key>spriteSourceSize</key>
+                <string>{73,194}</string>
+                <key>textureRect</key>
+                <string>{{221,335},{73,194}}</string>
+                <key>textureRotated</key>
                 <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{57,212}}</string>
-                <key>sourceSize</key>
-                <string>{57,212}</string>
             </dict>
             <key>tea_pop_chuangjian.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{981,2},{76,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{76,35}}</string>
-                <key>sourceSize</key>
-                <string>{76,35}</string>
+                <key>spriteSize</key>
+                <string>{143,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{143,59}</string>
+                <key>textureRect</key>
+                <string>{{1,572},{143,59}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_pop_close.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{607,446},{35,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{35,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{35,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{35,34}</string>
+                <key>textureRect</key>
+                <string>{{770,576},{35,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_pop_input_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{940,424},{28,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{54,47}</string>
+                <key>spriteSourceSize</key>
+                <string>{54,47}</string>
+                <key>textureRect</key>
+                <string>{{976,1},{54,47}}</string>
+                <key>textureRotated</key>
                 <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{28,34}}</string>
-                <key>sourceSize</key>
-                <string>{28,34}</string>
             </dict>
             <key>tea_pop_jujue.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{316,392},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{499,516},{66,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_qdbm.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{92,273},{142,39}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{142,39}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{142,39}</string>
+                <key>spriteSourceSize</key>
+                <string>{142,39}</string>
+                <key>textureRect</key>
+                <string>{{490,404},{142,39}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_quan_sp_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,39},{88,273}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{88,273}}</string>
-                <key>sourceSize</key>
-                <string>{88,273}</string>
+                <key>spriteSize</key>
+                <string>{97,273}</string>
+                <key>spriteSourceSize</key>
+                <string>{97,273}</string>
+                <key>textureRect</key>
+                <string>{{701,1},{97,273}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_qx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{243,398},{74,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{74,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{74,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{74,35}</string>
+                <key>textureRect</key>
+                <string>{{625,207},{74,35}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_qyq.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{320,107},{117,40}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{117,40}}</string>
-                <key>sourceSize</key>
-                <string>{117,40}</string>
+                <key>spriteSize</key>
+                <string>{199,67}</string>
+                <key>spriteSourceSize</key>
+                <string>{199,67}</string>
+                <key>textureRect</key>
+                <string>{{171,410},{199,67}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_qyq_item.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{92,107},{69,226}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{108,698}</string>
+                <key>spriteSourceSize</key>
+                <string>{108,698}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{108,698}}</string>
+                <key>textureRotated</key>
                 <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{69,226}}</string>
-                <key>sourceSize</key>
-                <string>{69,226}</string>
             </dict>
             <key>tea_qyq_per_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{978,392},{36,36}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{36,36}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{36,36}</string>
+                <key>spriteSourceSize</key>
+                <string>{36,36}</string>
+                <key>textureRect</key>
+                <string>{{807,346},{36,36}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_qyq_per_count.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{444,392},{54,40}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{92,68}</string>
+                <key>spriteSourceSize</key>
+                <string>{92,68}</string>
+                <key>textureRect</key>
+                <string>{{497,246},{92,68}}</string>
+                <key>textureRotated</key>
                 <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{54,40}}</string>
-                <key>sourceSize</key>
-                <string>{54,40}</string>
             </dict>
             <key>tea_qyq_per_header.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,314},{128,128}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{218,218}</string>
+                <key>spriteSourceSize</key>
+                <string>{218,218}</string>
+                <key>textureRect</key>
+                <string>{{1,181},{218,218}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{128,128}}</string>
-                <key>sourceSize</key>
-                <string>{128,128}</string>
             </dict>
             <key>tea_qyq_per_my.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{132,314},{104,105}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSize</key>
+                <string>{168,169}</string>
+                <key>spriteSourceSize</key>
+                <string>{168,169}</string>
+                <key>textureRect</key>
+                <string>{{1,401},{168,169}}</string>
+                <key>textureRotated</key>
                 <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{104,105}}</string>
-                <key>sourceSize</key>
-                <string>{104,105}</string>
             </dict>
             <key>tea_ready.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{695,422},{61,19}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{61,19}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{61,19}</string>
+                <key>spriteSourceSize</key>
+                <string>{61,19}</string>
+                <key>textureRect</key>
+                <string>{{845,361},{61,19}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_rl.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{940,386},{36,36}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{36,36}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{36,36}</string>
+                <key>spriteSourceSize</key>
+                <string>{36,36}</string>
+                <key>textureRect</key>
+                <string>{{987,452},{36,36}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_sh.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{863,230},{74,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{1,0},{74,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{76,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{76,35}</string>
+                <key>textureRect</key>
+                <string>{{350,481},{76,35}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_sj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{653,285},{30,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{2,4},{30,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{32,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{36,37}</string>
+                <key>textureRect</key>
+                <string>{{981,528},{32,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_ss.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{790,221},{71,33}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{71,33}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{71,33}</string>
+                <key>spriteSourceSize</key>
+                <string>{71,33}</string>
+                <key>textureRect</key>
+                <string>{{487,481},{71,33}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_state_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{644,316},{64,22}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,22}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{64,22}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,22}</string>
+                <key>textureRect</key>
+                <string>{{712,545},{64,22}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_sx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{976,430},{34,27}}</string>
-                <key>offset</key>
-                <string>{-1,1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,4},{34,27}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,1}</string>
+                <key>spriteSize</key>
+                <string>{36,29}</string>
+                <key>spriteSourceSize</key>
                 <string>{36,37}</string>
+                <key>textureRect</key>
+                <string>{{778,545},{36,29}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_sz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{848,378},{36,35}}</string>
-                <key>offset</key>
-                <string>{0,-1}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,2},{36,35}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
                 <string>{36,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{36,37}</string>
+                <key>textureRect</key>
+                <string>{{987,413},{36,37}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_szqx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{558,356},{62,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{62,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{62,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{62,29}</string>
+                <key>textureRect</key>
+                <string>{{780,477},{62,29}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_szsc.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{429,448},{32,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,1}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{1,3},{32,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{34,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{36,37}</string>
+                <key>textureRect</key>
+                <string>{{843,576},{34,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_szxz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{756,235},{18,69}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{18,69}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{18,69}</string>
+                <key>spriteSourceSize</key>
+                <string>{18,69}</string>
+                <key>textureRect</key>
+                <string>{{614,445},{18,69}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_tcdc.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{841,334},{42,42}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{42,42}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{42,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{42,42}</string>
+                <key>textureRect</key>
+                <string>{{918,364},{42,42}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_tczcd.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{760,344},{42,42}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{42,42}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{42,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{42,42}</string>
+                <key>textureRect</key>
+                <string>{{930,458},{42,42}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_baocun.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{566,220},{80,37}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{80,37}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{80,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{80,37}</string>
+                <key>textureRect</key>
+                <string>{{873,279},{80,37}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_txt_bmshz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{92,232},{177,39}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{177,39}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{177,39}</string>
+                <key>spriteSourceSize</key>
+                <string>{177,39}</string>
+                <key>textureRect</key>
+                <string>{{171,479},{177,39}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_chaoguan.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{527,227},{80,37}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{-1,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{11,0},{80,37}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{82,37}</string>
+                <key>spriteSourceSize</key>
                 <string>{104,37}</string>
+                <key>textureRect</key>
+                <string>{{912,286},{82,37}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_gl.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{280,398},{70,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{70,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{70,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{70,34}</string>
+                <key>textureRect</key>
+                <string>{{418,408},{70,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_guanbi.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{566,259},{78,37}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{78,37}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{78,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{78,37}</string>
+                <key>textureRect</key>
+                <string>{{912,325},{78,37}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_guanliyuan.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{684,148},{104,37}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{104,37}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{104,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{104,37}</string>
+                <key>textureRect</key>
+                <string>{{643,244},{104,37}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_txt_hfsc.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{274,232},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{953,105},{123,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_txt_kqlj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,141},{137,37}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{137,37}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{137,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{137,37}</string>
+                <key>textureRect</key>
+                <string>{{701,154},{137,37}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_kqsh.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,102},{137,37}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{137,37}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{137,37}</string>
+                <key>spriteSourceSize</key>
+                <string>{137,37}</string>
+                <key>textureRect</key>
+                <string>{{701,193},{137,37}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_txt_qxgl.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{238,273},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{989,105},{123,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_txt_yxz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{575,148},{107,39}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{107,39}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{107,39}</string>
+                <key>spriteSourceSize</key>
+                <string>{107,39}</string>
+                <key>textureRect</key>
+                <string>{{840,154},{107,39}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_wf.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{849,449},{27,29}}</string>
-                <key>offset</key>
-                <string>{1,-1}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{11,2},{27,29}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,0}</string>
+                <key>spriteSize</key>
+                <string>{29,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{978,561},{29,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_wf_add_txt.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{864,96},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{489,445},{123,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_wf_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{685,235},{69,44}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{69,44}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{69,44}</string>
+                <key>spriteSourceSize</key>
+                <string>{69,44}</string>
+                <key>textureRect</key>
+                <string>{{372,410},{69,44}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_wf_cell_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{587,22},{157,42}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{157,42}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{157,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{157,42}</string>
+                <key>textureRect</key>
+                <string>{{171,520},{157,42}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_wf_setting.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{878,439},{34,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{34,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{34,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{34,34}</string>
+                <key>textureRect</key>
+                <string>{{807,576},{34,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_xz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{80,444},{36,38}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{36,38}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{36,38}</string>
+                <key>spriteSourceSize</key>
+                <string>{36,38}</string>
+                <key>textureRect</key>
+                <string>{{571,593},{36,38}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_yq.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{527,345},{45,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{1,1},{45,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{47,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{496,584},{47,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_yq1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,444},{76,36}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{76,36}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{76,36}</string>
+                <key>spriteSourceSize</key>
+                <string>{76,36}</string>
+                <key>textureRect</key>
+                <string>{{634,475},{76,36}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zd_search.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{392,448},{32,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{32,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{32,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,35}</string>
+                <key>textureRect</key>
+                <string>{{877,533},{32,35}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zhuoshu.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{499,321},{31,26}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{31,26}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{31,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{31,26}</string>
+                <key>textureRect</key>
+                <string>{{877,570},{31,26}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{441,358},{27,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{10,0},{27,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
+                <string>{29,31}</string>
+                <key>spriteSourceSize</key>
                 <string>{47,31}</string>
+                <key>textureRect</key>
+                <string>{{910,583},{29,31}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_cell_normal.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{779,187},{9,64}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{9,64}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{9,64}</string>
+                <key>spriteSourceSize</key>
+                <string>{9,64}</string>
+                <key>textureRect</key>
+                <string>{{171,621},{9,64}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_cell_select.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{756,235},{18,69}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{18,69}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{18,69}</string>
+                <key>spriteSourceSize</key>
+                <string>{18,69}</string>
+                <key>textureRect</key>
+                <string>{{614,445},{18,69}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zj_copy.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{844,267},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{712,477},{66,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zj_di.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{633,387},{56,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{56,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{56,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{56,29}</string>
+                <key>textureRect</key>
+                <string>{{614,534},{56,29}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_js_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{817,393},{23,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{23,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{23,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{23,29}</string>
+                <key>textureRect</key>
+                <string>{{651,383},{23,29}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_line.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{760,388},{64,3}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,3}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{64,3}</string>
+                <key>spriteSourceSize</key>
+                <string>{64,3}</string>
+                <key>textureRect</key>
+                <string>{{811,477},{64,3}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_pop_di.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{470,354},{36,36}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{36,36}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{36,36}</string>
+                <key>spriteSourceSize</key>
+                <string>{36,36}</string>
+                <key>textureRect</key>
+                <string>{{987,490},{36,36}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zj_pop_line.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{243,474},{61,1}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{61,1}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{61,1}</string>
+                <key>spriteSourceSize</key>
+                <string>{61,1}</string>
+                <key>textureRect</key>
+                <string>{{611,481},{61,1}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_search_di.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{644,445},{54,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{54,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{54,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{54,35}</string>
+                <key>textureRect</key>
+                <string>{{816,476},{54,35}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>tea_zj_search_down.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{567,387},{57,35}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{57,35}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{57,35}</string>
+                <key>spriteSourceSize</key>
+                <string>{57,35}</string>
+                <key>textureRect</key>
+                <string>{{428,479},{57,35}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>tea_zj_share.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{776,256},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{712,511},{66,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>teac_des_bg.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{990,80},{102,26}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{102,26}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{102,26}</string>
+                <key>spriteSourceSize</key>
+                <string>{102,26}</string>
+                <key>textureRect</key>
+                <string>{{917,230},{102,26}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
-            <integer>2</integer>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
             <key>realTextureFileName</key>
             <string>tea0.png</string>
             <key>size</key>
-            <string>{1018,482}</string>
+            <string>{1024,632}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:c369bcdc3b221e5fbd5b11d154e23d22$</string>
+            <string>$TexturePacker:SmartUpdate:038b6ec4b57e12e4e554496b53d99dfa:421f96e7816636a531aca6d67b424b92:1d1673e075b0f7b4031881303b156f0e$</string>
             <key>textureFileName</key>
             <string>tea0.png</string>
         </dict>

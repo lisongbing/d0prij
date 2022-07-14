@@ -67,8 +67,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -134,8 +134,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1600,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -258,8 +258,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1600,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -572,8 +572,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 700,
-      "height": 400
+      "width": 1201,
+      "height": 694
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -584,8 +584,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        37,
+        12,
         0,
         0,
         0,
@@ -681,18 +681,18 @@
     "_prefab": {
       "__id__": 20
     },
-    "_opacity": 255,
+    "_opacity": 253,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 252,
+      "g": 252,
+      "b": 252,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 140,
-      "height": 50.4
+      "width": 270,
+      "height": 68.04
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -703,8 +703,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        7.202,
-        173.368,
+        43.39,
+        315.76,
         0,
         0,
         0,
@@ -745,8 +745,8 @@
     "_dstBlendFactor": 771,
     "_string": "创建亲友圈",
     "_N$string": "创建亲友圈",
-    "_fontSize": 28,
-    "_lineHeight": 40,
+    "_fontSize": 54,
+    "_lineHeight": 54,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -799,20 +799,20 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 50
+      "width": 942.4,
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0.4967187856596083,
       "y": 0.5
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -1.4,
-        94.9,
+        -8.2,
+        125,
         0,
         0,
         0,
@@ -918,8 +918,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 40
+      "width": 936,
+      "height": 99
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -930,8 +930,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -0.899,
-        94.656,
+        -3,
+        123,
         0,
         0,
         0,
@@ -1087,8 +1087,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 40
+      "width": 936,
+      "height": 100.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1099,8 +1099,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -4,
+        0.9,
         0,
         0,
         0,
@@ -1195,8 +1195,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 40
+      "width": 921,
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1207,7 +1207,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1,
+        -4,
         0,
         0,
         0,
@@ -1249,8 +1249,8 @@
     "_dstBlendFactor": 771,
     "_string": "请输入亲友圈名字!",
     "_N$string": "请输入亲友圈名字!",
-    "_fontSize": 20,
-    "_lineHeight": 40,
+    "_fontSize": 46,
+    "_lineHeight": 46,
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1258,7 +1258,7 @@
     "_batchAsBitmap": false,
     "_styleFlags": 0,
     "_underlineHeight": 0,
-    "_N$horizontalAlign": 1,
+    "_N$horizontalAlign": 0,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
     "_N$overflow": 1,
@@ -1337,15 +1337,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 114,
-      "g": 114,
-      "b": 114,
+      "r": 92,
+      "g": 92,
+      "b": 92,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 418.69,
-      "height": 37.8
+      "width": 645.48,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1356,8 +1356,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -22,
-        20,
+        -148.204,
+        36.737,
         0,
         0,
         0,
@@ -1396,10 +1396,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "限制2-7个字必须是数字、字母或者汉子",
-    "_N$string": "限制2-7个字必须是数字、字母或者汉子",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_string": "限制2-7个字必须是数字、字母或者汉字",
+    "_N$string": "限制2-7个字必须是数字、字母或者汉字",
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1452,8 +1452,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 458.7,
-      "height": 37.8
+      "width": 707.16,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1464,8 +1464,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -13.441,
-        -45.646,
+        -118.612,
+        -143.545,
         0,
         0,
         0,
@@ -1506,8 +1506,8 @@
     "_dstBlendFactor": 771,
     "_string": "注：每个玩家最多可以创建与加入20个茶馆",
     "_N$string": "注：每个玩家最多可以创建与加入20个茶馆",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1563,20 +1563,20 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 30,
-      "height": 30
+      "width": 58.8,
+      "height": 52.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 0.4855995695176438,
+      "y": 0.5160368430371688
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        310.929,
-        173.108,
+        589.3,
+        317.8,
         0,
         0,
         0,
@@ -1773,8 +1773,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 137,
-      "height": 62
+      "width": 347,
+      "height": 119
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1785,8 +1785,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        4.044,
-        -152.009,
+        47,
+        -267,
         0,
         0,
         0,
@@ -1837,8 +1837,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 76,
-      "height": 35
+      "width": 143,
+      "height": 59
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1849,8 +1849,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        2,
+        3.348,
+        -3.695,
         0,
         0,
         0,

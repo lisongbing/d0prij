@@ -67,8 +67,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 310,
-      "height": 422
+      "width": 503,
+      "height": 640
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -79,8 +79,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        361.5,
+        20,
         0,
         0,
         0,
@@ -131,8 +131,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 310,
-      "height": 422
+      "width": 503.3,
+      "height": 693
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -143,8 +143,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -4.1,
+        -26,
         0,
         0,
         0,
@@ -240,8 +240,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 213.1,
-      "height": 30
+      "width": 315,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -252,8 +252,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -2,
-        179,
+        0,
+        265.058,
         0,
         0,
         0,
@@ -292,10 +292,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "花花世界",
-    "_N$string": "花花世界",
-    "_fontSize": 28,
-    "_lineHeight": 30,
+    "_string": "法国你好呀哈哈",
+    "_N$string": "法国你好呀哈哈",
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -306,7 +306,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 1,
+    "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": ""
   },
@@ -349,7 +349,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 213.1,
-      "height": 30
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -360,8 +360,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -2,
-        143.122,
+        -11,
+        199,
         0,
         0,
         0,
@@ -400,10 +400,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "花花世界",
-    "_N$string": "花花世界",
-    "_fontSize": 22,
-    "_lineHeight": 30,
+    "_string": "圈号:340804",
+    "_N$string": "圈号:340804",
+    "_fontSize": 36,
+    "_lineHeight": 40,
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -456,8 +456,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 104,
-      "height": 105
+      "width": 168,
+      "height": 169
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -468,8 +468,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -104.636,
-        160.23,
+        -177.367,
+        235.894,
         0,
         0,
         0,
@@ -565,8 +565,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 282,
-      "height": 18
+      "width": 479,
+      "height": 31
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -577,8 +577,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -0.447,
-        106.682,
+        -2.941,
+        153.136,
         0,
         0,
         0,
@@ -674,8 +674,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 128,
-      "height": 128
+      "width": 218,
+      "height": 218
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -686,8 +686,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0.601,
-        23.399,
+        -1.945,
+        4.383,
         0,
         0,
         0,
@@ -729,8 +729,8 @@
     "_spriteFrame": {
       "__uuid__": "2c791ff9-978f-4b48-9de5-c0fbab4f9c08"
     },
-    "_type": 1,
-    "_sizeMode": 0,
+    "_type": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -783,8 +783,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 30.24
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -795,8 +795,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -0.5609999999999999,
-        -63.32,
+        0,
+        -142.246,
         0,
         0,
         0,
@@ -837,8 +837,8 @@
     "_dstBlendFactor": 771,
     "_string": "日本人",
     "_N$string": "日本人",
-    "_fontSize": 22,
-    "_lineHeight": 24,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -891,8 +891,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 101.52,
-      "height": 30.24
+      "width": 170.75,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -903,8 +903,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -0.5499999999999998,
-        -91.035,
+        -12.034,
+        -193.915,
         0,
         0,
         0,
@@ -945,8 +945,8 @@
     "_dstBlendFactor": 771,
     "_string": "ID:121212",
     "_N$string": "ID:121212",
-    "_fontSize": 22,
-    "_lineHeight": 24,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -999,8 +999,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 54,
-      "height": 40
+      "width": 92,
+      "height": 68
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1011,8 +1011,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -45.146,
-        -164.362,
+        -61.68,
+        -307.262,
         0,
         0,
         0,
@@ -1108,8 +1108,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 54.5,
-      "height": 50.4
+      "width": 105.08,
+      "height": 52.92
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1120,8 +1120,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        47.264,
-        -164.149,
+        48.318,
+        -309.78,
         0,
         0,
         0,
@@ -1160,10 +1160,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "6/12",
-    "_N$string": "6/12",
-    "_fontSize": 28,
-    "_lineHeight": 40,
+    "_string": "1 / 25",
+    "_N$string": "1 / 25",
+    "_fontSize": 42,
+    "_lineHeight": 42,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
