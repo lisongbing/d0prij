@@ -1072,6 +1072,13 @@ cc.Class({
             }
             cc.g.njmjMgr.init(roomInfo, player, otherPlayers);
             this.curGameMgr = cc.g.njmjMgr;
+        } else if (gameType === GMID.LCMJ ) {//内江麻将
+            if (cc.g.lcmjMgr == null) {
+                let LCMJMgr = require('lcmjMgr');
+                cc.g.lcmjMgr = new LCMJMgr();
+            }
+            cc.g.lcmjMgr.init(roomInfo, player, otherPlayers);
+            this.curGameMgr = cc.g.lcmjMgr;
         } else if (gameType === GMID.YJMJ ) {//妖鸡麻将
             if (cc.g.yjmjMgr == null) {
                 let YJMJMgr = require('yjmjMgr');
@@ -1129,13 +1136,17 @@ cc.Class({
         }
     },
     backToHall: function () {
-        if (this.curGameMgr && this.curGameMgr.roomInfo.clubId && this.curGameMgr.roomInfo.clubId>0) {
-            if (cc.g.huanzData) {
-                this.huanZhuo();
-            } else {
-                cc.g.hallMgr.backToTeaHall();
+        if (!cc.g.isdoExitTea) {
+            if (this.curGameMgr && this.curGameMgr.roomInfo.clubId && this.curGameMgr.roomInfo.clubId>0) {
+                if (cc.g.huanzData) {
+                    this.huanZhuo();
+                } else {
+                    cc.g.hallMgr.backToTeaHall();
+                }
+                return;
             }
-            return;
+        } else {
+            cc.g.isdoExitTea = false;
         }
 
         if (this.curGameType == -1) {
@@ -1910,7 +1921,7 @@ cc.Class({
 
             room.backPlayData = pbd;
         } else if (GameId == GMID.YJMJ || GameId == GMID.HZMJ || GameId == GMID.LZMJ ||
-                   GameId == GMID.NJMJ || GameId == GMID.GXMJ) {
+                   GameId == GMID.NJMJ || GameId == GMID.LCMJ || GameId == GMID.GXMJ) {
             {/*
                 结构体:
                 type GameReCord struct {

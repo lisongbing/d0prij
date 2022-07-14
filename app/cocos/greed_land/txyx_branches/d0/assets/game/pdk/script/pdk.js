@@ -818,8 +818,8 @@ cc.Class({
 
             //bg.width += (codes.length>4 ? (codes.length-4)*24: 0);
             if (codes.length>4) {
-                let w1 = ((codes.length-1)*60+140) * hbox.scaleX;//牌宽
-                let w2 = bg.width - (((4-1)*60+140) * hbox.scaleX);//预制体里4张牌时的宽度差
+                let w1 = ((codes.length-1)*97+247) * hbox.scaleX;//牌宽
+                let w2 = bg.width - (((4-1)*97+247) * hbox.scaleX);//预制体里4张牌时的宽度差
 
                 bg.width = w1+w2;
             }
