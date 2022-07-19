@@ -131,6 +131,8 @@ let LocSettleView = cc.Class({
         this.Label_jushu = cc.find("Node_ctt/New Node/Label_jushu", r).getComponent(cc.Label);
         // 时间
         this.Label_time = cc.find("Node_ctt/Label_time", r).getComponent(cc.Label);
+        // 规则
+        this.Label_deskrule = cc.find("Label_deskrule", r).getComponent(cc.Label);
 
         // 分享一下
         this.Button_share = cc.find("Button_share", r);
@@ -275,7 +277,15 @@ let LocSettleView = cc.Class({
         this.Label_room.string = '房间号:' + ri.roomId;
         // 局数
         this.Label_jushu.string = '第' + ri.curGameNum + '局';
-
+        //
+        let com = cc.g.hallMgr.inGameMenu.Sprite_rule.getComponent('dlgGmruleifo');
+        if (com) {
+            let str = com.srtlist.join(' ');
+            this.Label_deskrule.string = str;
+        } else {
+            this.Label_deskrule.string = '???';
+        }
+        
 
         // 时间
         let pt = ri.pbTime ? ri.pbTime : i64v(GM.SettleData.time)*1000;
@@ -457,11 +467,11 @@ let LocSettleFinalView = cc.Class({
         
         // 调整滑动区域大小
         let pnum = sd.player.length;
-        if (pnum<=4) {
-            this.ScrollView_player.node.width = pnum*234 + (pnum-1)*20 + 30*2 + 4;
+        if (pnum<=3) {
+            this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = vs.width-41;
+            this.ScrollView_player.node.width = vs.width - 50*2;
         }
 
         this.upPlyaers();

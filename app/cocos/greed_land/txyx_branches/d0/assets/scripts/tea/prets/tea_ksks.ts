@@ -10,8 +10,8 @@ import TeaClass from "../tea";
 // @ts-ignore
 const {ccclass, property} = cc._decorator;
 
-let getPlayNum = (n) => {
-    let playNum = n;
+let getPlayNum = (n, n2) => {
+    let playNum = n2;
     if (playNum > 20) {
         if (playNum == 37 || playNum == 38 || playNum == 43) {
             playNum = 4;
@@ -256,7 +256,7 @@ export default class NewClass extends cc.Component {
             name.string = e.name;
 
             let ren = cc.find('Label_ren', itm).getComponent(cc.Label);
-            ren.string = getPlayNum(e.gameType) +'人' + e.gameNum + '局';
+            ren.string = getPlayNum(e.gameType, e.playNum) +'人' + e.gameNum + '局';
             
             let rule = cc.find('mask/Label_rule', itm).getComponent(cc.Label);
             // @ts-ignore
@@ -281,7 +281,7 @@ export default class NewClass extends cc.Component {
         // @ts-ignore
         o.gn.string = cc.g.utils.getGameName(d.gameType, d.origin);
         o.name.string = d.name;
-        o.ren.string = getPlayNum(d.gameType) +'人' + d.gameNum + '局';
+        o.ren.string = getPlayNum(d.gameType, d.playNum) +'人' + d.gameNum + '局';
         // @ts-ignore
         o.rule.string = cc.g.utils.convertRuleToString(d);
     }

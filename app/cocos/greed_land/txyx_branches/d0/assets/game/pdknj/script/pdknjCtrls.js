@@ -540,11 +540,11 @@ let LocSettleFinalView = cc.Class({
 
         // 调整滑动区域大小
         let pnum = sd.player.length;
-        if (pnum<=4) {
-            this.ScrollView_player.node.width = pnum*234 + (pnum-1)*20 + 30*2 + 4;
+        if (pnum<=3) {
+            this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = vs.width-41;
+            this.ScrollView_player.node.width = vs.width - 50*2;
         }
 
         this.upPlyaers();

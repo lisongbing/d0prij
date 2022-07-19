@@ -554,11 +554,11 @@ let D2SettleFinalView = cc.Class({
         cc.log("sd---------------->>>>>>",sd)
 
         let pnum = sd.player.length;
-        if (pnum<=4) {
-            this.ScrollView_player.node.width = pnum*234 + (pnum-1)*20 + 30*2 + 4;
+        if (pnum<=3) {
+            this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = 1056;//vs.width-41;
+            this.ScrollView_player.node.width = vs.width - 50*2;
         }
 
         this.upPlyaers();

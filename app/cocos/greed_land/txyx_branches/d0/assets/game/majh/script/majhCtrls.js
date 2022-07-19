@@ -1180,14 +1180,14 @@ let MajhHandCardView = cc.Class({
                         positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x)
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionX = startPosx + ((viewIndex + 1) * -6)
+                            positionX = positionX - 20;
                         }
                         // 回放修改 添加end
                     } else {
                         positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x)// - DEF.SendCardPos[userPoint].moveTo.z
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionX = viewIndex * -6;
+                            positionX = positionX - 20;
                         }
                         // 回放修改 添加end
                     }
@@ -1195,16 +1195,16 @@ let MajhHandCardView = cc.Class({
                     if (startPosy != 0) {
                         positionY = (viewIndex * DEF.SendCardPos[userPoint].moveTo.y) + startPosy;
                         // 回放修改 添加start
-                        if (this.pPage.isbpm) {
-                            positionY = viewIndex * 28 + startPosy;
-                        }
+                        // if (this.pPage.isbpm) {
+                        //     positionY = viewIndex * DEF.SendCardPos[userPoint].moveTo.y + startPosy;
+                        // }
                         // 回放修改 添加end
                     } else {
                         positionY = DEF.SendCardPos[userPoint].moveBy.y + (viewIndex * DEF.SendCardPos[userPoint].moveTo.y)
                         // 回放修改 添加start
-                        if (this.pPage.isbpm) {
-                            positionY = viewIndex * 28;
-                        }
+                        // if (this.pPage.isbpm) {
+                        //     positionY = viewIndex * DEF.SendCardPos[userPoint].moveTo.y;
+                        // }
                         // 回放修改 添加end
                     }
                     card.endPosX = positionX
@@ -1233,22 +1233,22 @@ let MajhHandCardView = cc.Class({
                         positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionX = startPosx - (viewIndex * 32);
+                            positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
                         }
                         // 回放修改 添加end
                     } else {
                         positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionX = DEF.SendCardPos[userPoint].moveBy.x - viewIndex * 32;
+                            positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
                         }
                         // 回放修改 添加end
                     }
                     positionY = DEF.SendCardPos[userPoint].moveTo.y;
                     // 回放修改 添加start
-                    if (this.pPage.isbpm) {
-                        positionY = -14;
-                    } 
+                    // if (this.pPage.isbpm) {
+                    //     positionY = -14;
+                    // }
                     card.endPosX = positionX
                     card.endPosY = positionY
                     // 回放修改 添加end
@@ -1267,7 +1267,6 @@ let MajhHandCardView = cc.Class({
                 startPosy = lastItem.y - lastItem.height;
             }
 
-
             // 加 5
             if (startPosy != 0) {
                 startPosy -= 5
@@ -1280,14 +1279,14 @@ let MajhHandCardView = cc.Class({
                         positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionX = startPosx - ((viewIndex + 1) * 6) -37;
+                            positionX = positionX - 80
                         }
                         // 回放修改 添加end
                     } else {
                         positionX = DEF.SendCardPos[userPoint].moveBy.x - viewIndex * DEF.SendCardPos[userPoint].moveTo.x
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionX = 100 - viewIndex * 6;
+                            positionX = positionX - 80
                         }
                         // 回放修改 添加end
                     }
@@ -1296,14 +1295,14 @@ let MajhHandCardView = cc.Class({
                         positionY = startPosy - (viewIndex * DEF.SendCardPos[userPoint].moveTo.y);
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionY = startPosy - ((viewIndex + 1) * 28) -11;
+                            positionY = positionY - 80
                         }
                         // 回放修改 添加end
                     } else {
                         positionY = DEF.SendCardPos[userPoint].moveBy.y - viewIndex * DEF.SendCardPos[userPoint].moveTo.y
                         // 回放修改 添加start
                         if (this.pPage.isbpm) {
-                            positionY = 371 - viewIndex * 28;
+                            positionY = positionY - 80
                         }
                         // 回放修改 添加end
                     }
@@ -1633,17 +1632,17 @@ let MajhHandCardView = cc.Class({
 
         if (lastItem) {
             if (userPoint == 0) {
-                positionX = lastItem.x + DEF.SendCardPos[userPoint].moveTo.x + 10
+                positionX = lastItem.x + DEF.SendCardPos[userPoint].moveTo.x + 40
                 positionY = lastItem.y
             } else if (userPoint == 1) {
-                positionX = lastItem.x - 10
-                positionY = lastItem.y + 65//70
+                positionX = lastItem.x + 10
+                positionY = lastItem.y + 55//70
             } else if (userPoint == 2) {
-                positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - 20
+                positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - 40
                 positionY = lastItem.y
             } else if (userPoint == 3) {
-                positionX = lastItem.x - 10
-                positionY = lastItem.y - 70
+                positionX = lastItem.x - 30
+                positionY = lastItem.y - 110
             }
             card.setPosition(positionX, positionY);
             this.Node_handCard.addChild(card, lastItem.zIndex, 'Node_Hu_Card'+userPoint);
@@ -3642,14 +3641,16 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
     c.uIdx = idx;
     let positionX, positionY
     if (viewIndex == 1) { // Node_p2
-        positionX = idx * -6;
-        positionY = idx * 28;
+        positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) + DEF.SendCardPos[viewIndex].moveTo.z;
+        positionY = DEF.SendCardPos[viewIndex].moveBy.y + (idx * DEF.SendCardPos[viewIndex].moveTo.y);
     } else if (viewIndex == 2) { // Node_p3
-        positionX = 400 - idx * 28;
-        positionY = 0;
+        positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x);
+        positionY = DEF.SendCardPos[viewIndex].moveBy.y;
     } else if (viewIndex == 3) {  //Node_p4
-        positionX = 100 - idx * 6;
-        positionY = 371 - idx * 28;
+        positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) - DEF.SendCardPos[viewIndex].moveTo.z;
+        positionX = positionX - 80
+        positionY = DEF.SendCardPos[viewIndex].moveBy.y - (idx * DEF.SendCardPos[viewIndex].moveTo.y)
+        positionY = positionY - 80
     }
     c.code = 0
     c.setPosition(positionX, positionY);
