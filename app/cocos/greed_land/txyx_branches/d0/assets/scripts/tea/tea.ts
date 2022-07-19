@@ -231,8 +231,8 @@ export default class TeaClass extends cc.Component {
         let nodeLayout = this.mainScrollView.content.getComponent(cc.Layout)
         if (deskType == 2) {
             this.useSecdDesk = true
-            nodeLayout.spacingY = 0
-            nodeLayout.paddingTop = 0
+            nodeLayout.spacingY = 100
+            nodeLayout.paddingTop = 60
         } else {
             this.useSecdDesk = false
             nodeLayout.spacingY = 60
