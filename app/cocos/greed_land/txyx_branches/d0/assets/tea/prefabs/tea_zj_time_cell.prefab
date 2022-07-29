@@ -36,8 +36,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 190,
-      "height": 80
+      "width": 310,
+      "height": 127
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -49,7 +49,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -35,
+        62.823,
         0,
         0,
         0,
@@ -110,8 +110,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 190,
-      "height": 80
+      "width": 310,
+      "height": 127
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -122,7 +122,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -10,
         0,
         0,
         0,
@@ -174,8 +174,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 183,
-      "height": 74
+      "width": 307,
+      "height": 127
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -186,7 +186,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -9,
+        0,
         0,
         0,
         0,
@@ -229,8 +229,8 @@
     "_spriteFrame": {
       "__uuid__": "872b07ca-4363-41c4-abd0-4e316977e6e4"
     },
-    "_type": 0,
-    "_sizeMode": 2,
+    "_type": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -283,8 +283,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 202,
-      "height": 74
+      "width": 344,
+      "height": 127
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -295,8 +295,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        16.534,
+        1.181,
         0,
         0,
         0,
@@ -392,8 +392,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 52,
-      "height": 32.76
+      "width": 96,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -446,8 +446,8 @@
     "_dstBlendFactor": 771,
     "_string": "今日",
     "_N$string": "今日",
-    "_fontSize": 26,
-    "_lineHeight": 26,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

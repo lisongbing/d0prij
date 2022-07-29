@@ -55,8 +55,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -67,7 +67,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        568,
+        0,
         0,
         0,
         0,
@@ -129,8 +129,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -196,8 +196,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1536,
-      "height": 80
+      "width": 1920,
+      "height": 131
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -209,7 +209,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        280.253,
+        475,
         0,
         0,
         0,
@@ -252,7 +252,7 @@
       "__uuid__": "193c65b0-4045-4b0f-97b5-d95f6d852fce"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -278,7 +278,7 @@
     "_alignFlags": 1,
     "_left": 0,
     "_right": 0,
-    "_top": -0.2529999999999859,
+    "_top": -0.5,
     "_bottom": 0,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
@@ -333,8 +333,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 925.8,
-      "height": 504.2
+      "width": 1548,
+      "height": 843
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -345,8 +345,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        100.5,
-        -58.4,
+        172,
+        -101,
         0,
         0,
         0,
@@ -415,8 +415,8 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 40,
-    "_left": 205.60000000000002,
-    "_right": 4.600000000000023,
+    "_left": 358,
+    "_right": 13.999999999999972,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -557,7 +557,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1016,
+      "width": 1559,
       "height": 550
     },
     "_anchorPoint": {
@@ -569,8 +569,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -448,
-        -37.879,
+        -599,
+        -38,
         0,
         0,
         0,
@@ -628,8 +628,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 930,
-      "height": 550
+      "width": 1560,
+      "height": 862
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -640,8 +640,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85,
-        0,
+        -2,
+        -67,
         0,
         0,
         0,
@@ -696,8 +696,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 925,
-      "height": 505.7
+      "width": 1560,
+      "height": 862
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -708,8 +708,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        465.272,
-        -26.09,
+        782.965,
+        -5.335,
         0,
         0,
         0,
@@ -764,8 +764,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 925,
-      "height": 505.7
+      "width": 1560,
+      "height": 862
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -804,7 +804,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 17
     },
@@ -832,8 +832,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1140,
-      "height": 520
+      "width": 1560,
+      "height": 841
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -845,7 +845,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        9,
         0,
         0,
         0,
@@ -872,7 +872,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 18
     },
@@ -892,8 +892,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1140,
-      "height": 432
+      "width": 1560,
+      "height": 853
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -905,7 +905,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        421,
         0,
         0,
         0,
@@ -1074,8 +1074,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 945.9210000000003,
-      "height": 40
+      "width": 1529,
+      "height": 83
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1086,8 +1086,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        509.163,
-        256.721,
+        23,
+        468,
         0,
         0,
         0,
@@ -1153,8 +1153,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1174,
+      "height": 81
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1165,8 +1165,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        -1,
+        566,
+        5,
         0,
         0,
         0,
@@ -1217,8 +1217,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 68.83,
-      "height": 26.46
+      "width": 121.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1229,8 +1229,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -458.981,
-        0,
+        -510.836,
+        -4.176,
         0,
         0,
         0,
@@ -1271,8 +1271,8 @@
     "_dstBlendFactor": 771,
     "_string": "牌局数:",
     "_N$string": "牌局数:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1325,8 +1325,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1337,8 +1337,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -420.356,
-        0,
+        -441.377,
+        -4.176,
         0,
         0,
         0,
@@ -1379,8 +1379,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1433,8 +1433,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 68.83,
-      "height": 26.46
+      "width": 121.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1445,8 +1445,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -266.532,
-        0,
+        -282.306,
+        -5.019,
         0,
         0,
         0,
@@ -1487,8 +1487,8 @@
     "_dstBlendFactor": 771,
     "_string": "大赢家:",
     "_N$string": "大赢家:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1541,8 +1541,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1553,8 +1553,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -227.794,
-        0,
+        -215.605,
+        -3.585,
         0,
         0,
         0,
@@ -1595,8 +1595,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1649,8 +1649,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 68.83,
-      "height": 26.46
+      "width": 121.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1661,8 +1661,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -74.151,
-        0,
+        -31.849,
+        -5.019,
         0,
         0,
         0,
@@ -1703,8 +1703,8 @@
     "_dstBlendFactor": 771,
     "_string": "积分数:",
     "_N$string": "积分数:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1757,8 +1757,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1769,8 +1769,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -34.123,
-        0,
+        67.688,
+        -2.151,
         0,
         0,
         0,
@@ -1811,8 +1811,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1889,8 +1889,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 36
+      "width": 362.7,
+      "height": 62.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1901,8 +1901,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        301.49199999999996,
-        -1.1520000000000001,
+        1344.2,
+        2.1,
         0,
         0,
         0,
@@ -1953,8 +1953,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 195,
-      "height": 36
+      "width": 363.1,
+      "height": 63.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1965,8 +1965,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -0.2,
+        0.8,
         0,
         0,
         0,
@@ -2062,8 +2062,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 36
+      "width": 61,
+      "height": 61
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2074,8 +2074,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        97.308,
-        0.1140000000000001,
+        150.477,
+        1.24,
         0,
         0,
         0,
@@ -2171,8 +2171,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 25.2
+      "width": 148,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2225,8 +2225,8 @@
     "_dstBlendFactor": 771,
     "_string": "全部玩法",
     "_N$string": "全部玩法",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -2346,7 +2346,7 @@
     "_target": null,
     "_alignFlags": 32,
     "_left": 0,
-    "_right": 544.4290000000003,
+    "_right": 3.450000000000074,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -2403,8 +2403,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 180
+      "width": 299,
+      "height": 261
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2415,8 +2415,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        307.711,
-        -109.579,
+        1317,
+        -159.017,
         0,
         0,
         0,
@@ -2474,8 +2474,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 180
+      "width": 299,
+      "height": 261
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2486,8 +2486,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        89.042,
+        0,
+        130,
         0,
         0,
         0,
@@ -2514,7 +2514,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 62
     },
@@ -2542,8 +2542,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 155
+      "width": 299,
+      "height": 248
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2555,7 +2555,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -22,
+        0,
         0,
         0,
         0,
@@ -2606,7 +2606,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220,
+      "width": 299,
       "height": 0
     },
     "_anchorPoint": {
@@ -2619,7 +2619,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        6.707,
+        0,
         0,
         0,
         0,
@@ -2653,7 +2653,7 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 220,
+      "width": 299,
       "height": 0
     },
     "_resize": 1,
@@ -2800,7 +2800,7 @@
     "_target": null,
     "_alignFlags": 32,
     "_left": 0,
-    "_right": 540.2100000000003,
+    "_right": 62.5000000000001,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -2837,8 +2837,8 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 40,
-    "_left": 509.163,
-    "_right": -525.0840000000003,
+    "_left": 23,
+    "_right": 8,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -2875,7 +2875,7 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 40,
-    "_left": 85,
+    "_left": -2,
     "_right": 1,
     "_top": 0,
     "_bottom": 0,
@@ -2932,8 +2932,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 1566,
+      "height": 943
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2944,8 +2944,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85.626,
-        0,
+        -4.226,
+        -17.768,
         0,
         0,
         0,
@@ -3000,8 +3000,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 432
+      "width": 1562,
+      "height": 931
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3012,8 +3012,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        466.729,
-        -52.729,
+        782,
+        5,
         0,
         0,
         0,
@@ -3068,8 +3068,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 432
+      "width": 1547,
+      "height": 755
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3080,8 +3080,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -7,
+        -92,
         0,
         0,
         0,
@@ -3108,7 +3108,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 80
     },
@@ -3136,8 +3136,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 432
+      "width": 1552,
+      "height": 755
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3149,7 +3149,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -2,
         0,
         0,
         0,
@@ -3176,7 +3176,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 81
     },
@@ -3196,20 +3196,20 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 107.7
+      "width": 1543,
+      "height": 751
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": 0.5050429290857409,
       "y": 1
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        9,
+        371,
         0,
         0,
         0,
@@ -3344,7 +3344,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tea_cylb_bt",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 78
     },
@@ -3383,8 +3383,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1558,
+      "height": 83
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3395,8 +3395,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        496.362,
-        244.84,
+        784.032,
+        424.578,
         0,
         0,
         0,
@@ -3423,7 +3423,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Header",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 90
     },
@@ -3526,8 +3526,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 47.83,
-      "height": 26.46
+      "width": 121.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3538,8 +3538,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -469.981,
-        0,
+        -703.572,
+        -6.996,
         0,
         0,
         0,
@@ -3578,10 +3578,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "牌局:",
-    "_N$string": "牌局:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_string": "牌局数:",
+    "_N$string": "牌局数:",
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -3634,8 +3634,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3646,8 +3646,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -445.003,
-        0,
+        -635.228,
+        -6.402,
         0,
         0,
         0,
@@ -3688,8 +3688,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -3742,8 +3742,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 68.83,
-      "height": 26.46
+      "width": 121.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3754,8 +3754,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -329.139,
-        0,
+        -474.635,
+        -6.554,
         0,
         0,
         0,
@@ -3796,8 +3796,8 @@
     "_dstBlendFactor": 771,
     "_string": "大赢家:",
     "_N$string": "大赢家:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -3850,8 +3850,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3862,8 +3862,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -292.115,
-        0,
+        -406.903,
+        -5.824,
         0,
         0,
         0,
@@ -3904,8 +3904,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -3958,8 +3958,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 68.83,
-      "height": 26.46
+      "width": 121.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3970,8 +3970,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -182.408,
-        1,
+        -223.441,
+        -7.005,
         0,
         0,
         0,
@@ -4012,8 +4012,8 @@
     "_dstBlendFactor": 771,
     "_string": "积分数:",
     "_N$string": "积分数:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4066,8 +4066,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4078,8 +4078,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -144.969,
-        0,
+        -154.29,
+        -7.005,
         0,
         0,
         0,
@@ -4120,8 +4120,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4161,7 +4161,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Header_Two",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 90
     },
@@ -4224,8 +4224,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1523.4,
+      "height": 80.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4236,8 +4236,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -46.818,
+        -6.4,
+        -95.1,
         0,
         0,
         0,
@@ -4288,8 +4288,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 900.6,
-      "height": 51
+      "width": 1522.3,
+      "height": 81.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4300,8 +4300,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -34.9,
-        -4,
+        -1.1,
+        -0.9,
         0,
         0,
         0,
@@ -4332,7 +4332,7 @@
     "node": {
       "__id__": 112
     },
-    "_enabled": true,
+    "_enabled": false,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -4397,8 +4397,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44,
-      "height": 27.72
+      "width": 74,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4409,8 +4409,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -450.049,
-        0,
+        -704.121,
+        3.608,
         0,
         0,
         0,
@@ -4451,8 +4451,8 @@
     "_dstBlendFactor": 771,
     "_string": "排名",
     "_N$string": "排名",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4505,8 +4505,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4517,8 +4517,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -416.088,
-        -1.312,
+        -646.826,
+        1.444,
         0,
         0,
         0,
@@ -4558,7 +4558,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -4614,8 +4614,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44,
-      "height": 27.72
+      "width": 74,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4626,8 +4626,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -314.565,
-        0,
+        -470.679,
+        3.608,
         0,
         0,
         0,
@@ -4668,8 +4668,8 @@
     "_dstBlendFactor": 771,
     "_string": "昵称",
     "_N$string": "昵称",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4722,8 +4722,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44,
-      "height": 27.72
+      "width": 74,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4734,8 +4734,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -151.302,
-        0,
+        -193.9,
+        3.608,
         0,
         0,
         0,
@@ -4776,8 +4776,8 @@
     "_dstBlendFactor": 771,
     "_string": "分组",
     "_N$string": "分组",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4830,8 +4830,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 27.72
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4842,8 +4842,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -39.766,
-        0,
+        -5.793,
+        3.608,
         0,
         0,
         0,
@@ -4884,8 +4884,8 @@
     "_dstBlendFactor": 771,
     "_string": "大赢家",
     "_N$string": "大赢家",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4938,8 +4938,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4950,8 +4950,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        8.440999999999999,
-        -1.862,
+        78.355,
+        1.332,
         0,
         0,
         0,
@@ -4991,7 +4991,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -5047,8 +5047,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 27.72
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5059,8 +5059,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        92.108,
-        0,
+        219.834,
+        3.608,
         0,
         0,
         0,
@@ -5101,8 +5101,8 @@
     "_dstBlendFactor": 771,
     "_string": "积分数",
     "_N$string": "积分数",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -5155,8 +5155,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5167,8 +5167,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        139.72,
-        -1.242,
+        302.947,
+        1.799,
         0,
         0,
         0,
@@ -5208,7 +5208,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -5264,8 +5264,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 27.72
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5276,8 +5276,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        226.071,
-        0,
+        444.276,
+        4.999,
         0,
         0,
         0,
@@ -5318,8 +5318,8 @@
     "_dstBlendFactor": 771,
     "_string": "牌局数",
     "_N$string": "牌局数",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -5372,8 +5372,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5384,8 +5384,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        271.597,
-        -0.9319999999999999,
+        530.027,
+        1.499,
         0,
         0,
         0,
@@ -5425,7 +5425,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -5485,8 +5485,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 158.8,
+      "height": 75.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5497,8 +5497,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -27.897,
-        0,
+        15.1,
+        2.3,
         0,
         0,
         0,
@@ -5909,8 +5909,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 154.2,
+      "height": 77.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5921,8 +5921,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        100.927,
-        -2.725,
+        240.1,
+        1.7,
         0,
         0,
         0,
@@ -6333,8 +6333,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 155.5,
+      "height": 77.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6345,8 +6345,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        242.091,
-        -4.087,
+        466.4,
+        1.6,
         0,
         0,
         0,
@@ -6740,7 +6740,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Search_DuiWu",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 90
     },
@@ -6774,8 +6774,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 361.6,
+      "height": 62.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6786,8 +6786,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        64.86,
-        10.882000000000001,
+        154.3,
+        3.1,
         0,
         0,
         0,
@@ -6838,8 +6838,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 300.2,
+      "height": 62.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6850,7 +6850,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -30.7,
         0,
         0,
         0,
@@ -6947,8 +6947,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 36
+      "width": 61,
+      "height": 61
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6959,8 +6959,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        95.295,
-        0.1140000000000001,
+        150.436,
+        0.03,
         0,
         0,
         0,
@@ -7056,8 +7056,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 25.2
+      "width": 128,
+      "height": 44.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7068,8 +7068,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -10,
-        0,
+        -103.861,
+        0.99,
         0,
         0,
         0,
@@ -7110,8 +7110,8 @@
     "_dstBlendFactor": 771,
     "_string": "队伍筛选",
     "_N$string": "队伍筛选",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_fontSize": 32,
+    "_lineHeight": 35,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -7233,7 +7233,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Search",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 90
     },
@@ -7267,8 +7267,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 362.5,
+      "height": 60.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7279,8 +7279,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        315.949,
-        11.347000000000001,
+        585.4,
+        2.4,
         0,
         0,
         0,
@@ -7331,8 +7331,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 300.5,
+      "height": 61.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7343,8 +7343,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -31.2,
+        -0.4,
         0,
         0,
         0,
@@ -7440,8 +7440,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 36
+      "width": 61,
+      "height": 61
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7452,8 +7452,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        95.404,
-        0.1140000000000001,
+        150.197,
+        -0.064,
         0,
         0,
         0,
@@ -7549,8 +7549,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 25.2
+      "width": 128,
+      "height": 44.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7561,8 +7561,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -10,
-        0,
+        -103.861,
+        1,
         0,
         0,
         0,
@@ -7603,8 +7603,8 @@
     "_dstBlendFactor": 771,
     "_string": "全部玩法",
     "_N$string": "全部玩法",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_fontSize": 32,
+    "_lineHeight": 35,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -7750,8 +7750,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 180
+      "width": 305,
+      "height": 155
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7762,8 +7762,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        68.065,
-        -95.778,
+        126,
+        -108,
         0,
         0,
         0,
@@ -7821,8 +7821,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 180
+      "width": 304,
+      "height": 170
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7833,8 +7833,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        89.042,
+        0,
+        79,
         0,
         0,
         0,
@@ -7861,7 +7861,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 204
     },
@@ -7889,8 +7889,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 155
+      "width": 302,
+      "height": 172
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7901,8 +7901,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -22,
+        -1,
+        2,
         0,
         0,
         0,
@@ -7934,7 +7934,7 @@
       "__id__": 205
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 207
@@ -7953,8 +7953,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220,
-      "height": 0
+      "width": 296.6,
+      "height": 0.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7966,7 +7966,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        8,
+        0,
         0,
         0,
         0,
@@ -8000,8 +8000,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 220,
-      "height": 0
+      "width": 296.6,
+      "height": 0.5
     },
     "_resize": 1,
     "_N$layoutType": 2,
@@ -8173,7 +8173,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
+      "width": 303.5,
       "height": 180
     },
     "_anchorPoint": {
@@ -8185,8 +8185,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        319.258,
-        -95.053,
+        557.3,
+        -118,
         0,
         0,
         0,
@@ -8244,7 +8244,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
+      "width": 302,
       "height": 180
     },
     "_anchorPoint": {
@@ -8256,8 +8256,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        89.042,
+        -2,
+        89,
         0,
         0,
         0,
@@ -8284,7 +8284,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 216
     },
@@ -8312,8 +8312,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 155
+      "width": 300,
+      "height": 178
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8324,8 +8324,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -22,
+        1,
+        1,
         0,
         0,
         0,
@@ -8376,8 +8376,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220,
-      "height": 0
+      "width": 295.6,
+      "height": 1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8389,7 +8389,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        8,
+        0,
         0,
         0,
         0,
@@ -8423,8 +8423,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 220,
-      "height": 0
+      "width": 295.6,
+      "height": 1
     },
     "_resize": 1,
     "_N$layoutType": 2,
@@ -8621,8 +8621,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 400,
+      "height": 938
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8633,8 +8633,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85,
-        0,
+        1.247,
+        -12.629,
         0,
         0,
         0,
@@ -8689,8 +8689,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 510
+      "width": 1548,
+      "height": 728
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8701,8 +8701,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        461.505,
-        -24.381,
+        780,
+        20,
         0,
         0,
         0,
@@ -8757,8 +8757,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 510
+      "width": 1550,
+      "height": 852
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8770,7 +8770,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -63,
         0,
         0,
         0,
@@ -8825,8 +8825,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1140,
-      "height": 520
+      "width": 1550,
+      "height": 858
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8837,7 +8837,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -3,
         0,
         0,
         0,
@@ -8865,7 +8865,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 232
     },
@@ -8885,8 +8885,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1140,
-      "height": 134
+      "width": 1544,
+      "height": 239
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8897,8 +8897,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        3,
+        417,
         0,
         0,
         0,
@@ -9063,8 +9063,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1564,
+      "height": 81
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9075,8 +9075,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        432.47,
-        256.204,
+        787,
+        427,
         0,
         0,
         0,
@@ -9142,8 +9142,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1560,
+      "height": 84
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9154,7 +9154,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        68.672,
+        1,
         0,
         0,
         0,
@@ -9206,8 +9206,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 89.83,
-      "height": 26.46
+      "width": 158.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9218,8 +9218,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -447.522,
-        0,
+        -684.825,
+        -1.129,
         0,
         0,
         0,
@@ -9260,8 +9260,8 @@
     "_dstBlendFactor": 771,
     "_string": "今日场次:",
     "_N$string": "今日场次:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -9314,8 +9314,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9326,8 +9326,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -399.585,
-        0,
+        -599.862,
+        -3.388,
         0,
         0,
         0,
@@ -9368,8 +9368,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -9422,8 +9422,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 89.83,
-      "height": 26.46
+      "width": 158.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9434,8 +9434,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -221.398,
-        0,
+        -307.859,
+        -2.798,
         0,
         0,
         0,
@@ -9476,8 +9476,8 @@
     "_dstBlendFactor": 771,
     "_string": "中途解散:",
     "_N$string": "中途解散:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -9530,8 +9530,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9542,8 +9542,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -172.712,
-        0.896,
+        -224.302,
+        -5.344,
         0,
         0,
         0,
@@ -9584,8 +9584,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -9638,8 +9638,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 89.83,
-      "height": 26.46
+      "width": 158.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9650,8 +9650,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0.651,
-        0,
+        49.493,
+        -2.004,
         0,
         0,
         0,
@@ -9692,8 +9692,8 @@
     "_dstBlendFactor": 771,
     "_string": "完整场次:",
     "_N$string": "完整场次:",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -9746,8 +9746,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 11.68,
-      "height": 26.46
+      "width": 20.58,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -9758,8 +9758,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        49.581999999999994,
-        0,
+        142.935,
+        -2.667,
         0,
         0,
         0,
@@ -9800,8 +9800,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 21,
-    "_lineHeight": 21,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -9865,7 +9865,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
+      "width": 299.3,
       "height": 180
     },
     "_anchorPoint": {
@@ -9877,8 +9877,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        385.934,
-        -88.973,
+        558.4,
+        -123.6,
         0,
         0,
         0,
@@ -9936,7 +9936,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
+      "width": 299.3,
       "height": 180
     },
     "_anchorPoint": {
@@ -9948,8 +9948,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
-        89.042,
+        0,
+        89,
         0,
         0,
         0,
@@ -9976,7 +9976,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 263
     },
@@ -10004,8 +10004,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 155
+      "width": 299.3,
+      "height": 180
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10017,7 +10017,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -22,
+        0,
         0,
         0,
         0,
@@ -10044,7 +10044,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 264
     },
@@ -10068,8 +10068,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220,
-      "height": 127
+      "width": 299.3,
+      "height": 180
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10115,8 +10115,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 220,
-      "height": 127
+      "width": 299.3,
+      "height": 180
     },
     "_resize": 1,
     "_N$layoutType": 2,
@@ -10298,8 +10298,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 363.1,
+      "height": 61.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10310,8 +10310,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        385.099,
-        -1.095,
+        586.8,
+        -0.4,
         0,
         0,
         0,
@@ -10362,8 +10362,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 363.2,
+      "height": 61.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10375,7 +10375,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        0.4,
         0,
         0,
         0,
@@ -10471,8 +10471,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 36
+      "width": 61,
+      "height": 61
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10483,8 +10483,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        92.841,
-        0.1140000000000001,
+        149.741,
+        -0.571,
         0,
         0,
         0,
@@ -10580,8 +10580,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 25.2
+      "width": 120,
+      "height": 40.32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10592,8 +10592,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -10,
-        0,
+        -104.759,
+        -1.164,
         0,
         0,
         0,
@@ -10634,8 +10634,8 @@
     "_dstBlendFactor": 771,
     "_string": "全部玩法",
     "_N$string": "全部玩法",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_fontSize": 30,
+    "_lineHeight": 32,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -10806,8 +10806,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 400,
+      "height": 938.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10818,8 +10818,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85.626,
-        0,
+        1.227,
+        -10.152,
         0,
         0,
         0,
@@ -10874,8 +10874,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 432
+      "width": 1552,
+      "height": 854
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10886,8 +10886,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        464.988,
-        -50.504,
+        778,
+        -42,
         0,
         0,
         0,
@@ -10942,8 +10942,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 432
+      "width": 1549,
+      "height": 754
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10954,8 +10954,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -4,
+        -45,
         0,
         0,
         0,
@@ -10982,7 +10982,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 290
     },
@@ -11010,8 +11010,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 432
+      "width": 1546,
+      "height": 753
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11023,7 +11023,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -3,
         0,
         0,
         0,
@@ -11070,8 +11070,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 97.7
+      "width": 1526,
+      "height": 163
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11082,8 +11082,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        2,
+        366,
         0,
         0,
         0,
@@ -11245,8 +11245,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1524,
+      "height": 80
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11257,8 +11257,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        496.362,
-        198.274,
+        777,
+        329,
         0,
         0,
         0,
@@ -11309,8 +11309,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 900.6,
-      "height": 51
+      "width": 1522,
+      "height": 81.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11321,8 +11321,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -34.9,
-        -4,
+        0,
+        -1.4,
         0,
         0,
         0,
@@ -11454,8 +11454,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1524,
+      "height": 79
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11466,8 +11466,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        21.077,
-        -2.966,
+        -1,
+        -1,
         0,
         0,
         0,
@@ -11518,8 +11518,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44,
-      "height": 27.72
+      "width": 74,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11530,8 +11530,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -471.782,
-        1,
+        -702.342,
+        2.649,
         0,
         0,
         0,
@@ -11572,8 +11572,8 @@
     "_dstBlendFactor": 771,
     "_string": "排名",
     "_N$string": "排名",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -11626,8 +11626,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11638,8 +11638,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -437.311,
-        -0.554,
+        -645.209,
+        1.07,
         0,
         0,
         0,
@@ -11679,7 +11679,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -11735,8 +11735,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44,
-      "height": 27.72
+      "width": 74,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11747,8 +11747,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -335.73,
-        2.104,
+        -469.508,
+        2.649,
         0,
         0,
         0,
@@ -11789,8 +11789,8 @@
     "_dstBlendFactor": 771,
     "_string": "昵称",
     "_N$string": "昵称",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -11843,8 +11843,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44,
-      "height": 27.72
+      "width": 74,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11855,8 +11855,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -171.828,
-        2.104,
+        -192.222,
+        2.649,
         0,
         0,
         0,
@@ -11897,8 +11897,8 @@
     "_dstBlendFactor": 771,
     "_string": "分组",
     "_N$string": "分组",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -11951,8 +11951,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 27.72
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -11963,8 +11963,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -61.31,
-        2.104,
+        -4.707,
+        2.649,
         0,
         0,
         0,
@@ -12005,8 +12005,8 @@
     "_dstBlendFactor": 771,
     "_string": "大赢家",
     "_N$string": "大赢家",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -12059,8 +12059,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12071,8 +12071,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -14.849,
-        0.762,
+        79.627,
+        2.427,
         0,
         0,
         0,
@@ -12112,7 +12112,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -12168,8 +12168,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 27.72
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12180,8 +12180,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        71.123,
-        2.104,
+        220.538,
+        2.649,
         0,
         0,
         0,
@@ -12222,8 +12222,8 @@
     "_dstBlendFactor": 771,
     "_string": "积分数",
     "_N$string": "积分数",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -12276,8 +12276,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12288,7 +12288,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        113.493,
+        304.527,
         0.775,
         0,
         0,
@@ -12329,7 +12329,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -12385,8 +12385,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 66,
-      "height": 27.72
+      "width": 111,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12397,8 +12397,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        204.231,
-        2.104,
+        446.874,
+        2.649,
         0,
         0,
         0,
@@ -12439,8 +12439,8 @@
     "_dstBlendFactor": 771,
     "_string": "牌局数",
     "_N$string": "牌局数",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -12493,8 +12493,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13,
-      "height": 23
+      "width": 23,
+      "height": 37
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12505,8 +12505,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        248.66,
-        1.446,
+        532.09,
+        0.614,
         0,
         0,
         0,
@@ -12546,7 +12546,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "44ea4939-1f23-4119-8aff-e2bbdc829d73"
+      "__uuid__": "4c3c3ce2-85b9-4633-a182-f601b1b458f1"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -12606,8 +12606,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 157.6,
+      "height": 78.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12618,8 +12618,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -51.783,
-        0,
+        16.3,
+        0.3,
         0,
         0,
         0,
@@ -13030,8 +13030,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 154.8,
+      "height": 77.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -13042,8 +13042,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        79.061,
-        1.32,
+        241.5,
+        0.7,
         0,
         0,
         0,
@@ -13454,8 +13454,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 154.9,
+      "height": 77.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -13466,8 +13466,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        212.815,
-        0,
+        467.8,
+        1,
         0,
         0,
         0,
@@ -13913,8 +13913,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 400,
+      "height": 933
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -13925,8 +13925,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85.626,
-        0,
+        3.437,
+        -15.696,
         0,
         0,
         0,
@@ -13981,8 +13981,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 436.8
+      "width": 1536,
+      "height": 730
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -13993,8 +13993,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        468.471,
-        6.966,
+        780,
+        12,
         0,
         0,
         0,
@@ -14021,7 +14021,7 @@
   {
     "__type__": "cc.Node",
     "_name": "ScrollView_Content",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 372
     },
@@ -14049,8 +14049,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 436.8
+      "width": 1544,
+      "height": 733
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -14061,8 +14061,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -4,
+        4,
         0,
         0,
         0,
@@ -14089,7 +14089,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 373
     },
@@ -14117,8 +14117,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 912,
-      "height": 436.8
+      "width": 1541,
+      "height": 725
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -14129,7 +14129,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        3,
         0,
         0,
         0,
@@ -14157,7 +14157,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 374
     },
@@ -14177,8 +14177,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 360
+      "width": 1543,
+      "height": 726
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -14189,8 +14189,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -5,
+        366,
         0,
         0,
         0,
@@ -14325,7 +14325,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tea_cylb_bt",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 371
     },
@@ -14349,8 +14349,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1558,
+      "height": 86
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -14361,8 +14361,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        504.944,
-        253.113,
+        780,
+        424,
         0,
         0,
         0,
@@ -14440,8 +14440,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1269,
+      "height": 84
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -14452,8 +14452,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3.381,
-        3.116,
+        -100,
+        -1.218,
         0,
         0,
         0,
@@ -14504,7 +14504,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48,
+      "width": 74,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -14516,7 +14516,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -409,
+        -560.5,
         0,
         0,
         0,
@@ -14558,7 +14558,7 @@
     "_dstBlendFactor": 771,
     "_string": "头像",
     "_N$string": "头像",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -14612,7 +14612,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 72,
+      "width": 111,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -14624,7 +14624,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -238,
+        -419.5,
         0,
         0,
         0,
@@ -14666,7 +14666,7 @@
     "_dstBlendFactor": 771,
     "_string": "报名费",
     "_N$string": "报名费",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -14720,7 +14720,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48,
+      "width": 74,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -14732,7 +14732,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -220,
+        -315.5,
         0,
         0,
         0,
@@ -14774,7 +14774,7 @@
     "_dstBlendFactor": 771,
     "_string": "抽奖",
     "_N$string": "抽奖",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -14828,7 +14828,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48,
+      "width": 74,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -14840,7 +14840,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -140,
+        -211.5,
         0,
         0,
         0,
@@ -14882,7 +14882,7 @@
     "_dstBlendFactor": 771,
     "_string": "退赛",
     "_N$string": "退赛",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -14936,7 +14936,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 96,
+      "width": 148,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -14948,7 +14948,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -9,
+        -33.5,
         0,
         0,
         0,
@@ -14990,7 +14990,7 @@
     "_dstBlendFactor": 771,
     "_string": "裁判总数",
     "_N$string": "裁判总数",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -15044,7 +15044,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 72,
+      "width": 111,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -15056,7 +15056,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        84.46,
+        107.5,
         0,
         0,
         0,
@@ -15098,7 +15098,7 @@
     "_dstBlendFactor": 771,
     "_string": "总抽奖",
     "_N$string": "总抽奖",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -15152,7 +15152,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 96,
+      "width": 148,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -15164,7 +15164,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        205.442,
+        285.5,
         0,
         0,
         0,
@@ -15206,7 +15206,7 @@
     "_dstBlendFactor": 771,
     "_string": "实际抽奖",
     "_N$string": "实际抽奖",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -15260,7 +15260,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48,
+      "width": 74,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -15272,7 +15272,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        276.769,
+        389.5,
         0,
         0,
         0,
@@ -15314,7 +15314,7 @@
     "_dstBlendFactor": 771,
     "_string": "人数",
     "_N$string": "人数",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -15368,7 +15368,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 72,
+      "width": 111,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -15380,7 +15380,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        371.617,
+        530.5,
         0,
         0,
         0,
@@ -15413,12 +15413,16 @@
       "__id__": 409
     },
     "_enabled": true,
-    "_materials": [],
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_string": "大赢家",
     "_N$string": "大赢家",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -15472,7 +15476,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48,
+      "width": 74,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -15484,7 +15488,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        373.181,
+        634.5,
         0,
         0,
         0,
@@ -15526,7 +15530,7 @@
     "_dstBlendFactor": 771,
     "_string": "积分",
     "_N$string": "积分",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -15578,7 +15582,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tea_cylb_bt_bootom",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 371
     },
@@ -15609,8 +15613,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1550,
+      "height": 122
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -15621,8 +15625,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        491.331,
-        -242.435,
+        774,
+        -410,
         0,
         0,
         0,
@@ -15673,8 +15677,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 901.5,
-      "height": 51
+      "width": 1550,
+      "height": 123
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -15685,8 +15689,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -27.5,
-        -4,
+        2,
+        0,
         0,
         0,
         0,
@@ -15758,7 +15762,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Header",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 417
     },
@@ -15809,8 +15813,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1000,
-      "height": 40
+      "width": 1395.27,
+      "height": 121
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -15821,7 +15825,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        15.143999999999998,
+        -1,
         0,
         0,
         0,
@@ -15866,15 +15870,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 48,
-      "height": 50.4
+      "width": 90,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -15885,8 +15889,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -438.288,
-        2.658,
+        -652.635,
+        -2.163,
         0,
         0,
         0,
@@ -15927,8 +15931,8 @@
     "_dstBlendFactor": 771,
     "_string": "统计",
     "_N$string": "统计",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -15974,15 +15978,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -15993,8 +15997,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -275.385,
-        0,
+        -475.12,
+        -1.652,
         0,
         0,
         0,
@@ -16033,10 +16037,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "0",
-    "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_string": "7",
+    "_N$string": "7",
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16082,15 +16086,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16101,8 +16105,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -239.733,
-        0,
+        -330.09000000000003,
+        -4.595,
         0,
         0,
         0,
@@ -16143,8 +16147,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16190,15 +16194,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16209,7 +16213,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -165.794,
+        -185.06000000000006,
         0,
         0,
         0,
@@ -16251,8 +16255,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16298,15 +16302,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16317,7 +16321,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -68.852,
+        -40.030000000000086,
         0,
         0,
         0,
@@ -16359,8 +16363,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16406,15 +16410,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16425,7 +16429,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        37.116,
+        104.99999999999991,
         0,
         0,
         0,
@@ -16467,8 +16471,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16514,15 +16518,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16533,7 +16537,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        144.315,
+        250.02999999999992,
         0,
         0,
         0,
@@ -16575,8 +16579,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16622,15 +16626,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16641,7 +16645,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        238.985,
+        395.0599999999999,
         0,
         0,
         0,
@@ -16683,8 +16687,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16730,15 +16734,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16749,7 +16753,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        336.714,
+        540.0899999999999,
         0,
         0,
         0,
@@ -16791,8 +16795,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16838,15 +16842,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 164,
-      "g": 135,
-      "b": 143,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 13.35,
-      "height": 50.4
+      "width": 25.03,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16857,7 +16861,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        334.454,
+        685.1199999999999,
         0,
         0,
         0,
@@ -16899,8 +16903,8 @@
     "_dstBlendFactor": 771,
     "_string": "0",
     "_N$string": "0",
-    "_fontSize": 24,
-    "_lineHeight": 40,
+    "_fontSize": 45,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -16951,7 +16955,7 @@
     "_left": 0,
     "_right": 0,
     "_top": 0,
-    "_bottom": -262.435,
+    "_bottom": -4.499999999999993,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -16997,7 +17001,7 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 40,
-    "_left": 120,
+    "_left": 361,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -17067,8 +17071,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 80
+      "width": 1919,
+      "height": 132
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17079,8 +17083,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        278.149,
+        1,
+        475,
         0,
         0,
         0,
@@ -17131,8 +17135,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 763.4,
-      "height": 58
+      "width": 1184,
+      "height": 96
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17143,8 +17147,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -86.2,
-        1.3,
+        -160,
+        -8,
         0,
         0,
         0,
@@ -17259,8 +17263,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -521.132,
-        -2.258,
+        -883.789,
+        -6.033,
         0,
         0,
         0,
@@ -17311,8 +17315,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 45,
-      "height": 41
+      "width": 70,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17500,7 +17504,7 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 8,
-    "_left": -1.9319999999999453,
+    "_left": 26.911000000000016,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -17570,8 +17574,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 765,
-      "height": 60
+      "width": 1185,
+      "height": 92
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17582,8 +17586,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -468.965,
-        0.352,
+        -751,
+        -7,
         0,
         0,
         0,
@@ -17634,8 +17638,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 156,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17646,7 +17650,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        78,
+        118.5,
         0,
         0,
         0,
@@ -17705,8 +17709,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 156,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17773,8 +17777,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 159,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17786,7 +17790,7 @@
       "ctor": "Float64Array",
       "array": [
         2,
-        0,
+        3,
         0,
         0,
         0,
@@ -17837,8 +17841,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17891,8 +17895,8 @@
     "_dstBlendFactor": 771,
     "_string": "我的战绩",
     "_N$string": "我的战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -17992,8 +17996,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 159,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18004,7 +18008,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        2,
+        0,
         0,
         0,
         0,
@@ -18056,8 +18060,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18068,8 +18072,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        3,
+        2.428,
+        6.035,
         0,
         0,
         0,
@@ -18110,8 +18114,8 @@
     "_dstBlendFactor": 771,
     "_string": "我的战绩",
     "_N$string": "我的战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -18321,8 +18325,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 151,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18333,7 +18337,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        231.5,
+        355.5,
         0,
         0,
         0,
@@ -18392,8 +18396,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 151,
-      "height": 60
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18460,8 +18464,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18524,8 +18528,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18578,8 +18582,8 @@
     "_dstBlendFactor": 771,
     "_string": "成员战绩",
     "_N$string": "成员战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -18679,8 +18683,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18743,8 +18747,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 61.74
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -18797,8 +18801,8 @@
     "_dstBlendFactor": 771,
     "_string": "成员战绩",
     "_N$string": "成员战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 49.9,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -19008,8 +19012,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 151,
-      "height": 60
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19020,7 +19024,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        382.5,
+        592.5,
         0,
         0,
         0,
@@ -19079,8 +19083,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 151,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19147,8 +19151,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19211,8 +19215,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19265,8 +19269,8 @@
     "_dstBlendFactor": 771,
     "_string": "圈子战绩",
     "_N$string": "圈子战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -19366,8 +19370,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19430,8 +19434,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19484,8 +19488,8 @@
     "_dstBlendFactor": 771,
     "_string": "圈子战绩",
     "_N$string": "圈子战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -19695,8 +19699,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 151,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19707,7 +19711,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        533.5,
+        829.5,
         0,
         0,
         0,
@@ -19766,8 +19770,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 151,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19834,8 +19838,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19846,7 +19850,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1,
+        0,
         0,
         0,
         0,
@@ -19898,8 +19902,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -19952,8 +19956,8 @@
     "_dstBlendFactor": 771,
     "_string": "战队战绩",
     "_N$string": "战队战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -19976,7 +19980,7 @@
     "asset": {
       "__uuid__": "8bd52c28-7564-4282-8492-b0afc3f6fc73"
     },
-    "fileId": "08UUMCXaZG7pWP50EG5WtS",
+    "fileId": "32n+gqUS9JeocP2tBWcuwC",
     "sync": false
   },
   {
@@ -20019,7 +20023,7 @@
     "asset": {
       "__uuid__": "8bd52c28-7564-4282-8492-b0afc3f6fc73"
     },
-    "fileId": "cerYZ9JMpIq6Z2kkxcxIFn",
+    "fileId": "486FVwbHtFYKn2fDqmtoxf",
     "sync": false
   },
   {
@@ -20053,8 +20057,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 155,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20065,7 +20069,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1,
+        0,
         0,
         0,
         0,
@@ -20117,8 +20121,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20171,8 +20175,8 @@
     "_dstBlendFactor": 771,
     "_string": "战队战绩",
     "_N$string": "战队战绩",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -20195,7 +20199,7 @@
     "asset": {
       "__uuid__": "8bd52c28-7564-4282-8492-b0afc3f6fc73"
     },
-    "fileId": "94E8RA0LxKWZRXHto1aj9W",
+    "fileId": "53lCF0DelK4bAGLsrRJcWV",
     "sync": false
   },
   {
@@ -20240,7 +20244,7 @@
     "asset": {
       "__uuid__": "8bd52c28-7564-4282-8492-b0afc3f6fc73"
     },
-    "fileId": "13MALW26NDV5GQXvtqO1wl",
+    "fileId": "ecEH5yPK9CFLq24xYjgFOS",
     "sync": false
   },
   {
@@ -20341,7 +20345,7 @@
     "asset": {
       "__uuid__": "8bd52c28-7564-4282-8492-b0afc3f6fc73"
     },
-    "fileId": "c85GSACnBHT6ctSzraC565",
+    "fileId": "460xyy9JRIQpky2h5HagW5",
     "sync": false
   },
   {
@@ -20382,8 +20386,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 156,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20394,7 +20398,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        687,
+        1066.5,
         0,
         0,
         0,
@@ -20453,8 +20457,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 156,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20521,8 +20525,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 158,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20585,8 +20589,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20639,8 +20643,8 @@
     "_dstBlendFactor": 771,
     "_string": "比赛数据",
     "_N$string": "比赛数据",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -20743,8 +20747,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 158,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20807,8 +20811,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 156,
-      "height": 56
+      "width": 237,
+      "height": 92.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20916,8 +20920,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 112,
-      "height": 35.28
+      "width": 192,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -20970,8 +20974,8 @@
     "_dstBlendFactor": 771,
     "_string": "比赛数据",
     "_N$string": "比赛数据",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -21164,8 +21168,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 765,
-      "height": 60
+      "width": 1185,
+      "height": 92
     },
     "_resize": 1,
     "_N$layoutType": 1,
@@ -21200,7 +21204,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Seach",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 458
     },
@@ -21242,8 +21246,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        371.586,
-        9.425999999999998,
+        616.295,
+        5.192,
         0,
         0,
         0,
@@ -21294,8 +21298,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 174.8,
-      "height": 40
+      "width": 246.5,
+      "height": 68.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -21306,8 +21310,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        22.116,
-        -8.294,
+        19.1,
+        -6.8,
         0,
         0,
         0,
@@ -21413,8 +21417,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 130,
-      "height": 30
+      "width": 244.1,
+      "height": 69.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -21425,8 +21429,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        13.529,
-        -7.891,
+        17.2,
+        -8.2,
         0,
         0,
         0,
@@ -21453,7 +21457,7 @@
   {
     "__type__": "cc.Node",
     "_name": "BACKGROUND_SPRITE",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 570
     },
@@ -21480,8 +21484,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 130,
-      "height": 30
+      "width": 244.1,
+      "height": 69.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -21617,8 +21621,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 158,
-      "height": 40
+      "width": 244.1,
+      "height": 69.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -21629,8 +21633,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -78,
-        20,
+        -123.848,
+        37.033,
         0,
         0,
         0,
@@ -21667,8 +21671,8 @@
     "_dstBlendFactor": 771,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 22,
-    "_lineHeight": 25,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -21751,8 +21755,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 128,
-      "height": 30
+      "width": 242.1,
+      "height": 69.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -21763,8 +21767,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -63,
-        15,
+        -120.05,
+        34.7,
         0,
         0,
         0,
@@ -21805,8 +21809,8 @@
     "_dstBlendFactor": 771,
     "_string": "输入ID",
     "_N$string": "输入ID",
-    "_fontSize": 22,
-    "_lineHeight": 25,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -21931,8 +21935,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 106,
-      "height": 45
+      "width": 184.5,
+      "height": 78.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -21943,8 +21947,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        137.49,
-        -6.48,
+        237.7,
+        -7.1,
         0,
         0,
         0,
@@ -21999,8 +22003,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 106,
-      "height": 45
+      "width": 184.5,
+      "height": 78.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22063,8 +22067,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50.11,
-      "height": 27.72
+      "width": 91.11,
+      "height": 52.92
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22117,8 +22121,8 @@
     "_dstBlendFactor": 771,
     "_string": "搜 索",
     "_N$string": "搜 索",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 40,
+    "_lineHeight": 42,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -22163,7 +22167,7 @@
       "__uuid__": "057e44ed-eab9-402c-90b6-96d88618171d"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -22310,7 +22314,7 @@
   {
     "__type__": "cc.Node",
     "_name": "NodePop_Node",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 458
     },
@@ -22337,8 +22341,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 180
+      "width": 301,
+      "height": 61
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22349,8 +22353,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        428.023,
-        -61.482,
+        662,
+        -4,
         0,
         0,
         0,
@@ -22401,7 +22405,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
+      "width": 237.2,
       "height": 180
     },
     "_anchorPoint": {
@@ -22413,8 +22417,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -4.195,
-        -24.698,
+        -29.7,
+        -120.4,
         0,
         0,
         0,
@@ -22472,7 +22476,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
+      "width": 238.7,
       "height": 180
     },
     "_anchorPoint": {
@@ -22484,8 +22488,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -5,
-        89.042,
+        -0.6,
+        89,
         0,
         0,
         0,
@@ -22540,8 +22544,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 196,
-      "height": 155
+      "width": 238.7,
+      "height": 178.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22552,8 +22556,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -22,
+        -0.3,
+        1.1,
         0,
         0,
         0,
@@ -22604,7 +22608,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 220,
+      "width": 238.7,
       "height": 0
     },
     "_anchorPoint": {
@@ -22651,7 +22655,7 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 220,
+      "width": 238.7,
       "height": 0
     },
     "_resize": 1,
@@ -22837,8 +22841,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 301,
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -22849,8 +22853,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -7.03,
-        64.26,
+        0,
+        0,
         0,
         0,
         0,
@@ -22901,8 +22905,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 301,
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23003,8 +23007,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 35
+      "width": 301,
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23112,8 +23116,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 36
+      "width": 61,
+      "height": 61
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23124,8 +23128,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        89.378,
-        0.1140000000000001,
+        118.774,
+        -0.603,
         0,
         0,
         0,
@@ -23221,8 +23225,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 25.2
+      "width": 148,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23233,8 +23237,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -10,
-        2,
+        -71.173,
+        -0.056,
         0,
         0,
         0,
@@ -23275,8 +23279,8 @@
     "_dstBlendFactor": 771,
     "_string": "全部队伍",
     "_N$string": "全部队伍",
-    "_fontSize": 20,
-    "_lineHeight": 20,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -23431,8 +23435,8 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 40,
-    "_left": 5.3290705182007514e-14,
-    "_right": -5.3290705182007514e-14,
+    "_left": 1.4999999999999645,
+    "_right": -0.4999999999999627,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -23461,7 +23465,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Left",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -23489,8 +23493,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 190,
-      "height": 560
+      "width": 354,
+      "height": 940
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23501,8 +23505,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -468.514,
-        240,
+        -779,
+        400,
         0,
         0,
         0,
@@ -23557,8 +23561,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 560
+      "width": 354,
+      "height": 940
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23628,8 +23632,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 560
+      "width": 354,
+      "height": 940
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23668,7 +23672,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 630
     },
@@ -23692,8 +23696,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 190,
-      "height": 0
+      "width": 354,
+      "height": -4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -23739,8 +23743,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 190,
-      "height": 0
+      "width": 354,
+      "height": -4
     },
     "_resize": 1,
     "_N$layoutType": 2,
@@ -23752,10 +23756,10 @@
     "_N$startAxis": 0,
     "_N$paddingLeft": 0,
     "_N$paddingRight": 0,
-    "_N$paddingTop": 0,
+    "_N$paddingTop": 3,
     "_N$paddingBottom": 0,
     "_N$spacingX": 0,
-    "_N$spacingY": 0,
+    "_N$spacingY": 7,
     "_N$verticalDirection": 1,
     "_N$horizontalDirection": 0,
     "_N$affectedByScale": false,
@@ -23878,9 +23882,9 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 13,
-    "_left": 4.48599999999999,
+    "_left": 4,
     "_right": 0,
-    "_top": 80,
+    "_top": 140,
     "_bottom": 0,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
