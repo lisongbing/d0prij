@@ -6,587 +6,619 @@
         <dict>
             <key>comtxt_agree.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{464,403},{59,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{59,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{59,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{59,32}</string>
+                <key>textureRect</key>
+                <string>{{430,154},{59,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_agree_No.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{400,464},{88,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{88,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{88,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{88,32}</string>
+                <key>textureRect</key>
+                <string>{{227,412},{88,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_ckbz.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{290,111},{114,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{114,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{114,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{114,32}</string>
+                <key>textureRect</key>
+                <string>{{495,1},{114,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_denglu.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{256,2},{79,33}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{79,33}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{79,33}</string>
+                <key>spriteSourceSize</key>
+                <string>{79,33}</string>
+                <key>textureRect</key>
+                <string>{{261,412},{79,33}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_ffyx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{543,239},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{316,219},{123,34}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_ffyx1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{296,272},{135,50}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{135,50}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{135,50}</string>
+                <key>spriteSourceSize</key>
+                <string>{135,50}</string>
+                <key>textureRect</key>
+                <string>{{179,219},{135,50}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_fhdt.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{548,2},{116,31}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{116,31}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{116,31}</string>
+                <key>spriteSourceSize</key>
+                <string>{116,31}</string>
+                <key>textureRect</key>
+                <string>{{380,375},{116,31}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_fou.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{490,471},{23,21}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{23,21}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{23,21}</string>
+                <key>spriteSourceSize</key>
+                <string>{23,21}</string>
+                <key>textureRect</key>
+                <string>{{59,490},{23,21}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_fxzj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{547,120},{117,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{117,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{117,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{117,32}</string>
+                <key>textureRect</key>
+                <string>{{403,476},{117,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_fxzj1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,172},{217,54}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{217,54}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{217,54}</string>
+                <key>spriteSourceSize</key>
+                <string>{217,54}</string>
+                <key>textureRect</key>
+                <string>{{59,271},{217,54}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_fzfjh.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{400,324},{105,77}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{105,77}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{105,77}</string>
+                <key>spriteSourceSize</key>
+                <string>{105,77}</string>
+                <key>textureRect</key>
+                <string>{{296,408},{105,77}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_fzgzh.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{138,2},{268,58}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{268,58}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{268,58}</string>
+                <key>spriteSourceSize</key>
+                <string>{268,58}</string>
+                <key>textureRect</key>
+                <string>{{1,1},{268,58}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_fzwxh.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{78,2},{268,58}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{268,58}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{268,58}</string>
+                <key>spriteSourceSize</key>
+                <string>{268,58}</string>
+                <key>textureRect</key>
+                <string>{{61,1},{268,58}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_huanzhuo.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{362,403},{61,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{61,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{61,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{61,32}</string>
+                <key>textureRect</key>
+                <string>{{471,408},{61,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_huanzhuo_1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{159,329},{139,55}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{139,55}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{139,55}</string>
+                <key>spriteSourceSize</key>
+                <string>{139,55}</string>
+                <key>textureRect</key>
+                <string>{{227,271},{139,55}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_jj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,358},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{403,408},{66,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_jsfj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{159,470},{117,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{117,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{117,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{117,32}</string>
+                <key>textureRect</key>
+                <string>{{393,1},{117,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_jsfj1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{385,228},{120,36}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{120,36}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0}</string>
+                <key>spriteSize</key>
+                <string>{118,34}</string>
+                <key>spriteSourceSize</key>
                 <string>{120,36}</string>
+                <key>textureRect</key>
+                <string>{{380,255},{118,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_jsyx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,116},{217,54}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{217,54}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{217,54}</string>
+                <key>spriteSourceSize</key>
+                <string>{217,54}</string>
+                <key>textureRect</key>
+                <string>{{115,271},{217,54}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_jxyx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{507,228},{123,34}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{123,34}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{123,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{123,34}</string>
+                <key>textureRect</key>
+                <string>{{344,255},{123,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_jxyx1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{109,329},{158,48}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{158,48}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{158,48}</string>
+                <key>spriteSourceSize</key>
+                <string>{158,48}</string>
+                <key>textureRect</key>
+                <string>{{343,1},{158,48}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_ksks.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,2},{218,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{218,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{218,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{218,56}</string>
+                <key>textureRect</key>
+                <string>{{1,271},{218,56}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_lkfj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{256,111},{115,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{115,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{115,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{115,32}</string>
+                <key>textureRect</key>
+                <string>{{461,1},{115,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_qhzh.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{541,364},{116,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{116,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{116,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{116,32}</string>
+                <key>textureRect</key>
+                <string>{{393,120},{116,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_queding.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{430,403},{59,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{59,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{59,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{59,32}</string>
+                <key>textureRect</key>
+                <string>{{441,215},{59,32}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_queding1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{296,2},{53,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{53,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{53,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{53,29}</string>
+                <key>textureRect</key>
+                <string>{{365,161},{53,29}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_quereng.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{48,329},{165,59}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{165,59}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{165,59}</string>
+                <key>spriteSourceSize</key>
+                <string>{165,59}</string>
+                <key>textureRect</key>
+                <string>{{282,1},{165,59}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_quxiao.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{396,403},{59,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{59,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{59,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{59,32}</string>
+                <key>textureRect</key>
+                <string>{{464,154},{59,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_quxiao1.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{296,57},{52,29}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{52,29}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{52,29}</string>
+                <key>spriteSourceSize</key>
+                <string>{52,29}</string>
+                <key>textureRect</key>
+                <string>{{498,154},{52,29}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_qyqyq.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{198,2},{268,56}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{268,56}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{268,56}</string>
+                <key>spriteSourceSize</key>
+                <string>{268,56}</string>
+                <key>textureRect</key>
+                <string>{{121,1},{268,56}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_shi.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{256,83},{23,22}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{23,22}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{23,22}</string>
+                <key>spriteSourceSize</key>
+                <string>{23,22}</string>
+                <key>textureRect</key>
+                <string>{{296,487},{23,22}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_tcfj.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{278,466},{120,36}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{120,36}}</string>
-                <key>sourceSize</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{-1,0}</string>
+                <key>spriteSize</key>
+                <string>{118,34}</string>
+                <key>spriteSourceSize</key>
                 <string>{120,36}</string>
+                <key>textureRect</key>
+                <string>{{416,255},{118,34}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_tcyx.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{507,353},{116,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{116,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{116,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{116,32}</string>
+                <key>textureRect</key>
+                <string>{{427,1},{116,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_tijiao.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{216,329},{135,58}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{135,58}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{135,58}</string>
+                <key>spriteSourceSize</key>
+                <string>{135,58}</string>
+                <key>textureRect</key>
+                <string>{{284,271},{135,58}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_ty.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,324},{66,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{66,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{66,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{66,32}</string>
+                <key>textureRect</key>
+                <string>{{437,408},{66,32}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_yanzm.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{256,228},{127,42}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{127,42}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{127,42}</string>
+                <key>spriteSourceSize</key>
+                <string>{127,42}</string>
+                <key>textureRect</key>
+                <string>{{236,175},{127,42}}</string>
+                <key>textureRotated</key>
+                <false/>
             </dict>
             <key>comtxt_yqhy.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{2,329},{172,44}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{172,44}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{172,44}</string>
+                <key>spriteSourceSize</key>
+                <string>{172,44}</string>
+                <key>textureRect</key>
+                <string>{{236,1},{172,44}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_zbks.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{78,272},{216,55}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{216,55}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{216,55}</string>
+                <key>spriteSourceSize</key>
+                <string>{216,55}</string>
+                <key>textureRect</key>
+                <string>{{179,1},{216,55}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_zfjs.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,60},{217,54}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{217,54}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{217,54}</string>
+                <key>spriteSourceSize</key>
+                <string>{217,54}</string>
+                <key>textureRect</key>
+                <string>{{171,271},{217,54}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>comtxt_zhunbei.png</key>
             <dict>
-                <key>frame</key>
-                <string>{{328,403},{61,32}}</string>
-                <key>offset</key>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
                 <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{61,32}}</string>
-                <key>sourceSize</key>
+                <key>spriteSize</key>
                 <string>{61,32}</string>
-            </dict>
-            <key>fenxiangzhanji.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{328,172},{217,54}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{217,54}}</string>
-                <key>sourceSize</key>
-                <string>{217,54}</string>
-            </dict>
-            <key>jiesuanspai_1.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{276,329},{135,50}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
+                <key>spriteSourceSize</key>
+                <string>{61,32}</string>
+                <key>textureRect</key>
+                <string>{{396,154},{61,32}}</string>
+                <key>textureRotated</key>
                 <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{135,50}}</string>
-                <key>sourceSize</key>
-                <string>{135,50}</string>
-            </dict>
-            <key>jiesuyouxi.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{328,116},{217,54}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{217,54}}</string>
-                <key>sourceSize</key>
-                <string>{217,54}</string>
-            </dict>
-            <key>paijujiesu.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,2},{325,74}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{325,74}}</string>
-                <key>sourceSize</key>
-                <string>{325,74}</string>
             </dict>
         </dict>
         <key>metadata</key>
         <dict>
             <key>format</key>
-            <integer>2</integer>
+            <integer>3</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
             <key>realTextureFileName</key>
             <string>comtxtAtlas0.png</string>
             <key>size</key>
-            <string>{581,504}</string>
+            <string>{1024,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:defa36ed4cfd6f21fe39c44ae954147f$</string>
+            <string>$TexturePacker:SmartUpdate:bfd13d169702885db8ce29f4d0a7edcb:921c624fe2a039ec1541b1d6186bdf70:5ae99395321caa92e78142047867dfe8$</string>
             <key>textureFileName</key>
             <string>comtxtAtlas0.png</string>
         </dict>
