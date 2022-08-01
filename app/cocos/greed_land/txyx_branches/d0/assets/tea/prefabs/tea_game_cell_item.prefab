@@ -45,7 +45,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
+      "width": 351.2,
       "height": 50
     },
     "_anchorPoint": {
@@ -58,7 +58,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        289.4,
         0,
         0,
         0,
@@ -115,7 +115,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
+      "width": 351.2,
       "height": 50
     },
     "_anchorPoint": {
@@ -260,7 +260,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
+      "width": 351.1,
       "height": 50
     },
     "_anchorPoint": {
@@ -272,8 +272,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -1,
-        -0.30200000000000005,
+        -0.6,
+        -0.3,
         0,
         0,
         0,
@@ -415,8 +415,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
-      "height": 50.4
+      "width": 269.7,
+      "height": 44.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -469,8 +469,8 @@
     "_dstBlendFactor": 771,
     "_string": "红中麻将红中麻",
     "_N$string": "红中麻将红中麻",
-    "_fontSize": 22,
-    "_lineHeight": 40,
+    "_fontSize": 32,
+    "_lineHeight": 35,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -523,7 +523,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
+      "width": 351.2,
       "height": 1
     },
     "_anchorPoint": {

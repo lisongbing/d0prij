@@ -43,8 +43,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 149,
-      "height": 187
+      "width": 254,
+      "height": 319
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -55,8 +55,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -363,
-        -103.5,
+        -418.332,
+        196.633,
         0,
         0,
         0,
@@ -114,8 +114,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 149,
-      "height": 187
+      "width": 254,
+      "height": 309
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -126,8 +126,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        0.452,
+        5.701,
         0,
         0,
         0,
@@ -154,7 +154,7 @@
   {
     "__type__": "cc.Node",
     "_name": "number",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 2
     },
@@ -178,8 +178,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 120,
-      "height": 30.24
+      "width": 210,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -190,8 +190,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -60.672,
-        66.747,
+        -108.79,
+        111.689,
         0,
         0,
         0,
@@ -232,8 +232,8 @@
     "_dstBlendFactor": 771,
     "_string": "新增限制组",
     "_N$string": "新增限制组",
-    "_fontSize": 24,
-    "_lineHeight": 24,
+    "_fontSize": 42,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -262,7 +262,7 @@
   {
     "__type__": "cc.Node",
     "_name": "jia",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 2
     },
@@ -286,8 +286,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 98,
-      "height": 98
+      "width": 167,
+      "height": 168
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -298,8 +298,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1,
-        -16.717,
+        0,
+        -31.368,
         0,
         0,
         0,
@@ -483,8 +483,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 149,
-      "height": 187
+      "width": 254,
+      "height": 309
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -496,7 +496,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        6,
         0,
         0,
         0,
@@ -547,8 +547,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 119.63,
-      "height": 30.24
+      "width": 209.34,
+      "height": 75.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -559,8 +559,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -60.672,
-        66.747,
+        -107.886,
+        109.447,
         0,
         0,
         0,
@@ -601,8 +601,8 @@
     "_dstBlendFactor": 771,
     "_string": "编号:11524",
     "_N$string": "编号:11524",
-    "_fontSize": 24,
-    "_lineHeight": 24,
+    "_fontSize": 42,
+    "_lineHeight": 60,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -668,8 +668,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 113.9,
-      "height": 108
+      "width": 215,
+      "height": 193.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -680,8 +680,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -55.151,
-        36.6,
+        -99.414,
+        64.729,
         0,
         0,
         0,
@@ -736,8 +736,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 50
+      "width": 99,
+      "height": 96.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -748,8 +748,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        25,
-        -25,
+        49.5,
+        -48.45,
         0,
         0,
         0,
@@ -800,8 +800,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 56,
-      "height": 56
+      "width": 93.6,
+      "height": 89.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -958,8 +958,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 50
+      "width": 99,
+      "height": 96.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -970,8 +970,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85,
-        -25,
+        148.5,
+        -48.45,
         0,
         0,
         0,
@@ -1022,8 +1022,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 56,
-      "height": 56
+      "width": 93.6,
+      "height": 89.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1101,7 +1101,7 @@
     "asset": {
       "__uuid__": "3f27dc0c-dbde-410f-b450-f3fe1b40b7d0"
     },
-    "fileId": "caUgFIVDJLQ4dVeKcLjZtM",
+    "fileId": "bfYxurXItHkLOAp0azn3nW",
     "sync": false
   },
   {
@@ -1146,7 +1146,7 @@
     "asset": {
       "__uuid__": "3f27dc0c-dbde-410f-b450-f3fe1b40b7d0"
     },
-    "fileId": "9at3MTzz9CzIl5YKTckOPe",
+    "fileId": "e5otr+w8lD+5tAUKjcAHr7",
     "sync": false
   },
   {
@@ -1180,8 +1180,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 50
+      "width": 99,
+      "height": 96.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1192,8 +1192,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        25,
-        -83,
+        49.5,
+        -145.35000000000002,
         0,
         0,
         0,
@@ -1244,8 +1244,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 56,
-      "height": 56
+      "width": 93.6,
+      "height": 89.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1323,7 +1323,7 @@
     "asset": {
       "__uuid__": "3f27dc0c-dbde-410f-b450-f3fe1b40b7d0"
     },
-    "fileId": "71+g9HmtdPsaqzWHBFdSYc",
+    "fileId": "e9klP+aU9AY5BDQsq+M5/b",
     "sync": false
   },
   {
@@ -1368,7 +1368,7 @@
     "asset": {
       "__uuid__": "3f27dc0c-dbde-410f-b450-f3fe1b40b7d0"
     },
-    "fileId": "7aPtewuJRFFbEBjQVjssnB",
+    "fileId": "7cI5UoNSdAMoOelKQiQLrr",
     "sync": false
   },
   {
@@ -1402,8 +1402,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 50
+      "width": 99,
+      "height": 96.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1414,8 +1414,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        85,
-        -83,
+        148.5,
+        -145.35000000000002,
         0,
         0,
         0,
@@ -1466,8 +1466,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 56,
-      "height": 56
+      "width": 93.6,
+      "height": 89.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1545,7 +1545,7 @@
     "asset": {
       "__uuid__": "3f27dc0c-dbde-410f-b450-f3fe1b40b7d0"
     },
-    "fileId": "88VrtnXrhLf7IhQcAWJYsI",
+    "fileId": "edIP0fTadPt6+qcrxfD6C4",
     "sync": false
   },
   {
@@ -1590,7 +1590,7 @@
     "asset": {
       "__uuid__": "3f27dc0c-dbde-410f-b450-f3fe1b40b7d0"
     },
-    "fileId": "69g/rR7YZLboU+lHs6UgVF",
+    "fileId": "e2M7zozc1L9JisdDMG1fHb",
     "sync": false
   },
   {
@@ -1603,8 +1603,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 113.9,
-      "height": 108
+      "width": 215,
+      "height": 193.8
     },
     "_resize": 1,
     "_N$layoutType": 3,
@@ -1618,8 +1618,8 @@
     "_N$paddingRight": 0,
     "_N$paddingTop": 0,
     "_N$paddingBottom": 0,
-    "_N$spacingX": 10,
-    "_N$spacingY": 8,
+    "_N$spacingX": 0,
+    "_N$spacingY": 0,
     "_N$verticalDirection": 1,
     "_N$horizontalDirection": 0,
     "_N$affectedByScale": false,

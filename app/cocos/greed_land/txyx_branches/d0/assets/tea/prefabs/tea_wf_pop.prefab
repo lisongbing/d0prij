@@ -49,8 +49,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -61,7 +61,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        568,
+        0,
         0,
         0,
         0,
@@ -120,8 +120,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -444,8 +444,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 468,
-      "height": 640
+      "width": 734,
+      "height": 1083
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -456,8 +456,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        334.23199999999997,
-        0,
+        593,
+        1,
         0,
         0,
         0,
@@ -508,8 +508,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 468,
-      "height": 640
+      "width": 730,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -521,7 +521,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -1,
         0,
         0,
         0,
@@ -617,8 +617,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 140,
-      "height": 50.4
+      "width": 200,
+      "height": 65.52
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -629,8 +629,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        3,
-        278,
+        0,
+        489.449,
         0,
         0,
         0,
@@ -671,8 +671,8 @@
     "_dstBlendFactor": 771,
     "_string": "玩法管理",
     "_N$string": "玩法管理",
-    "_fontSize": 35,
-    "_lineHeight": 40,
+    "_fontSize": 50,
+    "_lineHeight": 52,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -725,7 +725,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 510,
+      "width": 691.3,
       "height": 0
     },
     "_anchorPoint": {
@@ -737,8 +737,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        4.194,
-        236.19,
+        0,
+        405.2,
         0,
         0,
         0,
@@ -799,8 +799,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 460
+      "width": 726,
+      "height": 813
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -811,8 +811,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        17.009,
-        0,
+        2,
+        -2,
         0,
         0,
         0,
@@ -1069,7 +1069,7 @@
   {
     "__type__": "cc.Node",
     "_name": "content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 26
     },
@@ -1093,8 +1093,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 86
+      "width": 730,
+      "height": -6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1133,7 +1133,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 18
     },
@@ -1161,8 +1161,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 480,
-      "height": 460
+      "width": 692,
+      "height": 815.3
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1239,8 +1239,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 400,
-      "height": 86
+      "width": 730,
+      "height": -6
     },
     "_resize": 1,
     "_N$layoutType": 2,
@@ -1427,8 +1427,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 137,
-      "height": 62
+      "width": 256.2,
+      "height": 93.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1439,8 +1439,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        3.366,
-        -274.889,
+        -2.7,
+        -470.8,
         0,
         0,
         0,
@@ -1467,7 +1467,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Background",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 37
     },
@@ -1501,8 +1501,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 137,
-      "height": 62
+      "width": 263.1,
+      "height": 100.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1513,8 +1513,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        1.5999999999999943,
+        -0.5999999999999943,
         0,
         0,
         0,
@@ -1541,12 +1541,12 @@
   {
     "__type__": "cc.Node",
     "_name": "Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 38
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 40
@@ -1558,15 +1558,15 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 247,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 40
+      "width": 172,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1617,10 +1617,10 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_string": "button",
-    "_N$string": "button",
-    "_fontSize": 20,
-    "_lineHeight": 40,
+    "_string": "添加玩法",
+    "_N$string": "添加玩法",
+    "_fontSize": 43,
+    "_lineHeight": 45,
     "_enableWrapText": false,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1631,7 +1631,7 @@
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
-    "_N$overflow": 1,
+    "_N$overflow": 0,
     "_N$cacheMode": 1,
     "_id": ""
   },
@@ -1654,7 +1654,7 @@
       "__id__": 38
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 43
@@ -1800,10 +1800,10 @@
     "alignMode": 0,
     "_target": null,
     "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
+    "_left": -1.85000000000003,
+    "_right": -5.0500000000000025,
+    "_top": -3.1500000000000017,
+    "_bottom": -4.349999999999997,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -1946,7 +1946,7 @@
     "_target": null,
     "_alignFlags": 32,
     "_left": 0,
-    "_right": -0.23200000000002774,
+    "_right": -5.684341886080802e-14,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,

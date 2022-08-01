@@ -7,8 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 545,
-  "height": 155,
+  "width": 1272,
+  "height": 223,
   "platformSettings": {},
   "subMetas": {
     "com_tex_dlg4": {
@@ -22,14 +22,14 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 545,
-      "height": 155,
-      "rawWidth": 545,
-      "rawHeight": 155,
-      "borderTop": 67,
-      "borderBottom": 30,
-      "borderLeft": 50,
-      "borderRight": 50,
+      "width": 1272,
+      "height": 223,
+      "rawWidth": 1272,
+      "rawHeight": 223,
+      "borderTop": 139,
+      "borderBottom": 37,
+      "borderLeft": 70,
+      "borderRight": 133,
       "subMetas": {}
     }
   }
