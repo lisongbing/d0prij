@@ -88,8 +88,9 @@ export default class NewClass extends cc.Component {
         (ison==1) ? this.togCfg['daoju'].check() : this.togCfg['daoju'].uncheck();
 
         let tp = cc.g.hallMgr.curGameMgr.roomInfo.gameType;
-        cc.find('mjzt', this.node).active = false; //(tp == GMID.YJMJ);
-        ison = cc.sys.localStorage.getItem('mjIGS');
+        // @ts-ignore
+        cc.find('mjzt', this.node).active = ((tp == GMID.HZMJ) || (tp == GMID.XZMJ) || (tp == GMID.YBMJ) || (tp == GMID.GMID) || (tp == GMID.NYMJ) || (tp == GMID.LZMJ) || (tp == GMID.NJMJ) || (tp == GMID.YJMJ) || (tp == GMID.GXMJ) || (tp == GMID.XZMJER) || (tp == GMID.LCMJ));
+        ison = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_mjIGS`);
         if (ison) {
             let mjIGS = JSON.parse(ison);
 
@@ -222,19 +223,21 @@ export default class NewClass extends cc.Component {
         }
 
         if (mjzt>=0) {
-            let mjIGS = cc.sys.localStorage.getItem('mjIGS');
+            // @ts-ignore
+            let mjIGS = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_mjIGS`);
             if (mjIGS==undefined) {
                 mjIGS = {};
             } else {
                 mjIGS = JSON.parse(mjIGS);
             }
 
+            // @ts-ignore
             let tp = cc.g.hallMgr.curGameMgr.roomInfo.gameType;
             mjIGS[tp] = mjzt;
 
             mjIGS = JSON.stringify(mjIGS);
-            cc.sys.localStorage.setItem('mjIGS', mjIGS);
-            cc.log('mjIGS', mjIGS);
+            // @ts-ignore
+            cc.sys.localStorage.setItem(`${cc.g.hallMgr.curGameType}_mjIGS`, mjIGS);
         }
     }
 

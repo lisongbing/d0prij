@@ -256,7 +256,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        31,
+        30,
         59,
         0,
         0,
@@ -353,8 +353,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 51
+      "width": 59,
+      "height": 83
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -365,8 +365,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        3,
+        32,
+        47,
         0,
         0,
         0,
@@ -409,7 +409,7 @@
       "__uuid__": "03ae4fd3-0b56-4901-9ec8-4cfb1dbe9163"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -799,8 +799,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 51
+      "width": 59,
+      "height": 83
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -811,8 +811,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        3,
+        31,
+        47,
         0,
         0,
         0,
@@ -855,7 +855,7 @@
       "__uuid__": "03ae4fd3-0b56-4901-9ec8-4cfb1dbe9163"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1245,8 +1245,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 36,
-      "height": 51
+      "width": 59,
+      "height": 83
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1257,8 +1257,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        3,
+        31,
+        48,
         0,
         0,
         0,
@@ -1301,7 +1301,7 @@
       "__uuid__": "03ae4fd3-0b56-4901-9ec8-4cfb1dbe9163"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",

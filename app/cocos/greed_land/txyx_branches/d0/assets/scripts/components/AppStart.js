@@ -188,16 +188,15 @@ function initLocalStorage() {
     }
 
 
-    ison = cc.sys.localStorage.getItem('mjIGS');
+    ison = cc.sys.localStorage.getItem('xx_mjIGS');
     if (true || ison==undefined) {
         ison = {};
         GMGrp.mahjong.forEach(e => {
             ison[e] = 0;
         });
         ison = JSON.stringify(ison);
-        cc.sys.localStorage.setItem('mjIGS', ison);
+        cc.sys.localStorage.setItem('xx_mjIGS', ison);
     }
-    cc.log('mjIGS', ison);
 }
 
 function initMgr( app ) {

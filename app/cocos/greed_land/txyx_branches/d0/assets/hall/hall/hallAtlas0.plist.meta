@@ -888,6 +888,28 @@
       "spriteType": "normal",
       "subMetas": {}
     },
+    "hall_gi_27_19.png": {
+      "ver": "1.0.4",
+      "uuid": "4e0d4ba7-bd27-4522-ae2e-fe74daf5ebd5",
+      "rawTextureUuid": "4f777bdd-1e6e-46ca-bb63-9124f86873da",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 1410,
+      "trimY": 382,
+      "width": 188,
+      "height": 188,
+      "rawWidth": 188,
+      "rawHeight": 188,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
     "hall_gi_4_6.png": {
       "ver": "1.0.4",
       "uuid": "79b94d20-3671-48d7-91f1-698e51526747",

@@ -35,7 +35,7 @@ cc.Class({
     },
     getPaiVaule:function (gameType) {
         let vaule = 0;
-        let ison = cc.sys.localStorage.getItem('mjIGS');
+        let ison = cc.sys.localStorage.getItem(gameType + '_mjIGS');
         if (ison) {
             let mjIGS = JSON.parse(ison);
             cc.log('mjIGS-->' + JSON.stringify(mjIGS))

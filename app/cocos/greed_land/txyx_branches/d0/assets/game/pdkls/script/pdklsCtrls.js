@@ -552,12 +552,17 @@ let LocSettleFinalView = cc.Class({
         this.upInfo();
 
         // 调整滑动区域大小
+        let Lay = this.ScrollView_player.content.getComponent(cc.Layout);
         let pnum = sd.player.length;
         if (pnum<=3) {
             this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
+            Lay.spacingX = 160;
+            Lay.paddingLeft = Lay.paddingRight = 80;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = vs.width - 50*2;
+            this.ScrollView_player.node.width = vs.width - 10*2;
+            Lay.spacingX = 25;
+            Lay.paddingLeft = Lay.paddingRight = 20;
         }
 
         this.upPlyaers();
@@ -898,6 +903,7 @@ let HandCardView = cc.Class({
         this.Node_handCard = cc.find("Node_handCard", r);
         let pdkCard0 = cc.find("pdkCard0", this.Node_handCard);
         let pdkCard = cc.find("pdkCard", this.Node_handCard);
+        let pdkCardn = cc.find("pdkCardn", this.Node_handCard);
         this.spaX = pdkCard.x - pdkCard0.x;
         this.spaW = pdkCard.width;
 
@@ -907,6 +913,7 @@ let HandCardView = cc.Class({
 
         pdkCard0.destroy();
         pdkCard.destroy();
+        pdkCardn && pdkCardn.destroy();
 
         // 调试颜色
         let FillColor = cc.find("FillColor", this.Node_handCard);

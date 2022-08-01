@@ -4810,20 +4810,20 @@ cc.Class({
                 })
     
                 let paiLength = huMapArr.length;
-    
                 if (paiLength > 6) {
-                    this.Sprite_Hu_bg.width = 720//750
-                    this.Sprite_Hu_bg.height = 270//280
-                    this.Sprite_hu_Gbox.width = 540//540
+                    this.Sprite_Hu_bg.height = 260
+                    if (paiLength > 12) {
+                        this.Sprite_Hu_bg.height = 370
+                    }
                     this.Sprite_Hu_bg.y = 4.8
                     this.Sprite_hu_Gbox.y = 4
                 } else {
                     let baseWidth = 140
-                    let mjWidth = 78 * paiLength
+                    let mjWidth = 100 * paiLength
                     let mjSpawidth = 20 * (paiLength) //+ 6
                     this.Sprite_Hu_bg.width = baseWidth + mjWidth + mjSpawidth
                     this.Sprite_Hu_bg.height = 180//200
-                    this.Sprite_hu_Gbox.width = mjWidth + mjSpawidth - 20
+                    this.Sprite_hu_Gbox.width = mjWidth + mjSpawidth
                     //4.8
                     this.Sprite_Hu_bg.y = -40
                     this.Sprite_hu_Gbox.y = -40
@@ -4833,8 +4833,10 @@ cc.Class({
                     this.sv_huifo.scrollToTop(0, false);
                 }, 0.1)
                 this.sv_huifo.node.active = true;
-                this.Sprite_Hu_bg.y = 4.8
-                this.Sprite_hu_Gbox.y = 7
+                this.Sprite_Hu_bg.y = 1.8
+                this.Sprite_hu_Gbox.y = 4
+
+                // 大于18走scollerview
                 huMapArr.forEach((item) => {
                     let cardNode = cc.instantiate(this.SIPlayerPf5);
     

@@ -27,5 +27,7 @@
 "1026":{"gameID":1026,"origin":8,"gameType":23,"gameName":"珙县跑得快"},
 "1027":{"gameID":1027,"origin":7,"gameType":24,"gameName":"高县跑得快"},
 "1028":{"gameID":1028,"origin":8,"gameType":25,"gameName":"珙县麻将"},
-"1029":{"gameID":1029,"origin":6,"gameType":26,"gameName":"两人一房"}
+"1029":{"gameID":1029,"origin":6,"gameType":26,"gameName":"两人一房"},
+"1030":{"gameID":1030,"origin":19,"gameType":27,"gameName":"隆昌跑得快"},
+"1031":{"gameID":1031,"origin":19,"gameType":28,"gameName":"隆昌麻将"}
 }

@@ -249,6 +249,24 @@ const GMTAG = {
         20:'托管次数',
         check:'特殊',//'crtrm_imgtxt_teshu'
     },
+    27:{
+        10:'距离',
+        11:'超时托管',
+        12:'托管局数',
+        20:'托管次数',
+        check:'特殊',//'crtrm_imgtxt_teshu',
+    },
+    28:{
+        1:'自摸',//'crtrm_imgtxt_zimo',//自摸
+        2:'封顶',//'crtrm_imgtxt_fengding',//封顶        
+        3:'定飘',//'crtrm_hzmj_dp',//定飘
+        8:'底分',//'crtrm_imgtxt_difen',//底分
+        10:'距离',
+        11:'超时托管',
+        12:'托管局数',
+        20:'托管次数',
+        check:'特殊',//'crtrm_imgtxt_teshu'
+    },
 };
 
 cc.Class({
@@ -1176,7 +1194,7 @@ cc.Class({
             }
 
             // 内江麻将
-            if (this.curGameId==GMID.NJMJ) {
+            if (this.curGameId==GMID.NJMJ || this.curGameId==GMID.LCMJ) {
                 if (d.tag == TAG.playerNum) {
                     this.exData.playerNum = grp.uK;
                 }
@@ -1435,6 +1453,11 @@ cc.Class({
             this.teshuGuize.up(this.curGameId, true);
             return;
         }
+        // pdknj 2 3人 规则
+        if (this.curGameId==GMID.PDKLC) {
+            this.teshuGuize.up(this.curGameId, true);
+            return;
+        }
         //
         if (this.curGameId==GMID.PDKLS) {
             this.teshuGuize.up(this.curGameId, true);
@@ -1589,7 +1612,7 @@ cc.Class({
         // 麻将 2人没有4局
         if (this.curGameId==GMID.HZMJ ||
             this.curGameId==GMID.XZMJ ||
-            this.curGameId==GMID.XZMJER ||
+            this.curGameId==GMID.LCMJ ||
             this.curGameId==GMID.YBMJ ||
             this.curGameId==GMID.NYMJ ||
             this.curGameId==GMID.LZMJ ||
@@ -1736,7 +1759,7 @@ cc.Class({
         }
 
         // 内江麻将 2人没有“一牌多用(10)”
-        if(this.curGameId==GMID.NJMJ){
+        if(this.curGameId==GMID.NJMJ || this.curGameId==GMID.LCMJ){
             let ks = 10;
             for(let i=0; i<this.checkItems.length; i++){
                 let item = this.checkItems[i];
@@ -1749,7 +1772,7 @@ cc.Class({
 
         if ((this.curGameId==GMID.HZMJ) || (this.curGameId==GMID.XZMJ) || (this.curGameId==GMID.XZMJER) ||
             (this.curGameId==GMID.YBMJ) || (this.curGameId==GMID.NYMJ) ||
-            (this.curGameId==GMID.LZMJ) || (this.curGameId==GMID.NJMJ) ||
+            (this.curGameId==GMID.LZMJ) || (this.curGameId==GMID.NJMJ) || (this.curGameId==GMID.LCMJ) ||
             (this.curGameId==GMID.YJMJ) || (this.curGameId==GMID.GXMJ)) {
             this.teshuGuize.up(this.curGameId, true);
             return;
@@ -1884,6 +1907,12 @@ cc.Class({
             }
         }
 
+        if (this.curGameId==GMID.PDKLC) {
+            this.upFangkaNum();
+            this.doExData();
+            return;
+        }
+
         // 更换消费模式
         if (item.name === TAG.costMode) {    
             this.upFangkaNum();
@@ -1896,7 +1925,7 @@ cc.Class({
             if ( this.curGameId==GMID.D2 || this.curGameId==GMID.EQS || this.curGameId==GMID.XZMJ || this.curGameId==GMID.XZMJER ||
                  this.curGameId==GMID.YBMJ || this.curGameId==GMID.HZMJ || this.curGameId==GMID.LZMJ || this.curGameId==GMID.YJMJ ||
                  this.curGameId==GMID.NYMJ || this.curGameId==GMID.PDKNJ|| this.curGameId==GMID.PDKLS|| this.curGameId==GMID.PDKTY ||
-                 this.curGameId==GMID.NJMJ || this.curGameId==GMID.GXMJ) {
+                 this.curGameId==GMID.NJMJ || this.curGameId==GMID.LCMJ || this.curGameId==GMID.GXMJ) {
                 this.exData.playerNum = item.uK;
                 this.exData.tagName = TAG.playerNum;
                 this.doExData();

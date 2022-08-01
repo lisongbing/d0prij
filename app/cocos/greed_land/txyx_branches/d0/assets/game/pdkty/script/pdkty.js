@@ -118,8 +118,8 @@ cc.Class({
                     node.oy = node.y;
                 }
         
-                node.x = node.ox - (1130 - 731);
-                node.y = node.oy + (561 - 456);
+                node.x = 1210.222;
+                node.y = 915.21;
             }, 0.02);
         }
     },

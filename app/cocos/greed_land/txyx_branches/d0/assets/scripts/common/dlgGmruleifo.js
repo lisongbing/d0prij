@@ -338,8 +338,8 @@ cc.Class({
             n.color = new cc.Color(0xCE, 0xA2, 0x6F);
 
             let lab = n.addComponent(cc.Label);
-            lab.fontSize = 22;
-            lab.lineHeight = 25;
+            lab.fontSize = 35;
+            lab.lineHeight = 35;
             lab.string = list[i];
             
             ctt.addChild(n);

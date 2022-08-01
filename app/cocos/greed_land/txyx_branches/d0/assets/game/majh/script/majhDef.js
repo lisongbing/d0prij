@@ -70,6 +70,12 @@ MajhDef.SendCardPos = [
             x: 10,
             y: 45,//24,
             z: 60,//30, // 动画移动最后位置, 步长
+        },
+        moveZhiBy: {
+            x: -60,
+        },
+        moveZhiTo: {
+            y: 50,
         }
     },
     {
@@ -91,6 +97,12 @@ MajhDef.SendCardPos = [
             x: 10,//5, //- 7
             y: 45,//24, //- 30
             z: 30, // 动画移动最后位置, 步长
+        },
+        moveZhiBy: {
+            x: 150,
+        },
+        moveZhiTo: {
+            y: 45,
         }
     }
 ]
@@ -206,7 +218,10 @@ MajhDef.PongCardPos = [
         moveTo: {
             x: 30,
             y: 0
-        }
+        },
+        moveByZhi: {
+            x: -50,
+        },
     },
     {
         moveBy: {

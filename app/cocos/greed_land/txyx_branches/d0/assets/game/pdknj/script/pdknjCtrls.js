@@ -539,12 +539,17 @@ let LocSettleFinalView = cc.Class({
         this.upInfo();
 
         // 调整滑动区域大小
+        let Lay = this.ScrollView_player.content.getComponent(cc.Layout);
         let pnum = sd.player.length;
         if (pnum<=3) {
             this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
+            Lay.spacingX = 160;
+            Lay.paddingLeft = Lay.paddingRight = 80;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = vs.width - 50*2;
+            this.ScrollView_player.node.width = vs.width - 10*2;
+            Lay.spacingX = 25;
+            Lay.paddingLeft = Lay.paddingRight = 20;
         }
 
         this.upPlyaers();
@@ -886,6 +891,7 @@ let HandCardView = cc.Class({
         this.Node_handCard = cc.find("Node_handCard", r);
         let pdkCard0 = cc.find("pdkCard0", this.Node_handCard);
         let pdkCard = cc.find("pdkCard", this.Node_handCard);
+        let pdkCardn = cc.find("pdkCardn", this.Node_handCard);
         this.spaX = pdkCard.x - pdkCard0.x;
         this.spaW = pdkCard.width;
 
@@ -895,6 +901,7 @@ let HandCardView = cc.Class({
 
         pdkCard0.destroy();
         pdkCard.destroy();
+        pdkCardn && pdkCardn.destroy();
 
         // 调试颜色
         let FillColor = cc.find("FillColor", this.Node_handCard);
@@ -1830,17 +1837,25 @@ let LocPlayerView = cc.Class({
         // 动画
         if (!this.outAnmName) {
             /*
-            1    单牌 
-            2    对子 
-            3    顺子
-            4    连对 
-            5    三同 
-            6    三带二        
-            7    三带一对 
-            8    飞机 
-            9    飞机带四散
-            10   飞机带两对     
-            11   炸弹
+                DAN:1,  //单张
+                DUI:2,  //对子
+                SHUN:3, //顺子
+                LIAND:4,    //连对
+                SAN:5,  //三同
+                SAN1:6,  //三带一
+                SAN2:7, //三带二
+                SAND:8, //三带一对
+                FJ:9,   //飞机
+                FJ1X:10,  //飞机带翅膀
+                FJ2X:11,  //飞机带翅膀
+                FJDD:12,  //飞机带翅膀
+                SID2:13,    //四带二
+                SID3:14,    //四带三
+                ZD:15,  //炸弹
+                AAA:16, //三A炸
+
+                AAA2:17, //三A带二
+                AAA3:18, //三A带三
             */
            this.outAnmName ={
                 3:['shunzi','shunzi',],
@@ -1851,7 +1866,11 @@ let LocPlayerView = cc.Class({
                 8:['sdai2','sdai2',],
                 9:['feiji','feiji',],
                 10:['feiji','feiji',],
-                11:['zd','zd',],
+                11:['feiji','feiji',],
+                12:['feiji','feiji',],
+                13:['feiji','feiji',],
+                15:['zd','zd',],
+                16:['zd','zd',],
            }
         }
         if (this.outAnmName[this.player.outType]) {
@@ -1865,7 +1884,7 @@ let LocPlayerView = cc.Class({
         GM.audio.pai(info.val, this.player.outType, this.player.d.sex);
 
         let ot = this.player.outType;
-        if (ot==DEF.ComType.FJ || ot==DEF.ComType.FJCB) {
+        if (ot>=DEF.ComType.FJ && ot<=DEF.ComType.FJDD) {
             PG.comPubAnm('feij');
         } else if (ot==DEF.ComType.ZD || ot==DEF.ComType.AAA) {
             PG.comPubAnm('zhadan');

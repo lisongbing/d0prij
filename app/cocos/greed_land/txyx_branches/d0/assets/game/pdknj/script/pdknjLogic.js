@@ -432,10 +432,19 @@ cc.Class({
         }
 
         // 飞机
-        if (!ctype || (ctype>=ComType.FJ && ctype<=ComType.FJCB)) {
+        if (!ctype || (ctype>=ComType.FJ && ctype<=ComType.FJDD)) {
             r = this.checkLian(ifo, 3);
-            r && com.push(r);
-            if (ctype>=ComType.FJ && ctype<=ComType.FJCB && r) return com;
+            if (!ctype) {
+                r && com.push(r);
+                if (this._FJDD_) {
+                    com.push(this._FJDD_);
+                    this._FJDD_ = null;
+                }
+            } else {
+                this._FJDD_ = null;
+                if (r && ctype==r.type && com.push(r)) return com;
+                //if (ctype>=ComType.FJ && ctype<=ComType.FJDD && r) return com;
+            }
         }
 
         // 四带二 四带三
@@ -742,7 +751,7 @@ cc.Class({
         // 分析剩下牌能不能带
         let lk={};
         mlink.forEach(e => lk[e] = vni[e]);
-        let san={};
+        let san={};//散牌
         let gn = gui;
         for (const k in lk) {
             let n = lk[k] || 0;
@@ -762,94 +771,111 @@ cc.Class({
             if (sct+gn > 0) return null;
             res.lv = mlink[0];
         } else {
-            if (false) {
-                // 数量只能为0 或者 4 并且4要么都不一样 要么成对
-                if (sct+gn == 0) {
-                    res.lv = mlink.length*100 + mlink[0];
-                } else if (sct+gn == 4){
-                    if (sk.length==4) {
-                        //或者4张散牌
-                        res.lv = mlink.length*100 + mlink[0];
-                        res.type = ComType.FJ4;
-                    } else if (sk.length==3) {
-                        if (gn==1) {
-                            // 3张散牌一个鬼
-                            res.lv = mlink.length*100 + mlink[0];
-                            res.type = ComType.FJ4;
+            // 新玩法只判断数量
+            let sgn = sct+gn;//散牌+鬼牌的数量
+            if (sct+gn == 0) {
+                res.lv = mlink.length*100 + mlink[0];
+                res.lk = cc.g.clone(mlink);
+            } else if (sgn == mlink.length) {
+                res.type =  ComType.FJ1X;
+                res.desc = '飞机带1X';
+
+                res.lv = mlink.length*100 + mlink[0];
+                res.lk = cc.g.clone(mlink);
+            } else if ((sct+gn) == (mlink.length * 2)) {
+                cc.log('san gn', san, gn);
+
+                res.type =  ComType.FJ2X;
+                res.desc = '飞机带2X';
+
+                if (sk.length>mlink.length) { 
+                    cc.log('散牌种类大于飞机长度的时候 一定2X');
+                } else {
+                    if (gn<=0) {
+                        //没有鬼牌 每种散牌都是偶数张
+                        let dd = true;
+                        sk.forEach(e => (san[e]%2) && (dd = false));
+
+                        if (dd) {
+                            res.type =  ComType.FJDD;
+                            res.desc = '飞机带DD';
                         }
                     } else {
-                        // 没有一个是3张
-                        let no3 = true;
-                        let _2 = false;
-                        sk.forEach(e => {
-                            if (san[e]>=3) {
-                                no3=false;
-                            } else if (san[e]==2) {
-                                _2=true;
-                            } 
-                        });
-                        if (no3) {
-                            res.lv = mlink.length*100 + mlink[0];
+                        let gg = gn;
+                        sk.forEach(e => (san[e]%2) && (--gg));
 
-                            if (_2) {
-                                res.type = ComType.FJ2D;
-                            } else {
-                                res.type = (ctype==ComType.FJ2D) ? ComType.FJ2D : ComType.FJ4; 
+                        if (gg>=0) {
+                            this._FJDD_ = cc.g.clone(res);
+                            this._FJDD_.type =  ComType.FJDD;
+                            this._FJDD_.desc = '飞机带DD';
+
+                            if (gg%2) {
+                                cc.error('不是错误 为了可以醒目的看到这个意外情况的提示 感觉肯定不会发生');
                             }
                         }
                     }
                 }
+
+                res.lv = mlink.length*100 + mlink[0];
+                res.lk = cc.g.clone(mlink);
             } else {
-                // 新玩法只判断数量
-                if ((sct+gn)==mlink.length || (sct+gn)==(mlink.length * 2)) {
-                    res.type =  ComType.FJCB;
-                    res.desc = '飞机带翅膀';
+                // 333 444 555 x  可以是2飞机
+                // 333 444 555 666 xyz 可以是3飞机
+                if (mlink.length>=3) {
+                    cc.log('需要检测特别的飞机情况 比如3张做带牌用');
 
-                    res.lv = mlink.length*100 + mlink[0];
-                    res.lk = cc.g.clone(mlink);
-                } else if (sct+gn == 0) {
-                    res.lv = mlink.length*100 + mlink[0];
-                    res.lk = cc.g.clone(mlink);
-                } else {
-                    // 333 444 555 x  可以是2飞机
-                    // 333 444 555 666 xyz 可以是3飞机
-                    if (mlink.length>=3) {
-                        cc.log('需要检测特别的飞机情况 比如3张做带牌用');
-
-                        let flen=(n, ml)=>{
-                            let L = 0;
-                            for (let L0 = ml.length-1; L0 >= 0; --L0) {
-                                let num = len - L0*3;
-                                if (num==L0*n) {
-                                    L = L0;
-                                    break;
-                                }
+                    let flen=(n, ml)=>{
+                        let L = 0;
+                        for (let L0 = ml.length-1; L0 >= 0; --L0) {
+                            //减去主牌数量剩下的带牌数量
+                            let num = len - L0*3;
+                            //带牌数量 需要是 主牌连数的整数倍 比如带1或带2
+                            if (num==L0*n) {
+                                L = L0;
+                                break;
                             }
-                            return L;
                         }
+                        return L;
+                    }
 
-                        let len1 = 0;
-                        let len2 = 0;
-                        if (ComType.SAN1 && len%4==0) {
-                            len1 = flen(1, mlink);
-                        }
-                        if (ComType.SAN2 && len%5==0) {
-                            len2 = flen(2, mlink);
+                    let len1 = 0;
+                    let len2 = 0;
+                    if (ComType.SAN1 && len%4==0) {
+                        len1 = flen(1, mlink);
+                    }
+                    if (ComType.SAN2 && len%5==0) {
+                        len2 = flen(2, mlink);
+                    }
+                    
+                    if (len1>0 || len2>0) {
+                        cc.log('检测到特别的飞机情况 比如3张做带牌用');
+
+                        let mlen = len1>len2 ? len1 : len2;
+
+                        let lk = [];
+                        for (let i = mlink.length-mlen; i < mlink.length; ++i) {
+                            lk.push(mlink[i]);
                         }
                         
-                        if (len1>0 || len2>0) {
-                            let mlen = len1>len2 ? len1 : len2;
+                        res.lv = mlen*100 + lk[0];
+                        res.lk = lk;
 
-                            let lk = [];
-                            for (let i = mlink.length-mlen; i < mlink.length; ++i) {
-                                lk.push(mlink[i]);
+                        res.type =  ComType.FJ2X;
+                        res.desc = '飞机带2X';
+
+                        //散牌组成对后 还有足够的鬼牌 和 拿来做带牌的主牌 组成对子 就可以是飞机带DD
+                        let gg = gn;
+                        sk.forEach(e => (san[e]%2) && (--gg));
+
+                        if (gg >= mlink.length-mlen) {
+                            //就可以变带2X
+                            this._FJDD_ = cc.g.clone(res);
+                            this._FJDD_.type =  ComType.FJDD;
+                            this._FJDD_.desc = '飞机带DD';
+
+                            if ((gg-(mlink.length-mlen))%2) {
+                                cc.error('2 不是错误 为了可以醒目的看到这个意外情况的提示 感觉肯定不会发生 2');
                             }
-                            
-                            res.lv = mlen*100 + lk[0];
-                            res.lk = lk;
-
-                            res.type = ComType.FJCB;
-                            res.desc = '飞机带翅膀';
                         }
                     }
                 }
@@ -1116,7 +1142,7 @@ cc.Class({
             coms = coms.concat(this.findLink(dis, vk, vni, 1));
         } else if (ctype == ComType.LIAND) {
             coms = coms.concat(this.findLink(dis, vk, vni, 2));
-        } else if (ctype == ComType.FJ || ctype == ComType.FJCB) {
+        } else if (ctype >= ComType.FJ && ctype <= ComType.FJDD) {
 
             let res = this.findLink(dis, vk, vni, 3, ifo);
 
@@ -1136,10 +1162,23 @@ cc.Class({
 
             let mclen = mateCodes.length;
 
-            if (ctype == ComType.FJCB) {
-                let tn = (mclen%4==0) ? (mclen/4) : (mclen/5 * 2);
+            if (ctype == ComType.FJ1X) {
+                //let tn = (mclen%4==0) ? (mclen/4) : (mclen/5 * 2);
+                let tn = mclen/4;
                 res.forEach(e => {
                     let take = this.findTake(sourceCodes, e, tn, 0);
+                    take && addResTake(e.concat(take));
+                });
+            } else if (ctype == ComType.FJ2X) {
+                let tn = (mclen/5 * 2);
+                res.forEach(e => {
+                    let take = this.findTake(sourceCodes, e, tn, -1.5);
+                    take && addResTake(e.concat(take));
+                });
+            }  else if (ctype == ComType.FJDD) {
+                let tn = (mclen/5 * 2);
+                res.forEach(e => {
+                    let take = this.findTake(sourceCodes, e, tn, 2);
                     take && addResTake(e.concat(take));
                 });
             } else {
@@ -1511,13 +1550,19 @@ cc.Class({
             tn>0 && (take=null);
         } else {
             let tn = num;
-            for (let n = 1; n <= 2; ++n) {
+            let _1_ = (same==-1.5);
+            for (let n = 1; n <= 3; ++n) {
                 let ndis = dis.num[n];
                 for (let i = 0, L=ndis?ndis.length:0; i < L; ++i) {
                     for (let j = 0; j < ndis[i].length; ++j) {
+                        if (_1_ && n>1 && (!dis.num[1] || (dis.num[1].length<=0))) {
+                            _1_ = false;
+                            continue;
+                        }
+
                         take = take.concat(ndis[i][j]);
                         --tn;
-                        if (tn <= 0) break; 
+                        if (tn <= 0) break;
                     }
                     if (tn <= 0) break;
                 }

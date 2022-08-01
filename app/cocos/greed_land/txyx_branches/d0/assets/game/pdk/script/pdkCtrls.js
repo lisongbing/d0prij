@@ -471,7 +471,7 @@ let LocSettleFinalView = cc.Class({
             this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = vs.width - 50*2;
+            this.ScrollView_player.node.width = vs.width - 10*2;
         }
 
         this.upPlyaers();
