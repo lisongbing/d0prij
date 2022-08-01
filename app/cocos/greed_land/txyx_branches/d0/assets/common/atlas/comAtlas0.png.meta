@@ -7,8 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 1024,
-  "height": 1144,
+  "width": 2048,
+  "height": 1024,
   "platformSettings": {},
   "subMetas": {
     "comAtlas0": {
