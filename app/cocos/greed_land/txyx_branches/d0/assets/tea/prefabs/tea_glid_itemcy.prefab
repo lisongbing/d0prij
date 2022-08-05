@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "New Node",
+    "_name": "tea_glid_itemcy",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -45,8 +45,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 424,
-      "height": 80
+      "width": 710,
+      "height": 132
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -57,8 +57,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.5,
-        -41.5,
+        0,
+        -244,
         0,
         0,
         0,
@@ -109,8 +109,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 424,
-      "height": 80
+      "width": 715.2,
+      "height": 128
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -121,8 +121,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        2.4,
-        -2,
+        -0.1,
+        4,
         0,
         0,
         0,
@@ -218,8 +218,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 96,
-      "height": 32.76
+      "width": 160,
+      "height": 52.92
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -230,8 +230,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -190.095,
-        16.968,
+        -327.432,
+        31.343,
         0,
         0,
         0,
@@ -272,8 +272,8 @@
     "_dstBlendFactor": 771,
     "_string": "头头是道",
     "_N$string": "头头是道",
-    "_fontSize": 24,
-    "_lineHeight": 26,
+    "_fontSize": 40,
+    "_lineHeight": 42,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -326,8 +326,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 73.41,
-      "height": 30.24
+      "width": 123.47,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -338,8 +338,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -190.095,
-        -16.295,
+        -327.432,
+        -23.381,
         0,
         0,
         0,
@@ -380,8 +380,8 @@
     "_dstBlendFactor": 771,
     "_string": "986466",
     "_N$string": "986466",
-    "_fontSize": 22,
-    "_lineHeight": 24,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -453,8 +453,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        165.883,
-        -0.1339999999999999,
+        278.5,
+        2.406,
         0,
         0,
         0,
@@ -505,8 +505,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24,
-      "height": 25
+      "width": 42,
+      "height": 43
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

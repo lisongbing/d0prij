@@ -55,8 +55,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 263,
-      "height": 223
+      "width": 433,
+      "height": 284
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -119,8 +119,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 205,
-      "height": 136
+      "width": 435,
+      "height": 286
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -240,7 +240,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.741,
+        0,
         5.67,
         0,
         0,
@@ -352,7 +352,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        2.7,
+        0,
         -19.3,
         0,
         0,
@@ -642,8 +642,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        3.565,
-        -78.1,
+        -12.435,
+        -128.1,
         0,
         0,
         0,
@@ -1276,8 +1276,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1595,7 +1595,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        89.314,
+        192.314,
         -10.668,
         0,
         0,
@@ -2229,8 +2229,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2548,8 +2548,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        3.565,
-        52.681,
+        -21.435,
+        110.681,
         0,
         0,
         0,
@@ -3182,8 +3182,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3514,7 +3514,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        107,
+        185,
         0,
         0,
         0,

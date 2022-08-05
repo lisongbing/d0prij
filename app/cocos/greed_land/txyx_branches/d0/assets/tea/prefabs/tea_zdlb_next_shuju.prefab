@@ -46,8 +46,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 98
+      "width": 1849,
+      "height": 163
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -58,8 +58,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        3,
+        86,
         0,
         0,
         0,
@@ -110,8 +110,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1096.2,
-      "height": 98
+      "width": 1855.1,
+      "height": 159
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -122,8 +122,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -2,
+        4,
         0,
         0,
         0,
@@ -219,8 +219,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1142,
-      "height": 98
+      "width": 1849,
+      "height": 151
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -231,8 +231,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -3,
+        8,
         0,
         0,
         0,
@@ -407,8 +407,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1140,
-      "height": 98
+      "width": 1850,
+      "height": 154
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -419,8 +419,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -3,
+        6,
         0,
         0,
         0,
@@ -471,8 +471,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 78,
-      "height": 32.76
+      "width": 120,
+      "height": 52.92
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -483,8 +483,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -374.668,
-        20.855,
+        -657.659,
+        26.727,
         0,
         0,
         0,
@@ -525,8 +525,8 @@
     "_dstBlendFactor": 771,
     "_string": "哎咿呀",
     "_N$string": "哎咿呀",
-    "_fontSize": 26,
-    "_lineHeight": 0,
+    "_fontSize": 40,
+    "_lineHeight": 42,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -579,8 +579,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 73.41,
-      "height": 27.72
+      "width": 123.47,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -591,8 +591,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -374.669,
-        -14.646,
+        -657.659,
+        -28.646,
         0,
         0,
         0,
@@ -633,8 +633,8 @@
     "_dstBlendFactor": 771,
     "_string": "939589",
     "_N$string": "939589",
-    "_fontSize": 22,
-    "_lineHeight": 0,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -687,8 +687,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50.6,
-      "height": 32.76
+      "width": 81.74,
+      "height": 55.44
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -699,8 +699,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -189.509,
-        3.368,
+        -387.042,
+        -0.325,
         0,
         0,
         0,
@@ -741,8 +741,8 @@
     "_dstBlendFactor": 771,
     "_string": "0.00",
     "_N$string": "0.00",
-    "_fontSize": 26,
-    "_lineHeight": 0,
+    "_fontSize": 42,
+    "_lineHeight": 44,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -795,8 +795,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50.6,
-      "height": 32.76
+      "width": 81.74,
+      "height": 55.44
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -807,8 +807,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -34.74,
-        3.368,
+        -118.74,
+        -0.632,
         0,
         0,
         0,
@@ -849,8 +849,8 @@
     "_dstBlendFactor": 771,
     "_string": "0.00",
     "_N$string": "0.00",
-    "_fontSize": 26,
-    "_lineHeight": 0,
+    "_fontSize": 42,
+    "_lineHeight": 44,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -903,8 +903,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50.6,
-      "height": 32.76
+      "width": 81.74,
+      "height": 55.44
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -915,8 +915,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        112.793,
-        3.368,
+        169.525,
+        -0.019,
         0,
         0,
         0,
@@ -957,8 +957,8 @@
     "_dstBlendFactor": 771,
     "_string": "0.00",
     "_N$string": "0.00",
-    "_fontSize": 26,
-    "_lineHeight": 0,
+    "_fontSize": 42,
+    "_lineHeight": 44,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1011,8 +1011,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 55.05,
-      "height": 27.72
+      "width": 92.59,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1023,8 +1023,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        286.954,
-        17.685,
+        470.5,
+        22.704,
         0,
         0,
         0,
@@ -1065,8 +1065,8 @@
     "_dstBlendFactor": 771,
     "_string": "09:21",
     "_N$string": "09:21",
-    "_fontSize": 22,
-    "_lineHeight": 0,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1119,8 +1119,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 110.11,
-      "height": 27.72
+      "width": 185.18,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1131,8 +1131,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        287.659,
-        -11.54,
+        471.659,
+        -21.54,
         0,
         0,
         0,
@@ -1173,8 +1173,8 @@
     "_dstBlendFactor": 771,
     "_string": "2021.01.21",
     "_N$string": "2021.01.21",
-    "_fontSize": 22,
-    "_lineHeight": 0,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1227,8 +1227,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 15.57,
-      "height": 35.28
+      "width": 24.47,
+      "height": 57.96
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1281,8 +1281,8 @@
     "_dstBlendFactor": 771,
     "_string": "1",
     "_N$string": "1",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 44,
+    "_lineHeight": 46,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1335,8 +1335,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 74,
-      "height": 74
+      "width": 127.1,
+      "height": 126.3
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1347,8 +1347,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -419.984,
-        3.09,
+        -734.6,
+        -0.2,
         0,
         0,
         0,
@@ -1444,8 +1444,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 77.3,
-      "height": 78.5
+      "width": 130,
+      "height": 127
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1456,8 +1456,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -420.5,
-        3.468,
+        -736,
+        0,
         0,
         0,
         0,
@@ -1565,8 +1565,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -410.91,
-        -21.769,
+        -701.91,
+        -48.769,
         0,
         0,
         0,
@@ -1638,7 +1638,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Cao_Button",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 8
     },
@@ -1666,8 +1666,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 114,
-      "height": 47
+      "width": 180,
+      "height": 73.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1678,8 +1678,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        464.697,
-        0.798,
+        802.4,
+        -2.7,
         0,
         0,
         0,
@@ -1706,7 +1706,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Background",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 42
     },
@@ -1734,8 +1734,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 106,
-      "height": 45
+      "width": 180.5,
+      "height": 73.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1746,7 +1746,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -0.9,
         0,
         0,
         0,
@@ -1798,8 +1798,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50.11,
-      "height": 27.72
+      "width": 84.28,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1852,8 +1852,8 @@
     "_dstBlendFactor": 771,
     "_string": "操 作",
     "_N$string": "操 作",
-    "_fontSize": 22,
-    "_lineHeight": 22,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1898,7 +1898,7 @@
       "__uuid__": "e32bc1ee-8259-46e1-842a-ab03a009e3cf"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
