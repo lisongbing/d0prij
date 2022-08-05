@@ -95,7 +95,7 @@
   {
     "__type__": "cc.Node",
     "_name": "bg_btn",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -119,8 +119,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -266,7 +266,7 @@
   {
     "__type__": "cc.Node",
     "_name": "c9_8",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -294,8 +294,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 673,
-      "height": 415.2
+      "width": 1210,
+      "height": 703
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -306,8 +306,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -8.2,
-        -9.3,
+        31,
+        7,
         0,
         0,
         0,
@@ -358,8 +358,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
-      "height": 39
+      "width": 250,
+      "height": 62
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -370,8 +370,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.206,
-        172.15,
+        -30.5,
+        295,
         0,
         0,
         0,
@@ -514,8 +514,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
-      "height": 52
+      "width": 90,
+      "height": 90
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -526,8 +526,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        321.062,
-        189.125,
+        555.864,
+        328.368,
         0,
         0,
         0,
@@ -578,8 +578,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 52,
-      "height": 52
+      "width": 90,
+      "height": 90
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -794,8 +794,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 302.78,
-      "height": 35.28
+      "width": 520.79,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -806,8 +806,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -5.62,
-        7.507,
+        0.984,
+        31.507,
         0,
         0,
         0,
@@ -848,8 +848,8 @@
     "_dstBlendFactor": 771,
     "_string": "是否禁止玩家 [哎咿呀] 游戏",
     "_N$string": "是否禁止玩家 [哎咿呀] 游戏",
-    "_fontSize": 25,
-    "_lineHeight": 28,
+    "_fontSize": 43,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -906,8 +906,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 60
+      "width": 285.3,
+      "height": 105.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -918,8 +918,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -159.219,
-        -159.219,
+        -260.2,
+        -250,
         0,
         0,
         0,
@@ -974,8 +974,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 168,
-      "height": 64
+      "width": 286.5,
+      "height": 108.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -986,8 +986,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        0.4,
+        -1,
         0,
         0,
         0,
@@ -1038,8 +1038,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 35.28
+      "width": 48,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1092,8 +1092,8 @@
     "_dstBlendFactor": 771,
     "_string": "是",
     "_N$string": "是",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1138,7 +1138,7 @@
       "__uuid__": "731f0977-35a8-4916-aff4-6d4ab2c2e5b1"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1314,8 +1314,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        145.935,
-        -159.219,
+        261.935,
+        -248.219,
         0,
         0,
         0,
@@ -1370,8 +1370,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 168,
-      "height": 64
+      "width": 283.5,
+      "height": 108.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1382,8 +1382,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -3.9,
+        -3.6,
         0,
         0,
         0,
@@ -1434,8 +1434,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 35.28
+      "width": 48,
+      "height": 63
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1488,8 +1488,8 @@
     "_dstBlendFactor": 771,
     "_string": "否",
     "_N$string": "否",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 48,
+    "_lineHeight": 50,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1534,7 +1534,7 @@
       "__uuid__": "1180a03e-21aa-46bd-a0b1-d781a031859e"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",

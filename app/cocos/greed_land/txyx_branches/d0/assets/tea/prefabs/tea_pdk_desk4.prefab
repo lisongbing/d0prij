@@ -55,8 +55,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 263,
-      "height": 223
+      "width": 434,
+      "height": 290
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -119,8 +119,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 205,
-      "height": 136
+      "width": 435,
+      "height": 286
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -646,7 +646,7 @@
       "ctor": "Float64Array",
       "array": [
         3.565,
-        -78.1,
+        -124.1,
         0,
         0,
         0,
@@ -1279,8 +1279,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1598,8 +1598,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        89.314,
-        -10.668,
+        200.314,
+        -7.668,
         0,
         0,
         0,
@@ -2232,8 +2232,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2551,8 +2551,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        3.565,
-        52.681,
+        6.565,
+        109.681,
         0,
         0,
         0,
@@ -3185,8 +3185,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3504,8 +3504,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -89.149,
-        -10.668,
+        -182.149,
+        -9.668,
         0,
         0,
         0,
@@ -4138,8 +4138,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4470,7 +4470,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        107,
+        183,
         0,
         0,
         0,

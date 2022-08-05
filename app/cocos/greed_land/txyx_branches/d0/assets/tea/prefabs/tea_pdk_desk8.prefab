@@ -55,8 +55,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 263,
-      "height": 223
+      "width": 433,
+      "height": 282
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -119,8 +119,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 205,
-      "height": 136
+      "width": 435,
+      "height": 286
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -657,8 +657,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -61.474,
-        -78.1,
+        -103.627,
+        -109.972,
         0,
         0,
         0,
@@ -1291,8 +1291,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1610,8 +1610,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.071,
-        -78.1,
+        -0.985,
+        -111.514,
         0,
         0,
         0,
@@ -2244,8 +2244,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2563,8 +2563,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        63.348,
-        -78.1,
+        104.987,
+        -111.514,
         0,
         0,
         0,
@@ -3197,8 +3197,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3516,8 +3516,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        89.314,
-        -10.668,
+        193.668,
+        -5.527,
         0,
         0,
         0,
@@ -4150,8 +4150,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4469,8 +4469,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        63.348,
-        52.681,
+        106.15,
+        115.802,
         0,
         0,
         0,
@@ -5103,8 +5103,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5422,8 +5422,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.071,
-        52.681,
+        5.183,
+        114.368,
         0,
         0,
         0,
@@ -6056,8 +6056,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6375,8 +6375,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -61.474,
-        52.681,
+        -96.079,
+        116.627,
         0,
         0,
         0,
@@ -7009,8 +7009,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7328,8 +7328,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -89.149,
-        -10.668,
+        -188.362,
+        9.894,
         0,
         0,
         0,
@@ -7962,8 +7962,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 61,
-      "height": 19
+      "width": 97,
+      "height": 32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8293,8 +8293,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        107,
+        -8.283,
+        191.132,
         0,
         0,
         0,

@@ -52,22 +52,19 @@
       },
       {
         "__id__": 2024
-      },
-      {
-        "__id__": 2085
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 2088
+        "__id__": 2085
       },
       {
-        "__id__": 2089
+        "__id__": 2086
       }
     ],
     "_prefab": {
-      "__id__": 2090
+      "__id__": 2087
     },
     "_opacity": 255,
     "_color": {
@@ -75493,7 +75490,7 @@
         "__id__": 1952
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [],
     "_prefab": {
       "__id__": 1962
@@ -76571,8 +76568,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 130,
-      "height": 32.76
+      "width": 180,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -76625,8 +76622,8 @@
     "_dstBlendFactor": 771,
     "_string": "关闭比赛场",
     "_N$string": "关闭比赛场",
-    "_fontSize": 26,
-    "_lineHeight": 26,
+    "_fontSize": 36,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -76792,8 +76789,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 130,
-      "height": 32.76
+      "width": 180,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -76846,8 +76843,8 @@
     "_dstBlendFactor": 771,
     "_string": "关闭比赛场",
     "_N$string": "关闭比赛场",
-    "_fontSize": 26,
-    "_lineHeight": 26,
+    "_fontSize": 36,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -80449,7 +80446,7 @@
     "asset": {
       "__uuid__": "9aac48c1-b16f-4761-bf4b-2dca4b0c7f23"
     },
-    "fileId": "80FKppUZVJOK5TMAojZB2w",
+    "fileId": "0a+cEpy3BGOZjdeaf7Y1U4",
     "sync": false
   },
   {
@@ -80558,7 +80555,7 @@
     "asset": {
       "__uuid__": "9aac48c1-b16f-4761-bf4b-2dca4b0c7f23"
     },
-    "fileId": "5b9xg6dgtCPIYsr+8coJaX",
+    "fileId": "da/v1ySyFF5oX4RWapZnof",
     "sync": false
   },
   {
@@ -80667,7 +80664,7 @@
     "asset": {
       "__uuid__": "9aac48c1-b16f-4761-bf4b-2dca4b0c7f23"
     },
-    "fileId": "00AINJFP5Kn51OQX6m7c0p",
+    "fileId": "5bYuQtt0RAno1hStTOAzdF",
     "sync": false
   },
   {
@@ -81948,113 +81945,6 @@
       "__uuid__": "9aac48c1-b16f-4761-bf4b-2dca4b0c7f23"
     },
     "fileId": "18i2kXcIRDu7ylgRNv8Oio",
-    "sync": false
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "亲友圈设置1标注",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 1
-    },
-    "_children": [],
-    "_active": false,
-    "_components": [
-      {
-        "__id__": 2086
-      }
-    ],
-    "_prefab": {
-      "__id__": 2087
-    },
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 2210,
-      "height": 1194
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.Sprite",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2085
-    },
-    "_enabled": true,
-    "_materials": [
-      {
-        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
-      }
-    ],
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_spriteFrame": {
-      "__uuid__": "d46da9f3-f7b6-4b06-a7a1-d480a39bd78c"
-    },
-    "_type": 0,
-    "_sizeMode": 1,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_atlas": null,
-    "_id": ""
-  },
-  {
-    "__type__": "cc.PrefabInfo",
-    "root": {
-      "__id__": 1
-    },
-    "asset": {
-      "__uuid__": "9aac48c1-b16f-4761-bf4b-2dca4b0c7f23"
-    },
-    "fileId": "baaGsSixtLJbvlJVF0rjly",
     "sync": false
   },
   {

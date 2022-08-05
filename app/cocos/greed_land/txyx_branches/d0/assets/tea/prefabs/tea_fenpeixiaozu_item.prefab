@@ -36,8 +36,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 210,
-      "height": 80
+      "width": 284.9,
+      "height": 108.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -49,7 +49,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        147,
         0,
         0,
         0,
@@ -110,8 +110,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 210,
-      "height": 80
+      "width": 356.9,
+      "height": 133.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -122,8 +122,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        0.4,
+        -0.7,
         0,
         0,
         0,
@@ -174,8 +174,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 210,
-      "height": 80
+      "width": 355.9,
+      "height": 136.6
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -186,8 +186,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        0.5,
+        -1.1,
         0,
         0,
         0,
@@ -283,8 +283,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 210,
-      "height": 80
+      "width": 355.3,
+      "height": 136.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -295,8 +295,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        -0.3,
+        -0.5,
         0,
         0,
         0,
@@ -392,8 +392,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 47.68,
-      "height": 37.8
+      "width": 82.53,
+      "height": 60.48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -404,7 +404,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -3,
+        -3.544,
         1,
         0,
         0,
@@ -446,8 +446,8 @@
     "_dstBlendFactor": 771,
     "_string": "1 队",
     "_N$string": "1 队",
-    "_fontSize": 26,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 48,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

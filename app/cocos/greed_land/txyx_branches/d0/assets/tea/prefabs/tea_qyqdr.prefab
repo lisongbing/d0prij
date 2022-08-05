@@ -64,8 +64,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        131.998,
-        191.871,
+        239.069,
+        228.929,
         0,
         0,
         0,
@@ -123,8 +123,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1136,
-      "height": 640
+      "width": 1920,
+      "height": 1080
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -410,7 +410,7 @@
   {
     "__type__": "cc.Node",
     "_name": "c9_20",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -434,8 +434,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 251
+      "width": 301,
+      "height": 423
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -446,8 +446,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        79.26,
-        -60.765,
+        141,
+        -15,
         0,
         0,
         0,
@@ -519,7 +519,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -543,8 +543,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 130,
-      "height": 35.28
+      "width": 210,
+      "height": 55.44
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -555,8 +555,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        81.129,
-        37.483,
+        139.47,
+        150.177,
         0,
         0,
         0,
@@ -597,8 +597,8 @@
     "_dstBlendFactor": 771,
     "_string": "亲友圈列表",
     "_N$string": "亲友圈列表",
-    "_fontSize": 26,
-    "_lineHeight": 28,
+    "_fontSize": 42,
+    "_lineHeight": 44,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -627,7 +627,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tea_line",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -651,7 +651,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 160,
+      "width": 300.42,
       "height": 3
     },
     "_anchorPoint": {
@@ -663,8 +663,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        79.075,
-        6.903,
+        140.81,
+        96.1,
         0,
         0,
         0,
@@ -736,7 +736,7 @@
   {
     "__type__": "cc.Node",
     "_name": "ScrollView_Content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -764,8 +764,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 180
+      "width": 301,
+      "height": 321
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -776,8 +776,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        79.2,
-        4.9,
+        141,
+        95,
         0,
         0,
         0,
@@ -804,7 +804,7 @@
   {
     "__type__": "cc.Node",
     "_name": "view",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 19
     },
@@ -832,8 +832,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 180
+      "width": 300,
+      "height": 321
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -844,7 +844,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        -1,
         0,
         0,
         0,
@@ -896,8 +896,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 134
+      "width": 300.8,
+      "height": 75.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -908,7 +908,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        1.2,
         0,
         0,
         0,
@@ -943,8 +943,8 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 134
+      "width": 300.8,
+      "height": 75.8
     },
     "_resize": 1,
     "_N$layoutType": 2,

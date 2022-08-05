@@ -10273,7 +10273,7 @@
   {
     "__type__": "cc.Node",
     "_name": "ScrollView_List",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 197
     },
@@ -11185,7 +11185,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "669b83dd-6633-4fd9-a57a-a90e6d46297c"
+      "__uuid__": "3f8c2dfc-b53a-49bb-8d21-399229754e7a"
     },
     "_type": 0,
     "_sizeMode": 2,

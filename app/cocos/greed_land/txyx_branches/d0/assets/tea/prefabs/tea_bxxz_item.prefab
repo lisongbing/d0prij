@@ -39,8 +39,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 425,
-      "height": 78
+      "width": 709.2,
+      "height": 132.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -52,7 +52,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        221.1,
         0,
         0,
         0,
@@ -79,7 +79,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Sprite",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -103,8 +103,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 425,
-      "height": 78
+      "width": 716.2,
+      "height": 128
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -188,7 +188,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_Content",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -218,8 +218,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 420,
-      "height": 80
+      "width": 707.7,
+      "height": 121.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -230,7 +230,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
+        0.9,
         0,
         0,
         0,
@@ -282,8 +282,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 96,
-      "height": 32.76
+      "width": 168,
+      "height": 55.44
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -294,8 +294,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -193,
-        -18.297,
+        -329.18,
+        -37.164,
         0,
         0,
         0,
@@ -336,8 +336,8 @@
     "_dstBlendFactor": 771,
     "_string": "头头是道",
     "_N$string": "头头是道",
-    "_fontSize": 24,
-    "_lineHeight": 26,
+    "_fontSize": 42,
+    "_lineHeight": 44,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -385,13 +385,13 @@
       "__type__": "cc.Color",
       "r": 233,
       "g": 214,
-      "b": 156,
+      "b": 140,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 73.41,
-      "height": 30.24
+      "width": 123.47,
+      "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -402,8 +402,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -193.529,
-        -53.56,
+        -329.18,
+        -90.601,
         0,
         0,
         0,
@@ -444,8 +444,8 @@
     "_dstBlendFactor": 771,
     "_string": "986466",
     "_N$string": "986466",
-    "_fontSize": 22,
-    "_lineHeight": 24,
+    "_fontSize": 37,
+    "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -520,8 +520,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        162.959,
-        -37,
+        275.959,
+        -64,
         0,
         0,
         0,
@@ -818,8 +818,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24,
-      "height": 25
+      "width": 42,
+      "height": 43
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
