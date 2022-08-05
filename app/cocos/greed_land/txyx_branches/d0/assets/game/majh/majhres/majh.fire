@@ -9176,7 +9176,7 @@
       "ctor": "Float64Array",
       "array": [
         50.746,
-        138.501,
+        141.501,
         0,
         0,
         0,
@@ -12678,8 +12678,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 174,
-      "height": 140
+      "width": 91,
+      "height": 45
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -12723,7 +12723,11 @@
       "__id__": 262
     },
     "_enabled": true,
-    "_materials": [],
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
