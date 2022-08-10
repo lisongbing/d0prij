@@ -1302,45 +1302,90 @@ let MajhHandCardView = cc.Class({
                 });
             }
         } else if (userPoint == 2) {
-            // 获取碰、杠的数据
-            let pongArr = this.selfView.pongCardView.pongPaiArr;
-            let startPosx = 0;
-            if (!cc.g.utils.judgeArrayEmpty(pongArr)) {
-                let lastItem = pongArr[pongArr.length - 1]
-                startPosx = lastItem.x - 80
-            }
-            // 重新绘制位置
-            let viewIndex = 0
-            this.hcGroups.forEach(card => {
-                if (card.active) {
-                    let positionX, positionY
-                    if (!cc.g.utils.judgeArrayEmpty(pongArr)) {
-                        positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
-                        // 回放修改 添加start
-                        if (this.pPage.isbpm) {
-                            positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
-                        }
-                        // 回放修改 添加end
-                    } else {
-                        positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
-                        // 回放修改 添加start
-                        if (this.pPage.isbpm) {
-                            positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
-                        }
-                        // 回放修改 添加end
-                    }
-                    positionY = DEF.SendCardPos[userPoint].moveTo.y;
-                    // 回放修改 添加start
-                    // if (this.pPage.isbpm) {
-                    //     positionY = -14;
-                    // }
-                    card.endPosX = positionX
-                    card.endPosY = positionY
-                    // 回放修改 添加end
-                    card.setPosition(positionX, positionY);
-                    viewIndex++
+            if (cardType == 1) { // 直板
+                // 获取碰、杠的数据
+                let pongArr = this.selfView.pongCardView.pongPaiArr;
+                let startPosx = 0;
+                if (!cc.g.utils.judgeArrayEmpty(pongArr)) {
+                    let lastItem = pongArr[pongArr.length - 1]
+                    startPosx = lastItem.x - 80
                 }
-            });
+
+                // 重新绘制位置
+                let viewIndex = 0
+                this.hcGroups.forEach(card => {
+                    if (card.active) {
+                        let positionX, positionY
+                        if (!cc.g.utils.judgeArrayEmpty(pongArr)) {
+                            positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            // 回放修改 添加start
+                            if (this.pPage.isbpm) {
+                                positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            }
+                            // 回放修改 添加end
+                        } else {
+                            positionX = DEF.SendCardPos[userPoint].moveZhiBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            // 回放修改 添加start
+                            if (this.pPage.isbpm) {
+                                positionX = DEF.SendCardPos[userPoint].moveZhiBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            }
+                            // 回放修改 添加end
+                        }
+                        positionY = DEF.SendCardPos[userPoint].moveTo.y;
+                        // 回放修改 添加start
+                        // if (this.pPage.isbpm) {
+                        //     positionY = -14;
+                        // }
+                        card.endPosX = positionX
+                        card.endPosY = positionY
+                        // 回放修改 添加end
+                        card.setPosition(positionX, positionY);
+                        viewIndex++
+                    }
+                });
+            } else {
+                // 获取碰、杠的数据
+                let pongArr = this.selfView.pongCardView.pongPaiArr;
+                let startPosx = 0;
+                if (!cc.g.utils.judgeArrayEmpty(pongArr)) {
+                    let lastItem = pongArr[pongArr.length - 1]
+                    startPosx = lastItem.x - 80
+                }
+
+                // 重新绘制位置
+                let viewIndex = 0
+                this.hcGroups.forEach(card => {
+                    if (card.active) {
+                        let positionX, positionY
+                        if (!cc.g.utils.judgeArrayEmpty(pongArr)) {
+                            positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            // 回放修改 添加start
+                            if (this.pPage.isbpm) {
+                                positionX = startPosx - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            }
+                            // 回放修改 添加end
+                        } else {
+                            positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            // 回放修改 添加start
+                            if (this.pPage.isbpm) {
+                                positionX = DEF.SendCardPos[userPoint].moveBy.x - (viewIndex * DEF.SendCardPos[userPoint].moveTo.x);
+                            }
+                            // 回放修改 添加end
+                        }
+                        positionY = DEF.SendCardPos[userPoint].moveTo.y;
+                        // 回放修改 添加start
+                        // if (this.pPage.isbpm) {
+                        //     positionY = -14;
+                        // }
+                        card.endPosX = positionX
+                        card.endPosY = positionY
+                        // 回放修改 添加end
+                        card.setPosition(positionX, positionY);
+                        viewIndex++
+                    }
+                });
+            }
+
         } else if (userPoint == 3) {
             if (cardType == 1) { // 直板
                 // 获取碰、杠的数据
@@ -1699,25 +1744,31 @@ let MajhHandCardView = cc.Class({
         }
     },
     showHuPaiView: function (palyerViewItem, code, lastV) { // 显示胡牌
-    
+        let gameType = this.gameMgr.roomInfo.gameType
+        let cardType = cc.g.utils.getPaiVaule(gameType);
+
         let positionX, positionY
         let userPoint = this.selfView.index
         let card = lc_creatHuCard(userPoint, this.pPage);
-
+        let zhiVaule = false
         // card vaule
         let cardKeyName = 'majh_cardval_';
 
         if (userPoint == 0) {
             cardKeyName = 'majh_cardval_';
+            zhiVaule = false
         } else if (userPoint == 1) {
             cardKeyName = 'ri_majh_cardval_';
+            zhiVaule = true
         }  else if (userPoint == 2) {
             cardKeyName = 'to_majh_cardval_';
+            zhiVaule = false
         } else if (userPoint == 3) {
             cardKeyName = 'le_majh_cardval_';
+            zhiVaule = true
         }
 
-        cc.find("Sprite_Hu/Sprite_Val", card).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame(cardKeyName + code);
+        cc.find("Sprite_Hu/Sprite_Val", card).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame(zhiVaule ? (cardKeyName + code + '_zhi') : (cardKeyName + code));
 
         let handAllLength = 0
         this.hcGroups.forEach((cardNode)=>{
@@ -1778,17 +1829,23 @@ let MajhHandCardView = cc.Class({
 
         if (lastItem) {
             if (userPoint == 0) {
-                positionX = lastItem.x + DEF.SendCardPos[userPoint].moveTo.x + 40
+                positionX = lastItem.x + DEF.SendCardPos[userPoint].moveTo.x + DEF.HuCardPos[userPoint].moveTo.x//40
                 positionY = lastItem.y
             } else if (userPoint == 1) {
-                positionX = lastItem.x + 10
-                positionY = lastItem.y + 55//70
+                if (cardType == 1) {
+                    positionX = lastItem.x + DEF.HuCardPos[userPoint].moveZhiTo.x//10
+                    positionY = lastItem.y + DEF.HuCardPos[userPoint].moveZhiTo.y//55
+                } else {
+                    positionX = lastItem.x + DEF.HuCardPos[userPoint].moveTo.x//10
+                    positionY = lastItem.y + DEF.HuCardPos[userPoint].moveTo.y//55
+                }
+
             } else if (userPoint == 2) {
-                positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - 40
+                positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - DEF.HuCardPos[userPoint].moveTo.x //40
                 positionY = lastItem.y
             } else if (userPoint == 3) {
-                positionX = lastItem.x - 30
-                positionY = lastItem.y - 110
+                positionX = lastItem.x - DEF.HuCardPos[userPoint].moveTo.x//30
+                positionY = lastItem.y - DEF.HuCardPos[userPoint].moveTo.y//110
             }
             card.setPosition(positionX, positionY);
             this.Node_handCard.addChild(card, lastItem.zIndex, 'Node_Hu_Card'+userPoint);
@@ -2089,63 +2146,124 @@ let MajhQiCardView = cc.Class({
         //cc.log('showPoint-->'+showPoint)
 
         if (this.selfView.index == 0) {
-            let lastLength = this.qiPaiArr.length;
-            if (lastLength == 0) {
-                newCard.uIdx = 0;
-                if (total == 2) {
-                    positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - DEF.qipaiTwoStart;
-                    positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
-                } else {
-                    positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - DEF.qipaiStart;
-                    positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
-                }
-            } else {
-                // 最后一个元素
-                newCard.uIdx = lastLength;
-                // 2 个人
-                if (total == 2) {
-                    let col = lastLength % DEF.colTwoMax;
-                    // 找到最后一个元素的行数
-                    let row = parseInt(lastLength / DEF.colTwoMax);
-                    positionX = col * DEF.twoQiCardPos[this.selfView.index].moveTo.x - DEF.qipaiTwoStart;
-                    positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y - (row * DEF.twoQiCardPos[this.selfView.index].moveTo.y)
-                } else {
-                    let row = 0;
-                    let col = 0;
-                    let cardStep = 0;
-                    if (lastLength > 0 && lastLength < 8) {
-                        row = 0; //10
-                        col = lastLength % 8;
-                        cardStep = 0;
-                    } else if (lastLength >= 8 && lastLength < 16) {
-                        row = 1; //12
-                        col = (lastLength - 8) % 8;
-                        cardStep = 0;
+            if (cardType == 1) { // 直板
+                let lastLength = this.qiPaiArr.length;
+                if (lastLength == 0) {
+                    newCard.uIdx = 0;
+                    if (total == 2) {
+                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - DEF.qipaiTwoStart;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
                     } else {
-                        row = 2; //18
-                        col = (lastLength - 16) % 12;
-                        cardStep = -2;
+                        positionX = DEF.QiCardPos[this.selfView.index].moveZhiBy.x - DEF.qipaiStart;
+                        positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y;
                     }
+                } else {
+                    // 最后一个元素
+                    newCard.uIdx = lastLength;
+                    // 2 个人
+                    if (total == 2) {
+                        let col = lastLength % DEF.colTwoMax;
+                        // 找到最后一个元素的行数
+                        let row = parseInt(lastLength / DEF.colTwoMax);
+                        positionX = col * DEF.twoQiCardPos[this.selfView.index].moveTo.x - DEF.qipaiTwoStart;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y - (row * DEF.twoQiCardPos[this.selfView.index].moveTo.y)
+                    } else {
+                        let row = 0;
+                        let col = 0;
+                        let cardStep = 0;
+                        if (lastLength > 0 && lastLength < 8) {
+                            row = 0; //10
+                            col = lastLength % 8;
+                            cardStep = 0;
+                        } else if (lastLength >= 8 && lastLength < 16) {
+                            row = 1; //12
+                            col = (lastLength - 8) % 8;
+                            cardStep = 0;
+                        } else {
+                            row = 2; //18
+                            col = (lastLength - 16) % 12;
+                            cardStep = -2;
+                        }
 
-                    positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x + (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x) - DEF.qipaiStart;
-                    // Y
-                    positionY = DEF.QiCardPos[this.selfView.index].moveBy.y - (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                        positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x + (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x) - DEF.qipaiStart;
+                        // Y
+                        positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y - (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                    }
                 }
+
+                newCard.code = cardNum;
+                newCard.endPosX = positionX;
+                newCard.endPosY = positionY;
+                newCard.showPoint = showPoint; //  是否是当前打出去的牌
+                newCard.setPosition(positionX, positionY);
+                this.qiPai_handCard.addChild(newCard, 1, 'Node_QiPai'+lastLength);
+                // this.addChild(newCard, 1, 'Node_QiPai'+cards.length);
+                cc.find("Sprite_cardVal", newCard).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame('majh_cardval_' + cardNum);
+                cc.find("Node_PointView", newCard).active = showPoint
+                // 放入数组
+                this.qiPaiArr.push(newCard);
+                // 存入数字
+                // cards.push(cardNum)
+            } else {
+                let lastLength = this.qiPaiArr.length;
+                if (lastLength == 0) {
+                    newCard.uIdx = 0;
+                    if (total == 2) {
+                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - DEF.qipaiTwoStart;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
+                    } else {
+                        positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - DEF.qipaiStart;
+                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
+                    }
+                } else {
+                    // 最后一个元素
+                    newCard.uIdx = lastLength;
+                    // 2 个人
+                    if (total == 2) {
+                        let col = lastLength % DEF.colTwoMax;
+                        // 找到最后一个元素的行数
+                        let row = parseInt(lastLength / DEF.colTwoMax);
+                        positionX = col * DEF.twoQiCardPos[this.selfView.index].moveTo.x - DEF.qipaiTwoStart;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y - (row * DEF.twoQiCardPos[this.selfView.index].moveTo.y)
+                    } else {
+                        let row = 0;
+                        let col = 0;
+                        let cardStep = 0;
+                        if (lastLength > 0 && lastLength < 8) {
+                            row = 0; //10
+                            col = lastLength % 8;
+                            cardStep = 0;
+                        } else if (lastLength >= 8 && lastLength < 16) {
+                            row = 1; //12
+                            col = (lastLength - 8) % 8;
+                            cardStep = 0;
+                        } else {
+                            row = 2; //18
+                            col = (lastLength - 16) % 12;
+                            cardStep = -2;
+                        }
+
+                        positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x + (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x) - DEF.qipaiStart;
+                        // Y
+                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y - (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                    }
+                }
+
+                newCard.code = cardNum;
+                newCard.endPosX = positionX;
+                newCard.endPosY = positionY;
+                newCard.showPoint = showPoint; //  是否是当前打出去的牌
+                newCard.setPosition(positionX, positionY);
+                this.qiPai_handCard.addChild(newCard, 1, 'Node_QiPai'+lastLength);
+                // this.addChild(newCard, 1, 'Node_QiPai'+cards.length);
+                cc.find("Sprite_cardVal", newCard).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame('majh_cardval_' + cardNum);
+                cc.find("Node_PointView", newCard).active = showPoint
+                // 放入数组
+                this.qiPaiArr.push(newCard);
+                // 存入数字
+                // cards.push(cardNum)
             }
 
-            newCard.code = cardNum;
-            newCard.endPosX = positionX;
-            newCard.endPosY = positionY;
-            newCard.showPoint = showPoint; //  是否是当前打出去的牌
-            newCard.setPosition(positionX, positionY);
-            this.qiPai_handCard.addChild(newCard, 1, 'Node_QiPai'+lastLength);
-            // this.addChild(newCard, 1, 'Node_QiPai'+cards.length);
-            cc.find("Sprite_cardVal", newCard).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame('majh_cardval_' + cardNum);
-            cc.find("Node_PointView", newCard).active = showPoint
-            // 放入数组
-            this.qiPaiArr.push(newCard);
-            // 存入数字
-            // cards.push(cardNum)
         } else if (this.selfView.index == 1) {
             if (cardType == 1) { // 直板
                 let zIndex = 0;
@@ -2274,89 +2392,176 @@ let MajhQiCardView = cc.Class({
                 this.qiPaiArr.push(newCard);
             }
         } else if (this.selfView.index == 2) {
-            let zIndex = 0;
-            let lastLength = this.qiPaiArr.length;
-            this.pPage.zIndexQiTopCount += 1;
-            if (lastLength == 0) {
-                newCard.uIdx = 0;
-                if (total == 2) {
-                    positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x;
-                    positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
-                    zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                } else {
-                    positionX = DEF.QiCardPos[this.selfView.index].moveBy.x// - (4 * DEF.QiCardPos[this.selfView.index].moveTo.x);
-                    positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
-                    zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                }
-            } else {
-                newCard.uIdx = this.pPage.zIndexQiTopCount;
-                let row = 0;
-                let col = 0;
-                let cardStep = 0;
-                let zIndexRow = 0
-                // 2 个人
-                if (total == 2) {
-                    col = lastLength % DEF.colTwoMax;
-                    // 找到最后一个元素的行数
-                    row = parseInt(lastLength / DEF.colTwoMax);
-
-                    zIndexRow = parseInt(lastLength / DEF.colTwoMax);
-
-                    if (zIndexRow == 0) {
+            if (cardType == 1) { // 直板
+                let zIndex = 0;
+                let lastLength = this.qiPaiArr.length;
+                this.pPage.zIndexQiTopCount += 1;
+                if (lastLength == 0) {
+                    newCard.uIdx = 0;
+                    if (total == 2) {
+                        positionX = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.x;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.y;
                         zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                    } else if (zIndexRow == 1) {
-                        zIndex = 5000 - this.pPage.zIndexQiTopCount;
-                    } else if (zIndexRow == 2) {
-                        zIndex = 4000 - this.pPage.zIndexQiTopCount;
-                    } else if (zIndexRow == 3) {
-                        zIndex = 3000 - this.pPage.zIndexQiTopCount;
-                    } else if (zIndexRow == 4) {
-                        zIndex = 2000 - this.pPage.zIndexQiTopCount;
-                    }  else {
-                        zIndex = 1000 - this.pPage.zIndexQiTopCount;
-                    }
-
-                    positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - col * DEF.twoQiCardPos[this.selfView.index].moveTo.x;
-                    positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y + row * DEF.twoQiCardPos[this.selfView.index].moveTo.y;
-                } else {
-                    if (lastLength > 0 && lastLength < 8) {
-                        row = 0; //10
-                        col = lastLength % 8;
-                        cardStep = 0;
-                        zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                    } else if (lastLength >= 8 && lastLength < 16) {
-                        row = 1; //12
-                        col = (lastLength - 8) % 8;
-                        cardStep = 0;
-                        zIndex = 5000 - this.pPage.zIndexQiTopCount;
                     } else {
-                        row = 2; //18
-                        col = (lastLength - 16) % 12;
-                        cardStep = -2;
-                        zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                        positionX = DEF.QiCardPos[this.selfView.index].moveZhiBy.x// - (4 * DEF.QiCardPos[this.selfView.index].moveTo.x);
+                        positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y;
+                        zIndex = 6000 - this.pPage.zIndexQiTopCount;
                     }
+                } else {
+                    newCard.uIdx = this.pPage.zIndexQiTopCount;
+                    let row = 0;
+                    let col = 0;
+                    let cardStep = 0;
+                    let zIndexRow = 0
+                    // 2 个人
+                    if (total == 2) {
+                        col = lastLength % DEF.colTwoMax;
+                        // 找到最后一个元素的行数
+                        row = parseInt(lastLength / DEF.colTwoMax);
 
-                    positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - col * DEF.QiCardPos[this.selfView.index].moveTo.x - (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x);
-                    // Y
-                    positionY = DEF.QiCardPos[this.selfView.index].moveBy.y + (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                        zIndexRow = parseInt(lastLength / DEF.colTwoMax);
+
+                        if (zIndexRow == 0) {
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 1) {
+                            zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 2) {
+                            zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 3) {
+                            zIndex = 3000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 4) {
+                            zIndex = 2000 - this.pPage.zIndexQiTopCount;
+                        }  else {
+                            zIndex = 1000 - this.pPage.zIndexQiTopCount;
+                        }
+
+                        positionX = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.x - col * DEF.twoQiCardPos[this.selfView.index].moveZhiTo.x;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.y + row * DEF.twoQiCardPos[this.selfView.index].moveZhiTo.y;
+                    } else {
+                        if (lastLength > 0 && lastLength < 8) {
+                            row = 0; //10
+                            col = lastLength % 8;
+                            cardStep = 0;
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else if (lastLength >= 8 && lastLength < 16) {
+                            row = 1; //12
+                            col = (lastLength - 8) % 8;
+                            cardStep = 0;
+                            zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                        } else {
+                            row = 2; //18
+                            col = (lastLength - 16) % 12;
+                            cardStep = -2;
+                            zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                        }
+
+                        positionX = DEF.QiCardPos[this.selfView.index].moveZhiBy.x - col * DEF.QiCardPos[this.selfView.index].moveZhiTo.x - (cardStep * DEF.QiCardPos[this.selfView.index].moveZhiTo.x);
+                        // Y
+                        positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y + (row * DEF.QiCardPos[this.selfView.index].moveZhiTo.y)
+                    }
                 }
+
+                newCard.code = cardNum;
+                newCard.endPosX = positionX;
+                newCard.endPosY = positionY;
+                newCard.showPoint = showPoint; //  是否是当前打出去的牌
+                newCard.setPosition(positionX, positionY);
+                this.qiPai_handCard.addChild(newCard, zIndex, 'Node_QiPai'+lastLength);
+
+                // this.addChild(newCard, 1, 'Node_QiPai'+cards.length);
+                cc.find("Sprite_cardVal", newCard).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame('to_majh_cardval_' + cardNum);
+                cc.find("Node_PointView", newCard).active = showPoint
+
+                // 放入数组
+                this.qiPaiArr.push(newCard);
+                // 存入数字
+                // cards.push(cardNum)
+            } else {
+                let zIndex = 0;
+                let lastLength = this.qiPaiArr.length;
+                this.pPage.zIndexQiTopCount += 1;
+                if (lastLength == 0) {
+                    newCard.uIdx = 0;
+                    if (total == 2) {
+                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
+                        zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                    } else {
+                        positionX = DEF.QiCardPos[this.selfView.index].moveBy.x// - (4 * DEF.QiCardPos[this.selfView.index].moveTo.x);
+                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
+                        zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                    }
+                } else {
+                    newCard.uIdx = this.pPage.zIndexQiTopCount;
+                    let row = 0;
+                    let col = 0;
+                    let cardStep = 0;
+                    let zIndexRow = 0
+                    // 2 个人
+                    if (total == 2) {
+                        col = lastLength % DEF.colTwoMax;
+                        // 找到最后一个元素的行数
+                        row = parseInt(lastLength / DEF.colTwoMax);
+
+                        zIndexRow = parseInt(lastLength / DEF.colTwoMax);
+
+                        if (zIndexRow == 0) {
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 1) {
+                            zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 2) {
+                            zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 3) {
+                            zIndex = 3000 - this.pPage.zIndexQiTopCount;
+                        } else if (zIndexRow == 4) {
+                            zIndex = 2000 - this.pPage.zIndexQiTopCount;
+                        }  else {
+                            zIndex = 1000 - this.pPage.zIndexQiTopCount;
+                        }
+
+                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - col * DEF.twoQiCardPos[this.selfView.index].moveTo.x;
+                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y + row * DEF.twoQiCardPos[this.selfView.index].moveTo.y;
+                    } else {
+                        if (lastLength > 0 && lastLength < 8) {
+                            row = 0; //10
+                            col = lastLength % 8;
+                            cardStep = 0;
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else if (lastLength >= 8 && lastLength < 16) {
+                            row = 1; //12
+                            col = (lastLength - 8) % 8;
+                            cardStep = 0;
+                            zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                        } else {
+                            row = 2; //18
+                            col = (lastLength - 16) % 12;
+                            cardStep = -2;
+                            zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                        }
+
+                        positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - col * DEF.QiCardPos[this.selfView.index].moveTo.x - (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x);
+                        // Y
+                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y + (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                    }
+                }
+
+                newCard.code = cardNum;
+                newCard.endPosX = positionX;
+                newCard.endPosY = positionY;
+                newCard.showPoint = showPoint; //  是否是当前打出去的牌
+                newCard.setPosition(positionX, positionY);
+                this.qiPai_handCard.addChild(newCard, zIndex, 'Node_QiPai'+lastLength);
+
+                // this.addChild(newCard, 1, 'Node_QiPai'+cards.length);
+                cc.find("Sprite_cardVal", newCard).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame('to_majh_cardval_' + cardNum);
+                cc.find("Node_PointView", newCard).active = showPoint
+
+                // 放入数组
+                this.qiPaiArr.push(newCard);
+                // 存入数字
+                // cards.push(cardNum)
             }
 
-            newCard.code = cardNum;
-            newCard.endPosX = positionX;
-            newCard.endPosY = positionY;
-            newCard.showPoint = showPoint; //  是否是当前打出去的牌
-            newCard.setPosition(positionX, positionY);
-            this.qiPai_handCard.addChild(newCard, zIndex, 'Node_QiPai'+lastLength);
-
-            // this.addChild(newCard, 1, 'Node_QiPai'+cards.length);
-            cc.find("Sprite_cardVal", newCard).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame('to_majh_cardval_' + cardNum);
-            cc.find("Node_PointView", newCard).active = showPoint
-
-            // 放入数组
-            this.qiPaiArr.push(newCard);
-            // 存入数字
-            // cards.push(cardNum)
         } else if (this.selfView.index == 3) {
             if (cardType == 1) { // 直板
                 let zIndex = 0;
@@ -2491,54 +2696,106 @@ let MajhQiCardView = cc.Class({
         let total = this.gameMgr.roomInfo.total;
         let viewIndex = 0;
         if (this.selfView.index == 0) {
-            this.qiPaiArr.forEach(newCard => {
-                // 找到最后一个元素位置
-                let col = 0
-                let row = 0;
-                let positionX,positionY
-                let cardStep = 0;
-                if (total == 2) {
-                    col = viewIndex % DEF.colTwoMax;
-                    row = parseInt(viewIndex / DEF.colTwoMax);
-                    if (viewIndex == 0) {
-                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - DEF.qipaiTwoStart;
-                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
-                    } else {
-                        positionX = col * DEF.twoQiCardPos[this.selfView.index].moveTo.x - DEF.qipaiTwoStart;
-                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y - (row * DEF.twoQiCardPos[this.selfView.index].moveTo.y)
-                    }
-                } else {
-                    // 1
-                    if (viewIndex == 0) {
-                        positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - DEF.qipaiStart;
-                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
-                    } else {
-                        if (viewIndex > 0 && viewIndex < 8) {
-                            row = 0; //10
-                            col = viewIndex % 8;
-                            cardStep = 0;
-                        } else if (viewIndex >= 8 && viewIndex < 16) {
-                            row = 1; //12
-                            col = (viewIndex - 8) % 8;
-                            cardStep = 0;
-
+            if (cardType == 1) { // 直板
+                this.qiPaiArr.forEach(newCard => {
+                    // 找到最后一个元素位置
+                    let col = 0
+                    let row = 0;
+                    let positionX,positionY
+                    let cardStep = 0;
+                    if (total == 2) {
+                        col = viewIndex % DEF.colTwoMax;
+                        row = parseInt(viewIndex / DEF.colTwoMax);
+                        if (viewIndex == 0) {
+                            positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - DEF.qipaiTwoStart;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
                         } else {
-                            row = 2; //18
-                            col = (viewIndex - 16) % 12;
-                            cardStep = -2;
+                            positionX = col * DEF.twoQiCardPos[this.selfView.index].moveTo.x - DEF.qipaiTwoStart;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y - (row * DEF.twoQiCardPos[this.selfView.index].moveTo.y)
                         }
+                    } else {
+                        // 1
+                        if (viewIndex == 0) {
+                            positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - DEF.qipaiStart;
+                            positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y;
+                        } else {
+                            if (viewIndex > 0 && viewIndex < 8) {
+                                row = 0; //10
+                                col = viewIndex % 8;
+                                cardStep = 0;
+                            } else if (viewIndex >= 8 && viewIndex < 16) {
+                                row = 1; //12
+                                col = (viewIndex - 8) % 8;
+                                cardStep = 0;
 
-                        positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x + (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x) - DEF.qipaiStart;
-                        // positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x - DEF.qipaiStart;
-                        // Y
-                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y - (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                            } else {
+                                row = 2; //18
+                                col = (viewIndex - 16) % 12;
+                                cardStep = -2;
+                            }
+
+                            positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x + (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x) - DEF.qipaiStart;
+                            // positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x - DEF.qipaiStart;
+                            // Y
+                            positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y - (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                        }
                     }
-                }
 
-                newCard.setPosition(positionX, positionY);
+                    newCard.setPosition(positionX, positionY);
 
-                viewIndex++
-            });
+                    viewIndex++
+                });
+            } else {
+                this.qiPaiArr.forEach(newCard => {
+                    // 找到最后一个元素位置
+                    let col = 0
+                    let row = 0;
+                    let positionX,positionY
+                    let cardStep = 0;
+                    if (total == 2) {
+                        col = viewIndex % DEF.colTwoMax;
+                        row = parseInt(viewIndex / DEF.colTwoMax);
+                        if (viewIndex == 0) {
+                            positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - DEF.qipaiTwoStart;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
+                        } else {
+                            positionX = col * DEF.twoQiCardPos[this.selfView.index].moveTo.x - DEF.qipaiTwoStart;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y - (row * DEF.twoQiCardPos[this.selfView.index].moveTo.y)
+                        }
+                    } else {
+                        // 1
+                        if (viewIndex == 0) {
+                            positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - DEF.qipaiStart;
+                            positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
+                        } else {
+                            if (viewIndex > 0 && viewIndex < 8) {
+                                row = 0; //10
+                                col = viewIndex % 8;
+                                cardStep = 0;
+                            } else if (viewIndex >= 8 && viewIndex < 16) {
+                                row = 1; //12
+                                col = (viewIndex - 8) % 8;
+                                cardStep = 0;
+
+                            } else {
+                                row = 2; //18
+                                col = (viewIndex - 16) % 12;
+                                cardStep = -2;
+                            }
+
+                            positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x + (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x) - DEF.qipaiStart;
+                            // positionX = col * DEF.QiCardPos[this.selfView.index].moveTo.x - DEF.qipaiStart;
+                            // Y
+                            positionY = DEF.QiCardPos[this.selfView.index].moveBy.y - (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                        }
+                    }
+
+                    newCard.setPosition(positionX, positionY);
+
+                    viewIndex++
+                });
+            }
+
         } else if (this.selfView.index == 1) {
 
             if (cardType == 1) { // 直板
@@ -2646,82 +2903,162 @@ let MajhQiCardView = cc.Class({
                 });
             }
         } else if (this.selfView.index == 2) {
-            // zindex 计数器
-            this.pPage.zIndexQiTopCount = 0;
-            let lastLength = this.qiPaiArr.length;
-            this.qiPaiArr.forEach(newCard => {
-                let col = 0
-                let row = 0;
-                let positionX,positionY
-                let cardStep = 0;
-                let zIndexRow = 0;
-                let zIndex = 0;
-                this.pPage.zIndexQiTopCount += 1;
-                if (total == 2) {
-                    col = viewIndex % DEF.colTwoMax;
-                    row = parseInt(viewIndex / DEF.colTwoMax);
-                    if (viewIndex == 0) {
-                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x;
-                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
-                        zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                    } else {
+            if (cardType == 1) { // 直板
+                // zindex 计数器
+                this.pPage.zIndexQiTopCount = 0;
+                let lastLength = this.qiPaiArr.length;
+                this.qiPaiArr.forEach(newCard => {
+                    let col = 0
+                    let row = 0;
+                    let positionX,positionY
+                    let cardStep = 0;
+                    let zIndexRow = 0;
+                    let zIndex = 0;
+                    this.pPage.zIndexQiTopCount += 1;
+                    if (total == 2) {
                         col = viewIndex % DEF.colTwoMax;
-                        // 找到最后一个元素的行数
                         row = parseInt(viewIndex / DEF.colTwoMax);
-
-                        zIndexRow = parseInt(lastLength / DEF.colTwoMax);
-
-                        if (zIndexRow == 0) {
+                        if (viewIndex == 0) {
+                            positionX = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.x;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.y;
                             zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                        } else if (zIndexRow == 1) {
-                            zIndex = 5000 - this.pPage.zIndexQiTopCount;
-                        } else if (zIndexRow == 2) {
-                            zIndex = 4000 - this.pPage.zIndexQiTopCount;
-                        } else if (zIndexRow == 3) {
-                            zIndex = 3000 - this.pPage.zIndexQiTopCount;
-                        } else if (zIndexRow == 4) {
-                            zIndex = 2000 - this.pPage.zIndexQiTopCount;
-                        }  else {
-                            zIndex = 1000 - this.pPage.zIndexQiTopCount;
-                        }
-
-                        positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - col * DEF.twoQiCardPos[this.selfView.index].moveTo.x;
-                        positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y + row * DEF.twoQiCardPos[this.selfView.index].moveTo.y;
-                    }
-                } else {
-                    if (viewIndex == 0) {
-                        positionX = DEF.QiCardPos[this.selfView.index].moveBy.x;// - (4 * DEF.QiCardPos[this.selfView.index].moveTo.x);
-                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
-                        zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                    } else {
-                        if (viewIndex > 0 && viewIndex < 8) {
-                            row = 0; //10
-                            col = viewIndex % 8;
-                            cardStep = 0;
-                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
-                        } else if (viewIndex >= 8 && viewIndex < 16) {
-                            row = 1; //12
-                            col = (viewIndex - 8) % 8;
-                            cardStep = 0;
-                            zIndex = 5000 - this.pPage.zIndexQiTopCount;
                         } else {
-                            row = 2; //18
-                            col = (viewIndex - 16) % 12;
-                            cardStep = -2;
-                            zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                            col = viewIndex % DEF.colTwoMax;
+                            // 找到最后一个元素的行数
+                            row = parseInt(viewIndex / DEF.colTwoMax);
+
+                            zIndexRow = parseInt(lastLength / DEF.colTwoMax);
+
+                            if (zIndexRow == 0) {
+                                zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 1) {
+                                zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 2) {
+                                zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 3) {
+                                zIndex = 3000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 4) {
+                                zIndex = 2000 - this.pPage.zIndexQiTopCount;
+                            }  else {
+                                zIndex = 1000 - this.pPage.zIndexQiTopCount;
+                            }
+
+                            positionX = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.x - col * DEF.twoQiCardPos[this.selfView.index].moveZhiTo.x;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveZhiBy.y + row * DEF.twoQiCardPos[this.selfView.index].moveZhiTo.y;
                         }
+                    } else {
+                        if (viewIndex == 0) {
+                            positionX = DEF.QiCardPos[this.selfView.index].moveZhiBy.x;// - (4 * DEF.QiCardPos[this.selfView.index].moveTo.x);
+                            positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y;
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else {
+                            if (viewIndex > 0 && viewIndex < 8) {
+                                row = 0; //10
+                                col = viewIndex % 8;
+                                cardStep = 0;
+                                zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                            } else if (viewIndex >= 8 && viewIndex < 16) {
+                                row = 1; //12
+                                col = (viewIndex - 8) % 8;
+                                cardStep = 0;
+                                zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                            } else {
+                                row = 2; //18
+                                col = (viewIndex - 16) % 12;
+                                cardStep = -2;
+                                zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                            }
 
-                        positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - col * DEF.QiCardPos[this.selfView.index].moveTo.x - (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x);
-                        // Y
-                        positionY = DEF.QiCardPos[this.selfView.index].moveBy.y + (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                            positionX = DEF.QiCardPos[this.selfView.index].moveZhiBy.x - col * DEF.QiCardPos[this.selfView.index].moveZhiTo.x - (cardStep * DEF.QiCardPos[this.selfView.index].moveZhiTo.x);
+                            // Y
+                            positionY = DEF.QiCardPos[this.selfView.index].moveZhiBy.y + (row * DEF.QiCardPos[this.selfView.index].moveZhiTo.y)
+                        }
                     }
-                }
 
-                newCard.zIndex = zIndex
-                newCard.setPosition(positionX, positionY);
+                    newCard.zIndex = zIndex
+                    newCard.setPosition(positionX, positionY);
 
-                viewIndex++
-            });
+                    viewIndex++
+                });
+            } else {
+                // zindex 计数器
+                this.pPage.zIndexQiTopCount = 0;
+                let lastLength = this.qiPaiArr.length;
+                this.qiPaiArr.forEach(newCard => {
+                    let col = 0
+                    let row = 0;
+                    let positionX,positionY
+                    let cardStep = 0;
+                    let zIndexRow = 0;
+                    let zIndex = 0;
+                    this.pPage.zIndexQiTopCount += 1;
+                    if (total == 2) {
+                        col = viewIndex % DEF.colTwoMax;
+                        row = parseInt(viewIndex / DEF.colTwoMax);
+                        if (viewIndex == 0) {
+                            positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y;
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else {
+                            col = viewIndex % DEF.colTwoMax;
+                            // 找到最后一个元素的行数
+                            row = parseInt(viewIndex / DEF.colTwoMax);
+
+                            zIndexRow = parseInt(lastLength / DEF.colTwoMax);
+
+                            if (zIndexRow == 0) {
+                                zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 1) {
+                                zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 2) {
+                                zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 3) {
+                                zIndex = 3000 - this.pPage.zIndexQiTopCount;
+                            } else if (zIndexRow == 4) {
+                                zIndex = 2000 - this.pPage.zIndexQiTopCount;
+                            }  else {
+                                zIndex = 1000 - this.pPage.zIndexQiTopCount;
+                            }
+
+                            positionX = DEF.twoQiCardPos[this.selfView.index].moveBy.x - col * DEF.twoQiCardPos[this.selfView.index].moveTo.x;
+                            positionY = DEF.twoQiCardPos[this.selfView.index].moveBy.y + row * DEF.twoQiCardPos[this.selfView.index].moveTo.y;
+                        }
+                    } else {
+                        if (viewIndex == 0) {
+                            positionX = DEF.QiCardPos[this.selfView.index].moveBy.x;// - (4 * DEF.QiCardPos[this.selfView.index].moveTo.x);
+                            positionY = DEF.QiCardPos[this.selfView.index].moveBy.y;
+                            zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                        } else {
+                            if (viewIndex > 0 && viewIndex < 8) {
+                                row = 0; //10
+                                col = viewIndex % 8;
+                                cardStep = 0;
+                                zIndex = 6000 - this.pPage.zIndexQiTopCount;
+                            } else if (viewIndex >= 8 && viewIndex < 16) {
+                                row = 1; //12
+                                col = (viewIndex - 8) % 8;
+                                cardStep = 0;
+                                zIndex = 5000 - this.pPage.zIndexQiTopCount;
+                            } else {
+                                row = 2; //18
+                                col = (viewIndex - 16) % 12;
+                                cardStep = -2;
+                                zIndex = 4000 - this.pPage.zIndexQiTopCount;
+                            }
+
+                            positionX = DEF.QiCardPos[this.selfView.index].moveBy.x - col * DEF.QiCardPos[this.selfView.index].moveTo.x - (cardStep * DEF.QiCardPos[this.selfView.index].moveTo.x);
+                            // Y
+                            positionY = DEF.QiCardPos[this.selfView.index].moveBy.y + (row * DEF.QiCardPos[this.selfView.index].moveTo.y)
+                        }
+                    }
+
+                    newCard.zIndex = zIndex
+                    newCard.setPosition(positionX, positionY);
+
+                    viewIndex++
+                });
+            }
+
         } else if (this.selfView.index == 3) {
             if (cardType == 1) { // 直板
                 this.pPage.zIndexQiLeftCount = 0;
@@ -3023,6 +3360,9 @@ let MajhPongCardView = cc.Class({
                     newCard.uIdx = 0;
                     positionX = DEF.PongCardPos[this.selfView.index].moveByZhi.x;
                     positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                    if (this.pPage.isbpm) {
+                        positionX -= 30;
+                    }
                 } else {
                     newCard.uIdx = cardsLength - 1;
                     let pongLength = this.pongPaiArr.length - 1;
@@ -3056,35 +3396,60 @@ let MajhPongCardView = cc.Class({
                 this.pongPai_handCard.addChild(newCard, 200 - newCard.uIdx, 'Node_Pong_Card'+cardObj.code);
             }
 
-
             cardKeyName = 'ri_majh_cardval_';
             riAndLeft = true
         }  else if (this.selfView.index == 2) {
-            if (cardsLength == 0) { // 第一次添加
-                newCard.uIdx = 0;
-                positionX = DEF.PongCardPos[this.selfView.index].moveBy.x - newCard.width;
-                positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+            if (cardType == 1) { // 直板
+                if (cardsLength == 0) { // 第一次添加
+                    newCard.uIdx = 0;
+                    positionX = DEF.PongCardPos[this.selfView.index].moveZhiBy.x - newCard.width;
+                    positionY = DEF.PongCardPos[this.selfView.index].moveZhiBy.y;
+                } else {
+                    newCard.uIdx = cardsLength - 1;
+                    let pongLength = this.pongPaiArr.length - 1;
+                    let lastOneItem = this.pongPaiArr[pongLength]
+                    positionX = lastOneItem.x - newCard.width - 8;
+                    positionY = DEF.PongCardPos[this.selfView.index].moveZhiBy.y;
+                }
+
+                newCard.endPosX = positionX;
+                newCard.endPosY = positionY;
+                newCard.setPosition(positionX, positionY);
+
+                this.pongPai_handCard.addChild(newCard, 1, 'Node_Pong_Card'+cardObj.code);
+                cardKeyName = 'to_majh_cardval_';
+                riAndLeft = false
             } else {
-                newCard.uIdx = cardsLength - 1;
-                let pongLength = this.pongPaiArr.length - 1;
-                let lastOneItem = this.pongPaiArr[pongLength]
-                positionX = lastOneItem.x - newCard.width - 8;
-                positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                if (cardsLength == 0) { // 第一次添加
+                    newCard.uIdx = 0;
+                    positionX = DEF.PongCardPos[this.selfView.index].moveBy.x - newCard.width;
+                    positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                } else {
+                    newCard.uIdx = cardsLength - 1;
+                    let pongLength = this.pongPaiArr.length - 1;
+                    let lastOneItem = this.pongPaiArr[pongLength]
+                    positionX = lastOneItem.x - newCard.width - 8;
+                    positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                }
+
+                newCard.endPosX = positionX;
+                newCard.endPosY = positionY;
+                newCard.setPosition(positionX, positionY);
+
+                this.pongPai_handCard.addChild(newCard, 1, 'Node_Pong_Card'+cardObj.code);
+                cardKeyName = 'to_majh_cardval_';
+                riAndLeft = false
             }
 
-            newCard.endPosX = positionX;
-            newCard.endPosY = positionY;
-            newCard.setPosition(positionX, positionY);
-
-            this.pongPai_handCard.addChild(newCard, 1, 'Node_Pong_Card'+cardObj.code);
-            cardKeyName = 'to_majh_cardval_';
-            riAndLeft = false
         } else if (this.selfView.index == 3) {
             if (cardType == 1) { // 直板
                 if (cardsLength == 0) { // 第一次添加
                     newCard.uIdx = 0;
-                    positionX = DEF.PongCardPos[this.selfView.index].moveBy.x;
-                    positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                    positionX = DEF.PongCardPos[this.selfView.index].moveByZhi.x;
+                    positionY = DEF.PongCardPos[this.selfView.index].moveByZhi.y;
+                    if (this.pPage.isbpm) {
+                        positionX += 10;
+                    }
                 } else {
                     newCard.uIdx = cardsLength - 1;
                     let pongLength = this.pongPaiArr.length - 1;
@@ -3190,9 +3555,14 @@ let MajhPongCardView = cc.Class({
                         let nodeMode = self.pongPaiArr[viewIndex - 1]
                         positionX = nodeMode.x
                         positionY = nodeMode.y + nodeMode.height + 6;
+
                     } else {
                         positionX = DEF.PongCardPos[this.selfView.index].moveByZhi.x;
                         positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+
+                        if (this.pPage.isbpm) {
+                            positionX -= 30;
+                        }
                     }
 
                     card.endPosX = positionX;
@@ -3220,20 +3590,38 @@ let MajhPongCardView = cc.Class({
             }
 
         } else if (this.selfView.index == 2) {
-            this.pongPaiArr.forEach(card => {
-                let positionX, positionY
-                if (viewIndex > 0) {
-                    let nodeMode = self.pongPaiArr[viewIndex - 1]
-                    positionX = nodeMode.x - card.width - 8;
-                } else {
-                    positionX = DEF.PongCardPos[this.selfView.index].moveBy.x - card.width;
-                }
-                positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
-                card.endPosX = positionX;
-                card.endPosY = positionY;
-                card.setPosition(positionX, positionY);
-                viewIndex++
-            });
+            if (cardType == 1) { // 直板
+                this.pongPaiArr.forEach(card => {
+                    let positionX, positionY
+                    if (viewIndex > 0) {
+                        let nodeMode = self.pongPaiArr[viewIndex - 1]
+                        positionX = nodeMode.x - card.width - 8;
+                    } else {
+                        positionX = DEF.PongCardPos[this.selfView.index].moveZhiBy.x - card.width;
+                    }
+                    positionY = DEF.PongCardPos[this.selfView.index].moveZhiBy.y;
+                    card.endPosX = positionX;
+                    card.endPosY = positionY;
+                    card.setPosition(positionX, positionY);
+                    viewIndex++
+                });
+            } else {
+                this.pongPaiArr.forEach(card => {
+                    let positionX, positionY
+                    if (viewIndex > 0) {
+                        let nodeMode = self.pongPaiArr[viewIndex - 1]
+                        positionX = nodeMode.x - card.width - 8;
+                    } else {
+                        positionX = DEF.PongCardPos[this.selfView.index].moveBy.x - card.width;
+                    }
+                    positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                    card.endPosX = positionX;
+                    card.endPosY = positionY;
+                    card.setPosition(positionX, positionY);
+                    viewIndex++
+                });
+            }
+
         } else if (this.selfView.index == 3) {
             if (cardType == 1) { // 直板
                 this.pongPaiArr.forEach(card => {
@@ -3243,8 +3631,12 @@ let MajhPongCardView = cc.Class({
                         positionX = nodeMode.x
                         positionY = nodeMode.y - nodeMode.height - 6;
                     } else {
-                        positionX = DEF.PongCardPos[this.selfView.index].moveBy.x;
-                        positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                        positionX = DEF.PongCardPos[this.selfView.index].moveByZhi.x;
+                        positionY = DEF.PongCardPos[this.selfView.index].moveByZhi.y;
+
+                        if (this.pPage.isbpm) {
+                            positionX += 10;
+                        }
                     }
 
                     card.endPosX = positionX;
@@ -3383,6 +3775,10 @@ let D2SettleView = cc.Class({
         // 总结算
         this.Button_final = cc.find("Button_final", r);
         this.Button_final.on('touchend', this.onfinal, this);
+
+        // 规则
+        this.Label_deskrule = cc.find("Label_deskrule", r).getComponent(cc.Label);
+        // cc.g.hallMgr.inGameMenu.updateJieSuan(this.Label_deskrule);
     },
 
 
@@ -3485,6 +3881,14 @@ let D2SettleView = cc.Class({
         str += ' 房间号：' + ri.roomId;
         str += ` 第${ri.curGameNum}局`;
 
+        let com = cc.g.hallMgr.inGameMenu.Sprite_rule.getComponent('dlgGmruleifo');
+        if (com) {
+            let str = com.srtlist.join(' ');
+            this.Label_deskrule.string = str;
+        } else {
+            this.Label_deskrule.string = '???';
+        }
+
         let Label_desc = cc.find("Node_ctt/Label_desc", this.root).getComponent(cc.Label);
         Label_desc.string = str;
 
@@ -3519,7 +3923,7 @@ let D2SettleView = cc.Class({
         let zhuang = cc.find("Sprite_Zhuang", vbPlayerContent);
         let piaoView = cc.find("Sprite_Piao", vbPlayerContent);
         let fengDingView = cc.find("Sprite_fengding", vbPlayerContent);
-        let Lab_name = cc.find("Node_head/Label_name", vbPlayerContent).getComponent(cc.Label);
+        let Lab_name = cc.find("Label_name", vbPlayerContent).getComponent(cc.Label);
         let Spr_head = cc.find("Node_head/Sprite_hdbg/Node_mask/Sprite_head", vbPlayerContent).getComponent(cc.Sprite);
         // sprite_hque.active = false
         zhuang.active = allPerResultItem.isZhuang;
@@ -4148,10 +4552,17 @@ let lc_creatHandCard = function (viewIndex, idx, mainPage) {
         }
 
     } else if (viewIndex == 2) { // Node_p2 Node_p4
-        positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x);
-        positionY = DEF.SendCardPos[viewIndex].moveBy.y;
-        c.endPosX = positionX;
-        c.endPosY = DEF.SendCardPos[viewIndex].moveTo.y;
+        if (cardType == 1) { // 直板
+            positionX = DEF.SendCardPos[viewIndex].moveZhiBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x);
+            positionY = DEF.SendCardPos[viewIndex].moveBy.y;
+            c.endPosX = positionX;
+            c.endPosY = DEF.SendCardPos[viewIndex].moveTo.y;
+        } else {
+            positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x);
+            positionY = DEF.SendCardPos[viewIndex].moveBy.y;
+            c.endPosX = positionX;
+            c.endPosY = DEF.SendCardPos[viewIndex].moveTo.y;
+        }
     } else if (viewIndex == 3) {
         if (cardType == 1) { // 直板
             positionX = DEF.SendCardPos[viewIndex].moveBy.x;
@@ -4187,7 +4598,7 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
     let cardType = cc.g.utils.getPaiVaule(gameType);
     cc.log('cardType-->' + cardType)
     if (cardType == 1) { // 直板
-        cardIndex += 4;
+        cardIndex += 3;
     }
     cc.log('cardIndex-->' + cardIndex)
 
@@ -4197,7 +4608,7 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
     let positionX, positionY
     if (viewIndex == 1) { // Node_p2
         if (cardType == 1) { // 直板
-            positionX = DEF.SendCardPos[viewIndex].moveBy.x
+            positionX = DEF.SendCardPos[viewIndex].moveBy.x - 40
             positionY = DEF.SendCardPos[viewIndex].moveBy.y + (idx * DEF.SendCardPos[viewIndex].moveTo.y);
         } else {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) + DEF.SendCardPos[viewIndex].moveTo.z;
@@ -4211,7 +4622,7 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x
             positionX = positionX - 80
             positionY = DEF.SendCardPos[viewIndex].moveBy.y - (idx * DEF.SendCardPos[viewIndex].moveTo.y)
-            positionY = positionY - 80
+            positionY = positionY// - 80
         } else {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) - DEF.SendCardPos[viewIndex].moveTo.z;
             positionX = positionX - 80

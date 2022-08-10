@@ -80,13 +80,17 @@ MajhDef.SendCardPos = [
     },
     {
         moveBy: {
-            x: 900,
+            x: 820, // 900
             y: 20
         },
         moveTo: {
             x: 59,
             y: 0
-        }
+        },
+        moveZhiBy: {
+            x: 820,
+            y: 20
+        },
     },
     {
         moveBy: {
@@ -112,7 +116,7 @@ MajhDef.twoQiCardPos = [
     {
         moveBy: {
             x: 0,
-            y: 130,
+            y: 110,//130,
         },
         moveTo: {
             x: 76,
@@ -132,11 +136,19 @@ MajhDef.twoQiCardPos = [
     {
         moveBy: {
             x: 880,
-            y: 16,
+            y: 40, //16
         },
         moveTo: {
             x: 68,
             y: 80
+        },
+        moveZhiBy: {
+            x: 880,
+            y: 50,
+        },
+        moveZhiTo: {
+            x: 78,
+            y: 88
         }
     },
     {
@@ -156,12 +168,16 @@ MajhDef.QiCardPos = [
     {
         moveBy: {
             x: 0,
-            y: 130
+            y: 120,//130
         },
         moveTo: {
             x: 76,
             y: 86 // -
-        }
+        },
+        moveZhiBy: {
+            x: 0,
+            y: 114,//130
+        },
     },
     {
         moveBy: {
@@ -182,6 +198,14 @@ MajhDef.QiCardPos = [
         moveTo: {
             x: 68,
             y: 80
+        },
+        moveZhiBy: {
+            x: 545,//500,
+            y: 50,
+        },
+        moveZhiTo: {
+            x: 78,
+            y: 88
         }
     },
     {
@@ -225,18 +249,26 @@ MajhDef.PongCardPos = [
     },
     {
         moveBy: {
-            x: 950,
+            x: 900,//950,
             y: 0
         },
         moveTo: {
             x: 0,
             y: 0
-        }
+        },
+        moveZhiBy: {
+            x: 900,
+            y: 0
+        },
     },
     {
         moveBy: {
             x: 200,
             y: 710,
+        },
+        moveByZhi: {
+            x: 150,
+            y: 750,
         },
         moveTo: {
             x: 35,
@@ -290,48 +322,36 @@ MajhDef.PongCardPos = [
 // ]
 //
 //
-// MajhDef.AnGangCardPos = [
-//     {
-//         moveBy: {
-//             x: 0,
-//             y: 0
-//         },
-//         moveTo: {
-//             x: 255,
-//             y: 0
-//         }
-//     },
-//     {
-//         moveBy: {
-//             x: 0,
-//             y: 0,
-//         },
-//         moveTo: {
-//             x: 25, // -
-//             y: 0
-//         }
-//     },
-//     {
-//         moveBy: {
-//             x: 460,
-//             y: 0
-//         },
-//         moveTo: {
-//             x: 124,
-//             y: 0
-//         }
-//     },
-//     {
-//         moveBy: {
-//             x: 44,
-//             y: 380,
-//         },
-//         moveTo: {
-//             x: 20, // -
-//             y: 0
-//         }
-//     }
-// ]
+MajhDef.HuCardPos = [
+    {
+        moveTo: {
+            x: 40,
+            y: 0,
+        }
+    },
+    {
+        moveTo: {
+            x: 10,
+            y: 55,
+        },
+        moveZhiTo: {
+            x: 10,
+            y: 80,
+        }
+    },
+    {
+        moveTo: {
+            x: 40,
+            y: 0,
+        }
+    },
+    {
+        moveTo: {
+            x: 30,
+            y: 110,
+        }
+    }
+]
 //
 
 MajhDef.AnQueCardPos = [

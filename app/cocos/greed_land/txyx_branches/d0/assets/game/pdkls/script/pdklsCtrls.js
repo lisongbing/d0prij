@@ -130,6 +130,8 @@ let LocSettleView = cc.Class({
         this.Label_jushu = cc.find("Node_ctt/New Node/Label_jushu", r).getComponent(cc.Label);
         // 时间
         this.Label_time = cc.find("Node_ctt/Label_time", r).getComponent(cc.Label);
+        // 规则
+        this.Label_deskrule = cc.find("Label_deskrule", r).getComponent(cc.Label);
 
         // 分享一下
         this.Button_share = cc.find("Button_share", r);
@@ -372,7 +374,14 @@ let LocSettleView = cc.Class({
         this.Label_room.string = '房间号:' + ri.roomId;
         // 局数
         this.Label_jushu.string = '第' + ri.curGameNum + '局';
-
+        //
+        let com = cc.g.hallMgr.inGameMenu.Sprite_rule.getComponent('dlgGmruleifo');
+        if (com) {
+            let str = com.srtlist.join(' ');
+            this.Label_deskrule.string = str;
+        } else {
+            this.Label_deskrule.string = '???';
+        }
 
         // 时间
         let pt = ri.pbTime ? ri.pbTime : i64v(GM.SettleData.time)*1000;

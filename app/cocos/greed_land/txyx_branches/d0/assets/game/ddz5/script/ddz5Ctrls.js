@@ -129,6 +129,8 @@ let LocSettleView = cc.Class({
         this.Label_jushu = cc.find("Node_ctt/New Node/Label_jushu", r).getComponent(cc.Label);
         // 时间
         this.Label_time = cc.find("Node_ctt/Label_time", r).getComponent(cc.Label);
+        // 规则
+        this.Label_deskrule = cc.find("Label_deskrule", r).getComponent(cc.Label);
 
         // 基础分
         //this.Label_jichufen = cc.find("Label_jichufen", r).getComponent(cc.Label);
@@ -297,6 +299,14 @@ let LocSettleView = cc.Class({
         this.Label_room.string = '房间号:' + ri.roomId;
         // 局数
         this.Label_jushu.string = '第' + ri.curGameNum + '局';
+        //
+        let com = cc.g.hallMgr.inGameMenu.Sprite_rule.getComponent('dlgGmruleifo');
+        if (com) {
+            let str = com.srtlist.join(' ');
+            this.Label_deskrule.string = str;
+        } else {
+            this.Label_deskrule.string = '???';
+        }
 
         // 时间
         let pt = ri.pbTime ? ri.pbTime : i64v(GM.SettleData.time)*1000;
@@ -478,17 +488,46 @@ let LocSettleFinalView = cc.Class({
         // // 总局数
         // this.Label_rouds.string = sd.num;
 
+        this.upInfo();
 
         // 调整滑动区域大小
+        let Lay = this.ScrollView_player.content.getComponent(cc.Layout);
         let pnum = sd.player.length;
         if (pnum<=3) {
             this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
+            Lay.spacingX = 160;
+            Lay.paddingLeft = Lay.paddingRight = 80;
         } else {
             let vs = cc.view.getVisibleSize();
             this.ScrollView_player.node.width = vs.width - 10*2;
+            Lay.spacingX = 25;
+            Lay.paddingLeft = Lay.paddingRight = 20;
         }
 
         this.upPlyaers();
+    },
+
+    upInfo: function () {
+        cc.log("upInfo")
+
+        let ri = GM.roomInfo;
+
+        let r = this.root;
+        
+        // 地区
+        let Node_ri = cc.find("Node_ri", r);
+        if (!Node_ri) {
+            return;
+        }
+
+        let Label_diqu = cc.find("Label_diqu", Node_ri).getComponent(cc.Label);
+        Label_diqu.string = cc.g.areaInfo[ri.origin].name + '五人斗地主';
+
+        let Label_room = cc.find("Label_room", Node_ri).getComponent(cc.Label);
+        Label_room.string = `房间号:  ${ri.roomId}  局数: ${ri.curGameNum}/${ri.GameNum}`;
+
+        let Label_time = cc.find("Label_time", Node_ri).getComponent(cc.Label);
+        Label_time.string = cc.g.utils.getFormatTimeXXX(null, 'Y|.|M|.|D| |h|:|m|:|s|');
     },
 
     //
@@ -1331,12 +1370,12 @@ let LocPlayerView = cc.Class({
         // 名字
         this.Label_name = cc.find("Label_name", hr).getComponent(cc.Label);
         // 离线图片
-        this.Sprite_offline = cc.find("Sprite_offline", r);
+        this.Sprite_offline = cc.find("Sprite_offline", hr);
         this.Sprite_offline.active = false;
-        this.Sprite_offline.time = cc.find("Sprite_offline/bg/time", r).getComponent(cc.Label);
+        this.Sprite_offline.time = cc.find("Sprite_offline/bg/time", hr).getComponent(cc.Label);
         this.Sprite_offline.time.string='0';
         // 托管
-        this.Sprite_tuoguan = cc.find("Sprite_tuoguan", r);
+        this.Sprite_tuoguan = cc.find("Sprite_tuoguan", hr);
         this.Sprite_tuoguan.active = false;
 
         // 剩余牌数背景

@@ -82,7 +82,7 @@
                 <key>sourceSize</key>
                 <string>{233,41}</string>
             </dict>
-            <key>huanpaiyou.png</key>
+            <key>huanpaiyou .png</key>
             <dict>
                 <key>frame</key>
                 <string>{{1179,621},{94,72}}</string>
@@ -2939,7 +2939,7 @@
             <key>size</key>
             <string>{2042,850}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:2de2ca3efb96aa016fccdc79913864c0$</string>
+            <string>$TexturePacker:SmartUpdate:7cbbd24493293e2058160867f11f1219$</string>
             <key>textureFileName</key>
             <string>majhCardAtlas.png</string>
         </dict>
