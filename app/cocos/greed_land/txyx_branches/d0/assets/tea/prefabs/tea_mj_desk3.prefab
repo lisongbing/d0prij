@@ -184,7 +184,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_atlas": {
       "__uuid__": "de227c67-c148-4da8-a24e-79f55e94fb0c"
     },
@@ -642,7 +642,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        27.942,
+        0,
         -124.704,
         0,
         0,
@@ -1595,7 +1595,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        30.093,
+        0,
         110.039,
         0,
         0,
@@ -2549,7 +2549,7 @@
       "ctor": "Float64Array",
       "array": [
         -149.375,
-        -6.366,
+        0,
         0,
         0,
         0,
@@ -3501,8 +3501,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
-      "height": 42
+      "width": 200,
+      "height": 53
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3513,8 +3513,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        32.264,
-        187.301,
+        0,
+        190,
         0,
         0,
         0,
