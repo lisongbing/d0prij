@@ -39,7 +39,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
+      "width": 222.8,
       "height": 50
     },
     "_anchorPoint": {
@@ -103,7 +103,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
+      "width": 269,
       "height": 50
     },
     "_anchorPoint": {
@@ -256,7 +256,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Background",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 5
     },
@@ -287,8 +287,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
-      "height": 50
+      "width": 269,
+      "height": 65
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -351,8 +351,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 180,
-      "height": 40
+      "width": 269,
+      "height": 65
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -405,7 +405,7 @@
     "_dstBlendFactor": 771,
     "_string": "欢乐场欢乐场",
     "_N$string": "欢乐场欢乐场",
-    "_fontSize": 24,
+    "_fontSize": 37,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -475,10 +475,10 @@
     "alignMode": 0,
     "_target": null,
     "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
+    "_left": -44.5,
+    "_right": -44.5,
+    "_top": -7.5,
+    "_bottom": -7.5,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
