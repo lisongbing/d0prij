@@ -383,7 +383,7 @@ cc.Class({
 
         let tp = cc.g.hallMgr.curGameMgr.roomInfo.gameType;
         if ( tp == GMID.HZMJ || tp == GMID.XZMJ || tp == GMID.YBMJ || tp == GMID.NYMJ ||
-             tp == GMID.LZMJ || tp == GMID.NJMJ || tp == GMID.YJMJ || tp == GMID.XZMJER) {
+             tp == GMID.LZMJ || tp == GMID.NJMJ || tp == GMID.LCMJ || tp == GMID.YJMJ || tp == GMID.XZMJER) {
             this.Node_bts.y = this.Node_bts.oy + 50 + 10;
         } else {
             this.Node_bts.y = this.Node_bts.oy;

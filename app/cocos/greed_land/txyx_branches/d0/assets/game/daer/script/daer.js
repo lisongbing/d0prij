@@ -97,7 +97,7 @@ cc.Class({
     onLoad () {
         cc.log(this.dbgstr('onLoad'));
 
-        this.handCardSpa = {x:2, y:65,};
+        this.handCardSpa = {x:0, y:100,};
 
         this.gameMgr = cc.g.daerMgr;
 
@@ -659,6 +659,10 @@ cc.Class({
         });
 
         this.Node_opt.active = true;
+
+        if (this.chiView && this.chiView.r.active) {
+            this.chiView.hide();
+        }
 
         this.playerView[0].upDaojishi();
     },

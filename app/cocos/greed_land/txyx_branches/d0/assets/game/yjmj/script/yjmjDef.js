@@ -17,6 +17,12 @@ MajhDef.rowLeftAndRightMax = 4;
 
 // 第一行 10 12 18
 MajhDef.colTopAndBottomMax = 10;
+
+
+MajhDef.qipaiStart = 30;
+MajhDef.qipaiTwoStart = 400;
+MajhDef.jiesuanDouHao = '、 ';
+
 //
 // 不飘    = 1
 // 随飘    = 2
@@ -48,10 +54,10 @@ MajhDef.SendCardPos = [
     {
         moveBy: {
             x: 0,
-            y: 0,//40
+            y: 0//40
         },
         moveTo: {
-            x: 75,
+            x: 131,
             y: 0
         }
     },
@@ -61,30 +67,46 @@ MajhDef.SendCardPos = [
             y: 0,
         },
         moveTo: {
-            x: 5,
-            y: 24,
-            z: 30, // 动画移动最后位置, 步长
+            x: 10,
+            y: 45,//24,
+            z: 60,//30, // 动画移动最后位置, 步长
+        },
+        moveZhiBy: {
+            x: -60,
+        },
+        moveZhiTo: {
+            y: 50,
         }
     },
     {
         moveBy: {
-            x: 400,
+            x: 820, // 900
             y: 20
         },
         moveTo: {
-            x: 34,
+            x: 59,
             y: 0
-        }
+        },
+        moveZhiBy: {
+            x: 820,
+            y: 20
+        },
     },
     {
         moveBy: {
-            x: 110, // 剪去
-            y: 470,
+            x: 190, // 剪去
+            y: 710,
         },
         moveTo: {
-            x: 5, //- 7
-            y: 24, //- 30
+            x: 10,//5, //- 7
+            y: 45,//24, //- 30
             z: 30, // 动画移动最后位置, 步长
+        },
+        moveZhiBy: {
+            x: 150,
+        },
+        moveZhiTo: {
+            y: 45,
         }
     }
 ]
@@ -94,11 +116,11 @@ MajhDef.twoQiCardPos = [
     {
         moveBy: {
             x: 0,
-            y: 80
+            y: 110,//130,
         },
         moveTo: {
-            x: 38,
-            y: 40 // -
+            x: 76,
+            y: 86,
         }
     },
     {
@@ -113,12 +135,20 @@ MajhDef.twoQiCardPos = [
     },
     {
         moveBy: {
-            x: 522,
-            y: 16,
+            x: 880,
+            y: 40, //16
         },
         moveTo: {
-            x: 30,
-            y: 30
+            x: 68,
+            y: 80
+        },
+        moveZhiBy: {
+            x: 880,
+            y: 50,
+        },
+        moveZhiTo: {
+            x: 78,
+            y: 88
         }
     },
     {
@@ -138,43 +168,55 @@ MajhDef.QiCardPos = [
     {
         moveBy: {
             x: 0,
+            y: 120,//130
+        },
+        moveTo: {
+            x: 76,
+            y: 86 // -
+        },
+        moveZhiBy: {
+            x: 0,
+            y: 114,//130
+        },
+    },
+    {
+        moveBy: {
+            x: 70,
+            y: 10,
+        },
+        moveTo: {
+            x: 3, // -
+            y: 60,
+            z: 94
+        }
+    },
+    {
+        moveBy: {
+            x: 500,
+            y: 35,
+        },
+        moveTo: {
+            x: 68,
             y: 80
         },
-        moveTo: {
-            x: 38,
-            y: 40 // -
+        moveZhiBy: {
+            x: 545,//500,
+            y: 50,
+        },
+        moveZhiTo: {
+            x: 78,
+            y: 88
         }
     },
     {
         moveBy: {
-            x: 38,
-            y: 15,
+            x: 220,
+            y: 500,
         },
         moveTo: {
             x: 3, // -
-            y: 25,
-            z: 52
-        }
-    },
-    {
-        moveBy: {
-            x: 522,
-            y: 16,
-        },
-        moveTo: {
-            x: 30,
-            y: 30
-        }
-    },
-    {
-        moveBy: {
-            x: 166,
-            y: 280,
-        },
-        moveTo: {
-            x: 3, // -
-            y: 25, // -
-            z: 52 // -
+            y: 60,
+            z: 94
         }
     }
 ]
@@ -194,31 +236,42 @@ MajhDef.PongCardPos = [
     },
     {
         moveBy: {
+            x: 30,
+            y: -70,
+        },
+        moveTo: {
+            x: 30,
+            y: 0
+        },
+        moveByZhi: {
+            x: -50,
+        },
+    },
+    {
+        moveBy: {
+            x: 900,//950,
+            y: 0
+        },
+        moveTo: {
             x: 0,
-            y: 0,
-        },
-        moveTo: {
-            x: 22,
             y: 0
-        }
+        },
+        moveZhiBy: {
+            x: 900,
+            y: 0
+        },
     },
     {
         moveBy: {
-            x: 440,
-            y: 0
+            x: 200,
+            y: 710,
+        },
+        moveByZhi: {
+            x: 150,
+            y: 750,
         },
         moveTo: {
-            x: 105,
-            y: 0
-        }
-    },
-    {
-        moveBy: {
-            x: 110,
-            y: 470,
-        },
-        moveTo: {
-            x: 23,
+            x: 35,
             y: 0
         }
     }
@@ -269,48 +322,36 @@ MajhDef.PongCardPos = [
 // ]
 //
 //
-// MajhDef.AnGangCardPos = [
-//     {
-//         moveBy: {
-//             x: 0,
-//             y: 0
-//         },
-//         moveTo: {
-//             x: 255,
-//             y: 0
-//         }
-//     },
-//     {
-//         moveBy: {
-//             x: 0,
-//             y: 0,
-//         },
-//         moveTo: {
-//             x: 25, // -
-//             y: 0
-//         }
-//     },
-//     {
-//         moveBy: {
-//             x: 460,
-//             y: 0
-//         },
-//         moveTo: {
-//             x: 124,
-//             y: 0
-//         }
-//     },
-//     {
-//         moveBy: {
-//             x: 44,
-//             y: 380,
-//         },
-//         moveTo: {
-//             x: 20, // -
-//             y: 0
-//         }
-//     }
-// ]
+MajhDef.HuCardPos = [
+    {
+        moveTo: {
+            x: 40,
+            y: 0,
+        }
+    },
+    {
+        moveTo: {
+            x: 10,
+            y: 55,
+        },
+        moveZhiTo: {
+            x: 10,
+            y: 80,
+        }
+    },
+    {
+        moveTo: {
+            x: 40,
+            y: 0,
+        }
+    },
+    {
+        moveTo: {
+            x: 30,
+            y: 110,
+        }
+    }
+]
 //
 
 MajhDef.AnQueCardPos = [
@@ -395,7 +436,7 @@ MajhDef.hcMultHuTiPos = [
 MajhDef.hcJieSuanPos = [
     {
         moveBy: {
-            x: 38,
+            x: 79,
             y: 0,
         },
         moveTo: {
@@ -404,6 +445,131 @@ MajhDef.hcJieSuanPos = [
         }
     },
 ]
+
+
+MajhDef.hcJieSuanMingTang = [
+    {
+        txt: '', // 0
+    },
+    {
+        txt: '平胡', //1
+    },
+    {
+        txt: '无听用', //2
+    },
+    {
+        txt: '大对子',  //3
+    },
+    {
+        txt: '清一色', //4
+    },
+    {
+        txt: '小七对', //5
+    },
+    {
+        txt: '龙七对', //6
+    },
+    {
+        txt: '归', //7
+    },
+    {
+        txt: '门清', //8
+    },
+    {
+        txt: '中张', //9
+    },
+    {
+        txt: '自摸', //10
+    },
+    {
+        txt: '杠后炮', //11
+    },
+    {
+        txt: '抢杠胡', //12
+    },
+    {
+        txt: '海底捞', //13
+    },
+    {
+        txt: '金钩钩', //14
+    },
+    {
+        txt: '杠上开花', //15
+    },
+    {
+        txt: '天胡', //16
+    },
+    {
+        txt: '地胡', //17
+    },
+    {
+        txt: '双龙七对', //18
+    },
+    {
+        txt: '三龙七对', //19
+    },
+    {
+        txt: '接炮', //20
+    },
+    {
+        txt: '飘', //21
+    },
+    {
+        txt: '查叫', //22
+    },
+    {
+        txt: '被查叫', //23
+    },
+    {
+        txt: '查花猪', //24
+    },
+    {
+        txt: '花猪', //25
+    },
+    {
+        txt: '四鸡发财', //26
+    },
+    {
+        txt: '三鸡发财', //27
+    },
+    {
+        txt: '四同发财', //28
+    },
+    {
+        txt: '三同发财', //29
+    },
+    {
+        txt: '抢幺同包赔',//30
+    },
+    {
+        txt: '',//31
+    },
+    {
+        txt: '',//32
+    },
+    {
+        txt: '',//33
+    },
+    {
+        txt: '',//34
+    },
+    {
+        txt: '',//35
+    },
+    {
+        txt: '',//36
+    },
+    {
+        txt: '',//37
+    },
+    {
+        txt: '',//38
+    },
+    {
+        txt: '',//39
+    },
+]
+
 
 // 玩家状态
 //房间的状态

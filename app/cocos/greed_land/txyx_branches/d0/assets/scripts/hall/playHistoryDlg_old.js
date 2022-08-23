@@ -617,7 +617,7 @@ cc.Class({
             }
 
             room.backPlayData = pbd;
-        } else if (GameId == GMID.YJMJ || GameId == GMID.HZMJ || GameId == GMID.LZMJ || GameId == GMID.NJMJ) {
+        } else if (GameId == GMID.YJMJ || GameId == GMID.HZMJ || GameId == GMID.LZMJ || GameId == GMID.NJMJ || GameId == GMID.LCMJ) {
             {/*
                 结构体:
                 type GameReCord struct {

@@ -1,4 +1,3 @@
-const { concat } = require('bytebuffer');
 var GameBase = require('GameBase');
 var HuPaiUtils = require("HuPaiUtils");
 var majhCtrls = require('majhCtrls');
@@ -432,17 +431,40 @@ cc.Class({
         // this.Num_Down_Label.node.active = false;
         this.Num_Down_Label.string = '00';
 
-        this.Sprite_dong = cc.find("Sprite_Bg_Node/Sprite_dong", r);
-        this.Sprite_dong.active = false;
+        this.Node_ts = cc.find("Sprite_Bg_Node/Node_ts", r);
+        this.Node_zb = cc.find("Sprite_Bg_Node/Node_zb", r);
 
-        this.Sprite_bei = cc.find("Sprite_Bg_Node/Sprite_bei", r);
-        this.Sprite_bei.active = false;
+        let gameType = this.gameMgr.roomInfo.gameType
+        let cardType = cc.g.utils.getPaiVaule(gameType);
+        if (cardType == 1) {
+            this.Node_ts.active = false
+            this.Node_zb.active = true
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
+            this.Sprite_dong.active = false;
 
-        this.Sprite_xi = cc.find("Sprite_Bg_Node/Sprite_xi", r);
-        this.Sprite_xi.active = false;
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
+            this.Sprite_bei.active = false;
 
-        this.Sprite_nan = cc.find("Sprite_Bg_Node/Sprite_nan", r);
-        this.Sprite_nan.active = false;
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
+            this.Sprite_nan.active = false;
+        } else {
+            this.Node_ts.active = true
+            this.Node_zb.active = false
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
+            this.Sprite_nan.active = false;
+        }
 
         // 胡牌提示
         this.HuNodeTips = cc.find("HuNodeTips", r);

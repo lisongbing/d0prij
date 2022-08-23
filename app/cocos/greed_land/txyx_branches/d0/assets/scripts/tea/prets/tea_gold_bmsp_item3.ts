@@ -76,6 +76,8 @@ export default class TeaGoldSsbdItem extends cc.Component {
         if (!pItem.power) {
             this.caipan_Button.node.active = this.tichu_Button.node.active = false;
         } else {
+            this.caipan_Button.node.active = this.tichu_Button.node.active = true;
+            
             // @ts-ignore
             cc.g.utils.removeClickAllEvent(this.caipan_Button);
             // @ts-ignore 按钮事件

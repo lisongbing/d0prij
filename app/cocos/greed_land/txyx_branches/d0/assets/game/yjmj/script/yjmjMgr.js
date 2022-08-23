@@ -180,9 +180,11 @@ cc.Class({
         }
         // 2人局
         if (playNum === 2 && deskId!= this.selfDeskId) {
-            // vp = 1;
             vp = 2;
-           // vp = 3;
+        } else if (playNum === 3 && deskId!= this.selfDeskId) {
+            if (vp == 2) {
+                vp = 3
+            }
         }
         return vp;
     },
@@ -395,7 +397,10 @@ cc.Class({
     // 游戏结算
     onGameSettle: function (resp) {
         this.prepareSettleData(resp);
-        this.gameScript.hidderStartTimer()
+        if (this.gameScript) {
+            this.gameScript.hidderStartTimer()
+        }
+
         this.msgQue.createMsg(
             'onGameSettle',
             (data)=>{

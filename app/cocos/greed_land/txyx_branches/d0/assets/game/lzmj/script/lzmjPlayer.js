@@ -441,7 +441,8 @@ cc.Class({
             if ((this.gm != null) && (this.gm.gameScript != null)) {
                 let index = this.view.index
                 if (index == 0) {
-                    this.gm.gameScript.isBaoJiao = this.baoJiaoStatus;
+                    // this.gm.gameScript.isBaoJiao = this.baoJiaoStatus;
+                    this.gm.gameScript.isAutoPlay = this.baoJiaoStatus;
                     this.gm.gameScript.doReconnectShowBaoJiaoStatus(this.view, this.baoJiaoStatus);
                 }
             }

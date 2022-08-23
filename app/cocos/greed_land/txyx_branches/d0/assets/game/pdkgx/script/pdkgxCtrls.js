@@ -920,6 +920,8 @@ let HandCardView = cc.Class({
         this.Node_handCard = cc.find("Node_handCard", r);
         let pdkCard0 = cc.find("pdkCard0", this.Node_handCard);
         let pdkCard = cc.find("pdkCard", this.Node_handCard);
+        let pdkCardn = cc.find("pdkCardn", this.Node_handCard);
+
         this.spaX = pdkCard.x - pdkCard0.x;
         this.spaW = pdkCard.width;
 
@@ -1832,7 +1834,7 @@ let LocPlayerView = cc.Class({
             this.warnAnm && this.warnAnm.stop();
         }
 
-        let spax = 50;
+        let spax = 95;
         this.Node_ocLay.width = (codes.length-1)*spax + 117;
 
         let info = GM.logic.getCodesInfo(codes);

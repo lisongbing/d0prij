@@ -46,8 +46,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 119,
-      "height": 105
+      "width": 200,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -59,7 +59,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -66.66666666666667,
+        0,
         0,
         0,
         0,
@@ -120,8 +120,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 128,
-      "height": 128
+      "width": 200,
+      "height": 200
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -133,7 +133,7 @@
       "ctor": "Float64Array",
       "array": [
         -6,
-        -6.785,
+        -5.6,
         0,
         0,
         0,
@@ -184,8 +184,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 128,
-      "height": 128
+      "width": 188,
+      "height": 188
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -293,8 +293,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 102,
-      "height": 39
+      "width": 172.1,
+      "height": 64.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -305,8 +305,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -2.225,
-        -23.396,
+        -2.3,
+        -46.2,
         0,
         0,
         0,
@@ -349,7 +349,7 @@
       "__uuid__": "82b2873b-94de-4a75-a2ba-692bf6351c2e"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -394,14 +394,14 @@
     "_color": {
       "__type__": "cc.Color",
       "r": 255,
-      "g": 239,
-      "b": 149,
+      "g": 255,
+      "b": 151,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 72,
-      "height": 22.68
+      "width": 128,
+      "height": 40.32
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -412,8 +412,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -0.607,
-        -22.248,
+        -1.543,
+        -42.285,
         0,
         0,
         0,
@@ -454,8 +454,8 @@
     "_dstBlendFactor": 771,
     "_string": "江安大二",
     "_N$string": "江安大二",
-    "_fontSize": 18,
-    "_lineHeight": 18,
+    "_fontSize": 32,
+    "_lineHeight": 32,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -500,7 +500,7 @@
       "__uuid__": "3651a739-8dd0-40f4-808d-a1889e0c4c60"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -529,7 +529,7 @@
   {
     "__type__": "cc.Node",
     "_name": "checkmark",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -553,8 +553,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 125,
-      "height": 110
+      "width": 200,
+      "height": 176
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -565,8 +565,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        4.402,
+        1.542,
         0,
         0,
         0,
@@ -609,7 +609,7 @@
       "__uuid__": "33828bf6-9517-4469-ba2c-686c37d76adf"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 2,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
