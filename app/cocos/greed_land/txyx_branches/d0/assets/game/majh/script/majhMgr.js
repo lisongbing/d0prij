@@ -389,10 +389,11 @@ cc.Class({
 
     // 游戏结算
     onGameSettle: function (resp) {
-
-        // cc.dlog('结算页面 prepareSettleData-->', JSON.stringify(resp))
-        this.gameScript.hidderStartTimer()
         this.prepareSettleData(resp);
+        if (this.gameScript) {
+            this.gameScript.hidderStartTimer()
+        }
+
         this.msgQue.createMsg(
             'onGameSettle',
             (data)=>{

@@ -158,6 +158,10 @@ cc.Class({
             default: null,
             type: cc.Prefab,
         },
+        JieSuanMingTang: {
+            default: null,
+            type: cc.Prefab,
+        },
         sendCardTimer: cc.Integer,
 
         // 回放时，其他三个玩家的牌
@@ -391,17 +395,40 @@ cc.Class({
         // this.Num_Down_Label.node.active = false;
         this.Num_Down_Label.string = '00';
 
-        this.Sprite_dong = cc.find("Sprite_Bg_Node/Sprite_dong", r);
-        this.Sprite_dong.active = false;
+        this.Node_ts = cc.find("Sprite_Bg_Node/Node_ts", r);
+        this.Node_zb = cc.find("Sprite_Bg_Node/Node_zb", r);
 
-        this.Sprite_bei = cc.find("Sprite_Bg_Node/Sprite_bei", r);
-        this.Sprite_bei.active = false;
+        let gameType = this.gameMgr.roomInfo.gameType
+        let cardType = cc.g.utils.getPaiVaule(gameType);
+        if (cardType == 1) {
+            this.Node_ts.active = false
+            this.Node_zb.active = true
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
+            this.Sprite_dong.active = false;
 
-        this.Sprite_xi = cc.find("Sprite_Bg_Node/Sprite_xi", r);
-        this.Sprite_xi.active = false;
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
+            this.Sprite_bei.active = false;
 
-        this.Sprite_nan = cc.find("Sprite_Bg_Node/Sprite_nan", r);
-        this.Sprite_nan.active = false;
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
+            this.Sprite_nan.active = false;
+        } else {
+            this.Node_ts.active = true
+            this.Node_zb.active = false
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
+            this.Sprite_nan.active = false;
+        }
 
         // 胡牌提示
         this.HuNodeTips = cc.find("HuNodeTips", r);
@@ -5828,29 +5855,35 @@ cc.Class({
                 let paiLength = huMapArr.length;
 
                 if (paiLength > 6) {
-                    this.Sprite_Hu_bg.width = 720//750
-                    this.Sprite_Hu_bg.height = 270//280
-                    this.Sprite_hu_Gbox.width = 540//540
-                    this.Sprite_Hu_bg.y = 4.8
-                    this.Sprite_hu_Gbox.y = 4
+                    this.Sprite_Hu_bg.width = 950
+                    this.Sprite_hu_Gbox.width = 820
+
+                    this.Sprite_Hu_bg.height = 260
+                    if (paiLength > 12) {
+                        this.Sprite_Hu_bg.height = 370
+                    }
+                    // this.Sprite_Hu_bg.y = 4.8
+                    // this.Sprite_hu_Gbox.y = 4
                 } else {
                     let baseWidth = 140
-                    let mjWidth = 78 * paiLength
-                    let mjSpawidth = 20 * (paiLength) //+ 6
+                    let mjWidth = 100 * paiLength
+                    let mjSpawidth = 20 * (paiLength) + 80
                     this.Sprite_Hu_bg.width = baseWidth + mjWidth + mjSpawidth
                     this.Sprite_Hu_bg.height = 180//200
-                    this.Sprite_hu_Gbox.width = mjWidth + mjSpawidth - 20
+                    this.Sprite_hu_Gbox.width = mjWidth + mjSpawidth
                     //4.8
-                    this.Sprite_Hu_bg.y = -40
-                    this.Sprite_hu_Gbox.y = -40
+                    // this.Sprite_Hu_bg.y = -40
+                    // this.Sprite_hu_Gbox.y = -40
                 }
             } else {
                 this.scheduleOnce(()=>{
                     this.sv_huifo.scrollToTop(0, false);
                 }, 0.1)
                 this.sv_huifo.node.active = true;
-                this.Sprite_Hu_bg.y = 4.8
-                this.Sprite_hu_Gbox.y = 7
+                // this.Sprite_Hu_bg.y = 1.8
+                // this.Sprite_hu_Gbox.y = 4
+
+                // 大于18走scollerview
                 huMapArr.forEach((item) => {
                     let cardNode = cc.instantiate(this.SIPlayerPf5);
 
@@ -5871,7 +5904,6 @@ cc.Class({
                     } else {
                         Sprite_topMeng.active = false;
                     }
-
                     // add
                     this.sv_huifo.content.addChild(cardNode);
                 })

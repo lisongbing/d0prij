@@ -4,23 +4,10 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>bei.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{363,170},{65,146}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{65,146}}</string>
-                <key>sourceSize</key>
-                <string>{65,146}</string>
-            </dict>
             <key>benjingpai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{45,417},{60,88}}</string>
+                <string>{{917,238},{60,88}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,7 +20,7 @@
             <key>big_0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,672},{168,173}}</string>
+                <string>{{2,388},{168,173}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +33,7 @@
             <key>big_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{177,2},{167,173}}</string>
+                <string>{{171,563},{167,173}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -59,7 +46,7 @@
             <key>big_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{45,242},{167,173}}</string>
+                <string>{{2,563},{167,173}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -69,23 +56,10 @@
                 <key>sourceSize</key>
                 <string>{167,173}</string>
             </dict>
-            <key>dong.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,244},{233,41}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{233,41}}</string>
-                <key>sourceSize</key>
-                <string>{233,41}</string>
-            </dict>
             <key>huanpaiyou .png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1179,621},{94,72}}</string>
+                <string>{{1219,99},{94,72}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -98,7 +72,7 @@
             <key>huanpaizuo.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1175,429},{94,72}}</string>
+                <string>{{1161,197},{94,72}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -111,7 +85,7 @@
             <key>le_majh_cardval_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1643,232},{87,55}}</string>
+                <string>{{1551,358},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -124,7 +98,7 @@
             <key>le_majh_cardval_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1662,677},{87,55}}</string>
+                <string>{{1529,447},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -137,11 +111,11 @@
             <key>le_majh_cardval_11_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1955,339},{82,55}}</string>
+                <string>{{1823,254},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -150,7 +124,7 @@
             <key>le_majh_cardval_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1661,588},{87,55}}</string>
+                <string>{{1516,714},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -163,11 +137,11 @@
             <key>le_majh_cardval_12_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1871,318},{82,55}}</string>
+                <string>{{1779,338},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -176,7 +150,7 @@
             <key>le_majh_cardval_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1626,499},{87,55}}</string>
+                <string>{{1494,625},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,11 +163,11 @@
             <key>le_majh_cardval_13_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1955,282},{82,55}}</string>
+                <string>{{1757,427},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -202,7 +176,7 @@
             <key>le_majh_cardval_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1591,410},{87,55}}</string>
+                <string>{{1472,536},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -215,7 +189,7 @@
             <key>le_majh_cardval_14_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1871,261},{82,55}}</string>
+                <string>{{1962,59},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -228,7 +202,7 @@
             <key>le_majh_cardval_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1586,321},{87,55}}</string>
+                <string>{{1593,2},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -241,7 +215,7 @@
             <key>le_majh_cardval_15_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1879,204},{82,55}}</string>
+                <string>{{1878,59},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -254,7 +228,7 @@
             <key>le_majh_cardval_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1586,232},{87,55}}</string>
+                <string>{{1578,91},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -267,7 +241,7 @@
             <key>le_majh_cardval_16_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1879,147},{82,55}}</string>
+                <string>{{1962,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -280,7 +254,7 @@
             <key>le_majh_cardval_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1605,677},{87,55}}</string>
+                <string>{{1577,180},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -293,11 +267,11 @@
             <key>le_majh_cardval_17_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1814,315},{82,55}}</string>
+                <string>{{1878,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -306,7 +280,7 @@
             <key>le_majh_cardval_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1604,588},{87,55}}</string>
+                <string>{{1538,269},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -319,7 +293,7 @@
             <key>le_majh_cardval_18_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1918,2},{82,55}}</string>
+                <string>{{1744,684},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -332,7 +306,7 @@
             <key>le_majh_cardval_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1569,499},{87,55}}</string>
+                <string>{{1494,358},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -345,7 +319,7 @@
             <key>le_majh_cardval_19_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1861,2},{82,55}}</string>
+                <string>{{1722,600},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -358,7 +332,7 @@
             <key>le_majh_cardval_1_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1822,147},{82,55}}</string>
+                <string>{{1700,516},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -371,7 +345,7 @@
             <key>le_majh_cardval_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1534,410},{87,55}}</string>
+                <string>{{1472,447},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -384,7 +358,7 @@
             <key>le_majh_cardval_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1529,321},{87,55}}</string>
+                <string>{{1459,719},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -397,7 +371,7 @@
             <key>le_majh_cardval_21_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1814,231},{82,55}}</string>
+                <string>{{1821,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -410,7 +384,7 @@
             <key>le_majh_cardval_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1633,2},{87,55}}</string>
+                <string>{{1437,630},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -423,7 +397,7 @@
             <key>le_majh_cardval_22_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1765,147},{82,55}}</string>
+                <string>{{1806,86},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -436,11 +410,11 @@
             <key>le_majh_cardval_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1590,91},{87,55}}</string>
+                <string>{{1415,541},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{87,55}}</string>
                 <key>sourceSize</key>
@@ -449,7 +423,7 @@
             <key>le_majh_cardval_23_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1762,400},{82,55}}</string>
+                <string>{{1805,170},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -462,7 +436,7 @@
             <key>le_majh_cardval_24.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1529,232},{87,55}}</string>
+                <string>{{1536,2},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -475,7 +449,7 @@
             <key>le_majh_cardval_24_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1757,316},{82,55}}</string>
+                <string>{{1766,254},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -488,7 +462,7 @@
             <key>le_majh_cardval_25.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1548,677},{87,55}}</string>
+                <string>{{1521,91},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -501,7 +475,7 @@
             <key>le_majh_cardval_25_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1757,232},{82,55}}</string>
+                <string>{{1722,343},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -514,7 +488,7 @@
             <key>le_majh_cardval_26.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1547,588},{87,55}}</string>
+                <string>{{1520,180},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -527,7 +501,7 @@
             <key>le_majh_cardval_26_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1740,484},{82,55}}</string>
+                <string>{{1700,432},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -540,7 +514,7 @@
             <key>le_majh_cardval_27.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1512,499},{87,55}}</string>
+                <string>{{1481,269},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -553,11 +527,11 @@
             <key>le_majh_cardval_27_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1705,400},{82,55}}</string>
+                <string>{{1687,773},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -566,7 +540,7 @@
             <key>le_majh_cardval_28.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1477,410},{87,55}}</string>
+                <string>{{1437,358},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -579,7 +553,7 @@
             <key>le_majh_cardval_28_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1700,316},{82,55}}</string>
+                <string>{{1687,689},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -592,7 +566,7 @@
             <key>le_majh_cardval_29.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1472,321},{87,55}}</string>
+                <string>{{1415,452},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -605,7 +579,7 @@
             <key>le_majh_cardval_29_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1804,2},{82,55}}</string>
+                <string>{{1665,605},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -618,7 +592,7 @@
             <key>le_majh_cardval_2_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1708,148},{82,55}}</string>
+                <string>{{1643,521},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -631,7 +605,7 @@
             <key>le_majh_cardval_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1576,2},{87,55}}</string>
+                <string>{{1402,729},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -644,7 +618,7 @@
             <key>le_majh_cardval_3_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1700,232},{82,55}}</string>
+                <string>{{1764,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -657,7 +631,7 @@
             <key>le_majh_cardval_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1519,2},{87,55}}</string>
+                <string>{{1479,2},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -670,7 +644,7 @@
             <key>le_majh_cardval_4_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1718,573},{82,55}}</string>
+                <string>{{1749,86},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -683,11 +657,11 @@
             <key>le_majh_cardval_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1501,91},{87,55}}</string>
+                <string>{{1464,91},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{87,55}}</string>
                 <key>sourceSize</key>
@@ -696,7 +670,7 @@
             <key>le_majh_cardval_50.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1472,232},{87,55}}</string>
+                <string>{{1463,180},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -709,7 +683,7 @@
             <key>le_majh_cardval_50_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1683,489},{82,55}}</string>
+                <string>{{1748,170},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -722,7 +696,7 @@
             <key>le_majh_cardval_5_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1648,405},{82,55}}</string>
+                <string>{{1709,259},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -735,7 +709,7 @@
             <key>le_majh_cardval_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1491,677},{87,55}}</string>
+                <string>{{1424,269},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -748,7 +722,7 @@
             <key>le_majh_cardval_6_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1643,321},{82,55}}</string>
+                <string>{{1665,348},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -761,7 +735,7 @@
             <key>le_majh_cardval_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1490,588},{87,55}}</string>
+                <string>{{1380,363},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -774,7 +748,7 @@
             <key>le_majh_cardval_7_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1747,2},{82,55}}</string>
+                <string>{{1643,437},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -787,7 +761,7 @@
             <key>le_majh_cardval_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1455,499},{87,55}}</string>
+                <string>{{1380,640},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -800,7 +774,7 @@
             <key>le_majh_cardval_8_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1690,2},{82,55}}</string>
+                <string>{{1630,699},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -813,7 +787,7 @@
             <key>le_majh_cardval_9.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1420,410},{87,55}}</string>
+                <string>{{1358,551},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -826,11 +800,11 @@
             <key>le_majh_cardval_9_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1679,91},{82,55}}</string>
+                <string>{{1707,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -839,7 +813,7 @@
             <key>majh_cardval_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1124,2},{108,147}}</string>
+                <string>{{807,151},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -852,7 +826,7 @@
             <key>majh_cardval_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{990,235},{108,147}}</string>
+                <string>{{937,682},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -865,7 +839,7 @@
             <key>majh_cardval_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{913,384},{108,147}}</string>
+                <string>{{890,533},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -878,7 +852,7 @@
             <key>majh_cardval_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{838,648},{108,147}}</string>
+                <string>{{840,384},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -891,7 +865,7 @@
             <key>majh_cardval_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1014,2},{108,147}}</string>
+                <string>{{803,2},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -904,7 +878,7 @@
             <key>majh_cardval_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{880,235},{108,147}}</string>
+                <string>{{697,151},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -917,7 +891,7 @@
             <key>majh_cardval_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{803,384},{108,147}}</string>
+                <string>{{827,682},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -930,7 +904,7 @@
             <key>majh_cardval_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{728,650},{108,147}}</string>
+                <string>{{780,533},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -943,7 +917,7 @@
             <key>majh_cardval_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{618,650},{108,147}}</string>
+                <string>{{730,384},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -956,7 +930,7 @@
             <key>majh_cardval_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{904,2},{108,147}}</string>
+                <string>{{717,682},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -969,7 +943,7 @@
             <key>majh_cardval_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{770,235},{108,147}}</string>
+                <string>{{670,533},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -982,7 +956,7 @@
             <key>majh_cardval_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{693,384},{108,147}}</string>
+                <string>{{607,682},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -995,7 +969,7 @@
             <key>majh_cardval_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{794,2},{108,147}}</string>
+                <string>{{620,384},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1008,7 +982,7 @@
             <key>majh_cardval_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{684,2},{108,147}}</string>
+                <string>{{560,533},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1021,7 +995,7 @@
             <key>majh_cardval_24.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{660,235},{108,147}}</string>
+                <string>{{693,2},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1034,7 +1008,7 @@
             <key>majh_cardval_25.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{583,384},{108,147}}</string>
+                <string>{{587,151},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1047,7 +1021,7 @@
             <key>majh_cardval_26.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{508,663},{108,147}}</string>
+                <string>{{510,384},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1060,7 +1034,7 @@
             <key>majh_cardval_27.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{574,2},{108,147}}</string>
+                <string>{{450,536},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1073,7 +1047,7 @@
             <key>majh_cardval_28.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{550,235},{108,147}}</string>
+                <string>{{583,2},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1086,7 +1060,7 @@
             <key>majh_cardval_29.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{473,386},{108,147}}</string>
+                <string>{{477,151},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1099,7 +1073,7 @@
             <key>majh_cardval_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{398,671},{108,147}}</string>
+                <string>{{400,387},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1112,7 +1086,7 @@
             <key>majh_cardval_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{440,237},{108,147}}</string>
+                <string>{{340,537},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1125,7 +1099,7 @@
             <key>majh_cardval_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{363,387},{108,147}}</string>
+                <string>{{473,2},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1138,11 +1112,11 @@
             <key>majh_cardval_50.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{988,533},{108,144}}</string>
+                <string>{{497,685},{108,144}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{108,144}}</string>
                 <key>sourceSize</key>
@@ -1151,7 +1125,7 @@
             <key>majh_cardval_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{288,671},{108,147}}</string>
+                <string>{{367,151},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1164,7 +1138,7 @@
             <key>majh_cardval_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{464,2},{108,147}}</string>
+                <string>{{290,388},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1177,7 +1151,7 @@
             <key>majh_cardval_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{330,238},{108,147}}</string>
+                <string>{{363,2},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1190,7 +1164,7 @@
             <key>majh_cardval_9.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{253,413},{108,147}}</string>
+                <string>{{253,2},{108,147}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1203,7 +1177,7 @@
             <key>mj_bu_piao.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1014,643},{93,96}}</string>
+                <string>{{1039,383},{93,96}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1216,7 +1190,7 @@
             <key>mj_da.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1023,384},{75,107}}</string>
+                <string>{{994,129},{75,107}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1229,7 +1203,7 @@
             <key>mj_duo.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{355,562},{75,107}}</string>
+                <string>{{917,129},{75,107}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1242,7 +1216,7 @@
             <key>mj_fei.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1022,796},{52,53}}</string>
+                <string>{{1110,628},{52,53}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1255,11 +1229,11 @@
             <key>mj_gang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1014,741},{52,53}}</string>
+                <string>{{1055,628},{52,53}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{52,53}}</string>
                 <key>sourceSize</key>
@@ -1268,7 +1242,7 @@
             <key>mj_hupai_tips.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{288,820},{40,28}}</string>
+                <string>{{412,300},{40,28}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1281,7 +1255,7 @@
             <key>mj_peng.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{967,796},{52,53}}</string>
+                <string>{{1000,628},{52,53}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1294,7 +1268,7 @@
             <key>mj_piao.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{44,195},{91,45}}</string>
+                <string>{{257,341},{91,45}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1307,7 +1281,7 @@
             <key>mj_que.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{610,533},{110,115}}</string>
+                <string>{{1000,511},{110,115}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1320,7 +1294,7 @@
             <key>mjzezao.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{722,533},{78,115}}</string>
+                <string>{{1047,682},{78,115}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1330,23 +1304,10 @@
                 <key>sourceSize</key>
                 <string>{78,115}</string>
             </dict>
-            <key>nan.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{948,648},{64,146}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{64,146}}</string>
-                <key>sourceSize</key>
-                <string>{64,146}</string>
-            </dict>
             <key>paibei.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1166,741},{68,96}}</string>
+                <string>{{1085,2},{68,96}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1359,7 +1320,7 @@
             <key>paice.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1100,332},{76,95}}</string>
+                <string>{{1155,2},{76,95}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1372,7 +1333,7 @@
             <key>paice2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1100,235},{76,95}}</string>
+                <string>{{1141,100},{76,95}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1385,7 +1346,7 @@
             <key>paidazheng.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,479},{131,191}}</string>
+                <string>{{2,195},{131,191}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1398,11 +1359,11 @@
             <key>paidazhengtwo.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{242,177},{40,62}}</string>
+                <string>{{135,346},{40,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{40,62}}</string>
                 <key>sourceSize</key>
@@ -1411,11 +1372,11 @@
             <key>paiheng.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{895,533},{113,91}}</string>
+                <string>{{117,738},{113,91}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{113,91}}</string>
                 <key>sourceSize</key>
@@ -1424,11 +1385,11 @@
             <key>paiheng2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{802,533},{113,91}}</string>
+                <string>{{2,738},{113,91}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{113,91}}</string>
                 <key>sourceSize</key>
@@ -1437,7 +1398,7 @@
             <key>paiheng3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1134,525},{94,73}}</string>
+                <string>{{1134,383},{94,73}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1450,7 +1411,7 @@
             <key>paiheng4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1100,429},{94,73}}</string>
+                <string>{{1112,481},{94,73}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1463,7 +1424,7 @@
             <key>paihengbei.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{837,799},{54,40}}</string>
+                <string>{{1168,577},{54,40}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1476,7 +1437,7 @@
             <key>paihengbei2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{781,799},{54,40}}</string>
+                <string>{{1112,577},{54,40}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1489,7 +1450,7 @@
             <key>paihengbei3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1179,621},{94,72}}</string>
+                <string>{{1219,99},{94,72}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1502,7 +1463,7 @@
             <key>paihengbei4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1175,429},{94,72}}</string>
+                <string>{{1161,197},{94,72}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1515,7 +1476,7 @@
             <key>paishubei.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{346,2},{116,166}}</string>
+                <string>{{172,388},{116,166}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1528,7 +1489,7 @@
             <key>paishubei3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{723,799},{40,56}}</string>
+                <string>{{199,346},{40,56}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1541,7 +1502,7 @@
             <key>paishubei4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{508,812},{33,43}}</string>
+                <string>{{367,300},{33,43}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1554,7 +1515,7 @@
             <key>paishubei5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1178,328},{64,88}}</string>
+                <string>{{430,732},{64,88}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1567,7 +1528,7 @@
             <key>paishubeihuansanzhang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{893,797},{51,72}}</string>
+                <string>{{1863,116},{51,72}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1580,7 +1541,7 @@
             <key>paizheng2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{172,672},{114,165}}</string>
+                <string>{{251,174},{114,165}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1593,7 +1554,7 @@
             <key>paizheng3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{521,535},{87,125}}</string>
+                <string>{{913,2},{87,125}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1606,11 +1567,11 @@
             <key>paizheng4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{239,589},{80,114}}</string>
+                <string>{{1127,682},{80,114}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{80,114}}</string>
                 <key>sourceSize</key>
@@ -1619,7 +1580,7 @@
             <key>paizheng5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1178,235},{64,91}}</string>
+                <string>{{364,738},{64,91}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1632,7 +1593,7 @@
             <key>ri_majh_cardval_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1415,321},{87,55}}</string>
+                <string>{{1358,462},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1645,7 +1606,7 @@
             <key>ri_majh_cardval_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1415,232},{87,55}}</string>
+                <string>{{1345,729},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1658,7 +1619,7 @@
             <key>ri_majh_cardval_11_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1651,148},{82,55}}</string>
+                <string>{{1692,86},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1671,7 +1632,7 @@
             <key>ri_majh_cardval_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1434,677},{87,55}}</string>
+                <string>{{1422,2},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1684,7 +1645,7 @@
             <key>ri_majh_cardval_12_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1662,766},{82,55}}</string>
+                <string>{{1691,175},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1697,7 +1658,7 @@
             <key>ri_majh_cardval_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1433,588},{87,55}}</string>
+                <string>{{1407,91},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1710,7 +1671,7 @@
             <key>ri_majh_cardval_13_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1594,148},{82,55}}</string>
+                <string>{{1652,264},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1723,7 +1684,7 @@
             <key>ri_majh_cardval_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1398,499},{87,55}}</string>
+                <string>{{1406,180},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1736,7 +1697,7 @@
             <key>ri_majh_cardval_14_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1605,766},{82,55}}</string>
+                <string>{{1608,353},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1749,7 +1710,7 @@
             <key>ri_majh_cardval_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1363,410},{87,55}}</string>
+                <string>{{1367,274},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1762,7 +1723,7 @@
             <key>ri_majh_cardval_15_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1537,148},{82,55}}</string>
+                <string>{{1608,615},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1775,7 +1736,7 @@
             <key>ri_majh_cardval_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1358,321},{87,55}}</string>
+                <string>{{1323,640},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1788,7 +1749,7 @@
             <key>ri_majh_cardval_16_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1548,766},{82,55}}</string>
+                <string>{{1586,531},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1801,7 +1762,7 @@
             <key>ri_majh_cardval_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1462,2},{87,55}}</string>
+                <string>{{1301,551},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1814,7 +1775,7 @@
             <key>ri_majh_cardval_17_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1480,148},{82,55}}</string>
+                <string>{{1586,447},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1827,11 +1788,11 @@
             <key>ri_majh_cardval_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1412,91},{87,55}}</string>
+                <string>{{1323,373},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{87,55}}</string>
                 <key>sourceSize</key>
@@ -1840,7 +1801,7 @@
             <key>ri_majh_cardval_18_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1491,766},{82,55}}</string>
+                <string>{{1573,704},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1853,7 +1814,7 @@
             <key>ri_majh_cardval_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1358,232},{87,55}}</string>
+                <string>{{1301,462},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1866,7 +1827,7 @@
             <key>ri_majh_cardval_19_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1423,148},{82,55}}</string>
+                <string>{{1551,620},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1879,7 +1840,7 @@
             <key>ri_majh_cardval_1_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1434,766},{82,55}}</string>
+                <string>{{1529,536},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1892,7 +1853,7 @@
             <key>ri_majh_cardval_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1377,677},{87,55}}</string>
+                <string>{{1288,738},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1905,7 +1866,7 @@
             <key>ri_majh_cardval_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1376,588},{87,55}}</string>
+                <string>{{1266,649},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1918,7 +1879,7 @@
             <key>ri_majh_cardval_21_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1366,148},{82,55}}</string>
+                <string>{{1650,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1931,7 +1892,7 @@
             <key>ri_majh_cardval_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1341,499},{87,55}}</string>
+                <string>{{1244,560},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1944,7 +1905,7 @@
             <key>ri_majh_cardval_22_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1377,766},{82,55}}</string>
+                <string>{{1635,91},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1957,7 +1918,7 @@
             <key>ri_majh_cardval_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1306,410},{87,55}}</string>
+                <string>{{1365,2},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1970,7 +1931,7 @@
             <key>ri_majh_cardval_23_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1309,148},{82,55}}</string>
+                <string>{{1634,180},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1983,7 +1944,7 @@
             <key>ri_majh_cardval_24.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1301,321},{87,55}}</string>
+                <string>{{1350,91},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -1996,7 +1957,7 @@
             <key>ri_majh_cardval_24_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1252,148},{82,55}}</string>
+                <string>{{1595,269},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2009,7 +1970,7 @@
             <key>ri_majh_cardval_25.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1405,2},{87,55}}</string>
+                <string>{{1349,185},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2022,7 +1983,7 @@
             <key>ri_majh_cardval_25_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1195,151},{82,55}}</string>
+                <string>{{1139,298},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2035,7 +1996,7 @@
             <key>ri_majh_cardval_26.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1348,2},{87,55}}</string>
+                <string>{{1310,284},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2048,7 +2009,7 @@
             <key>ri_majh_cardval_26_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1138,151},{82,55}}</string>
+                <string>{{1082,299},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2061,11 +2022,11 @@
             <key>ri_majh_cardval_27.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1323,91},{87,55}}</string>
+                <string>{{1266,373},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{87,55}}</string>
                 <key>sourceSize</key>
@@ -2074,7 +2035,7 @@
             <key>ri_majh_cardval_27_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1081,151},{82,55}}</string>
+                <string>{{1025,299},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2087,7 +2048,7 @@
             <key>ri_majh_cardval_28.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1301,232},{87,55}}</string>
+                <string>{{1244,471},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2100,7 +2061,7 @@
             <key>ri_majh_cardval_28_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1024,151},{82,55}}</string>
+                <string>{{968,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2113,7 +2074,7 @@
             <key>ri_majh_cardval_29.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1319,591},{87,55}}</string>
+                <string>{{1209,680},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2126,7 +2087,7 @@
             <key>ri_majh_cardval_29_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{967,151},{82,55}}</string>
+                <string>{{911,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2139,7 +2100,7 @@
             <key>ri_majh_cardval_2_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{910,151},{82,55}}</string>
+                <string>{{854,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2152,7 +2113,7 @@
             <key>ri_majh_cardval_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1284,502},{87,55}}</string>
+                <string>{{1308,2},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2165,7 +2126,7 @@
             <key>ri_majh_cardval_3_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{853,151},{82,55}}</string>
+                <string>{{797,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2178,7 +2139,7 @@
             <key>ri_majh_cardval_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1249,413},{87,55}}</string>
+                <string>{{1293,96},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2191,7 +2152,7 @@
             <key>ri_majh_cardval_4_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{796,151},{82,55}}</string>
+                <string>{{740,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2204,7 +2165,7 @@
             <key>ri_majh_cardval_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1244,324},{87,55}}</string>
+                <string>{{1292,195},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2217,7 +2178,7 @@
             <key>ri_majh_cardval_50.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1244,235},{87,55}}</string>
+                <string>{{1253,284},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2230,7 +2191,7 @@
             <key>ri_majh_cardval_50_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{739,151},{82,55}}</string>
+                <string>{{683,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2243,7 +2204,7 @@
             <key>ri_majh_cardval_5_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{682,151},{82,55}}</string>
+                <string>{{626,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2256,7 +2217,7 @@
             <key>ri_majh_cardval_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1291,2},{87,55}}</string>
+                <string>{{1209,382},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2269,7 +2230,7 @@
             <key>ri_majh_cardval_6_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{625,151},{82,55}}</string>
+                <string>{{569,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2282,11 +2243,11 @@
             <key>ri_majh_cardval_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1234,91},{87,55}}</string>
+                <string>{{1187,479},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{87,55}}</string>
                 <key>sourceSize</key>
@@ -2295,7 +2256,7 @@
             <key>ri_majh_cardval_7_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{568,151},{82,55}}</string>
+                <string>{{512,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2308,7 +2269,7 @@
             <key>ri_majh_cardval_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1234,2},{87,55}}</string>
+                <string>{{1235,195},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2321,7 +2282,7 @@
             <key>ri_majh_cardval_8_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{511,151},{82,55}}</string>
+                <string>{{455,300},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2334,11 +2295,11 @@
             <key>ri_majh_cardval_9.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1077,793},{87,55}}</string>
+                <string>{{1196,293},{87,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{87,55}}</string>
                 <key>sourceSize</key>
@@ -2347,11 +2308,11 @@
             <key>ri_majh_cardval_9_zhi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1679,91},{82,55}}</string>
+                <string>{{1707,2},{82,55}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{82,55}}</string>
                 <key>sourceSize</key>
@@ -2360,7 +2321,7 @@
             <key>small_0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1719,713},{54,54}}</string>
+                <string>{{1911,738},{54,54}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2373,7 +2334,7 @@
             <key>small_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1068,741},{50,50}}</string>
+                <string>{{340,686},{50,50}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2386,7 +2347,7 @@
             <key>small_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1719,657},{54,54}}</string>
+                <string>{{1940,518},{54,54}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2399,7 +2360,7 @@
             <key>to_majh_cardval_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1963,719},{59,77}}</string>
+                <string>{{1962,635},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2412,11 +2373,11 @@
             <key>to_majh_cardval_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1902,762},{59,77}}</string>
+                <string>{{1962,574},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2425,11 +2386,11 @@
             <key>to_majh_cardval_12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1841,762},{59,77}}</string>
+                <string>{{1962,457},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2438,7 +2399,7 @@
             <key>to_majh_cardval_13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1780,762},{59,77}}</string>
+                <string>{{1901,575},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2451,11 +2412,11 @@
             <key>to_majh_cardval_14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1854,701},{59,77}}</string>
+                <string>{{1862,659},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2464,11 +2425,11 @@
             <key>to_majh_cardval_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1933,658},{59,77}}</string>
+                <string>{{1879,496},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2477,7 +2438,7 @@
             <key>to_majh_cardval_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1719,769},{59,77}}</string>
+                <string>{{1840,580},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2490,11 +2451,11 @@
             <key>to_majh_cardval_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1775,680},{59,77}}</string>
+                <string>{{1850,748},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2503,11 +2464,11 @@
             <key>to_majh_cardval_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1854,640},{59,77}}</string>
+                <string>{{1801,669},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2516,7 +2477,7 @@
             <key>to_majh_cardval_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1775,619},{59,77}}</string>
+                <string>{{1958,396},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2529,7 +2490,7 @@
             <key>to_majh_cardval_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1955,597},{59,77}}</string>
+                <string>{{1958,335},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2542,7 +2503,7 @@
             <key>to_majh_cardval_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1876,579},{59,77}}</string>
+                <string>{{1958,274},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2555,11 +2516,11 @@
             <key>to_majh_cardval_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1955,536},{59,77}}</string>
+                <string>{{1897,328},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2568,11 +2529,11 @@
             <key>to_majh_cardval_23.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1797,558},{59,77}}</string>
+                <string>{{1875,417},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2581,11 +2542,11 @@
             <key>to_majh_cardval_24.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1876,518},{59,77}}</string>
+                <string>{{1818,501},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2594,11 +2555,11 @@
             <key>to_majh_cardval_25.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1797,497},{59,77}}</string>
+                <string>{{1779,590},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2607,7 +2568,7 @@
             <key>to_majh_cardval_26.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1977,457},{59,77}}</string>
+                <string>{{1984,195},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2620,11 +2581,11 @@
             <key>to_majh_cardval_27.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1898,457},{59,77}}</string>
+                <string>{{1984,116},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2633,11 +2594,11 @@
             <key>to_majh_cardval_28.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1819,436},{59,77}}</string>
+                <string>{{1923,169},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2646,11 +2607,11 @@
             <key>to_majh_cardval_29.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1950,396},{59,77}}</string>
+                <string>{{1880,249},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2659,11 +2620,11 @@
             <key>to_majh_cardval_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1871,375},{59,77}}</string>
+                <string>{{1836,338},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2672,11 +2633,11 @@
             <key>to_majh_cardval_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1963,221},{59,77}}</string>
+                <string>{{1814,422},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2685,11 +2646,11 @@
             <key>to_majh_cardval_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1963,160},{59,77}}</string>
+                <string>{{1757,511},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2698,7 +2659,7 @@
             <key>to_majh_cardval_50.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1975,81},{59,77}}</string>
+                <string>{{1862,170},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2711,11 +2672,11 @@
             <key>to_majh_cardval_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1975,2},{59,77}}</string>
+                <string>{{1771,768},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{59,77}}</string>
                 <key>sourceSize</key>
@@ -2724,7 +2685,7 @@
             <key>to_majh_cardval_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1842,86},{59,77}}</string>
+                <string>{{1209,769},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2737,7 +2698,7 @@
             <key>to_majh_cardval_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1763,86},{59,77}}</string>
+                <string>{{1165,619},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2750,7 +2711,7 @@
             <key>to_majh_cardval_9.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{284,177},{59,77}}</string>
+                <string>{{1007,238},{59,77}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2760,23 +2721,10 @@
                 <key>sourceSize</key>
                 <string>{59,77}</string>
             </dict>
-            <key>xi.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,2},{240,40}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{240,40}}</string>
-                <key>sourceSize</key>
-                <string>{240,40}</string>
-            </dict>
             <key>zhi_03_qipai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{432,536},{87,125}}</string>
+                <string>{{950,384},{87,125}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2789,7 +2737,7 @@
             <key>zhi_0_koupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{135,417},{116,170}}</string>
+                <string>{{135,2},{116,170}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2802,7 +2750,7 @@
             <key>zhi_0_penggang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{214,241},{114,170}}</string>
+                <string>{{135,174},{114,170}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2815,7 +2763,7 @@
             <key>zhi_0_shoupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{44,2},{131,191}}</string>
+                <string>{{2,2},{131,191}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2828,7 +2776,7 @@
             <key>zhi_14_koupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1236,717},{92,73}}</string>
+                <string>{{1233,2},{92,73}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2841,7 +2789,7 @@
             <key>zhi_14_penggang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1209,525},{92,73}}</string>
+                <string>{{1086,204},{92,73}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2854,11 +2802,11 @@
             <key>zhi_14_qipai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{135,589},{102,81}}</string>
+                <string>{{1002,2},{102,81}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{102,81}}</string>
                 <key>sourceSize</key>
@@ -2867,7 +2815,7 @@
             <key>zhi_1_shoupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{618,799},{44,103}}</string>
+                <string>{{392,686},{44,103}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2880,7 +2828,7 @@
             <key>zhi_2_koupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1311,712},{64,91}}</string>
+                <string>{{298,738},{64,91}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2893,7 +2841,7 @@
             <key>zhi_2_penggang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1253,619},{64,91}}</string>
+                <string>{{232,738},{64,91}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2906,7 +2854,7 @@
             <key>zhi_2_shoupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1109,643},{68,96}}</string>
+                <string>{{1071,106},{68,96}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2919,7 +2867,7 @@
             <key>zhi_3_shoupai.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{137,195},{44,103}}</string>
+                <string>{{350,341},{44,103}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -2937,9 +2885,9 @@
             <key>realTextureFileName</key>
             <string>majhCardAtlas.png</string>
             <key>size</key>
-            <string>{2042,850}</string>
+            <string>{2046,831}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:7cbbd24493293e2058160867f11f1219$</string>
+            <string>$TexturePacker:SmartUpdate:3f41ea25cc8e75335bbe4a98fce00609$</string>
             <key>textureFileName</key>
             <string>majhCardAtlas.png</string>
         </dict>

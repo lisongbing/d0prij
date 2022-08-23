@@ -1835,7 +1835,7 @@ let LocPlayerView = cc.Class({
             this.warnAnm && this.warnAnm.stop();
         }
 
-        let spax = 50;
+        let spax = 95;
         this.Node_ocLay.width = (codes.length-1)*spax + 117;
 
         let info = GM.logic.getCodesInfo(codes);

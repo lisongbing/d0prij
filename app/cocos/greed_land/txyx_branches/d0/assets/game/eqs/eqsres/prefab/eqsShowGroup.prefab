@@ -42,8 +42,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 33,
-      "height": 132
+      "width": 58,
+      "height": 232
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -54,7 +54,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -33,
+        0,
         0,
         0,
         0,
@@ -106,8 +106,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 42,
-      "height": 118
+      "width": 67,
+      "height": 184.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -118,8 +118,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        16.9,
-        50.4,
+        28.8,
+        86,
         0,
         0,
         0,
@@ -228,8 +228,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 33,
-      "height": 132
+      "width": 58,
+      "height": 174
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -296,8 +296,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 34,
-      "height": 33
+      "width": 58,
+      "height": 58
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -360,8 +360,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 61
+      "width": 66,
+      "height": 85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -372,8 +372,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        9.789,
-        20.852,
+        13.232,
+        41.034,
         0,
         0,
         0,
@@ -439,7 +439,7 @@
     "asset": {
       "__uuid__": "6157db43-fc23-4e46-bbdd-e3ac7f34d527"
     },
-    "fileId": "85O1trDlBB3YKmr+ZquFfo",
+    "fileId": "e99o7nrXlI8b6UT6UEePFG",
     "sync": false
   },
   {
@@ -518,8 +518,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 34,
-      "height": 33
+      "width": 58,
+      "height": 58
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -531,7 +531,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        33,
+        58,
         0,
         0,
         0,
@@ -582,8 +582,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 61
+      "width": 66,
+      "height": 85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -594,8 +594,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        9.789,
-        20.852,
+        13.232,
+        41.034,
         0,
         0,
         0,
@@ -661,7 +661,7 @@
     "asset": {
       "__uuid__": "6157db43-fc23-4e46-bbdd-e3ac7f34d527"
     },
-    "fileId": "cduSqyBQlEA62iJvgZBhGg",
+    "fileId": "c8q0rAwaFCJrrkoFMYORpT",
     "sync": false
   },
   {
@@ -740,8 +740,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 34,
-      "height": 33
+      "width": 58,
+      "height": 58
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -753,7 +753,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        66,
+        116,
         0,
         0,
         0,
@@ -804,8 +804,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 61
+      "width": 66,
+      "height": 85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -816,8 +816,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        9.789,
-        20.852,
+        13.232,
+        41.151,
         0,
         0,
         0,
@@ -825,7 +825,7 @@
         1,
         0.4,
         0.4,
-        1
+        0.4
       ]
     },
     "_eulerAngles": {
@@ -883,7 +883,7 @@
     "asset": {
       "__uuid__": "6157db43-fc23-4e46-bbdd-e3ac7f34d527"
     },
-    "fileId": "b1A6c8ts1BF7swaYJdFSof",
+    "fileId": "0eV/888e1HCIiMGcSd++Pj",
     "sync": false
   },
   {
@@ -965,8 +965,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 34,
-      "height": 33
+      "width": 58,
+      "height": 58
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -978,7 +978,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        99,
+        174,
         0,
         0,
         0,
@@ -1033,8 +1033,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 27,
-      "height": 27
+      "width": 30,
+      "height": 30
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1045,8 +1045,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        20.401,
-        13.241,
+        42.654,
+        14.529,
         0,
         0,
         0,
@@ -1109,8 +1109,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        5.8,
-        -5.687,
+        5.936,
+        -4.329,
         0,
         0,
         0,
@@ -1197,7 +1197,7 @@
       "__uuid__": "2f0fd5c0-6078-4c37-acb9-6490b4df3b60"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -1250,8 +1250,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 50,
-      "height": 61
+      "width": 66,
+      "height": 85
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1262,8 +1262,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        9.789,
-        20.852,
+        13.232,
+        41.034,
         0,
         0,
         0,
@@ -1329,7 +1329,7 @@
     "asset": {
       "__uuid__": "6157db43-fc23-4e46-bbdd-e3ac7f34d527"
     },
-    "fileId": "b6//BdSk1CrZTIW7wqquvT",
+    "fileId": "f7nnekg7BDWbmLuvmFvjfT",
     "sync": false
   },
   {
@@ -1387,10 +1387,10 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 33,
-      "height": 132
+      "width": 58,
+      "height": 174
     },
-    "_resize": 0,
+    "_resize": 1,
     "_N$layoutType": 2,
     "_N$cellSize": {
       "__type__": "cc.Size",

@@ -200,6 +200,7 @@ cc.Class({
             gm[GMID.PDKNJ] = 'pdknj';
             gm[GMID.LZMJ] = 'lzmj';
             gm[GMID.NJMJ] = 'njmj';
+            gm[GMID.LCMJ] = 'lcmj';
             gm[GMID.YJMJ] = 'yjmj';
             gm[GMID.EQS] = 'eqs';
             gm[GMID.PDKLS] = 'pdkls';

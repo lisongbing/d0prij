@@ -7,8 +7,8 @@
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
-  "width": 18,
-  "height": 89,
+  "width": 45,
+  "height": 158,
   "platformSettings": {},
   "subMetas": {
     "dlghz_9_1": {
@@ -22,14 +22,14 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 18,
-      "height": 89,
-      "rawWidth": 18,
-      "rawHeight": 89,
+      "width": 45,
+      "height": 158,
+      "rawWidth": 45,
+      "rawHeight": 158,
       "borderTop": 10,
-      "borderBottom": 10,
-      "borderLeft": 8,
-      "borderRight": 2,
+      "borderBottom": 14,
+      "borderLeft": 12,
+      "borderRight": 8,
       "subMetas": {}
     }
   }

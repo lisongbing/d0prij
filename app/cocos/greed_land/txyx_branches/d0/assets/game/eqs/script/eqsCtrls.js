@@ -130,6 +130,17 @@ let D2SettleView = cc.Class({
 
         cc.find("Node_Detail", this.root).active = false;
 
+        // 地区
+        this.Label_diqu = cc.find("Node_ctt/New Node/Label_diqu", r).getComponent(cc.Label);
+        // 房间号
+        this.Label_room = cc.find("Node_ctt/New Node/Label_room", r).getComponent(cc.Label);
+        // 局数
+        this.Label_jushu = cc.find("Node_ctt/New Node/Label_jushu", r).getComponent(cc.Label);
+        // 时间
+        this.Label_time = cc.find("Node_ctt/Label_time", r).getComponent(cc.Label);
+        // 规则
+        this.Label_deskrule = cc.find("Label_deskrule", r).getComponent(cc.Label);
+
         // 分享一下
         this.Button_share = cc.find("Button_share", r);
         this.Button_share.on('touchend', this.share, this);
@@ -303,8 +314,8 @@ let D2SettleView = cc.Class({
 
                 if (j < 4 - grp.codes.length) {
                     sprc.node.removeFromParent();
-                    g.y -= 17;//this.xjia ? 19 : 20.5;
-                    htoffy += 20;//this.xjia ? 19 : 20.5;
+                    //g.y -= 17;//this.xjia ? 19 : 20.5;
+                    htoffy += 0;//17;//this.xjia ? 19 : 20.5;
                     continue;
                 }
                 sprc.node.uCode = grp.codes[j - (4 - grp.codes.length)];
@@ -438,13 +449,21 @@ let D2SettleView = cc.Class({
         //let sd = this.pg.pGame.SettleFinalData;
 
         //this.Button_share.getComponent(cc.Button).interactable = false;
-        let str = cc.g.areaInfo[ri.origin].name + '二七十';
-        str += ' 房间号：' + ri.roomId;
-        str += ` 第${ri.curGameNum}局`;
 
+        // 地区
+        this.Label_diqu.string = cc.g.areaInfo[ri.origin].name + '大贰';
+        // 房间号
+        this.Label_room.string = '房间号:' + ri.roomId;
+        // 局数
+        this.Label_jushu.string = '第' + ri.curGameNum + '局';
         //
-        let Label_desc = cc.find("Node_ctt/Label_desc", this.root).getComponent(cc.Label);
-        Label_desc.string = str;
+        let com = cc.g.hallMgr.inGameMenu.Sprite_rule.getComponent('dlgGmruleifo');
+        if (com) {
+            let str = com.srtlist.join(' ');
+            this.Label_deskrule.string = str;
+        } else {
+            this.Label_deskrule.string = '???';
+        }
 
         // 时间
         let pt = ri.pbTime ? ri.pbTime : i64v(this.pg.pGame.SettleData.time)*1000;
@@ -605,15 +624,46 @@ let D2SettleFinalView = cc.Class({
 
         cc.log("sd---------------->>>>>>",sd)
 
+        this.upInfo();
+
+        // 调整滑动区域大小
+        let Lay = this.ScrollView_player.content.getComponent(cc.Layout);
         let pnum = sd.player.length;
         if (pnum<=3) {
             this.ScrollView_player.node.width = pnum*446 + (pnum-1)*160 + 80*2;
+            Lay.spacingX = 160;
+            Lay.paddingLeft = Lay.paddingRight = 80;
         } else {
             let vs = cc.view.getVisibleSize();
             this.ScrollView_player.node.width = vs.width - 10*2;
+            Lay.spacingX = 25;
+            Lay.paddingLeft = Lay.paddingRight = 20;
         }
 
         this.upPlyaers();
+    },
+
+    upInfo: function () {
+        cc.log("upInfo")
+
+        let ri = this.pg.pGame.roomInfo;
+
+        let r = this.root;
+        
+        // 地区
+        let Node_ri = cc.find("Node_ri", r);
+        if (!Node_ri) {
+            return;
+        }
+
+        let Label_diqu = cc.find("Label_diqu", Node_ri).getComponent(cc.Label);
+        Label_diqu.string = cc.g.areaInfo[ri.origin].name + '跑得快';
+
+        let Label_room = cc.find("Label_room", Node_ri).getComponent(cc.Label);
+        Label_room.string = `房间号:  ${ri.roomId}  局数: ${ri.curGameNum}/${ri.GameNum}`;
+
+        let Label_time = cc.find("Label_time", Node_ri).getComponent(cc.Label);
+        Label_time.string = cc.g.utils.getFormatTimeXXX(null, 'Y|.|M|.|D| |h|:|m|:|s|');
     },
 
     //
@@ -814,7 +864,7 @@ let D2ChiPaiView = cc.Class({
         let num = this.grops.length;
         this.r.width = num*33 + (num-1)*50 + 50*2;
 
-        this.bg.width  = this.r.width;
+        this.bg.width  = this.r.width + 40*2;
         //this.bg.height = this.r.height + 12*2;
 
         this.r.active = true;

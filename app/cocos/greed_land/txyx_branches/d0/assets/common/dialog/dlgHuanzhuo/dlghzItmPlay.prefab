@@ -49,8 +49,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 152,
-      "height": 71
+      "width": 250,
+      "height": 117
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -61,8 +61,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -4.905,
-        -35.5,
+        0,
+        0,
         0,
         0,
         0,
@@ -117,8 +117,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 152,
-      "height": 71
+      "width": 250,
+      "height": 117
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -181,8 +181,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84,
-      "height": 63.28
+      "width": 136,
+      "height": 108.48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -193,8 +193,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0.7890000000000001,
-        -0.706,
+        -1.2109999999999999,
+        -1.3530000000000002,
         0,
         0,
         0,
@@ -235,8 +235,8 @@
     "_dstBlendFactor": 771,
     "_string": "血战到底\n3人8局",
     "_N$string": "血战到底\n3人8局",
-    "_fontSize": 21,
-    "_lineHeight": 28,
+    "_fontSize": 34,
+    "_lineHeight": 48,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -334,8 +334,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 152,
-      "height": 71
+      "width": 250,
+      "height": 117
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -398,8 +398,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84,
-      "height": 63.28
+      "width": 136,
+      "height": 108.48
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -410,8 +410,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0.7890000000000001,
-        -0.706,
+        -1.2109999999999999,
+        -1.3530000000000002,
         0,
         0,
         0,
@@ -452,8 +452,8 @@
     "_dstBlendFactor": 771,
     "_string": "血战到底\n3人8局",
     "_N$string": "血战到底\n3人8局",
-    "_fontSize": 21,
-    "_lineHeight": 28,
+    "_fontSize": 34,
+    "_lineHeight": 48,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -552,7 +552,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 152,
+      "width": 250,
       "height": 2
     },
     "_anchorPoint": {
@@ -565,7 +565,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -35.5,
+        -58.5,
         0,
         0,
         0,

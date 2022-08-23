@@ -43,6 +43,7 @@ LoadingMgr.Type = {
     njmj: GMID.NJMJ,
     lzmj: GMID.LZMJ,
     yjmj: GMID.YJMJ,
+    lcmj: GMID.LCMJ,
     gxmj: GMID.GXMJ,
     xzmjer: GMID.XZMJER,
     eqs: GMID.EQS,
@@ -73,6 +74,7 @@ _s[LoadingMgr.Type.pdkgaox] = 'pdkgaox';
 _s[LoadingMgr.Type.pdklc] = 'pdklc';
 _s[LoadingMgr.Type.lzmj] = 'lzmj';
 _s[LoadingMgr.Type.njmj] = 'njmj';
+_s[LoadingMgr.Type.lcmj] = 'lcmj';
 _s[LoadingMgr.Type.yjmj] = 'yjmj';
 _s[LoadingMgr.Type.gxmj] = 'gxmj';
 _s[LoadingMgr.Type.eqs] = 'eqs';
@@ -178,6 +180,10 @@ LoadingMgr.TypeStep[LoadingMgr.Type.pdklc] = [
     LoadingMgr.Step.Done,
 ];
 LoadingMgr.TypeStep[LoadingMgr.Type.njmj] = [
+    LoadingMgr.Step.LoadScene,
+    LoadingMgr.Step.Done,
+];
+LoadingMgr.TypeStep[LoadingMgr.Type.lcmj] = [
     LoadingMgr.Step.LoadScene,
     LoadingMgr.Step.Done,
 ];

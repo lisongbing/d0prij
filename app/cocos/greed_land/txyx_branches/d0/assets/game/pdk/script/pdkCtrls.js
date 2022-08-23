@@ -821,8 +821,8 @@ let HandCardView = cc.Class({
         this.spaX = pdkCard.x - pdkCard0.x;
         this.spaW = pdkCard.width;
 
-        this.root.scaleX = 1.1;
-        this.root.scaleY = 1.1;
+        this.root.scaleX = 1.0;
+        this.root.scaleY = 1.0;
         if (GM.roomInfo.pnd.hcn==13) {
             this.spaX = this.spaW*0.5;
         } else {
@@ -1777,7 +1777,7 @@ let LocPlayerView = cc.Class({
             this.warnAnm && this.warnAnm.stop();
         }
 
-        let spax = 50;
+        let spax = 95;
         this.Node_ocLay.width = (codes.length-1)*spax + 117;
 
         let info = GM.logic.getCodesInfo(codes);

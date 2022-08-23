@@ -1310,7 +1310,7 @@ cc.Class({
             }
 
             // 内江麻将
-            if (this.curGameId==GMID.NJMJ) {
+            if (this.curGameId==GMID.NJMJ || this.curGameId==GMID.LCMJ) {
                 if (this.exData.playerNum == '3' || this.exData.playerNum == '4') {
                     if (item.uK == '10') {
                         item.active = true
