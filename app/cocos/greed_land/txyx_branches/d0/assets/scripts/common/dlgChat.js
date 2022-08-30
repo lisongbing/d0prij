@@ -59,38 +59,9 @@ cc.Class({
 
         this.initChatBtn();
 
-        cc.find("New EditBox", r).active = false;
-        cc.find("Button_send", r).active = false;
-        cc.find("diban_sige/New Sprite2", r).active = false;
-        cc.find("toggleContainer/toggle3", r).active = false;
-
-        this.ScrollView_anmemo.active = true;
+        this.ScrollView_txtemo.active = true;
 
         return;
-
-        // 发起者
-        this.faqizhe = cc.find("New Node/Label_name", r).getComponent(cc.Label);
-
-        // 玩家滑动容器
-        this.svPlayer = cc.find("ScrollView_player", r).getComponent(cc.ScrollView);
-        this.svPlayer.scrollToTop();
-
-        // 玩家容器
-        //this.gboxPlayer = cc.find("ScrollView_player/view/content", r).getComponent(cc.Layout);
-        this.gboxPlayer = this.svPlayer.content.getComponent(cc.Layout);
-        this.gboxPlayer.node.removeAllChildren();
-        this.gboxPlayer.updateLayout();
-
-        // 倒计时
-        this.Label_timeTip = cc.find("Label_timeTip", r).getComponent(cc.Label);
-
-        // 同意 不同意按钮
-        this.Button_yes = cc.find("Button_yes", r);
-        this.Button_no = cc.find("Button_no", r);
-
-        // 关闭按钮
-        this.Button_close = cc.find("Button_close", r);
-        this.Button_close.active = false;
     },
 
     // 动画表情
@@ -189,16 +160,13 @@ cc.Class({
 
         let toggle1 = cc.find("toggleContainer/toggle1", r);
         let toggle2 = cc.find("toggleContainer/toggle2", r);
-        let toggle3 = cc.find("toggleContainer/toggle3", r);
 
         cc.g.utils.addCheckEvent(toggle1, this.node, 'dlgChat', 'onCheckTxtEmoji', 1);
         cc.g.utils.addCheckEvent(toggle2, this.node, 'dlgChat', 'onCheckTxtEmoji', 2);
-        cc.g.utils.addCheckEvent(toggle3, this.node, 'dlgChat', 'onCheckTxtEmoji', 3);
 
         this.toggle = [];
         this.toggle.push(toggle1);
         this.toggle.push(toggle2);
-        this.toggle.push(toggle3);
     },
 
     onCheckTxtEmoji: function (event, customEventData) {

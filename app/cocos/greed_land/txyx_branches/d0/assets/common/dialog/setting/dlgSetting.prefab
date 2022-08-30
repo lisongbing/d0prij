@@ -945,7 +945,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 22
     },
@@ -969,8 +969,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24,
-      "height": 37.8
+      "width": 45,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1023,8 +1023,8 @@
     "_dstBlendFactor": 771,
     "_string": "关",
     "_N$string": "关",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1166,7 +1166,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 28
     },
@@ -1244,8 +1244,8 @@
     "_dstBlendFactor": 771,
     "_string": "开",
     "_N$string": "开",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -1806,8 +1806,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24,
-      "height": 37.8
+      "width": 45,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1860,8 +1860,8 @@
     "_dstBlendFactor": 771,
     "_string": "关",
     "_N$string": "关",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -2081,8 +2081,8 @@
     "_dstBlendFactor": 771,
     "_string": "开",
     "_N$string": "开",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -2643,8 +2643,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 24,
-      "height": 37.8
+      "width": 45,
+      "height": 56.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2697,8 +2697,8 @@
     "_dstBlendFactor": 771,
     "_string": "关",
     "_N$string": "关",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -2918,8 +2918,8 @@
     "_dstBlendFactor": 771,
     "_string": "开",
     "_N$string": "开",
-    "_fontSize": 24,
-    "_lineHeight": 30,
+    "_fontSize": 45,
+    "_lineHeight": 45,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -3017,8 +3017,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 27,
-      "height": 30
+      "width": 43,
+      "height": 50
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

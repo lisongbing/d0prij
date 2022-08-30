@@ -4,6 +4,32 @@
     <dict>
         <key>frames</key>
         <dict>
+            <key>com.dgn_27_19.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,781},{543,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{543,39}}</string>
+                <key>sourceSize</key>
+                <string>{543,39}</string>
+            </dict>
+            <key>com.dgn_28_19.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,740},{543,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{543,39}}</string>
+                <key>sourceSize</key>
+                <string>{543,39}</string>
+            </dict>
             <key>com_dgn_10_2.png</key>
             <dict>
                 <key>frame</key>
@@ -389,9 +415,9 @@
             <key>realTextureFileName</key>
             <string>comAtlas1.png</string>
             <key>size</key>
-            <string>{998,740}</string>
+            <string>{998,822}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:4f673ee723a515b4dcdcb06ecf43fed4$</string>
+            <string>$TexturePacker:SmartUpdate:239c2ad4d57b2f4d41ea0da99b1d562e$</string>
             <key>textureFileName</key>
             <string>comAtlas1.png</string>
         </dict>

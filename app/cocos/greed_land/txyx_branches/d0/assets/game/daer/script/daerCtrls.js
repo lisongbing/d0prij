@@ -705,7 +705,7 @@ let D2ChiPaiView = cc.Class({
         
         this.pg.Node_cpPos.addChild(r);
         if (this.lvView) {
-            r.x = this.lvView.r.x - this.lvView.bg.width - 20 -130;
+            r.x = this.lvView.r.x - (this.lvView.bg.width+20)*1.5;    //-130;
         }
 
 

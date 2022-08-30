@@ -451,7 +451,7 @@ let D2SettleView = cc.Class({
         //this.Button_share.getComponent(cc.Button).interactable = false;
 
         // 地区
-        this.Label_diqu.string = cc.g.areaInfo[ri.origin].name + '大贰';
+        this.Label_diqu.string = cc.g.areaInfo[ri.origin].name + '二七十';
         // 房间号
         this.Label_room.string = '房间号:' + ri.roomId;
         // 局数

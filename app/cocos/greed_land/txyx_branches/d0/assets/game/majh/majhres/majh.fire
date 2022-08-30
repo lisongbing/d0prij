@@ -2484,7 +2484,9 @@
     ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_spriteFrame": null,
+    "_spriteFrame": {
+      "__uuid__": "3b6e2df3-e412-4b04-b73d-28018f584199"
+    },
     "_type": 0,
     "_sizeMode": 1,
     "_fillType": 0,
@@ -2496,7 +2498,9 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
-    "_atlas": null,
+    "_atlas": {
+      "__uuid__": "ef97b2c7-534e-46bb-85a0-620b850f1c32"
+    },
     "_id": "7czpshZoRANqFVtB1eq3Ti"
   },
   {
@@ -5747,7 +5751,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -241.245,
+        -286.245,
         -148.073,
         0,
         0,
@@ -9440,8 +9444,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -240.127,
-        -44.414,
+        -280,
+        -72,
         0,
         0,
         0,
@@ -13122,7 +13126,7 @@
       "ctor": "Float64Array",
       "array": [
         359.937,
-        -52.335,
+        -146,
         0,
         0,
         0,
@@ -19714,7 +19718,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1.965,
+        32.965,
         -43.227,
         0,
         0,
@@ -20716,7 +20720,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        11.81,
+        32.965,
         326.169,
         0,
         0,
@@ -26119,8 +26123,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 121,
-      "height": 47
+      "width": 168,
+      "height": 58
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -26939,8 +26943,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 37,
-      "height": 48
+      "width": 57,
+      "height": 76
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -27090,7 +27094,7 @@
       "__uuid__": "5426cd1f-fbcd-4888-a97b-4e6ee8642b4f"
     },
     "_type": 1,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -27116,10 +27120,10 @@
     "alignMode": 0,
     "_target": null,
     "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
+    "_left": -10,
+    "_right": -10,
+    "_top": -14,
+    "_bottom": -14,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
     "_isAbsLeft": true,
@@ -27260,8 +27264,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 139,
-      "height": 45
+      "width": 230,
+      "height": 71
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -27272,7 +27276,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        94.356,
+        154.356,
         0,
         0,
         0,
@@ -27329,8 +27333,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 139,
-      "height": 45
+      "width": 230,
+      "height": 71
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -27445,7 +27449,7 @@
     "_dstBlendFactor": 771,
     "_string": "自动胡牌",
     "_N$string": "自动胡牌",
-    "_fontSize": 20,
+    "_fontSize": 25,
     "_lineHeight": 40,
     "_enableWrapText": false,
     "_N$file": null,
@@ -27479,8 +27483,8 @@
     "_spriteFrame": {
       "__uuid__": "3e01f0ce-cf3b-4974-8268-246787861ee8"
     },
-    "_type": 1,
-    "_sizeMode": 0,
+    "_type": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -31457,7 +31461,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -81.691,
+        -72.591,
         0,
         0,
         0,
@@ -31506,8 +31510,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 360,
-      "height": 38
+      "width": 484,
+      "height": 50
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -31600,8 +31604,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 360,
-      "height": 38
+      "width": 484,
+      "height": 50
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -31695,7 +31699,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 983.93,
-      "height": 31.5
+      "height": 44.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -31749,7 +31753,7 @@
     "_string": "28秒后将进入超时托管，超时托管进入小结算将会自动准备游戏",
     "_N$string": "28秒后将进入超时托管，超时托管进入小结算将会自动准备游戏",
     "_fontSize": 35,
-    "_lineHeight": 25,
+    "_lineHeight": 35,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

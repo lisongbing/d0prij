@@ -252,7 +252,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Sprite",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -279,7 +279,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1307,
+      "width": 1920,
       "height": 3
     },
     "_anchorPoint": {
@@ -292,7 +292,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -92.41,
+        -107.38,
         0,
         0,
         0,
@@ -335,7 +335,7 @@
       "__uuid__": "89d697dd-24b8-4afb-90bf-3d68a6c4ce49"
     },
     "_type": 0,
-    "_sizeMode": 2,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -359,8 +359,8 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 40,
-    "_left": 306.5,
-    "_right": 306.5,
+    "_left": 0,
+    "_right": 0,
     "_top": 0,
     "_bottom": 0,
     "_verticalCenter": 0,

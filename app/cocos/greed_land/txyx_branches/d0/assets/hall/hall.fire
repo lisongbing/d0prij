@@ -13975,7 +13975,9 @@
   },
   {
     "__type__": "MenuPrefab",
-    "prefab": null,
+    "prefab": {
+      "__uuid__": "dd772664-d002-421d-a8c6-3c4748896c13"
+    },
     "menuId": "store"
   },
   {
