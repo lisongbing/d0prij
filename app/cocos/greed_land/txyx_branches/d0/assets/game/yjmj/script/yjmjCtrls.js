@@ -4657,6 +4657,9 @@ let D2SettleView = cc.Class({
         cc.find("Button_final", r).active = false;
         this.Button_final = cc.find("Button_final", this.Node_Ny_View);
         this.Button_final.on('touchend', this.onfinal, this);
+
+        // 规则
+        this.Label_deskrule = cc.find("Label_deskrule", r).getComponent(cc.Label);
     },
 
 
@@ -4804,6 +4807,7 @@ let D2SettleView = cc.Class({
         let piaoView = cc.find("Sprite_Piao", vbPlayerContent);
         let fengDingView = cc.find("Sprite_fengding", vbPlayerContent);
         let Lab_name = cc.find("Label_name", vbPlayerContent).getComponent(cc.Label);
+        // let Lab_name = cc.find("Label_name", vbPlayerContent).getComponent(cc.Label);
         let Spr_head = cc.find("Node_head/Sprite_hdbg/Node_mask/Sprite_head", vbPlayerContent).getComponent(cc.Sprite);
         // sprite_hque.active = false
         zhuang.active = allPerResultItem.isZhuang;

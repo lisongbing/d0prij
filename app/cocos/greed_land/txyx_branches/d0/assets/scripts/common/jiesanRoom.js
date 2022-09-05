@@ -93,9 +93,9 @@ cc.Class({
             this.data[e.uid] = e;
         });
 
-        this.svPlayer.node.width = vd.length*110 + (vd.length-1)*26;
-        if (this.svPlayer.node.width > 518) {
-            this.svPlayer.node.width = 518;
+        this.svPlayer.node.width = vd.length*200 + (vd.length-1)*26;
+        if (this.svPlayer.node.width > 878) {
+            this.svPlayer.node.width = 878;
         }
 
         // 发起者

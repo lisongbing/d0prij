@@ -407,6 +407,7 @@ cc.Class({
                     
                     if (name[0]==this.op_ifo.id && name[1]==this.op_ifo.ori) {
                         this.curGMItem = e;
+                        this.curGMItem.uD._up_ = true;
                         this.curGMItem.toggle.check();
                         break;
                     }
@@ -929,11 +930,12 @@ cc.Class({
             return;
         }
 
-        if (itm.uD.ID==this.curGMItem.uD.ID && itm.uD.origin==this.curGMItem.uD.origin) {
+        if (!itm.uD._up_ && itm.uD.ID==this.curGMItem.uD.ID && itm.uD.origin==this.curGMItem.uD.origin) {
             if (this.curGameId > 0) {
                 return;
             }
         }
+        delete itm.uD._up_;
 
         this.curGMItem = itm;
 
@@ -1114,11 +1116,11 @@ cc.Class({
                 //cc.log('item.uDesc.string', item.uDesc.string);
                 //cc.log('item.uDesc.string.leng', item.uDesc.string.length);
                 if (item.uDesc.string.length>=18) {
-                    item.width = 760;
+                    item.width = 1080;
                 } else if (item.uDesc.string.length>=11) {
-                    item.width = 760*0.5;
+                    item.width = 1080*0.5;
                 } else if (item.uDesc.string.length>=7) {
-                    item.width = 760*0.3;
+                    item.width = 1080*0.3;
                 }
 
                 // 描述的提示按钮 大部分需要隐藏

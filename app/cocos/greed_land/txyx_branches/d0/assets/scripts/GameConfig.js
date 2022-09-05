@@ -1,7 +1,7 @@
 var cfg_dbg = {
     appName: '同乡游戏',
     checkRemoteConfig: true,
-	gameVersion: '1.11.162',
+	gameVersion: '1.1000.0',
     gameConfigUrl:'http://119.23.235.127:10100',  //119-app
     playBackIDUrl:'http://119.23.235.127:11111/getrecord',
     playBackDataUrl:'http://119.23.235.127:80/',
