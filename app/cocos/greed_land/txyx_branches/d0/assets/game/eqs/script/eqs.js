@@ -109,7 +109,7 @@ cc.Class({
     onLoad () {
         cc.log('2710页面');
 
-        this.handCardSpa = {x:2, y:65,};
+        this.handCardSpa = {x:0, y:100,};
 
         cc.log(this.dbgstr('onLoad'));
 
@@ -350,8 +350,10 @@ cc.Class({
             }
             o.outp.push(node.getPosition());
         }
-        if (this.pGame.roomInfo.total <= 3) {
+        if (this.pGame.roomInfo.total == 3) {
             o.outp = [o.outp[0],o.outp[1],o.outp[3]];
+        } else if (this.pGame.roomInfo.total == 2) {
+            o.outp = [o.outp[0],o.outp[2]];
         }
 
         //

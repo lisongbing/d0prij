@@ -14,7 +14,7 @@
   {
     "__type__": "cc.Node",
     "_name": "ingame_menu",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": null,
     "_children": [
       {
@@ -3761,7 +3761,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Sprite_rule",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 1
     },
@@ -3939,8 +3939,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 52,
-      "height": 36
+      "width": 34,
+      "height": 24
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4182,8 +4182,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 178,
-      "height": 46
+      "width": 108,
+      "height": 31
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5589,7 +5589,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Label_ztfpTip",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },

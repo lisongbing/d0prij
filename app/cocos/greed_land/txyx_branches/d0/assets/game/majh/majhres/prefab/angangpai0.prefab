@@ -776,7 +776,7 @@
       "__id__": 12
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 20
@@ -808,14 +808,14 @@
       "ctor": "Float64Array",
       "array": [
         27,
-        51.1,
+        100.1,
         0,
         0,
         0,
         0,
         1,
-        1,
-        1,
+        2,
+        1.5,
         1
       ]
     },
@@ -885,7 +885,7 @@
       "__id__": 12
     },
     "_children": [],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 23
@@ -907,8 +907,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.299999999999997,
-      "height": 23.08
+      "width": 31.52,
+      "height": 25.599999999999998
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -919,8 +919,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        27,
-        51.6,
+        25,
+        102.6,
         0,
         0,
         0,
@@ -961,8 +961,8 @@
     "_dstBlendFactor": 771,
     "_string": "1中",
     "_N$string": "1中",
-    "_fontSize": 16,
-    "_lineHeight": 18,
+    "_fontSize": 20,
+    "_lineHeight": 20,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

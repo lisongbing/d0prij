@@ -7,7 +7,7 @@
             <key>hall_btn_addgm.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1712,572},{188,188}}</string>
+                <string>{{1522,572},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -20,7 +20,7 @@
             <key>hall_btn_bg0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1622,762},{99,99}}</string>
+                <string>{{1327,762},{99,99}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>hall_btn_huod.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1723,842},{66,62}}</string>
+                <string>{{1887,716},{66,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +72,7 @@
             <key>hall_btn_kefu.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1723,762},{76,78}}</string>
+                <string>{{1428,762},{76,78}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,7 +85,7 @@
             <key>hall_btn_mail.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1790,466},{66,62}}</string>
+                <string>{{1642,762},{66,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -124,7 +124,7 @@
             <key>hall_btn_set.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1790,192},{76,78}}</string>
+                <string>{{1887,572},{76,78}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -137,7 +137,7 @@
             <key>hall_btn_share.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1790,402},{66,62}}</string>
+                <string>{{1574,762},{66,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -150,7 +150,7 @@
             <key>hall_btn_shop.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1790,338},{66,62}}</string>
+                <string>{{1506,762},{66,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -163,7 +163,7 @@
             <key>hall_btn_sqdl.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{937,762},{173,172}}</string>
+                <string>{{762,762},{173,172}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -176,7 +176,7 @@
             <key>hall_btn_yqyl.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{762,762},{173,172}}</string>
+                <string>{{1712,572},{173,172}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,7 +189,7 @@
             <key>hall_btn_zhanji.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1801,762},{66,62}}</string>
+                <string>{{1887,652},{66,62}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -202,7 +202,7 @@
             <key>hall_gi_10_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1522,572},{188,188}}</string>
+                <string>{{1332,572},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -215,7 +215,7 @@
             <key>hall_gi_10_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1332,572},{188,188}}</string>
+                <string>{{1142,572},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -228,7 +228,7 @@
             <key>hall_gi_11_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1142,572},{188,188}}</string>
+                <string>{{952,572},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -241,7 +241,7 @@
             <key>hall_gi_11_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{952,572},{188,188}}</string>
+                <string>{{762,572},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -254,7 +254,7 @@
             <key>hall_gi_11_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{762,572},{188,188}}</string>
+                <string>{{572,725},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -267,7 +267,7 @@
             <key>hall_gi_11_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{572,725},{188,188}}</string>
+                <string>{{572,535},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -280,7 +280,7 @@
             <key>hall_gi_12_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{572,535},{188,188}}</string>
+                <string>{{382,749},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -293,7 +293,7 @@
             <key>hall_gi_13_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{382,749},{188,188}}</string>
+                <string>{{382,559},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -306,7 +306,7 @@
             <key>hall_gi_14_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{382,559},{188,188}}</string>
+                <string>{{1790,382},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -371,7 +371,7 @@
             <key>hall_gi_1_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1372,762},{128,128}}</string>
+                <string>{{1197,762},{128,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -384,7 +384,7 @@
             <key>hall_gi_1_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1372,762},{128,128}}</string>
+                <string>{{1197,762},{128,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -410,7 +410,7 @@
             <key>hall_gi_21_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1600,192},{188,188}}</string>
+                <string>{{1790,192},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -423,7 +423,7 @@
             <key>hall_gi_21_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1410,192},{188,188}}</string>
+                <string>{{1600,192},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -436,7 +436,7 @@
             <key>hall_gi_21_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1220,192},{188,188}}</string>
+                <string>{{1410,192},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -449,7 +449,7 @@
             <key>hall_gi_21_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1030,192},{188,188}}</string>
+                <string>{{1220,192},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -462,7 +462,7 @@
             <key>hall_gi_22_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{840,192},{188,188}}</string>
+                <string>{{1030,192},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -475,7 +475,7 @@
             <key>hall_gi_23_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1678,2},{188,188}}</string>
+                <string>{{840,192},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -488,7 +488,7 @@
             <key>hall_gi_24_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1488,2},{188,188}}</string>
+                <string>{{1678,2},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -501,7 +501,7 @@
             <key>hall_gi_25_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1298,2},{188,188}}</string>
+                <string>{{1488,2},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -514,7 +514,7 @@
             <key>hall_gi_26_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1242,762},{128,128}}</string>
+                <string>{{1067,762},{128,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -528,6 +528,19 @@
             <dict>
                 <key>frame</key>
                 <string>{{1410,382},{188,188}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{188,188}}</string>
+                <key>sourceSize</key>
+                <string>{188,188}</string>
+            </dict>
+            <key>hall_gi_28_19.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{1298,2},{188,188}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -618,7 +631,7 @@
             <key>hall_gi_fls.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1112,762},{128,128}}</string>
+                <string>{{937,762},{128,128}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -683,11 +696,11 @@
             <key>hall_img9_0.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1502,762},{118,108}}</string>
+                <string>{{1868,2},{118,108}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{118,108}}</string>
                 <key>sourceSize</key>
@@ -696,7 +709,7 @@
             <key>hall_img9_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1790,272},{69,64}}</string>
+                <string>{{1868,122},{69,64}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -709,11 +722,11 @@
             <key>hall_img9_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1869,762},{39,31}}</string>
+                <string>{{1939,122},{39,31}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{39,31}}</string>
                 <key>sourceSize</key>
@@ -722,7 +735,7 @@
             <key>hall_img_jb.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1112,892},{44,44}}</string>
+                <string>{{937,892},{44,44}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -735,11 +748,11 @@
             <key>hall_line_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{1868,2},{4,90}}</string>
+                <string>{{572,915},{4,90}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{4,90}}</string>
                 <key>sourceSize</key>
@@ -766,9 +779,9 @@
             <key>realTextureFileName</key>
             <string>hallAtlas0.png</string>
             <key>size</key>
-            <string>{1902,939}</string>
+            <string>{1980,939}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:ce880c4d4e9e3b5e2c610d69865d41b5$</string>
+            <string>$TexturePacker:SmartUpdate:e0aa07f2ed79d4668615274fc2e7fcee$</string>
             <key>textureFileName</key>
             <string>hallAtlas0.png</string>
         </dict>

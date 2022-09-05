@@ -68,8 +68,8 @@ cc.Class({
     initAnmEmoji: function () {
         let r = this.node;
 
-        this.ScrollView_anmemo = cc.find("ScrollView_anmemo", r);
-        let content = cc.find("ScrollView_anmemo/view/content", r);
+        this.ScrollView_anmemo = cc.find("diban_sige/ScrollView_anmemo", r);
+        let content = cc.find("diban_sige/ScrollView_anmemo/view/content", r);
         content.removeAllChildren();
 
         for (let i = 0; true; ++i) {
@@ -118,8 +118,8 @@ cc.Class({
         
         let r = this.node;
 
-        this.ScrollView_txtemo = cc.find("ScrollView_txtemo", r);
-        let content = cc.find("ScrollView_txtemo/view/content", r);
+        this.ScrollView_txtemo = cc.find("diban_sige/ScrollView_txtemo", r);
+        let content = cc.find("diban_sige/ScrollView_txtemo/view/content", r);
         content.removeAllChildren();
 
         let talkGameConfig = cc.g.utils.getJson('TalkGame')[cc.g.hallMgr.curGameType];
@@ -158,8 +158,8 @@ cc.Class({
     initChatBtn: function () {
         let r = this.node;
 
-        let toggle1 = cc.find("toggleContainer/toggle1", r);
-        let toggle2 = cc.find("toggleContainer/toggle2", r);
+        let toggle1 = cc.find("diban_sige/toggleContainer/toggle1", r);
+        let toggle2 = cc.find("diban_sige/toggleContainer/toggle2", r);
 
         cc.g.utils.addCheckEvent(toggle1, this.node, 'dlgChat', 'onCheckTxtEmoji', 1);
         cc.g.utils.addCheckEvent(toggle2, this.node, 'dlgChat', 'onCheckTxtEmoji', 2);

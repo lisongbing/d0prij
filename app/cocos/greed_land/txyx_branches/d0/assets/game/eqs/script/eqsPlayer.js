@@ -157,6 +157,7 @@ cc.Class({
         } else {
             this.isZhuang = (this.gm.roomInfo.dealer.toNumber() == this.d.uid.toNumber());
         }
+        this.gm.starZhuang = null;
         
         // 准备
         this.isReady = this.d.status > LG_Sta.Free.v;

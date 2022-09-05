@@ -411,8 +411,11 @@ cc.Class({
         this.Sprite_SaiZi_2 = cc.find("Node_SaiZi_View/Sprite_SaiZi_2", r).getComponent(cc.Sprite);
 
         //豹子
+        this.Tmp_Node_Ma = cc.find("Tmp_Node_Ma", r)
         this.Node_BaoZi = cc.find("Node_Ma", r)
         this.Node_BaoZi.active = false;
+        this.Node_BaoZi.ox = this.Node_BaoZi.x
+        this.Node_BaoZi.oy = this.Node_BaoZi.y
 
         // 缺的动画
         this.nodeQueArr = []
@@ -926,7 +929,7 @@ cc.Class({
         // this.Node_BaoZi.active = this.isBaoZi;
 
         this.Node_BaoZi.active = false;
-        this.Node_BaoZi.setPosition(15.622, 39.443);
+        this.Node_BaoZi.setPosition(this.Node_BaoZi.ox, this.Node_BaoZi.oy);
 
         // // // 对局未开始的操作按钮
         // this.Node_gmfreeBtns.active = ((ri.curGameNum<1) && (ri.status == DEF.RMSTA.Free.v));
@@ -1211,14 +1214,21 @@ cc.Class({
     },
     runBaoZiAnimation: function (pos, node) {
         const self = this;
-        node.setPosition(15.622, 39.443);
+        node.setPosition(this.Node_BaoZi.ox, this.Node_BaoZi.oy);
         node.setScale(1.2, 1.2)
         node.active = true;
         // let endX = -385
         // let endY = 274
         // let endX = -400
-        let endX = -430
-        let endY = 284
+        let endX = this.Tmp_Node_Ma.x
+        let endY = this.Tmp_Node_Ma.y
+
+        cc.log('this.Node_BaoZi.ox-->' + this.Node_BaoZi.ox)
+        cc.log('this.Node_BaoZi.oy-->' + this.Node_BaoZi.oy)
+
+        cc.log('endX-->' + endX)
+        cc.log('endY-->' + endY)
+
 
         // if (pos == 0) {
         //     endX = -486.379
@@ -1234,7 +1244,7 @@ cc.Class({
         //     endY = 65.247
         // }
         if (pos > 0) {
-            let playerViewItem = this.playerView[pos]
+           // let playerViewItem = this.playerView[pos]
             node.runAction(
                 cc.sequence(
                     cc.delayTime(0.3),
@@ -1255,7 +1265,15 @@ cc.Class({
                 )
             )
         } else {
+            // const self = this
+            // this.scheduleOnce((dt)=>{
+            //     let endX = self.Tmp_Node_Ma.x
+            //     let endY = self.Tmp_Node_Ma.y
+            //     node.setPosition(endX, endY);
+            // }, 1);
+
             node.setPosition(endX, endY);
+
             // cc.moveTo(0, endX, endY)
         }
     },
@@ -1502,9 +1520,12 @@ cc.Class({
         // this.Node_Piao.active = false
         this.Node_BaoZi.active = false
         if (status == 1) {
-            this.Node_BaoZi.active = true
-            this.runBaoZiAnimation(0, this.Node_BaoZi);
-            this.isBaoZi = true;
+            const self = this
+            this.scheduleOnce((dt)=>{
+                self.Node_BaoZi.active = true
+                self.runBaoZiAnimation(0, self.Node_BaoZi);
+                self.isBaoZi = true;
+            }, 1);
             // palyerViewItem.Sprite_piao.active = true
             // palyerViewItem.Sprite_piao.getComponent(cc.Sprite).spriteFrame = this.majhAtlas0.getSpriteFrame('yjmj_ma');
         } else {
@@ -4742,7 +4763,7 @@ cc.Class({
     clearWaitCard: function () {
 
         this.Node_BaoZi.active = false;
-        this.Node_BaoZi.setPosition(15.622, 39.443);
+        this.Node_BaoZi.setPosition(this.Node_BaoZi.ox, this.Node_BaoZi.oy)
 
         // 换牌按钮为灰色
         this.node_Huanpai.active = false

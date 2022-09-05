@@ -3873,7 +3873,8 @@ let D2SettleView = cc.Class({
         let zhuang = cc.find("Sprite_Zhuang", vbPlayerContent);
         let piaoView = cc.find("Sprite_Piao", vbPlayerContent);
         piaoView.active = false
-        let Lab_name = cc.find("Node_head/Label_name", vbPlayerContent).getComponent(cc.Label);
+        // let Lab_name = cc.find("Node_head/Label_name", vbPlayerContent).getComponent(cc.Label);
+        let Lab_name = cc.find("Label_name", vbPlayerContent).getComponent(cc.Label);
         let Spr_head = cc.find("Node_head/Sprite_hdbg/Node_mask/Sprite_head", vbPlayerContent).getComponent(cc.Sprite);
         // sprite_hque.active = false
         zhuang.active = allPerResultItem.isZhuang;
@@ -3933,23 +3934,17 @@ let D2SettleView = cc.Class({
             let mtspf = this.pg.JieSuanMingTang;
             for (let i = 0; i < mingtang.length; i++) {
                 let ming = mingtang[i]
-                
+                let mingNode = cc.instantiate(mtspf);
+                let mingTxt = cc.find("tangLabel", mingNode);
                 // 平胡 不需要显示
                 if (ming == 'asdfs987sadf') {
                     continue;
                 }
-                
+
                 mingTxtStr = DEF.hcJieSuanMingTang[ming].txt + DEF.jiesuanDouHao
-                    mingTxt.getComponent(cc.Label).string = mingTxtStr
-                    node_Hu_Tips_View.addChild(mingNode);
-                    lastNode = mingNode
-                    // spr.addComponent(cc.Sprite).spriteFrame = this.pg.majhAtlas0.getSpriteFrame('mingtang_' + mingtang[i]);
-                    // node_Hu_Tips_View.addChild(spr);
-                    //
-                    // dohao = new cc.Node();
-                    // // 加入逗号
-                    // dohao.addComponent(cc.Sprite).spriteFrame = this.pg.majhAtlas0.getSpriteFrame('jiesuandou');
-                    // node_Hu_Tips_View.addChild(dohao);
+                mingTxt.getComponent(cc.Label).string = mingTxtStr
+                node_Hu_Tips_View.addChild(mingNode);
+                lastNode = mingNode
             }
 
 

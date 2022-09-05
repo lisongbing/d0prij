@@ -5422,12 +5422,12 @@ cc.Class({
                     // item.fan
                     // item.code
                     let cardNode = cc.instantiate(this.SIPlayerPf5);
-
-                    let Label_fan = cc.find("Label_fan", cardNode).getComponent(cc.Label);
-                    Label_fan.string = item.fan + '番'
-
-                    let Label_num = cc.find("Label_num", cardNode).getComponent(cc.Label);
-                    Label_num.string = item.num + '张'
+                    //
+                    // let Label_fan = cc.find("Label_fan", cardNode).getComponent(cc.Label);
+                    // Label_fan.string = item.fan + '番'
+                    //
+                    // let Label_num = cc.find("Label_num", cardNode).getComponent(cc.Label);
+                    // Label_num.string = item.num + '张'
 
                     let Sprite_cardVal = cc.find("Sprite_cardVal", cardNode).getComponent(cc.Sprite);
                     Sprite_cardVal.spriteFrame =  this.majhCardAtlas0.getSpriteFrame('majh_cardval_' + item.code);
@@ -5471,11 +5471,11 @@ cc.Class({
                 huMapArr.forEach((item) => {
                     let cardNode = cc.instantiate(this.SIPlayerPf5);
 
-                    let Label_fan = cc.find("Label_fan", cardNode).getComponent(cc.Label);
-                    Label_fan.string = item.fan + '番'
-
-                    let Label_num = cc.find("Label_num", cardNode).getComponent(cc.Label);
-                    Label_num.string = item.num + '张'
+                    // let Label_fan = cc.find("Label_fan", cardNode).getComponent(cc.Label);
+                    // Label_fan.string = item.fan + '番'
+                    //
+                    // let Label_num = cc.find("Label_num", cardNode).getComponent(cc.Label);
+                    // Label_num.string = item.num + '张'
 
                     let Sprite_cardVal = cc.find("Sprite_cardVal", cardNode).getComponent(cc.Sprite);
                     Sprite_cardVal.spriteFrame =  this.majhCardAtlas0.getSpriteFrame('majh_cardval_' + item.code);
