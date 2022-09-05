@@ -1,6 +1,6 @@
 {
   "ver": "2.3.5",
-  "uuid": "ebffff59-6a83-4d3e-9d07-0902a1d067c9",
+  "uuid": "21f6e346-db45-4eaf-b5b7-743205977c89",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
@@ -13,8 +13,8 @@
   "subMetas": {
     "ig_dskbg5": {
       "ver": "1.0.4",
-      "uuid": "75aafd27-20de-4283-89e3-a96439420e56",
-      "rawTextureUuid": "ebffff59-6a83-4d3e-9d07-0902a1d067c9",
+      "uuid": "44597fbf-243f-4b90-8f29-920eb8021012",
+      "rawTextureUuid": "21f6e346-db45-4eaf-b5b7-743205977c89",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
@@ -22,10 +22,10 @@
       "offsetY": 0,
       "trimX": 0,
       "trimY": 0,
-      "width": 181,
-      "height": 115,
-      "rawWidth": 181,
-      "rawHeight": 115,
+      "width": 308,
+      "height": 197,
+      "rawWidth": 308,
+      "rawHeight": 197,
       "borderTop": 0,
       "borderBottom": 0,
       "borderLeft": 0,
