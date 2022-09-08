@@ -315,7 +315,7 @@ cc.Class({
         // // 换牌按钮
         // this.huanPaiBtn = cc.find("Layout_HuanPai/Button_HuanPai", this.node_Huanpai).getComponent(cc.Button)
         // // 设置位灰色按钮
-        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         // this.huanPaiBtn.enabled = false;
 
         // 胡 提 杠 按钮
@@ -398,38 +398,6 @@ cc.Class({
         this.Node_ts = cc.find("Sprite_Bg_Node/Node_ts", r);
         this.Node_zb = cc.find("Sprite_Bg_Node/Node_zb", r);
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
-        if (cardType == 1) {
-            this.Node_ts.active = false
-            this.Node_zb.active = true
-            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
-            this.Sprite_dong.active = false;
-
-            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
-            this.Sprite_bei.active = false;
-
-            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
-            this.Sprite_xi.active = false;
-
-            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
-            this.Sprite_nan.active = false;
-        } else {
-            this.Node_ts.active = true
-            this.Node_zb.active = false
-            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
-            this.Sprite_dong.active = false;
-
-            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
-            this.Sprite_bei.active = false;
-
-            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
-            this.Sprite_xi.active = false;
-
-            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
-            this.Sprite_nan.active = false;
-        }
-
         // 胡牌提示
         this.HuNodeTips = cc.find("HuNodeTips", r);
         this.HuNodeTips.active = false;
@@ -463,6 +431,11 @@ cc.Class({
         this.NodeTingYongView = cc.find("NodeTingYongView", r);
         this.NodeTingYongView.active = false;
 
+        // layout
+        this.Node_Ting_Layout = cc.find("NodeTingYongView/Node_Ting_All/benjing/Layout_View", r)
+        // this.Node_Ting_Layout.removeAllChildren(true);
+        this.Node_Ting_Layout.active = false;
+
         // 单张牌动画
         this.Node_Ting_Anmi = cc.find("NodeTingYongView/Node_Ting_Anmi/benjingAnim", r)
         this.Node_Ting_Anmi.active = false;
@@ -470,10 +443,11 @@ cc.Class({
         // 单张牌动画
         this.Node_Ting_All = cc.find("NodeTingYongView/Node_Ting_All", r)
         this.Node_Ting_All.active = false;
-        // layout
-        this.Node_Ting_Layout = cc.find("NodeTingYongView/Node_Ting_All/benjing/Layout_View", r)
-        this.Node_Ting_Layout.removeAllChildren(true);
-        this.Node_Ting_Layout.active = false;
+        this.Node_Ting_All.ox = this.Node_Ting_All.x
+        this.Node_Ting_All.oy = this.Node_Ting_All.y
+        this.Tmp_Node_Ting_All = cc.find("Tmp_Node_Ting_All", r)
+
+
 
         // 托管提示
         this.Node_tgts = cc.find("Node_tgts", r);
@@ -485,6 +459,37 @@ cc.Class({
         this.initPlayerView();
         // 初始化动画层
         this.initAnimationView();
+    },
+    initDnxb: function() {
+        if (this.cardType == 1) {
+            this.Node_ts.active = false
+            this.Node_zb.active = true
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
+            this.Sprite_nan.active = false;
+        } else {
+            this.Node_ts.active = true
+            this.Node_zb.active = false
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
+            this.Sprite_nan.active = false;
+        }
     },
     onClickSwallow: function () {
         //cc.log(this.dbgstr('onClickSwallow'));
@@ -748,6 +753,11 @@ cc.Class({
     },
     // 更新视图
     upPage: function () {
+
+        let gameType = this.gameMgr.roomInfo.gameType
+        this.cardType = cc.g.utils.getPaiVaule(gameType);
+
+        this.initDnxb()
         this.resetDatas();
 
         cc.g.hallMgr.inGameMenu.upteagold();
@@ -791,21 +801,29 @@ cc.Class({
         }
         // this.Sprite_leavebtn.spriteFrame = owner_sf;
 
-        // 本金, 只能放这里
-        let benjing = parseInt(ri.benjing);
-        // 显示本金
-        if (benjing > 0) {
-            this.benjing = benjing
-            let palyerOne = this.playerView[0]
-            this.doReciveBenJing(palyerOne, benjing, false);
-        } else {
-            this.clearTingYongView();
-        }
-
         // 玩家视图
         for (let i = 0; i < this.playerView.length; i++) {
             const e = this.playerView[i];
             e.upView();
+        }
+
+        // 本金, 只能放这里
+        let benjing = parseInt(ri.benjing);
+        cc.log('benjing-->' + benjing)
+        // 显示本金
+        if (benjing > 0) {
+            this.benjing = benjing
+            const self = this
+            self.Node_Ting_All.active = false;
+            // this.scheduleOnce(()=>{
+            //     let palyerOne = self.playerView[0]
+            //     self.doReciveBenJing(palyerOne, benjing, true);
+            // }, 1);
+            let palyerOne = self.playerView[0]
+            self.doReciveBenJing(palyerOne, benjing, true);
+
+        } else {
+            this.clearTingYongView();
         }
 
         this.upTuoguanTishi();
@@ -1630,11 +1648,11 @@ cc.Class({
                 this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_01');
                 this.huanPaiBtn.enabled = true
             } else {
-                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
                 this.huanPaiBtn.enabled = false
             }
         } else {
-            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
             this.huanPaiBtn.enabled = false
         }
     },
@@ -2005,7 +2023,7 @@ cc.Class({
         // // 显示换牌节点
         // if (getRelDeskId == 0) {
         //     this.node_Huanpai.active = true
-        //     this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        //     this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         //     this.huanPaiBtn.enabled = false
         // }
 
@@ -3816,7 +3834,7 @@ cc.Class({
         this.NodeTingYongView.active = false;
         this.Node_Ting_Anmi.active = false;
         this.Node_Ting_All.active = false;
-        this.Node_Ting_All.setPosition(0, 0);
+        this.Node_Ting_All.setPosition(this.Node_Ting_All.ox, this.Node_Ting_All.oy);
         this.Node_Ting_Layout.removeAllChildren(true);
         this.Node_Ting_Layout.active = false;
         this.benjing = 0
@@ -3825,7 +3843,7 @@ cc.Class({
     clearWaitCard: function () {
         // 换牌按钮为灰色
         this.node_Huanpai.active = false
-        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         // this.huanPaiBtn.enabled = false
 
         this.node_HuaiPai_all_View.active = false;
@@ -4744,7 +4762,7 @@ cc.Class({
         this.NodeTingYongView.active = true;
         this.Node_Ting_Anmi.active = true;
         this.Node_Ting_All.active = false;
-        this.Node_Ting_All.setPosition(0, 0)
+        this.Node_Ting_All.setPosition(this.Node_Ting_All.ox, this.Node_Ting_All.oy)
         let cardNode = this.Node_Ting_Anmi;
 
         let Sprite_cardBg = cc.find("Sprite_cardBg", cardNode);
@@ -4775,6 +4793,10 @@ cc.Class({
         Sprite_Bg.eulerAngles = cc.v3(0, 0, 0)
         Sprite_Bg.eulerAngles = cc.v3(0, 0, 0)
 
+
+        cc.log('self.Tmp_Node_Ting_All.x-->' + this.Tmp_Node_Ting_All.x)
+        cc.log('self.Tmp_Node_Ting_All.y-->' + this.Tmp_Node_Ting_All.y)
+
         const self = this
         Sprite_Bg.runAction(cc.sequence(
             cc.rotateTo(0.2, 0, -90),
@@ -4795,7 +4817,7 @@ cc.Class({
                             cc.sequence(
                                 cc.delayTime(0.2),
                                 cc.spawn(
-                                    cc.moveTo(0.2, -450, 295),
+                                    cc.moveTo(0.2, self.Tmp_Node_Ting_All.x, self.Tmp_Node_Ting_All.y),
                                     cc.scaleTo(0.2, 1, 1),
                                 ),
                             )
@@ -4961,12 +4983,31 @@ cc.Class({
                     this.Node_Ting_Layout.active = true;
                     this.doShowTingAnmi(tingIndex, code)
                 } else {
+                    // this.scheduleOnce(()=>{
+                    //     self.NodeTingYongView.active = true;
+                    //     self.Node_Ting_Anmi.active = false;
+                    //     self.Node_Ting_All.active = true;
+                    //     // this.Node_Ting_All.setPosition(-400, 284);
+                    //     self.Node_Ting_All.setPosition(self.Tmp_Node_Ting_All.x, self.Tmp_Node_Ting_All.y);
+                    //     self.Node_Ting_Layout.active = true;
+                    // }, 1)
+
+                    cc.log('self.Tmp_Node_Ting_All.x-->' + this.Tmp_Node_Ting_All.x)
+                    cc.log('self.Tmp_Node_Ting_All.y-->' + this.Tmp_Node_Ting_All.y)
+
                     this.NodeTingYongView.active = true;
                     this.Node_Ting_Anmi.active = false;
+                    this.Node_Ting_Layout.active = true;
                     this.Node_Ting_All.active = true;
                     // this.Node_Ting_All.setPosition(-400, 284);
-                    this.Node_Ting_All.setPosition(-450, 295);
-                    this.Node_Ting_Layout.active = true;
+                    this.Node_Ting_All.setPosition(this.Tmp_Node_Ting_All.x, this.Tmp_Node_Ting_All.y);
+
+
+
+
+                    cc.log('self.Node_Ting_All.x-->' + this.Node_Ting_All.x)
+                    cc.log('self.Node_Ting_All.y-->' + this.Node_Ting_All.y)
+
                 }
             }
 

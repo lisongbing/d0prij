@@ -3008,6 +3008,21 @@ let D2PlayerView = cc.Class({
     onStarGame: function () {
         cc.log(this.dbgstr('onStarGame'));
 
+        if (this.player) {
+            if (this.player.d) {
+                this.player.d.cards = [];
+                this.player.d.cardNum = 0;
+            }
+
+            this.player.hcGroups = [];
+            this.player.showGroups = [];
+            this.player.outCodes = [];
+
+            this.upHandCard();
+            this.upShowCards();
+            this.upOutCards();
+        }
+
         // 隐藏已经准备
         this.Sprite_readyed.node.active = false;
 

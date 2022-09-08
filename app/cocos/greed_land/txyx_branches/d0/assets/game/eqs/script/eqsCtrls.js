@@ -2925,8 +2925,8 @@ let D2PlayerView = cc.Class({
             let q = new cc.Node("quan" + codes[codes.length-1]);
             q.addComponent(cc.Sprite).spriteFrame = this.pPage.pageAtlas.getSpriteFrame('eqs_tag_quan');
             q.scaleX = q.scaleY = 0.4;
-            q.x = -7;
-            q.y = 4;
+            q.x = -16;
+            q.y = 12;
 
             n.addChild(q);
         }
@@ -3118,6 +3118,21 @@ let D2PlayerView = cc.Class({
     // 开始游戏
     onStarGame: function () {
         cc.log(this.dbgstr('onStarGame'));
+
+        if (this.player) {
+            if (this.player.d) {
+                this.player.d.cards = [];
+                this.player.d.cardNum = 0;
+            }
+
+            this.player.hcGroups = [];
+            this.player.showGroups = [];
+            this.player.outCodes = [];
+
+            this.upHandCard();
+            this.upShowCards();
+            this.upOutCards();
+        }
 
         // 隐藏已经准备
         this.Sprite_readyed.node.active = false;

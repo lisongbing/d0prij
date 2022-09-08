@@ -90,7 +90,9 @@ export default class NewClass extends cc.Component {
         let tp = cc.g.hallMgr.curGameMgr.roomInfo.gameType;
         // @ts-ignore
         cc.find('mjzt', this.node).active = ((tp == GMID.HZMJ) || (tp == GMID.XZMJ) || (tp == GMID.YBMJ) || (tp == GMID.GMID) || (tp == GMID.NYMJ) || (tp == GMID.LZMJ) || (tp == GMID.NJMJ) || (tp == GMID.YJMJ) || (tp == GMID.GXMJ) || (tp == GMID.XZMJER) || (tp == GMID.LCMJ));
+        cc.log('cc.g.hallMgr.curGameType-->' + cc.g.hallMgr.curGameType)
         ison = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_mjIGS`);
+        cc.log('ison-->' + JSON.stringify(ison))
         if (ison) {
             let mjIGS = JSON.parse(ison);
 
@@ -99,6 +101,8 @@ export default class NewClass extends cc.Component {
             } else {
                 this.togCfg['mjzt1'].check();
             }
+        } else {
+            this.togCfg['mjzt1'].check();
         }
 
         for (const key in this.togbg) {
@@ -107,15 +111,23 @@ export default class NewClass extends cc.Component {
 
         // @ts-ignore
         let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
-        for (let i = 0; i < GMGrp.mahjong.length; i++) {
-            if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
-                gmbg = gmbg || '3';
-                this.togbg[3].node.active = true;
-                this.togbg[4].node.active = true;
-                this.togbg[5].node.active = true;
-                break;
-            }
-        }
+        this.showDeskMjBg(data)
+        // for (let i = 0; i < GMGrp.mahjong.length; i++) {
+        //     if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
+        //         gmbg = gmbg || '3';
+        //         if (this.togCfg['mjzt1'].check()) {
+        //             this.togbg[3].node.active = true;
+        //             this.togbg[4].node.active = true;
+        //             this.togbg[5].node.active = true;
+        //         } else {
+        //             this.togbg[3].node.active = false;
+        //             this.togbg[4].node.active = false;
+        //             this.togbg[5].node.active = true;
+        //         }
+        //
+        //         break;
+        //     }
+        // }
         for (let i = 0; i < GMGrp.poker.length; i++) {
             if (GMGrp.poker[i] == cc.g.hallMgr.curGameType) {
                 let defpk = '0';
@@ -195,6 +207,27 @@ export default class NewClass extends cc.Component {
         });
     }
 
+    showDeskMjBg(curCheck) {
+        // @ts-ignore
+        let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
+        for (let i = 0; i < GMGrp.mahjong.length; i++) {
+            if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
+                gmbg = gmbg || '3';
+                if (curCheck === 'mj_0') {
+                    this.togbg[3].node.active = true;
+                    this.togbg[4].node.active = true;
+                    this.togbg[5].node.active = true;
+                } else {
+                    this.togbg[3].node.active = false;
+                    this.togbg[4].node.active = false;
+                    this.togbg[5].node.active = true;
+                }
+
+                break;
+            }
+        }
+    },
+
     onTogCfg(evt, data) {
         cc.log('onTogCfg', data);
 
@@ -238,6 +271,8 @@ export default class NewClass extends cc.Component {
             mjIGS = JSON.stringify(mjIGS);
             // @ts-ignore
             cc.sys.localStorage.setItem(`${cc.g.hallMgr.curGameType}_mjIGS`, mjIGS);
+
+            this.showDeskMjBg(data)
         }
     }
 

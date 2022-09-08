@@ -97,6 +97,7 @@ enum PROTO{
 	NOTIFY_GX_PDK_PLAYER_RESULT_LIST=1043;
 	NOTIFY_TTPS_END_RESULT_LIST=1044;
 	NOTIFY_GAOX_PDK_PLAYER_RESULT_LIST=1045;
+	PLAY_ILLEGAL=1046;
 	CREATE_TEA_HOUSE=2201;
 	APPLY_TEA_HOUSE=2202;
 	AGREE_TEA_HOUSE=2203;
@@ -476,7 +477,10 @@ enum ERROR{
 	CREDIT_NOT_ENOUGH_NOT_JOIN_DESK4=1437;
 	YOUR_CREDIT_NOT_ENOUGH_NOT_JOIN_DESK=1438;
 	BLACK_PLAYER_CANNT_SAME_TABLE=1439;
+	FORBID_JOIN_ONLY_QUICK_JOIN=1440;
 	HAVE_NEW_HOT_UPDATE=1441;
+	GAMEING_NOT_KICK_TEAHOUSE=1442;
+	GAMEING_NOT_KICK_GOLD_MATCH=1443;
 }
 enum CONST{
 	CONST_UNUSED=0;
@@ -519,6 +523,8 @@ enum GAME{
 	GAOX_PDK=24;
 	GONGX_MJ=25;
 	ERRENYIFANG_MJ=26;
+	LC_PDK=27;
+	LC_MJ=28;
 }
 enum RULE{
 	RULE_UNUSED=0;
@@ -568,6 +574,7 @@ enum ORIGIN{
 	MEISHAN=16;
 	ERMEISHAN=17;
 	QIANWEI=18;
+	LONGCHANG=19;
 }
 enum GAMEENDRES{
 	NOTUSE=0;
@@ -2479,6 +2486,7 @@ message GaoXianPdkResultInfo{
 	repeated int32 deskcards=6;
 	repeated int32 handcards=7;
 }
+message PLAY_ILLEGALResp{}
 message HongZhongMahjongResultNtf{
 	repeated int32 remaincards=1;
 	repeated PersonPerGameResult allPerResult=2;
@@ -2495,6 +2503,7 @@ message PersonPerGameResult{
 	repeated  HongZhongMahjongPutOut putout=7;
 	repeated HongZhongMahjongdetailWin details=8;
 	bool isFengDing=9;
+	int32 huSeq=10;
 }
 message HongZhongMahjongPutOut{
 	repeated int32 cards=1;
@@ -2747,6 +2756,7 @@ message Player{
 	bool isAutoHu=36;
 	int32 outLineTime=37;
 	int64 luckValue=38;
+	repeated int64 winRecord=39;
 }
 message Gps{
 	string longitude=1;

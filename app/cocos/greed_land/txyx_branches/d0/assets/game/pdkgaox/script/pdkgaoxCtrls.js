@@ -916,9 +916,9 @@ let HandCardView = cc.Class({
         this.spaX = pdkCard.x - pdkCard0.x;
         this.spaW = pdkCard.width;
 
-        this.root.scaleX = 1.1;
-        this.root.scaleY = 1.1;
-        this.spaX = this.spaW*0.6;
+        this.root.scaleX = 1.0;
+        this.root.scaleY = 1.0;
+        this.spaX = this.spaW*0.64;
 
         pdkCard0.destroy();
         pdkCard.destroy();

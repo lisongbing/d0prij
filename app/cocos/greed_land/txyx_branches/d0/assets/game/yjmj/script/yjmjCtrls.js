@@ -965,8 +965,7 @@ let MajhHandCardView = cc.Class({
                 }
             });
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+            let cardType = this.pPage.cardType
         let lenght = newHcGroups.length % 3
         if (lenght == 2) {
             let allPaiLenght = newHcGroups.length
@@ -1010,8 +1009,7 @@ let MajhHandCardView = cc.Class({
             }
         });
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
 
         let lenght = newHcGroups.length % 3
         if (lenght == 2) {
@@ -1143,8 +1141,7 @@ let MajhHandCardView = cc.Class({
         this.animatInsertCard(runNodeArr)
     },
     updateAllHandleCardPosition: function() {
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
         let userPoint = this.selfView.index
 
         if (userPoint == 0) {
@@ -1822,8 +1819,7 @@ let MajhHandCardView = cc.Class({
         }
     },
     showHuPaiView: function (palyerViewItem, code, lastV) { // 显示胡牌
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
 
         let positionX, positionY
         let userPoint = this.selfView.index
@@ -2223,11 +2219,7 @@ let MajhQiCardView = cc.Class({
         self.doAddOneDelay(cardNum, true)
     },
     doAddOneDelay: function(cardNum, showPoint=false) {
-
-        //cc.log('初始化添加麻将....doAddOneDelay...')
-
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
 
         let positionX, positionY
 
@@ -2790,8 +2782,7 @@ let MajhQiCardView = cc.Class({
         }
     },
     updateAllQiPaiCardPosition: function() {
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
         // 总人数
         let total = this.gameMgr.roomInfo.total;
         let viewIndex = 0;
@@ -3311,9 +3302,8 @@ let MajhPongCardView = cc.Class({
     },
     // 提操作
     doChangeZhongPai: function(code, gui) {
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardIndex = this.selfView.index;
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+
+        let cardType = this.pPage.cardType
 
         let cardKeyName = 'majh_cardval_';
         let riAndLeft = false
@@ -3663,9 +3653,8 @@ let MajhPongCardView = cc.Class({
     // },
     // 手里的牌，直接就杠了
     doAddGangPai: function(codeArr, index) {
-        let gameType = this.gameMgr.roomInfo.gameType
         let cardIndex = this.selfView.index;
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
         if (cardType == 1) { // 直板
             cardIndex += 4;
         }
@@ -3918,9 +3907,8 @@ let MajhPongCardView = cc.Class({
     //     this.pongPaiArr.push(newCard);
     // },
     doAddOnePongPai: function(cardObj) {
-        let gameType = this.gameMgr.roomInfo.gameType
         let cardIndex = this.selfView.index;
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
         if (cardType == 1) { // 直板
             cardIndex += 4;
         }
@@ -4394,8 +4382,7 @@ let MajhPongCardView = cc.Class({
     },
     updateAllPongCardPosition: function() {
         let viewIndex = 0;
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
         const self = this
         if (this.selfView.index == 0) {
             this.pongPaiArr.forEach(card => {
@@ -4538,8 +4525,7 @@ let MajhPongCardView = cc.Class({
             return;
         }
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
+        let cardType = this.pPage.cardType
 
         // 显示节点
         // this.root.active = true;
@@ -4692,6 +4678,7 @@ let D2SettleView = cc.Class({
 
                 let sprite_cardVal_img = cc.find("Sprite_cardVal", cardNode);
                 sprite_cardVal_img.getComponent(cc.Sprite).spriteFrame = this.pg.majhCardAtlas0.getSpriteFrame('majh_cardval_' + rc[i]);
+                // cardNode.setPosition(cardNode.x, cardNode.y + cardNode.height*0.5)
                 hblc.addChild(cardNode);
             }
             hblc.getComponent(cc.Layout).updateLayout();
@@ -5042,7 +5029,7 @@ let D2SettleView = cc.Class({
                 let sprite_cardVal_img = cc.find("Sprite_cardVal", cardNode);
                 sprite_cardVal_img.getComponent(cc.Sprite).spriteFrame = this.pg.majhCardAtlas0.getSpriteFrame('majh_cardval_' + cardcode);
 
-                cardNode.setPosition(positionX, positionY);
+                cardNode.setPosition(positionX, positionY + cardNode.height*0.5);
                 layout_H_cards.addChild(cardNode);
 
                 if (cardcode == -100) {
@@ -5074,7 +5061,7 @@ let D2SettleView = cc.Class({
     //
     showMaFunc: function() {
         // 添加麻将
-        let cardType = cc.g.utils.getPaiVaule(20);
+        // let cardType = this.pPage.cardType
         let settleData = this.pg.gameMgr.SettleData;
         let maValue = settleData.maValue;
         this.Layout_Hor.removeAllChildren(true)
@@ -5091,9 +5078,9 @@ let D2SettleView = cc.Class({
                 let sprite_cardVal_img = cc.find("Sprite_cardVal", cardNode);
 
                 let keys = 'majh_cardval_' + code
-                if (cardType == 1) {
-                    keys += '_1'
-                }
+                // if (cardType == 1) {
+                //     keys += '_1'
+                // }
 
                 sprite_cardVal_img.getComponent(cc.Sprite).spriteFrame = this.pg.majhCardAtlas0.getSpriteFrame(keys);
                 this.Layout_Hor.addChild(cardNode);
@@ -5213,14 +5200,14 @@ let D2SettleFinalView = cc.Class({
     initView: function () {
         let r = cc.find("Node_ctt", this.root);
 
-        // 地区
-        this.Label_area = cc.find("Label_area", r).getComponent(cc.Label);
-
-        // 房间号
-        this.Label_roomID = cc.find("Label_roomID", r).getComponent(cc.Label);
-
-        // 总局数
-        this.Label_rouds = cc.find("Node_rouds/Label_rouds", r).getComponent(cc.Label);
+        // // 地区
+        // this.Label_area = cc.find("Label_area", r).getComponent(cc.Label);
+        //
+        // // 房间号
+        // this.Label_roomID = cc.find("Label_roomID", r).getComponent(cc.Label);
+        //
+        // // 总局数
+        // this.Label_rouds = cc.find("Node_rouds/Label_rouds", r).getComponent(cc.Label);
 
         // 分享一下
         this.Button_share = cc.find("Button_share", r);
@@ -5229,6 +5216,30 @@ let D2SettleFinalView = cc.Class({
         this.Button_backhall = cc.find("Button_backhall", r);
         this.Button_backhall.on('touchend', this.backhall, this);
     },
+    upInfo: function () {
+        cc.log("upInfo")
+
+        let ri = this.pg.gameMgr.roomInfo;
+
+        let r = this.root;
+
+        // 地区
+        let Node_ri = cc.find("Node_ri", r);
+        if (!Node_ri) {
+            return;
+        }
+
+        Node_ri.active = true
+
+        let Label_diqu = cc.find("Label_diqu", Node_ri).getComponent(cc.Label);
+        Label_diqu.string = '幺鸡麻将' //cc.g.areaInfo[ri.origin].name + '麻将';
+
+        let Label_room = cc.find("Label_room", Node_ri).getComponent(cc.Label);
+        Label_room.string = `房间号:  ${ri.roomId}  局数: ${ri.curGameNum}/${ri.GameNum}`;
+
+        let Label_time = cc.find("Label_time", Node_ri).getComponent(cc.Label);
+        Label_time.string = cc.g.utils.getFormatTimeXXX(null, 'Y|.|M|.|D| |h|:|m|:|s|');
+    },
 
     /* ------------------------------------------------------------------------------------------------------------ */
 
@@ -5236,12 +5247,14 @@ let D2SettleFinalView = cc.Class({
     upView: function () {
         let ri = this.pg.gameMgr.roomInfo;
         let sd = this.pg.gameMgr.SettleFinalData;
-        // 地区
-        this.Label_area.string = '幺鸡麻将'//cc.g.areaInfo[ri.origin].name + '麻将';
-        // 房间号
-        this.Label_roomID.string = '房间号：' + ri.roomId;
-        // 总局数
-        this.Label_rouds.string = sd.num;
+        // // 地区
+        // this.Label_area.string = '幺鸡麻将'//cc.g.areaInfo[ri.origin].name + '麻将';
+        // // 房间号
+        // this.Label_roomID.string = '房间号：' + ri.roomId;
+        // // 总局数
+        // this.Label_rouds.string = sd.num;
+
+        this.upInfo()
 
         this.hboxPlayer = cc.find("Node_All_View/All_View_Layout", this.root);
         // this.hboxPlayer.removeAllChildren(true)
@@ -5420,12 +5433,11 @@ let D2SettleFinalView = cc.Class({
  * @returns {Node}
  */
 let lc_creatHandCard = function (viewIndex, idx, mainPage) {
-    let gameType = mainPage.gameMgr.roomInfo.gameType
-    cc.log('gameType-->' + gameType)
+
     let cardIndex = viewIndex;
     cc.log('cardIndex-->' + cardIndex)
 
-    let cardType = cc.g.utils.getPaiVaule(gameType);
+    let cardType = mainPage.cardType
     cc.log('cardType-->' + cardType)
     if (cardType == 1) { // 直板
         cardIndex += 4;
@@ -5500,12 +5512,10 @@ let lc_creatHandCard = function (viewIndex, idx, mainPage) {
  */
 let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
 
-    let gameType = mainPage.gameMgr.roomInfo.gameType
-    cc.log('gameType-->' + gameType)
     let cardIndex = viewIndex;
     cc.log('cardIndex-->' + cardIndex)
 
-    let cardType = cc.g.utils.getPaiVaule(gameType);
+    let cardType = mainPage.cardType
     cc.log('cardType-->' + cardType)
     if (cardType == 1) { // 直板
         cardIndex += 3;
@@ -5554,12 +5564,10 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
  */
 let lc_creatHuCard = function (viewIndex, mainPage) {
 
-    let gameType = mainPage.gameMgr.roomInfo.gameType
-    cc.log('gameType-->' + gameType)
     let cardIndex = viewIndex;
     cc.log('cardIndex-->' + cardIndex)
 
-    let cardType = cc.g.utils.getPaiVaule(gameType);
+    let cardType = mainPage.cardType
     cc.log('cardType-->' + cardType)
     if (cardType == 1) { // 直板
         cardIndex += 4;

@@ -128,6 +128,13 @@ cc.Class({
                 this.scheduleOnce(()=>popf(), delayT);
             }
         });
+
+        // 消息错误，统一处理
+        cc.g.networkMgr.addHandler(PB.PROTO.PLAY_ILLEGAL, (commonResp) => {
+            cc.log('PLAY_ILLEGAL......===>.', commonResp.err)
+            // 主动关闭网络
+            cc.g.networkMgr.close()
+        });
     },
 
     showWaiting: function (msg) {

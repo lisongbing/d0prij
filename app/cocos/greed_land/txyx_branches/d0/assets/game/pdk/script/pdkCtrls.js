@@ -818,21 +818,21 @@ let HandCardView = cc.Class({
         let pdkCard = cc.find("pdkCard", this.Node_handCard);
         let pdkCardn = cc.find("pdkCardn", this.Node_handCard);
         
-        this.spaX = pdkCard.x - pdkCard0.x;
+        this.spaX = pdkCard0.x - pdkCard.x;
         this.spaW = pdkCard.width;
 
         this.root.scaleX = 1.0;
         this.root.scaleY = 1.0;
         if (GM.roomInfo.pnd.hcn==13) {
-            this.spaX = this.spaW*0.5;
+            this.spaX = this.spaW*0.48;
         } else {
-            this.spaX = this.spaW*0.36;
+            this.spaX = this.spaW*0.32;//0.3846153846153846
         }
 
         if (cc.g.areaInfo[GM.roomInfo.origin].name == '兴文') {
-            this.root.scaleX = 0.9;
-            this.root.scaleY = 0.9;
-            this.spaX = this.spaW*0.45;
+            //this.root.scaleX = 0.9;
+            //this.root.scaleY = 0.9;
+            //this.spaX = this.spaW*0.45;
         }
 
         pdkCard0.destroy();
@@ -883,7 +883,7 @@ let HandCardView = cc.Class({
         let cw = this.cardItms[0].root.width;
 
         if (GM.roomInfo.origin == 3) {
-            spaX *= 1.3;
+            //spaX *= 1.3;
         }
 
         this.root.width = (num-1)*spaX + cw;
@@ -1205,13 +1205,13 @@ let BackPlayHandCardView = cc.Class({
             let item = new LocHandCard();
             item.init(i, codes[i], this)
 
-            item.root.y = Math.floor(i/10)*-70;
+            item.root.y = 60 + Math.floor(i/10)*-120;
 
             if (pvidx==1 || pvidx==2 || pvidx==4) {
-                item.root.x = -item.root.width + (i%10)*-48;
+                item.root.x = -item.root.width + (i%10)*-80;
                 this.Node_handCard.addChild(item.root,  Math.floor(i/10)*1000 + 100-i);
             } else if (pvidx==3 || pvidx==5 || pvidx==6) {
-                item.root.x = (i%10)*45;
+                item.root.x = (i%10)*80;
                 this.Node_handCard.addChild(item.root);
             }
         }

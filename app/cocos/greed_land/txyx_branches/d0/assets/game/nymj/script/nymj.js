@@ -318,7 +318,7 @@ cc.Class({
         // // 换牌按钮
         // this.huanPaiBtn = cc.find("Layout_HuanPai/Button_HuanPai", this.node_Huanpai).getComponent(cc.Button)
         // // 设置位灰色按钮
-        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         // this.huanPaiBtn.enabled = false;
 
         // 胡 提 杠 按钮
@@ -452,9 +452,67 @@ cc.Class({
         this.Node_ts = cc.find("Sprite_Bg_Node/Node_ts", r);
         this.Node_zb = cc.find("Sprite_Bg_Node/Node_zb", r);
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
-        if (cardType == 1) {
+        // piao
+        this.Node_Piao_old = cc.find("Node_Piao", r);
+        this.Node_Piao_old.active = false;
+
+        // 使用这个最新的
+        this.Node_Piao = cc.find("Node_New_Piao", r);
+        this.Node_Piao.active = false;
+
+        // 胡牌提示页面
+        this.Node_hupaiTip = cc.find("Node_hupaiTip", r);
+        this.Node_hupaiTip.active = false;
+        // 胡多少张
+        this.Sprite_hu_count_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_num/Label", r).getComponent(cc.Label);
+        // 多少倍
+        this.Sprite_hu_bei_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_maxbei/Label", r).getComponent(cc.Label);
+        // gd box
+        this.Sprite_hu_Gbox = cc.find("Node_hupaiTip/GBox_tips", r);
+        // 背景
+        this.Sprite_Hu_bg = cc.find("Node_hupaiTip/Sprite_bg", r)
+        this.Sprite_Hu_bg.ow = this.Sprite_Hu_bg.width;
+        this.Sprite_Hu_bg.oh = this.Sprite_Hu_bg.height;
+        //
+        this.sv_huifo = cc.find("Node_hupaiTip/ScrollView_huifo", r).getComponent(cc.ScrollView);
+
+        this.Tmp_NodeTingYongView = cc.find("Tmp_NodeTingYongView", r);
+        // 听用页面
+        this.NodeTingYongView = cc.find("NodeTingYongView", r);
+        this.NodeTingYongView.active = false;
+
+
+        // 单张牌动画
+        this.Node_Ting_Anmi = cc.find("NodeTingYongView/Node_Ting_Anmi/wangAnim", r)
+        this.Node_Ting_Anmi.active = false;
+        this.Node_Ting_Anmi.ox = this.Node_Ting_Anmi.x
+        this.Node_Ting_Anmi.oy = this.Node_Ting_Anmi.y
+
+        // 单张牌动画
+        this.Node_Zhua_Ma = cc.find("Node_ZhuaMa", r)
+        this.Node_Zhua_Ma.active = false;
+
+        // 文字label
+        this.Node_Ting_Layout_Label = cc.find("Node_ZhuaMa/zhuaMaAnim/Node_Pai/Label_Bei", r).getComponent(cc.Label);
+        this.Node_Ting_Layout_Label.string = 'X 0'
+        // layout
+        this.Node_Ting_Layout = cc.find("Node_ZhuaMa/zhuaMaAnim/Node_Pai/Layout_Horn", r)
+        this.Node_Ting_Layout.removeAllChildren(true);
+        this.Node_Ting_Layout.active = false;
+
+        // 托管提示
+        this.Node_tgts = cc.find("Node_tgts", r);
+        this.Node_tgts.desc = cc.find("text", this.Node_tgts).getComponent(cc.Label);
+        this.Node_tgts.active = false;
+
+        this.initAreaDatas();
+        // 玩家视图
+        this.initPlayerView();
+        // 初始化动画层
+        this.initAnimationView();
+    },
+    initDnxb: function() {
+        if (this.cardType == 1) {
             this.Node_ts.active = false
             this.Node_zb.active = true
             this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
@@ -483,62 +541,6 @@ cc.Class({
             this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
             this.Sprite_nan.active = false;
         }
-
-
-        // piao
-        this.Node_Piao_old = cc.find("Node_Piao", r);
-        this.Node_Piao_old.active = false;
-
-        // 使用这个最新的
-        this.Node_Piao = cc.find("Node_New_Piao", r);
-        this.Node_Piao.active = false;
-
-        // 胡牌提示页面
-        this.Node_hupaiTip = cc.find("Node_hupaiTip", r);
-        this.Node_hupaiTip.active = false;
-        // 胡多少张
-        this.Sprite_hu_count_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_num/Label", r).getComponent(cc.Label);
-        // 多少倍
-        this.Sprite_hu_bei_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_maxbei/Label", r).getComponent(cc.Label);
-        // gd box
-        this.Sprite_hu_Gbox = cc.find("Node_hupaiTip/GBox_tips", r);
-        // 背景
-        this.Sprite_Hu_bg = cc.find("Node_hupaiTip/Sprite_bg", r)
-        this.Sprite_Hu_bg.ow = this.Sprite_Hu_bg.width;
-        this.Sprite_Hu_bg.oh = this.Sprite_Hu_bg.height;
-        //
-        this.sv_huifo = cc.find("Node_hupaiTip/ScrollView_huifo", r).getComponent(cc.ScrollView);
-
-        // 听用页面
-        this.NodeTingYongView = cc.find("NodeTingYongView", r);
-        this.NodeTingYongView.active = false;
-
-        // 单张牌动画
-        this.Node_Ting_Anmi = cc.find("NodeTingYongView/Node_Ting_Anmi/wangAnim", r)
-        this.Node_Ting_Anmi.active = false;
-
-        // 单张牌动画
-        this.Node_Zhua_Ma = cc.find("Node_ZhuaMa", r)
-        this.Node_Zhua_Ma.active = false;
-
-        // 文字label
-        this.Node_Ting_Layout_Label = cc.find("Node_ZhuaMa/zhuaMaAnim/Node_Pai/Label_Bei", r).getComponent(cc.Label);
-        this.Node_Ting_Layout_Label.string = 'X 0'
-        // layout
-        this.Node_Ting_Layout = cc.find("Node_ZhuaMa/zhuaMaAnim/Node_Pai/Layout_Horn", r)
-        this.Node_Ting_Layout.removeAllChildren(true);
-        this.Node_Ting_Layout.active = false;
-
-        // 托管提示
-        this.Node_tgts = cc.find("Node_tgts", r);
-        this.Node_tgts.desc = cc.find("text", this.Node_tgts).getComponent(cc.Label);
-        this.Node_tgts.active = false;
-
-        this.initAreaDatas();
-        // 玩家视图
-        this.initPlayerView();
-        // 初始化动画层
-        this.initAnimationView();
     },
     onClickSwallow: function () {
         //cc.log(this.dbgstr('onClickSwallow'));
@@ -812,6 +814,11 @@ cc.Class({
     },
     // 更新视图
     upPage: function () {
+
+        let gameType = this.gameMgr.roomInfo.gameType
+        this.cardType = cc.g.utils.getPaiVaule(gameType);
+
+        this.initDnxb()
         this.resetDatas();
 
         cc.g.hallMgr.inGameMenu.upteagold();
@@ -1697,11 +1704,11 @@ cc.Class({
                 this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_01');
                 this.huanPaiBtn.enabled = true
             } else {
-                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
                 this.huanPaiBtn.enabled = false
             }
         } else {
-            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
             this.huanPaiBtn.enabled = false
         }
     },
@@ -2072,7 +2079,7 @@ cc.Class({
         // // 显示换牌节点
         // if (getRelDeskId == 0) {
         //     this.node_Huanpai.active = true
-        //     this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        //     this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         //     this.huanPaiBtn.enabled = false
         // }
 
@@ -3706,7 +3713,7 @@ cc.Class({
         this.NodeTingYongView.active = false;
         // this.Node_Ting_Anmi.active = false;
         this.Node_Ting_Anmi.active = false;
-        this.Node_Ting_Anmi.setPosition(7, 38);
+        this.Node_Ting_Anmi.setPosition(this.Node_Ting_Anmi.ox, this.Node_Ting_Anmi.oy);
         // this.Node_Ting_Layout.removeAllChildren(true);
         // this.Node_Ting_Layout.active = false;
     },
@@ -3714,7 +3721,7 @@ cc.Class({
     clearWaitCard: function () {
         // 换牌按钮为灰色
         this.node_Huanpai.active = false
-        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        // this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         // this.huanPaiBtn.enabled = false
 
         this.node_HuaiPai_all_View.active = false;
@@ -4608,7 +4615,7 @@ cc.Class({
         this.NodeTingYongView.active = true;
         this.Node_Ting_Anmi.active = true;
         // this.Node_Ting_Anmi.active = false;
-        this.Node_Ting_Anmi.setPosition(7, 38)
+        this.Node_Ting_Anmi.setPosition(this.Node_Ting_Anmi.ox, this.Node_Ting_Anmi.oy)
         let cardNode = this.Node_Ting_Anmi;
 
         // let Sprite_cardBg = cc.find("Sprite_cardBg", cardNode);
@@ -4616,6 +4623,9 @@ cc.Class({
         let Sprite_cardValNode = cc.find("Sprite_cardVal", cardNode);
         let Sprite_cardVal = Sprite_cardValNode.getComponent(cc.Sprite);
         Sprite_cardVal.spriteFrame =  this.majhCardAtlas0.getSpriteFrame('majh_cardval_' + code);
+
+        cc.log('Tmp_NodeTingYongView-->' + this.Tmp_NodeTingYongView.x)
+        cc.log('Tmp_NodeTingYongView-->' + this.Tmp_NodeTingYongView.y)
 
         if (showAnima) {
             const self = this
@@ -4627,14 +4637,14 @@ cc.Class({
                     cc.sequence(
                         cc.delayTime(0.2),
                         cc.spawn(
-                            cc.moveTo(0.2, 101, 36),
+                            cc.moveTo(0.2, self.Tmp_NodeTingYongView.x, self.Tmp_NodeTingYongView.y),
                             cc.scaleTo(0.2, 1, 1),
                         ),
                     )
                 )
             }, 0.2);
         } else {
-            this.Node_Ting_Anmi.setPosition(101, 36)
+            this.Node_Ting_Anmi.setPosition(this.Tmp_NodeTingYongView.x, this.Tmp_NodeTingYongView.y)
         }
     },
     // 本金
@@ -4733,18 +4743,27 @@ cc.Class({
             this.tingCodeArr = tingCodeArr
 
             if (!cc.g.utils.judgeArrayEmpty(tingCodeArr)) {
-                if (showAnima) {
-                    // 显示动画
-                    this.Node_Ting_Layout.active = true;
-                } else {
-                    this.NodeTingYongView.active = true;
-                    this.Node_Ting_Anmi.active = true;
-                    // this.Node_Ting_All.active = true;
-                 //   this.Node_Ting_Anmi.setPosition(101, 36);
-                    // this.Node_Ting_Layout.active = true;
-                }
+                const self = this
+                self.Node_Ting_Anmi.active = false;
+                this.scheduleOnce(() =>{
+                    if (showAnima) {
+                        // 显示动画
+                        self.Node_Ting_Layout.active = true;
+                    } else {
+                        self.NodeTingYongView.active = true;
+                        self.Node_Ting_Anmi.active = true;
+                    }
+                    self.doShowTingAnmi(showAnima, tingCodeArr[0])
+                }, 1);
 
-                this.doShowTingAnmi(showAnima, tingCodeArr[0])
+                // if (showAnima) {
+                //     // 显示动画
+                //     self.Node_Ting_Layout.active = true;
+                // } else {
+                //     self.NodeTingYongView.active = true;
+                //     self.Node_Ting_Anmi.active = true;
+                // }
+                // self.doShowTingAnmi(showAnima, tingCodeArr[0])
             }
 
             // 收到本金消息的时候，就计算出鬼牌，并保存

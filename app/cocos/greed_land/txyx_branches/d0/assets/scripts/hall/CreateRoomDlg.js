@@ -957,7 +957,7 @@ cc.Class({
 
         // 隐藏宁远麻将特殊选项
         if (this.curGameId==GMID.NYMJ) {
-            if (cc.g.utils.judgeMapEmpty(this.exData)) {
+            if (cc.g.utils.judgeObjectEmpty(this.exData)) {
                 this.Node_Ny_TeSu.active = false
             } else {
                 if (this.exData.playerNum==2) {

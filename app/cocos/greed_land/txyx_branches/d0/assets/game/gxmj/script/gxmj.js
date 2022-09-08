@@ -239,6 +239,9 @@ cc.Class({
         this.saveCurrentPalyerViewItem = null;
     },
     onLoad() {
+
+        cc.log('onLoad......')
+
         // 获取消息处理mgr
         this.gameMgr = cc.g.gxmjMgr;
 
@@ -266,6 +269,8 @@ cc.Class({
         // 更新页面
         this.upPage();
 
+        this.initDnxb();
+
         if (this.isbpm) {
             if (this.gameMgr.backPlay) {
                 this.gameMgr.backPlay.gameLoaded();
@@ -273,9 +278,9 @@ cc.Class({
 
             this.gameMgr.backPlay.begin();
         }
-
     },
     start() {
+        cc.log('start......')
     },
     // 初始化界面
     initView: function (info) {
@@ -321,7 +326,7 @@ cc.Class({
         // 换牌按钮
         this.huanPaiBtn = cc.find("Layout_HuanPai/Button_HuanPai", this.node_Huanpai).getComponent(cc.Button)
         // 设置位灰色按钮
-        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         this.huanPaiBtn.enabled = false;
 
         // 胡 提 杠 按钮
@@ -458,43 +463,11 @@ cc.Class({
         this.Node_ts = cc.find("Sprite_Bg_Node/Node_ts", r);
         this.Node_zb = cc.find("Sprite_Bg_Node/Node_zb", r);
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
-        if (cardType == 1) {
-            this.Node_ts.active = false
-            this.Node_zb.active = true
-            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
-            this.Sprite_dong.active = false;
-
-            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
-            this.Sprite_bei.active = false;
-
-            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
-            this.Sprite_xi.active = false;
-
-            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
-            this.Sprite_nan.active = false;
-        } else {
-            this.Node_ts.active = true
-            this.Node_zb.active = false
-            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
-            this.Sprite_dong.active = false;
-
-            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
-            this.Sprite_bei.active = false;
-
-            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
-            this.Sprite_xi.active = false;
-
-            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
-            this.Sprite_nan.active = false;
-        }
-
-
         // piao
         this.Node_Piao = cc.find("Node_Piao", r);
         this.Node_Piao.active = false;
 
+        this.Tmp_Node_hupaiTip = cc.find("Tmp_Node_hupaiTip", r);
         // 胡牌提示页面
         this.Node_hupaiTip = cc.find("Node_hupaiTip", r);
         this.Node_hupaiTip.active = false;
@@ -540,6 +513,37 @@ cc.Class({
         this.initPlayerView();
         // 初始化动画层
         this.initAnimationView();
+    },
+    initDnxb: function() {
+        if (this.cardType == 1) {
+            this.Node_ts.active = false
+            this.Node_zb.active = true
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
+            this.Sprite_nan.active = false;
+        } else {
+            this.Node_ts.active = true
+            this.Node_zb.active = false
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
+            this.Sprite_nan.active = false;
+        }
     },
     onClickSwallow: function () {
         //cc.log(this.dbgstr('onClickSwallow'));
@@ -785,7 +789,12 @@ cc.Class({
     },
     // 更新视图
     upPage: function () {
-        // //cc.log("upPage------------>", this)
+        
+        let gameType = this.gameMgr.roomInfo.gameType
+        this.cardType = cc.g.utils.getPaiVaule(gameType);
+
+        this.initDnxb()
+
         this.resetDatas();
 
         cc.g.hallMgr.inGameMenu.upteagold();
@@ -1732,7 +1741,10 @@ cc.Class({
 
         // 显示胡牌提示按钮
         if (this.huPaiCurrentItem) {
-            this.OnInGMTip()
+
+            this.scheduleOnce(()=>{
+                this.OnInGMTip()
+            }, 1)
             // this.HuNodeTips.active = true;
             // cc.g.hallMgr.inGameMenu.Button_tip.active = true;
         } else {
@@ -1801,11 +1813,11 @@ cc.Class({
                 this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_01');
                 this.huanPaiBtn.enabled = true
             } else {
-                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
                 this.huanPaiBtn.enabled = false
             }
         } else {
-            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
             this.huanPaiBtn.enabled = false
         }
     },
@@ -2173,7 +2185,7 @@ cc.Class({
         // 显示换牌节点
         if (getRelDeskId == 0) {
             this.node_Huanpai.active = true
-            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
             this.huanPaiBtn.enabled = false
         }
 
@@ -4019,7 +4031,7 @@ cc.Class({
     clearWaitCard: function () {
         // 换牌按钮为灰色
         this.node_Huanpai.active = false
-        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         this.huanPaiBtn.enabled = false
 
         this.node_HuaiPai_all_View.active = false;
@@ -5399,6 +5411,7 @@ cc.Class({
     OnInGMTip: function () {
         if (this.huPaiCurrentItem) {
             this.Node_hupaiTip.active = true;
+            this.Node_hupaiTip.setPosition(this.Tmp_Node_hupaiTip.x, this.Tmp_Node_hupaiTip.y)
 
             // 显示胡牌提示
             // this.doShowHuPaiAlertView();
@@ -5450,8 +5463,8 @@ cc.Class({
                     // this.Sprite_hu_Gbox.y = 4
                 } else {
                     let baseWidth = 140
-                    let mjWidth = 100 * paiLength
-                    let mjSpawidth = 20 * (paiLength) + 80
+                    let mjWidth = 40 * paiLength
+                    let mjSpawidth = 20 * (paiLength) + 50
                     this.Sprite_Hu_bg.width = baseWidth + mjWidth + mjSpawidth
                     this.Sprite_Hu_bg.height = 180//200
                     this.Sprite_hu_Gbox.width = mjWidth + mjSpawidth

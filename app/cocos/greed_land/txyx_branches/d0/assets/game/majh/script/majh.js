@@ -300,7 +300,7 @@ cc.Class({
         // 换牌按钮
         this.huanPaiBtn = cc.find("Layout_HuanPai/Button_HuanPai", this.node_Huanpai).getComponent(cc.Button)
         // 设置位灰色按钮
-        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         this.huanPaiBtn.enabled = false;
 
         // 胡 提 杠 按钮
@@ -434,38 +434,6 @@ cc.Class({
         this.Node_ts = cc.find("Sprite_Bg_Node/Node_ts", r);
         this.Node_zb = cc.find("Sprite_Bg_Node/Node_zb", r);
 
-        let gameType = this.gameMgr.roomInfo.gameType
-        let cardType = cc.g.utils.getPaiVaule(gameType);
-        if (cardType == 1) {
-            this.Node_ts.active = false
-            this.Node_zb.active = true
-            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
-            this.Sprite_dong.active = false;
-
-            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
-            this.Sprite_bei.active = false;
-
-            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
-            this.Sprite_xi.active = false;
-
-            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
-            this.Sprite_nan.active = false;
-        } else {
-            this.Node_ts.active = true
-            this.Node_zb.active = false
-            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
-            this.Sprite_dong.active = false;
-
-            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
-            this.Sprite_bei.active = false;
-
-            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
-            this.Sprite_xi.active = false;
-
-            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
-            this.Sprite_nan.active = false;
-        }
-
         // 胡牌提示
         this.HuNodeTips = cc.find("HuNodeTips", r);
         this.HuNodeTips.active = false;
@@ -507,6 +475,37 @@ cc.Class({
 
         // 回放时，统计换三张次数
         this.huan3Times = 0;
+    },
+    initDnxb: function() {
+        if (this.cardType == 1) {
+            this.Node_ts.active = false
+            this.Node_zb.active = true
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_zb);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_zb);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_zb);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_zb);
+            this.Sprite_nan.active = false;
+        } else {
+            this.Node_ts.active = true
+            this.Node_zb.active = false
+            this.Sprite_dong = cc.find("Sprite_dong", this.Node_ts);
+            this.Sprite_dong.active = false;
+
+            this.Sprite_bei = cc.find("Sprite_bei", this.Node_ts);
+            this.Sprite_bei.active = false;
+
+            this.Sprite_xi = cc.find("Sprite_xi", this.Node_ts);
+            this.Sprite_xi.active = false;
+
+            this.Sprite_nan = cc.find("Sprite_nan", this.Node_ts);
+            this.Sprite_nan.active = false;
+        }
     },
     onClickSwallow: function () {
         //cc.log(this.dbgstr('onClickSwallow'));
@@ -754,6 +753,11 @@ cc.Class({
     },
     // 更新视图
     upPage: function () {
+
+        let gameType = this.gameMgr.roomInfo.gameType
+        this.cardType = cc.g.utils.getPaiVaule(gameType);
+
+        this.initDnxb()
         this.resetDatas();
 
         cc.g.hallMgr.inGameMenu.upteagold();
@@ -1637,11 +1641,11 @@ cc.Class({
                 this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_01');
                 this.huanPaiBtn.enabled = true
             } else {
-                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+                this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
                 this.huanPaiBtn.enabled = false
             }
         } else {
-            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
             this.huanPaiBtn.enabled = false
         }
     },
@@ -2014,7 +2018,7 @@ cc.Class({
         // 显示换牌节点
         if (getRelDeskId == 0) {
             this.node_Huanpai.active = true
-            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+            this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
             this.huanPaiBtn.enabled = false
         }
 
@@ -3383,7 +3387,7 @@ cc.Class({
     clearWaitCard: function () {
         // 换牌按钮为灰色
         this.node_Huanpai.active = false
-        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_08');
+        this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
         this.huanPaiBtn.enabled = false
 
         this.needCallBack = false;

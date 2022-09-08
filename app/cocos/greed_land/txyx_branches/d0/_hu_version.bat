@@ -5,4 +5,4 @@ rem relese	1.9.31
 rem 119 	1.11.107
 rem 119 	1.12.4
 
-set VERSION=8.0.0
+set VERSION=1.1000.8

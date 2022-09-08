@@ -142,6 +142,9 @@ module.exports = {
 			1045: {
 				resp:PB.GaoXianPdkPlayerResultListNtf,
 			},
+			1046: {
+				resp:PB.PLAY_ILLEGALResp,
+			},
 			2000: {
 				req:PB.HeartReq,
 				resp:PB.HeartResp,
