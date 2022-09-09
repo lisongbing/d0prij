@@ -73,6 +73,7 @@ MajhDef.SendCardPos = [
         },
         moveZhiBy: {
             x: -60,
+            y: 0,//-20,
         },
         moveZhiTo: {
             y: 50,
@@ -103,7 +104,7 @@ MajhDef.SendCardPos = [
             z: 30, // 动画移动最后位置, 步长
         },
         moveZhiBy: {
-            x: 150,
+            x: 170//150,
         },
         moveZhiTo: {
             y: 45,
@@ -245,6 +246,7 @@ MajhDef.PongCardPos = [
         },
         moveByZhi: {
             x: -50,
+            y: -120,
         },
     },
     {
@@ -268,7 +270,7 @@ MajhDef.PongCardPos = [
         },
         moveByZhi: {
             x: 150,
-            y: 750,
+            y: 720,//750,
         },
         moveTo: {
             x: 35,
@@ -332,11 +334,11 @@ MajhDef.HuCardPos = [
     {
         moveTo: {
             x: 10,
-            y: 55,
+            y: 100,
         },
         moveZhiTo: {
-            x: 10,
-            y: 80,
+            x: 0,//10,
+            y: 120,//80,
         }
     },
     {
@@ -349,6 +351,10 @@ MajhDef.HuCardPos = [
         moveTo: {
             x: 30,
             y: 110,
+        },
+        moveZhiTo: {
+            x: 30,
+            y: 130,//80,
         }
     }
 ]

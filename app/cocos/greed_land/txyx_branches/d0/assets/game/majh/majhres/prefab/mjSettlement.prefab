@@ -3640,7 +3640,7 @@
       "__id__": 38
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 95
@@ -3671,7 +3671,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        540,
+        620,
         -106,
         0,
         0,
@@ -4493,8 +4493,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        640.652,
-        -30.859,
+        640,
+        -30,
         0,
         0,
         0,
@@ -6751,7 +6751,7 @@
       "__id__": 121
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 178
@@ -6782,7 +6782,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        540,
+        620,
         -106,
         0,
         0,
@@ -7604,8 +7604,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        325,
-        -26.535,
+        640,
+        -30,
         0,
         0,
         0,
@@ -9850,7 +9850,7 @@
       "__id__": 204
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 261
@@ -9881,7 +9881,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        540,
+        620,
         -106,
         0,
         0,
@@ -10703,8 +10703,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        325,
-        -26.535,
+        640,
+        -30,
         0,
         0,
         0,
@@ -12951,7 +12951,7 @@
       "__id__": 287
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 344
@@ -12982,7 +12982,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        540,
+        620,
         -106,
         0,
         0,
@@ -13804,8 +13804,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        325,
-        -26.535,
+        640,
+        -30,
         0,
         0,
         0,
@@ -19423,7 +19423,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e9e31188-8115-4e10-af3f-7cf6aaaa81f9"
+      "__uuid__": "e9f8c97f-8a28-4f7a-821e-8a24b10835d1"
     },
     "_type": 1,
     "_sizeMode": 2,

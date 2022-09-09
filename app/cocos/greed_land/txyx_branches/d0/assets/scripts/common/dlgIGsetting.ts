@@ -111,7 +111,7 @@ export default class NewClass extends cc.Component {
 
         // @ts-ignore
         let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
-        this.showDeskMjBg(data)
+        this.showDeskMjBg(this.togCfg['mjzt2'].isChecked)
         // for (let i = 0; i < GMGrp.mahjong.length; i++) {
         //     if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
         //         gmbg = gmbg || '3';
@@ -208,19 +208,25 @@ export default class NewClass extends cc.Component {
     }
 
     showDeskMjBg(curCheck) {
+        console.log('showDeskMjBg-->' + curCheck)
         // @ts-ignore
         let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
         for (let i = 0; i < GMGrp.mahjong.length; i++) {
             if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
                 gmbg = gmbg || '3';
-                if (curCheck === 'mj_0') {
-                    this.togbg[3].node.active = true;
-                    this.togbg[4].node.active = true;
-                    this.togbg[5].node.active = true;
-                } else {
+                console.log('gmbg-->' + gmbg)
+                let gmbgInt = parseInt(gmbg)
+                console.log('gmbgInt-->' + gmbgInt)
+                if (curCheck) {
                     this.togbg[3].node.active = false;
                     this.togbg[4].node.active = false;
                     this.togbg[5].node.active = true;
+                    this.togbg[5].check()
+                } else {
+                    this.togbg[3].node.active = true;
+                    this.togbg[4].node.active = true;
+                    this.togbg[5].node.active = true;
+                    this.togbg[gmbgInt].check()
                 }
 
                 break;
@@ -272,7 +278,7 @@ export default class NewClass extends cc.Component {
             // @ts-ignore
             cc.sys.localStorage.setItem(`${cc.g.hallMgr.curGameType}_mjIGS`, mjIGS);
 
-            this.showDeskMjBg(data)
+            this.showDeskMjBg((mjzt>0) ? true : false)
         }
     }
 

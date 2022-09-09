@@ -35,6 +35,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        this.curpg = 0;
         this.curGMItem = null;
         this.hisData = [];
 
@@ -61,6 +62,7 @@ cc.Class({
 
         //
         this.sv_listgm = r.getChildByName('sv_listgm').getComponent(cc.ScrollView);
+        this.sv_listgm.node.on('scroll-to-bottom', this.gm_scroll_to_bottom, this);
         //
         this.sv_listturn = r.getChildByName('sv_listturn').getComponent(cc.ScrollView);
 
@@ -80,6 +82,11 @@ cc.Class({
             closeOne.active = true
             closeTwo.active = false
         }
+    },
+    gm_scroll_to_bottom: function () {
+        cc.log('翻页 this.curpg this.curidx ', this.curpg, this.curidx);
+
+        this.upData();
     },
 
 
@@ -134,12 +141,11 @@ cc.Class({
             return;
         }
 
-        if (!this.nextpg && this.curpg>0) return;
-
         let req = pbHelper.newReq(PB.PROTO.GET_FIGHT_LIST);
         req.page = this.curpg ? this.curpg+1 : 0;
 
         if (req.page == 0) {
+            this.curpg = 0;
             this.hisData = [];
             this.curidx = 0;
         }
@@ -153,8 +159,11 @@ cc.Class({
     refreshData: function (resp) {
         cc.log('refreshData');
 
-        this.nextpg = (resp.list.length >= 20);
-        this.curpg = 1;
+        if (resp.list.length <= 0) {
+            return;
+        }
+
+        ++this.curpg;
 
         resp.list.forEach(e => {
             let d = {};

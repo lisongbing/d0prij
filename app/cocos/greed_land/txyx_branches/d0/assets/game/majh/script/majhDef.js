@@ -73,7 +73,7 @@ MajhDef.SendCardPos = [
         },
         moveZhiBy: {
             x: -60,
-            y: -20,
+            y: 0,//-20,
         },
         moveZhiTo: {
             y: 50,
@@ -334,11 +334,11 @@ MajhDef.HuCardPos = [
     {
         moveTo: {
             x: 10,
-            y: 55,
+            y: 100,
         },
         moveZhiTo: {
-            x: 10,
-            y: 80,
+            x: 0,//10,
+            y: 120,//80,
         }
     },
     {
@@ -351,6 +351,10 @@ MajhDef.HuCardPos = [
         moveTo: {
             x: 30,
             y: 110,
+        },
+        moveZhiTo: {
+            x: 30,
+            y: 130,//80,
         }
     }
 ]

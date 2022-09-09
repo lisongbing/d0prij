@@ -1269,13 +1269,13 @@ let BackPlayHandCardView = cc.Class({
             let item = new LocHandCard();
             item.init(i, codes[i], this)
 
-            item.root.y = Math.floor(i/10)*-70;
+            item.root.y = 60 + Math.floor(i/10)*-120;
 
             if (pvidx==1) {
-                item.root.x = -item.root.width + (i%10)*-48;
+                item.root.x = -item.root.width + (i%10)*-90;
                 this.Node_handCard.addChild(item.root,  Math.floor(i/10)*1000 + 100-i);
             } else if (pvidx==2) {
-                item.root.x = (i%10)*45;
+                item.root.x = (i%10)*90;
                 this.Node_handCard.addChild(item.root);
             }
         }

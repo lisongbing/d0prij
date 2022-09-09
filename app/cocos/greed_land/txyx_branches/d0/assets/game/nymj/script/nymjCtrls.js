@@ -1893,10 +1893,15 @@ let MajhHandCardView = cc.Class({
                 positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - DEF.HuCardPos[userPoint].moveTo.x //40
                 positionY = lastItem.y
             } else if (userPoint == 3) {
-                positionX = lastItem.x - DEF.HuCardPos[userPoint].moveTo.x//30
-                positionY = lastItem.y - DEF.HuCardPos[userPoint].moveTo.y//110
+                if (cardType == 1) {
+                    positionX = lastItem.x - DEF.HuCardPos[userPoint].moveZhiTo.x//30
+                    positionY = lastItem.y - DEF.HuCardPos[userPoint].moveZhiTo.y//110
+                } else {
+                     positionX = lastItem.x - DEF.HuCardPos[userPoint].moveTo.x//30
+                     positionY = lastItem.y - DEF.HuCardPos[userPoint].moveTo.y//110
+                }
+              
             }
-
             card.setPosition(positionX, positionY);
             this.Node_handCard.addChild(card, lastItem.zIndex, 'Node_Hu_Card'+userPoint);
             // 保存胡的什么牌，计算胡牌提示个数
@@ -3375,7 +3380,7 @@ let MajhPongCardView = cc.Class({
                 if (cardsLength == 0) { // 第一次添加
                     newCard.uIdx = 0;
                     positionX = DEF.PongCardPos[this.selfView.index].moveByZhi.x;
-                    positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                    positionY = DEF.PongCardPos[this.selfView.index].moveByZhi.y;
                     if (this.pPage.isbpm) {
                         positionX -= 30;
                     }
@@ -3576,7 +3581,7 @@ let MajhPongCardView = cc.Class({
 
                     } else {
                         positionX = DEF.PongCardPos[this.selfView.index].moveByZhi.x;
-                        positionY = DEF.PongCardPos[this.selfView.index].moveBy.y;
+                        positionY = DEF.PongCardPos[this.selfView.index].moveByZhi.y;
 
                         if (this.pPage.isbpm) {
                             positionX -= 30;
@@ -3653,7 +3658,7 @@ let MajhPongCardView = cc.Class({
                         positionY = DEF.PongCardPos[this.selfView.index].moveByZhi.y;
 
                         if (this.pPage.isbpm) {
-                            positionX += 10;
+                            positionX += 30;
                         }
                     }
 
@@ -4227,6 +4232,51 @@ let D2SettleView = cc.Class({
             }
         }
 
+
+        //
+        // 0 自摸
+        //
+        // 10
+        // 20
+        // 30
+        //
+        // 0
+        //
+        //
+        //
+        // 11 胡
+        //
+        // 21
+        //
+        // 31
+
+        let spriteKey = ''
+        let huSeq = allPerResultItem.huSeq
+        if (huSeq == 10) {
+            spriteKey = 'jiesuan_1zimo'
+        } else if (huSeq == 20) {
+            spriteKey = 'jiesuan_2zimo'
+        } else if (huSeq == 30) {
+            spriteKey = 'jiesuan_3zimo'
+        } else if (huSeq == 11) {
+            spriteKey = 'jiesuan_1hu'
+        } else if (huSeq == 21) {
+            spriteKey = 'jiesuan_2hu'
+        } else if (huSeq == 31) {
+            spriteKey = 'jiesuan_3hu'
+        } else {
+            spriteKey = ''
+        }
+
+        // 胡牌顺序
+        let Sprite_coin = cc.find("Sprite_coin", vbPlayerContent); //jiesuan_1zimo
+        if (cc.g.utils.judgeStringEmpty(spriteKey)) {
+            Sprite_coin.active = false
+        } else {
+            Sprite_coin.active = true
+            Sprite_coin.getComponent(cc.Sprite).spriteFrame = this.pg.majhAtlas0.getSpriteFrame(spriteKey);
+        }
+
         // 番
         let Label_fanshu = cc.find("Label_fanshu", vbPlayerContent);
         Label_fanshu.active = false
@@ -4672,9 +4722,9 @@ let lc_creatHandCard = function (viewIndex, idx, mainPage) {
         cc.find("Sprite_ZeZao", c).active = false;
     } else if (viewIndex == 1) { // Node_p2 Node_p4
         if (cardType == 1) { // 直板
-            positionX = DEF.SendCardPos[viewIndex].moveBy.x;
-            positionY = DEF.SendCardPos[viewIndex].moveBy.y + (idx * DEF.SendCardPos[viewIndex].moveTo.y);
-            c.endPosX = DEF.SendCardPos[viewIndex].moveBy.x
+            positionX = DEF.SendCardPos[viewIndex].moveZhiBy.x;
+            positionY = DEF.SendCardPos[viewIndex].moveZhiBy.y + (idx * DEF.SendCardPos[viewIndex].moveTo.y);
+            c.endPosX = DEF.SendCardPos[viewIndex].moveZhiBy.x
             c.endPosY = positionY;
         } else {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) + DEF.SendCardPos[viewIndex].moveTo.z;
@@ -4751,7 +4801,7 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x
             positionX = positionX - 80
             positionY = DEF.SendCardPos[viewIndex].moveBy.y - (idx * DEF.SendCardPos[viewIndex].moveTo.y)
-            positionY = positionY// - 80
+            positionY = positionY - 80
         } else {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) - DEF.SendCardPos[viewIndex].moveTo.z;
             positionX = positionX - 80

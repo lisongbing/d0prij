@@ -474,7 +474,7 @@ let MajhPlayerView = cc.Class({
             return;
         }
 
-                let tstr=()=>{
+        let tstr=()=>{
             this.offlinetime = this.offlinetime||0;
 
             let m = this.offlinetime/60;
@@ -1840,8 +1840,14 @@ let MajhHandCardView = cc.Class({
                 positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - DEF.HuCardPos[userPoint].moveTo.x //40
                 positionY = lastItem.y
             } else if (userPoint == 3) {
-                positionX = lastItem.x - DEF.HuCardPos[userPoint].moveTo.x//30
-                positionY = lastItem.y - DEF.HuCardPos[userPoint].moveTo.y//110
+                if (cardType == 1) {
+                    positionX = lastItem.x - DEF.HuCardPos[userPoint].moveZhiTo.x//30
+                    positionY = lastItem.y - DEF.HuCardPos[userPoint].moveZhiTo.y//110
+                } else {
+                     positionX = lastItem.x - DEF.HuCardPos[userPoint].moveTo.x//30
+                     positionY = lastItem.y - DEF.HuCardPos[userPoint].moveTo.y//110
+                }
+              
             }
             card.setPosition(positionX, positionY);
             this.Node_handCard.addChild(card, lastItem.zIndex, 'Node_Hu_Card'+userPoint);
@@ -3621,7 +3627,7 @@ let MajhPongCardView = cc.Class({
                         positionY = DEF.PongCardPos[this.selfView.index].moveByZhi.y;
 
                         if (this.pPage.isbpm) {
-                            positionX += 10;
+                            positionX += 30;
                         }
                     }
 
@@ -4677,7 +4683,7 @@ let lc_creatOtherHc = function (viewIndex, idx, mainPage) {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x
             positionX = positionX - 80
             positionY = DEF.SendCardPos[viewIndex].moveBy.y - (idx * DEF.SendCardPos[viewIndex].moveTo.y)
-            positionY = positionY// - 80
+            positionY = positionY - 80
         } else {
             positionX = DEF.SendCardPos[viewIndex].moveBy.x - (idx * DEF.SendCardPos[viewIndex].moveTo.x) - DEF.SendCardPos[viewIndex].moveTo.z;
             positionX = positionX - 80

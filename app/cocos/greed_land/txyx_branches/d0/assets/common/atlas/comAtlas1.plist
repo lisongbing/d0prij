@@ -4,36 +4,10 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>com.dgn_27_19.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,781},{543,39}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{543,39}}</string>
-                <key>sourceSize</key>
-                <string>{543,39}</string>
-            </dict>
-            <key>com.dgn_28_19.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,740},{543,39}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{543,39}}</string>
-                <key>sourceSize</key>
-                <string>{543,39}</string>
-            </dict>
             <key>com_dgn_10_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,699},{543,39}}</string>
+                <string>{{1092,371},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +20,7 @@
             <key>com_dgn_10_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,658},{543,39}}</string>
+                <string>{{547,371},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -59,7 +33,7 @@
             <key>com_dgn_11_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,617},{543,39}}</string>
+                <string>{{1092,330},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +46,7 @@
             <key>com_dgn_11_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,576},{543,39}}</string>
+                <string>{{547,330},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,7 +59,7 @@
             <key>com_dgn_11_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,535},{543,39}}</string>
+                <string>{{1092,289},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -98,11 +72,11 @@
             <key>com_dgn_11_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{957,2},{543,39}}</string>
+                <string>{{547,289},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -111,11 +85,11 @@
             <key>com_dgn_12_5.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{916,2},{543,39}}</string>
+                <string>{{1092,248},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -124,11 +98,11 @@
             <key>com_dgn_13_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{875,2},{543,39}}</string>
+                <string>{{547,248},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -137,11 +111,11 @@
             <key>com_dgn_14_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{834,2},{543,39}}</string>
+                <string>{{1092,207},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -150,11 +124,11 @@
             <key>com_dgn_15_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{793,2},{543,39}}</string>
+                <string>{{547,207},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -163,11 +137,11 @@
             <key>com_dgn_16_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{752,2},{543,39}}</string>
+                <string>{{1092,166},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -176,11 +150,11 @@
             <key>com_dgn_18_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{711,2},{543,39}}</string>
+                <string>{{547,166},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -189,11 +163,11 @@
             <key>com_dgn_19_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{670,2},{543,39}}</string>
+                <string>{{1092,125},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -202,11 +176,11 @@
             <key>com_dgn_20_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{629,2},{543,39}}</string>
+                <string>{{547,125},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -215,11 +189,11 @@
             <key>com_dgn_21_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{588,2},{543,39}}</string>
+                <string>{{1092,84},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -228,11 +202,11 @@
             <key>com_dgn_21_16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{547,2},{543,39}}</string>
+                <string>{{547,84},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{543,39}}</string>
                 <key>sourceSize</key>
@@ -241,7 +215,7 @@
             <key>com_dgn_21_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,494},{543,39}}</string>
+                <string>{{1092,43},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -254,7 +228,7 @@
             <key>com_dgn_21_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,453},{543,39}}</string>
+                <string>{{547,43},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -267,7 +241,7 @@
             <key>com_dgn_22_11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,412},{543,39}}</string>
+                <string>{{1092,2},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -280,7 +254,7 @@
             <key>com_dgn_23_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,371},{543,39}}</string>
+                <string>{{547,2},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -293,7 +267,7 @@
             <key>com_dgn_24_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,330},{543,39}}</string>
+                <string>{{2,412},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -306,7 +280,7 @@
             <key>com_dgn_25_8.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,289},{543,39}}</string>
+                <string>{{2,371},{543,39}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -317,6 +291,32 @@
                 <string>{543,39}</string>
             </dict>
             <key>com_dgn_26_6.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,330},{543,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{543,39}}</string>
+                <key>sourceSize</key>
+                <string>{543,39}</string>
+            </dict>
+            <key>com_dgn_27_19.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,289},{543,39}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{543,39}}</string>
+                <key>sourceSize</key>
+                <string>{543,39}</string>
+            </dict>
+            <key>com_dgn_28_19.png</key>
             <dict>
                 <key>frame</key>
                 <string>{{2,248},{543,39}}</string>
@@ -415,9 +415,9 @@
             <key>realTextureFileName</key>
             <string>comAtlas1.png</string>
             <key>size</key>
-            <string>{998,822}</string>
+            <string>{1637,453}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:239c2ad4d57b2f4d41ea0da99b1d562e$</string>
+            <string>$TexturePacker:SmartUpdate:61094aa4f50d4e783e7e440d0bca42bd$</string>
             <key>textureFileName</key>
             <string>comAtlas1.png</string>
         </dict>
