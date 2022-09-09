@@ -1358,8 +1358,8 @@
         0,
         0,
         1,
-        1,
-        1,
+        1.5,
+        1.5,
         0
       ]
     },
@@ -3939,8 +3939,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 34,
-      "height": 24
+      "width": 52,
+      "height": 36
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4182,8 +4182,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 108,
-      "height": 31
+      "width": 178,
+      "height": 46
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

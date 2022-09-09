@@ -88,8 +88,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        960,
+        540,
         0,
         0,
         0,
@@ -624,7 +624,7 @@
     "_enabled": true,
     "alignMode": 1,
     "_target": null,
-    "_alignFlags": 1,
+    "_alignFlags": 41,
     "_left": 0,
     "_right": 0,
     "_top": -2.5,
@@ -637,7 +637,7 @@
     "_isAbsBottom": true,
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
-    "_originalWidth": 0,
+    "_originalWidth": 1920,
     "_originalHeight": 0,
     "_id": ""
   },
@@ -6345,7 +6345,7 @@
     "node": {
       "__id__": 168
     },
-    "_enabled": false,
+    "_enabled": true,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
@@ -16795,7 +16795,7 @@
     "node": {
       "__id__": 441
     },
-    "_enabled": false,
+    "_enabled": true,
     "_materials": [
       {
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
