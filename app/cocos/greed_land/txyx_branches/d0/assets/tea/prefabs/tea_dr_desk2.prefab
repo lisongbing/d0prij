@@ -2336,7 +2336,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 28,
-      "height": 25.2
+      "height": 20.16
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2347,8 +2347,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        8,
-        34,
+        10,
+        35,
         0,
         0,
         0,
@@ -2390,7 +2390,7 @@
     "_string": "离线",
     "_N$string": "离线",
     "_fontSize": 14,
-    "_lineHeight": 20,
+    "_lineHeight": 16,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

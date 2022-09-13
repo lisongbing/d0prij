@@ -1397,8 +1397,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1409,8 +1409,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -1451,8 +1451,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -2350,8 +2350,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2362,8 +2362,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -2404,8 +2404,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -3303,8 +3303,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3315,8 +3315,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -3357,8 +3357,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -4256,8 +4256,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4268,8 +4268,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -4310,8 +4310,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -5209,8 +5209,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5221,8 +5221,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -5263,8 +5263,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -6162,8 +6162,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -6174,8 +6174,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -6216,8 +6216,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -7115,8 +7115,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28,
-      "height": 25.2
+      "width": 46,
+      "height": 31.5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -7127,8 +7127,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        6.106,
-        48.518,
+        9,
+        50,
         0,
         0,
         0,
@@ -7169,8 +7169,8 @@
     "_dstBlendFactor": 771,
     "_string": "离线",
     "_N$string": "离线",
-    "_fontSize": 14,
-    "_lineHeight": 20,
+    "_fontSize": 23,
+    "_lineHeight": 25,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,

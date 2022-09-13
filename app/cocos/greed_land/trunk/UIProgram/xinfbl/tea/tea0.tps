@@ -230,8 +230,6 @@
                 <false/>
             </struct>
             <key type="filename">tea0/te_cy_header_caoz.png</key>
-            <key type="filename">tea0/tea_pop_agree.png</key>
-            <key type="filename">tea0/tea_pop_jujue.png</key>
             <key type="filename">tea0/tea_zj_copy.png</key>
             <key type="filename">tea0/tea_zj_share.png</key>
             <struct type="IndividualSpriteSettings">
@@ -263,9 +261,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>6,15,13,30</rect>
+                <rect>11,26,21,51</rect>
                 <key>scale9Paddings</key>
-                <rect>6,15,13,30</rect>
+                <rect>11,26,21,51</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -555,6 +553,7 @@
                 <false/>
             </struct>
             <key type="filename">tea0/tea_add.png</key>
+            <key type="filename">tea0/tea_pop_chuangjian.png</key>
             <key type="filename">tea0/tea_sh.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -564,9 +563,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>19,9,38,17</rect>
+                <rect>36,15,71,29</rect>
                 <key>scale9Paddings</key>
-                <rect>19,9,38,17</rect>
+                <rect>36,15,71,29</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -586,6 +585,20 @@
                 <false/>
             </struct>
             <key type="filename">tea0/tea_bm.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>12,8,23,15</rect>
+                <key>scale9Paddings</key>
+                <rect>12,8,23,15</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">tea0/tea_bmsp.png</key>
             <key type="filename">tea0/tea_frends.png</key>
             <key type="filename">tea0/tea_img_fanhui.png</key>
@@ -601,9 +614,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>12,8,23,15</rect>
+                <rect>22,15,44,29</rect>
                 <key>scale9Paddings</key>
-                <rect>12,8,23,15</rect>
+                <rect>22,15,44,29</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -616,27 +629,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>11,9,21,17</rect>
+                <rect>10,20,19,41</rect>
                 <key>scale9Paddings</key>
-                <rect>11,9,21,17</rect>
+                <rect>10,20,19,41</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
             <key type="filename">tea0/tea_create_btn.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>34,16,69,31</rect>
-                <key>scale9Paddings</key>
-                <rect>34,16,69,31</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">tea0/tea_create_jiaru.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -646,9 +645,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>48,21,95,42</rect>
+                <rect>45,19,91,39</rect>
                 <key>scale9Paddings</key>
-                <rect>48,21,95,42</rect>
+                <rect>45,19,91,39</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -722,9 +721,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>37,12,73,23</rect>
+                <rect>156,27,312,55</rect>
                 <key>scale9Paddings</key>
-                <rect>37,12,73,23</rect>
+                <rect>156,27,312,55</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -797,9 +796,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>1,12,1,24</rect>
+                <rect>1,35,1,69</rect>
                 <key>scale9Paddings</key>
-                <rect>1,12,1,24</rect>
+                <rect>1,35,1,69</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -827,9 +826,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>24,23,48,46</rect>
+                <rect>47,47,93,94</rect>
                 <key>scale9Paddings</key>
-                <rect>24,23,48,46</rect>
+                <rect>47,47,93,94</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -842,9 +841,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>10,6,19,11</rect>
+                <rect>16,9,33,18</rect>
                 <key>scale9Paddings</key>
-                <rect>10,6,19,11</rect>
+                <rect>16,9,33,18</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -872,9 +871,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>71,5,141,9</rect>
+                <rect>120,8,239,15</rect>
                 <key>scale9Paddings</key>
-                <rect>71,5,141,9</rect>
+                <rect>120,8,239,15</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -942,6 +941,7 @@
             </struct>
             <key type="filename">tea0/tea_jinbi_qdbc.png</key>
             <key type="filename">tea0/tea_jinbi_qdcf.png</key>
+            <key type="filename">tea0/tea_no_ready.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -995,9 +995,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>14,11,27,21</rect>
+                <rect>20,17,39,33</rect>
                 <key>scale9Paddings</key>
-                <rect>14,11,27,21</rect>
+                <rect>20,17,39,33</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1011,13 +1011,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>15,5,31,9</rect>
+                <rect>24,8,49,16</rect>
                 <key>scale9Paddings</key>
-                <rect>15,5,31,9</rect>
+                <rect>24,8,49,16</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">tea0/tea_no_ready.png</key>
+            <key type="filename">tea0/tea_pop_agree.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1026,9 +1026,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>18,5,35,9</rect>
+                <rect>26,11,53,23</rect>
                 <key>scale9Paddings</key>
-                <rect>18,5,35,9</rect>
+                <rect>26,11,53,23</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1041,29 +1041,13 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>14,53,29,106</rect>
+                <rect>18,49,37,97</rect>
                 <key>scale9Paddings</key>
-                <rect>14,53,29,106</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">tea0/tea_pop_chuangjian.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>36,15,71,29</rect>
-                <key>scale9Paddings</key>
-                <rect>36,15,71,29</rect>
+                <rect>18,49,37,97</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
             <key type="filename">tea0/tea_pop_close.png</key>
-            <key type="filename">tea0/tea_wf_setting.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1072,9 +1056,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>9,9,17,17</rect>
+                <rect>23,23,45,45</rect>
                 <key>scale9Paddings</key>
-                <rect>9,9,17,17</rect>
+                <rect>23,23,45,45</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1087,9 +1071,24 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>7,9,14,17</rect>
+                <rect>14,12,27,23</rect>
                 <key>scale9Paddings</key>
-                <rect>7,9,14,17</rect>
+                <rect>14,12,27,23</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">tea0/tea_pop_jujue.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>27,11,53,22</rect>
+                <key>scale9Paddings</key>
+                <rect>27,11,53,22</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1117,9 +1116,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>22,68,44,137</rect>
+                <rect>24,68,49,137</rect>
                 <key>scale9Paddings</key>
-                <rect>22,68,44,137</rect>
+                <rect>24,68,49,137</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1162,9 +1161,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>17,57,35,113</rect>
+                <rect>27,175,54,349</rect>
                 <key>scale9Paddings</key>
-                <rect>17,57,35,113</rect>
+                <rect>27,175,54,349</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1194,9 +1193,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>14,10,27,20</rect>
+                <rect>23,17,46,34</rect>
                 <key>scale9Paddings</key>
-                <rect>14,10,27,20</rect>
+                <rect>23,17,46,34</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1209,9 +1208,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>32,32,64,64</rect>
+                <rect>55,55,109,109</rect>
                 <key>scale9Paddings</key>
-                <rect>32,32,64,64</rect>
+                <rect>55,55,109,109</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1224,9 +1223,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>26,26,52,53</rect>
+                <rect>42,42,84,85</rect>
                 <key>scale9Paddings</key>
-                <rect>26,26,52,53</rect>
+                <rect>42,42,84,85</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1325,6 +1324,7 @@
                 <false/>
             </struct>
             <key type="filename">tea0/tea_txt_bmshz.png</key>
+            <key type="filename">tea0/teac_des_bg.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -1440,9 +1440,24 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>39,11,79,21</rect>
+                <rect>13,38,27,75</rect>
                 <key>scale9Paddings</key>
-                <rect>39,11,79,21</rect>
+                <rect>13,38,27,75</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">tea0/tea_wf_setting.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>15,15,29,29</rect>
+                <key>scale9Paddings</key>
+                <rect>15,15,29,29</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -1593,21 +1608,6 @@
                 <rect>14,9,29,17</rect>
                 <key>scale9Paddings</key>
                 <rect>14,9,29,17</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">tea0/teac_des_bg.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>26,7,51,13</rect>
-                <key>scale9Paddings</key>
-                <rect>26,7,51,13</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
