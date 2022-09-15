@@ -201,6 +201,7 @@ cc.Class({
         this.Button_clubfhdt = cc.find('Node_bts/Button_clubfhdt', this.node);
         this.Button_liushui = cc.find('Node_bts/liushui', this.node);
         this.btn_huanz = cc.find('btn_huanz', this.node);
+        this.btn_huanz.ox = this.btn_huanz.x
         this.Button_location = cc.find('Button_gps', this.node);
         this.Button_location.active = false;
         this.Button_gps = cc.find('Button_gps', this.node);
@@ -324,8 +325,13 @@ cc.Class({
         let ri = cc.g.hallMgr.curGameMgr.roomInfo;
 
         this.Button_clubfhdt.active = false;
-        if (ri.gameType==GMID.D2 || ri.gameType==GMID.HZMJ) {
-            this.Button_clubfhdt.active = ((ri.clubId) && (ri.curGameNum<1) && (ri.status == 0));
+        //（线上bug）返回大厅按钮应该只有江安大二有，先在其他地区也有此按钮
+        if ((ri.clubId) && (ri.curGameNum<1) && (ri.status == 0)) {
+            if (ri.gameType==GMID.D2 && ri.origin==2) {
+                this.Button_clubfhdt.active = true;
+            } else if (ri.gameType==GMID.HZMJ) {
+                //this.Button_clubfhdt.active = true;
+            }
         }
 
         this.Button_liushui.active = (ri.curGameNum>0);
@@ -382,11 +388,14 @@ cc.Class({
         schbtnshow();
 
         let tp = cc.g.hallMgr.curGameMgr.roomInfo.gameType;
-        if ( tp == GMID.HZMJ || tp == GMID.XZMJ || tp == GMID.YBMJ || tp == GMID.NYMJ ||
+        if ( tp == GMID.HZMJ || tp == GMID.XZMJ || tp == GMID.YBMJ || tp == GMID.NYMJ || tp == GMID.LCMJ ||
              tp == GMID.LZMJ || tp == GMID.NJMJ || tp == GMID.LCMJ || tp == GMID.YJMJ || tp == GMID.XZMJER) {
             this.Node_bts.y = this.Node_bts.oy + 50 + 10;
+            this.btn_huanz.x = this.btn_huanz.ox// - 110
         } else {
             this.Node_bts.y = this.Node_bts.oy;
+
+            this.btn_huanz.x = this.btn_huanz.ox
         }
 
         //

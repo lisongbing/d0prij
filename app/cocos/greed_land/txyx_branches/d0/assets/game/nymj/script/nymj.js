@@ -4864,7 +4864,7 @@ cc.Class({
             let cardNode = cc.instantiate(this.SIPlayerZhuaMa);
 
             let Sprite_cardVal = cc.find("Sprite_cardVal", cardNode).getComponent(cc.Sprite);
-            Sprite_cardVal.spriteFrame =  this.majhCardAtlas0.getSpriteFrame('to_majh_cardval_' + code);
+            Sprite_cardVal.spriteFrame =  this.majhCardAtlas0.getSpriteFrame('majh_cardval_' + code);
             cardNode.active = false
             cardNode.code = code
             // let Sprite_topMeng = cc.find("Sprite_topMeng", cardNode)

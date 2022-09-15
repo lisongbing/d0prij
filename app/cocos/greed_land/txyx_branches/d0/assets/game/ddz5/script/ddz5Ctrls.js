@@ -521,7 +521,7 @@ let LocSettleFinalView = cc.Class({
         }
 
         let Label_diqu = cc.find("Label_diqu", Node_ri).getComponent(cc.Label);
-        Label_diqu.string = cc.g.areaInfo[ri.origin].name + '五人斗地主';
+        Label_diqu.string = '五人斗地主'; c//cc.g.areaInfo[ri.origin].name + '五人斗地主';
 
         let Label_room = cc.find("Label_room", Node_ri).getComponent(cc.Label);
         Label_room.string = `房间号:  ${ri.roomId}  局数: ${ri.curGameNum}/${ri.GameNum}`;
@@ -842,7 +842,7 @@ let HandCardView = cc.Class({
         let pdkCard0 = cc.find("pdkCard0", this.Node_handCard);
         let pdkCard = cc.find("pdkCard", this.Node_handCard);
         let pdkCardn = cc.find("pdkCardn", this.Node_handCard);
-        this.spaX = pdkCard.x - pdkCard0.x;
+        this.spaX = pdkCard0.x - pdkCard.x;
         this.spaW = pdkCard.width;
         this.spaX = this.spaX*1.15;
 

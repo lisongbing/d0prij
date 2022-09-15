@@ -441,6 +441,7 @@ let MajhPlayerView = cc.Class({
         // 断线回来
         this.doReShowHandleCards();
         // this.upBaoJiao();
+        this.pPage.clearHuPaiView()
     },
 
     // 玩家退出游戏
@@ -710,6 +711,7 @@ let MajhPlayerView = cc.Class({
             this.handCardView.Node_handCard.removeAllChildren(true);
         }
         if (!this.pPage.isbpm) {
+
             // 显示消息
             this.player.showNextMsg();
         }
@@ -1968,6 +1970,105 @@ let MajhHandCardView = cc.Class({
                      positionY = lastItem.y - DEF.HuCardPos[userPoint].moveTo.y//110
                 }
               
+            }
+            card.setPosition(positionX, positionY);
+            this.Node_handCard.addChild(card, lastItem.zIndex, 'Node_Hu_Card'+userPoint);
+            // 保存胡的什么牌，计算胡牌提示个数
+            this.pPage.huCodeArr.push(parseInt(code))
+        }
+    },
+
+    showHuPaiBeiView: function (palyerViewItem, code, lastV) { // 显示胡牌
+
+        let positionX, positionY
+        let userPoint = this.selfView.index
+        let card = lc_creatBeiHuCard(userPoint, this.pPage);
+
+        // // card vaule
+        // let cardKeyName = 'majh_cardval_';
+        //
+        // if (userPoint == 0) {
+        //     cardKeyName = 'majh_cardval_';
+        // } else if (userPoint == 1) {
+        //     cardKeyName = 'ri_majh_cardval_';
+        // }  else if (userPoint == 2) {
+        //     cardKeyName = 'to_majh_cardval_';
+        // } else if (userPoint == 3) {
+        //     cardKeyName = 'le_majh_cardval_';
+        // }
+        //
+        // cc.find("Sprite_Hu/Sprite_Val", card).getComponent(cc.Sprite).spriteFrame = this.pPage.majhCardAtlas0.getSpriteFrame(cardKeyName + code);
+
+        let handAllLength = 0
+        this.hcGroups.forEach((cardNode)=>{
+            if (cardNode.active) {
+                handAllLength++
+            }
+        })
+
+        let handLength = handAllLength % 3
+
+        // 当前是可以打牌状态,则先打出最后一张
+        if (handLength == 2) {
+            let lastOnePai = null;
+            // for (let i = 0; i < this.hcGroups.length; i++) {
+            //     let groupItem = this.hcGroups[i]
+            //     if (groupItem.active) {
+            //         lastOnePai = groupItem
+            //     }
+            // }
+            if (userPoint == 0) {
+                for (let i = 0; i < this.hcGroups.length; i++) {
+                    let groupItem = this.hcGroups[i]
+                    if (groupItem.active && (groupItem.code == code)) {
+                        lastOnePai = groupItem
+                        break;
+                    }
+                }
+
+            } else {
+                let len = this.hcGroups.length
+                for (let i = (len -1); i < len; i--) {
+                    let groupItem = this.hcGroups[i]
+                    if (groupItem.active) {
+                        lastOnePai = groupItem
+                        break;
+                    }
+                }
+            }
+            if (lastOnePai) {
+                // 隐藏最后一张
+                lastOnePai.active = false;
+
+                // 隐藏最后一张，刷新页面
+                this.updateAllHandleCardPosition();
+            }
+        } else { // 移除弃牌
+            if (palyerViewItem && lastV) {
+                this.pPage.doRealQiPaiRemove(palyerViewItem, code)
+            }
+        }
+
+        let lastItem = null;
+        this.hcGroups.forEach((cardNode)=>{
+            if (cardNode.active) {
+                lastItem = cardNode
+            }
+        })
+
+        if (lastItem) {
+            if (userPoint == 0) {
+                positionX = lastItem.x + DEF.SendCardPos[userPoint].moveTo.x + 10
+                positionY = lastItem.y
+            } else if (userPoint == 1) {
+                positionX = lastItem.x - 10
+                positionY = lastItem.y + 65//70
+            } else if (userPoint == 2) {
+                positionX = lastItem.x - DEF.SendCardPos[userPoint].moveTo.x - 20
+                positionY = lastItem.y
+            } else if (userPoint == 3) {
+                positionX = lastItem.x - 10
+                positionY = lastItem.y - 70
             }
             card.setPosition(positionX, positionY);
             this.Node_handCard.addChild(card, lastItem.zIndex, 'Node_Hu_Card'+userPoint);
@@ -4840,6 +4941,12 @@ let lc_creatHuCard = function (viewIndex, mainPage) {
     cc.log('cardIndex-->' + cardIndex)
 
     let hcPrefab = mainPage.huCardPrefab[cardIndex].prefab;
+    let c = cc.instantiate(hcPrefab);
+    return c;
+};
+
+let lc_creatBeiHuCard = function (viewIndex, mainPage) {
+    let hcPrefab = mainPage.huCardBeigPrefab[viewIndex].prefab;
     let c = cc.instantiate(hcPrefab);
     return c;
 };

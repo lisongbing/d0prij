@@ -1,4 +1,6 @@
 
+let PGNUM = 5;
+
 cc.Class({
     extends: cc.Component,
 
@@ -35,7 +37,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        this.curpg = 0;
+        this.curReqpg = 0;
         this.curGMItem = null;
         this.hisData = [];
 
@@ -84,7 +86,7 @@ cc.Class({
         }
     },
     gm_scroll_to_bottom: function () {
-        cc.log('翻页 this.curpg this.curidx ', this.curpg, this.curidx);
+        cc.log('翻页 this.curReqpg this.curidx ', this.curReqpg, this.curidx);
 
         this.upData();
     },
@@ -142,10 +144,10 @@ cc.Class({
         }
 
         let req = pbHelper.newReq(PB.PROTO.GET_FIGHT_LIST);
-        req.page = this.curpg ? this.curpg+1 : 0;
+        req.page = this.curReqpg ? this.curReqpg : 0;
 
         if (req.page == 0) {
-            this.curpg = 0;
+            this.curReqpg = 0;
             this.hisData = [];
             this.curidx = 0;
         }
@@ -163,7 +165,7 @@ cc.Class({
             return;
         }
 
-        ++this.curpg;
+        ++this.curReqpg;
 
         resp.list.forEach(e => {
             let d = {};
@@ -227,13 +229,15 @@ cc.Class({
             ctt.destroyAllChildren();
         }
 
-        for (let i = 0; i < 20; ++i) {
+        let added = 0;
+        for (let i = 0; i < PGNUM; ++i) {
             let idx = this.curidx;
             let d = this.hisData[idx];
 
             if (!d) break;
 
             ++this.curidx;
+            ++added;
 
             let itm = cc.instantiate(this.stroyItem);
             itm.ud = d;
@@ -288,6 +292,8 @@ cc.Class({
 
             ctt.addChild(itm);
         }
+
+        cc.log('此次更新 追加 显示条数 ', added);
     },
 
     // 游戏列表点击事件

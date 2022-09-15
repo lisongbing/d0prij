@@ -11,8 +11,8 @@ var cfg_dbg = {
     gameConfigBakUrl: 'https://www.0838.cn.com/greedland/',
     hotUpdateEnable: false,
     hotUpdateUrl: '"http://119.23.235.127:80/"',
-    //wsAddress: ["ws://119.23.235.127:8082/ws"],
-    wsAddress: ["ws://127.0.0.1:8082/ws"],
+    wsAddress: ["ws://119.23.235.127:8082/ws"],
+    //wsAddress: ["ws://127.0.0.1:8082/ws"],
     //wsAddress: ["ws://192.168.0.99:8082/ws"],
     loginMode: 1<<1,
     gamesSeq: [9,10,11,4,12,13,14,15,16,18,19,20,21,22,23,24,25,27,28],//,21

@@ -4530,7 +4530,15 @@ let lc_creatHandCard = function (viewIndex, idx, mainPage) {
     c.uIdx = idx;
     let positionX, positionY
     if (viewIndex == 0 ) { // Node_p1 Node_p3
-        positionX = idx * DEF.SendCardPos[viewIndex].moveTo.x;
+        let pox = 0
+        let count = mainPage.getHandleCount()
+        if (count == 8) {
+            pox = 3* DEF.SendCardPos[viewIndex].moveTo.x;
+        } else if (count == 11) {
+            pox = 2* DEF.SendCardPos[viewIndex].moveTo.x;
+        }
+
+        positionX = idx * DEF.SendCardPos[viewIndex].moveTo.x + pox;
         positionY = DEF.SendCardPos[viewIndex].moveBy.y;
         c.endPosX = positionX;
         c.endPosY = DEF.SendCardPos[viewIndex].moveTo.y;

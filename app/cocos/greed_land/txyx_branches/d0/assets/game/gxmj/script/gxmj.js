@@ -3983,8 +3983,19 @@ cc.Class({
         }
         this.settleFinalView.show();
     },
-    clearReapet:function() {
+    clearHuPaiView: function () {
 
+        this.Node_hupaiTip.active = false;
+
+        this.huPaiAlertArr = []
+        this.huPaiCurrentItem = null
+    },
+
+    clearReapet:function() {
+        this.Node_hupaiTip.active = false;
+
+        this.huPaiAlertArr = []
+        this.huPaiCurrentItem = null
         this.node_HuaiPai_all_View.active = false;
         cc.find("Node_HanPai_All_View/mjhuanpai0", this.node).active = false;
         cc.find("Node_HanPai_All_View/mjhuanpai1", this.node).active = false;
@@ -4029,6 +4040,9 @@ cc.Class({
     },
     // 移除当前桌面供玩家操作的牌
     clearWaitCard: function () {
+
+        this.Node_hupaiTip.active = false;
+
         // 换牌按钮为灰色
         this.node_Huanpai.active = false
         this.huanPaiBtn.getComponent(cc.Sprite).spriteFrame = this.comtxtAtlas1.getSpriteFrame('combtn_25');
@@ -4091,6 +4105,9 @@ cc.Class({
 
         // 豹子状态改为否
         this.isBaoZi = false;
+
+        this.huPaiAlertArr = []
+        this.huPaiCurrentItem = null
 
         // 修改样式
         for (let i = 0; i < this.playerView.length; i++) {
@@ -5463,7 +5480,7 @@ cc.Class({
                     // this.Sprite_hu_Gbox.y = 4
                 } else {
                     let baseWidth = 140
-                    let mjWidth = 40 * paiLength
+                    let mjWidth = 65 * paiLength
                     let mjSpawidth = 20 * (paiLength) + 50
                     this.Sprite_Hu_bg.width = baseWidth + mjWidth + mjSpawidth
                     this.Sprite_Hu_bg.height = 180//200

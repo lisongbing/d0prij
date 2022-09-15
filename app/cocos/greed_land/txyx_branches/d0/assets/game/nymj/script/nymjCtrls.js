@@ -4324,7 +4324,7 @@ let D2SettleView = cc.Class({
         this.Layout_Hor.removeAllChildren(true)
         if (!cc.g.utils.judgeArrayEmpty(maValue)) {
             let ppf = this.pg.SIPlayerPf;
-            for (let i = 1; i < maValue.length; ++i) {
+            for (let i = 0; i < maValue.length; ++i) {
                 let code = parseInt(maValue[i])
 
                 let cardNode = cc.instantiate(ppf);

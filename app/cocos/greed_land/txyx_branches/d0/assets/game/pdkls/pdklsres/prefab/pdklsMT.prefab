@@ -40,8 +40,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 117,
-      "height": 46
+      "width": 192.6,
+      "height": 71.9
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -104,8 +104,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 84,
-      "height": 31.5
+      "width": 144,
+      "height": 45.36
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -116,8 +116,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        1,
-        1,
+        1.267,
+        1.263,
         0,
         0,
         0,
@@ -158,8 +158,8 @@
     "_dstBlendFactor": 771,
     "_string": "三十多胡",
     "_N$string": "三十多胡",
-    "_fontSize": 21,
-    "_lineHeight": 25,
+    "_fontSize": 36,
+    "_lineHeight": 36,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -180,9 +180,9 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "c1418c62-b4bd-4484-8e1b-06d76c9f002d"
     },
-    "fileId": "07h82auHNDS7p5qT3N90uo",
+    "fileId": "e5p/eIgsNC/5y/mUpCsY+M",
     "sync": false
   },
   {
@@ -225,7 +225,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "c1418c62-b4bd-4484-8e1b-06d76c9f002d"
     },
     "fileId": "",
     "sync": false

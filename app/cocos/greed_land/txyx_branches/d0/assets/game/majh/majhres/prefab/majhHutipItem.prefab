@@ -670,8 +670,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        50,
-        20.1,
+        51,
+        33.1,
         0,
         0,
         0,
