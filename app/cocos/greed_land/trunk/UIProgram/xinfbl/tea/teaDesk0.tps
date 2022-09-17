@@ -87,9 +87,9 @@
         <key>fixedTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>-1</int>
+            <int>4096</int>
             <key>height</key>
-            <int>-1</int>
+            <int>2048</int>
         </QSize>
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
@@ -140,7 +140,7 @@
         <key>outputFormat</key>
         <enum type="SettingsBase::OutputFormat">RGBA8888</enum>
         <key>alphaHandling</key>
-        <enum type="SettingsBase::AlphaHandling">ClearTransparentPixels</enum>
+        <enum type="SettingsBase::AlphaHandling">KeepTransparentPixels</enum>
         <key>contentProtection</key>
         <struct type="ContentProtection">
             <key>key</key>
@@ -167,7 +167,7 @@
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -193,9 +193,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>47,38,94,77</rect>
+                <rect>95,75,189,150</rect>
                 <key>scale9Paddings</key>
-                <rect>47,38,94,77</rect>
+                <rect>95,75,189,150</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -228,20 +228,6 @@
                 <false/>
             </struct>
             <key type="filename">teaDesk0/pdk10.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>68,47,136,93</rect>
-                <key>scale9Paddings</key>
-                <rect>68,47,136,93</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
             <key type="filename">teaDesk0/pdk2.png</key>
             <key type="filename">teaDesk0/pdk3.png</key>
             <key type="filename">teaDesk0/pdk4.png</key>
@@ -257,9 +243,9 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>51,34,103,68</rect>
+                <rect>109,72,217,143</rect>
                 <key>scale9Paddings</key>
-                <rect>51,34,103,68</rect>
+                <rect>109,72,217,143</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
