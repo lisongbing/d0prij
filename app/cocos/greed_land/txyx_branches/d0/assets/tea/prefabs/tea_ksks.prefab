@@ -1586,8 +1586,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 72,
-      "height": 22.68
+      "width": 100,
+      "height": 35.28
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1599,7 +1599,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -45,
+        -50,
         0,
         0,
         0,
@@ -1640,8 +1640,8 @@
     "_dstBlendFactor": 771,
     "_string": "江安大二",
     "_N$string": "江安大二",
-    "_fontSize": 18,
-    "_lineHeight": 18,
+    "_fontSize": 25,
+    "_lineHeight": 28,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
