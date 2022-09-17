@@ -669,7 +669,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 215,
-      "height": 193.8
+      "height": 198.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -680,7 +680,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -99.414,
+        -105,
         64.729,
         0,
         0,
@@ -970,7 +970,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        148.5,
+        158.5,
         -48.45,
         0,
         0,
@@ -1193,7 +1193,7 @@
       "ctor": "Float64Array",
       "array": [
         49.5,
-        -145.35000000000002,
+        -150.35000000000002,
         0,
         0,
         0,
@@ -1414,8 +1414,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        148.5,
-        -145.35000000000002,
+        158.5,
+        -150.35000000000002,
         0,
         0,
         0,
@@ -1604,7 +1604,7 @@
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 215,
-      "height": 193.8
+      "height": 198.8
     },
     "_resize": 1,
     "_N$layoutType": 3,
@@ -1618,8 +1618,8 @@
     "_N$paddingRight": 0,
     "_N$paddingTop": 0,
     "_N$paddingBottom": 0,
-    "_N$spacingX": 0,
-    "_N$spacingY": 0,
+    "_N$spacingX": 10,
+    "_N$spacingY": 5,
     "_N$verticalDirection": 1,
     "_N$horizontalDirection": 0,
     "_N$affectedByScale": false,

@@ -235,8 +235,8 @@ export default class TeaClass extends cc.Component {
             nodeLayout.paddingTop = 60
         } else {
             this.useSecdDesk = false
-            nodeLayout.spacingY = 60
-            nodeLayout.paddingTop = 50
+            nodeLayout.spacingY = 100
+            nodeLayout.paddingTop = 60
         }
         nodeLayout.updateLayout();
         if (needReload) {

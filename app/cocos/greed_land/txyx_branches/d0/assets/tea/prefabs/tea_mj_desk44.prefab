@@ -4457,8 +4457,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 53
+      "width": 275,
+      "height": 75
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4470,7 +4470,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        190,
+        186,
         0,
         0,
         0,
@@ -4521,8 +4521,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 104,
-      "height": 32.76
+      "width": 128,
+      "height": 44.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4534,7 +4534,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        3.184,
+        0,
         0,
         0,
         0,
@@ -4575,8 +4575,8 @@
     "_dstBlendFactor": 771,
     "_string": "开心茶馆",
     "_N$string": "开心茶馆",
-    "_fontSize": 26,
-    "_lineHeight": 26,
+    "_fontSize": 32,
+    "_lineHeight": 35,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
