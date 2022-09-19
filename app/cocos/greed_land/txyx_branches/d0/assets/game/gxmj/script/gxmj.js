@@ -472,11 +472,12 @@ cc.Class({
         this.Node_hupaiTip = cc.find("Node_hupaiTip", r);
         this.Node_hupaiTip.active = false;
         // 胡多少张
-        this.Sprite_hu_count_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_num/Label", r).getComponent(cc.Label);
+        // this.Sprite_hu_count_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_num/Label", r).getComponent(cc.Label);
         // 多少倍
-        this.Sprite_hu_bei_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_maxbei/Label", r).getComponent(cc.Label);
+        // this.Sprite_hu_bei_label = cc.find("Node_hupaiTip/Sprite_bg/Sprite_maxbei/Label", r).getComponent(cc.Label);
 
-        this.Sprite_JiaoPai = cc.find("Node_hupaiTip/Sprite_bg/New Sprite", r)
+        this.Sprite_JiaoPai = cc.find("Node_hupaiTip/Sprite_bg/Sprite_num/New Sprite", r)
+        this.Sprite_JiaoPai.oy = this.Sprite_JiaoPai.y
         // gd box
         this.Sprite_hu_Gbox = cc.find("Node_hupaiTip/GBox_tips", r);
         // 背景
@@ -5432,8 +5433,8 @@ cc.Class({
 
             // 显示胡牌提示
             // this.doShowHuPaiAlertView();
-            this.Sprite_hu_count_label.string = this.huPaiCurrentItem.huCount + ''
-            this.Sprite_hu_bei_label.string = this.huPaiCurrentItem.fanCount + ''
+            // this.Sprite_hu_count_label.string = this.huPaiCurrentItem.huCount + ''
+            // this.Sprite_hu_bei_label.string = this.huPaiCurrentItem.fanCount + ''
 
             // 先移除
             this.Sprite_hu_Gbox.removeAllChildren(true);
@@ -5476,6 +5477,8 @@ cc.Class({
                     if (paiLength > 12) {
                         this.Sprite_Hu_bg.height = 370
                     }
+
+                    this.Sprite_JiaoPai.y = this.Sprite_JiaoPai.oy
                     // this.Sprite_Hu_bg.y = 4.8
                     // this.Sprite_hu_Gbox.y = 4
                 } else {
@@ -5485,6 +5488,7 @@ cc.Class({
                     this.Sprite_Hu_bg.width = baseWidth + mjWidth + mjSpawidth
                     this.Sprite_Hu_bg.height = 180//200
                     this.Sprite_hu_Gbox.width = mjWidth + mjSpawidth
+                    this.Sprite_JiaoPai.y = -30
                     //4.8
                     // this.Sprite_Hu_bg.y = -40
                     // this.Sprite_hu_Gbox.y = -40
@@ -5496,7 +5500,7 @@ cc.Class({
                 this.sv_huifo.node.active = true;
                 // this.Sprite_Hu_bg.y = 1.8
                 // this.Sprite_hu_Gbox.y = 4
-
+                this.Sprite_JiaoPai.y = this.Sprite_JiaoPai.oy
                 // 大于18走scollerview
                 huMapArr.forEach((item) => {
                     let cardNode = cc.instantiate(this.SIPlayerPf5);

@@ -2357,15 +2357,16 @@ let D2PlayerView = cc.Class({
         this.headPos = this.Sprite_headbg.convertToWorldSpaceAR(cc.Vec2(0,0));
         
         let pos = this.pPage.node.convertToNodeSpaceAR(this.headPos);
+        let fd =  1.8;
         if (this.index == 0) {
-            pos.x += 200;
-            pos.y += 100;
+            pos.x += 200 *fd;
+            pos.y += 100 *fd;
         } else if (this.index == 1) {
-            pos.x -= 200;
-            pos.y -= 100;
+            pos.x -= 200 *fd;
+            pos.y -= 100 *fd;
         } else if (this.index == 2) {
-            pos.x += 200;
-            pos.y -= 100;
+            pos.x += 200 *fd;
+            pos.y -= 100 *fd;
         } else if (this.index == 3) {
             let idx = 0;
 
@@ -2384,14 +2385,14 @@ let D2PlayerView = cc.Class({
             }
 
             if (idx == 0) {
-                pos.x += 200;
-                pos.y += 50;
+                pos.x += 200 *fd;
+                pos.y += 50 *fd;
             } else if (idx == 1) {
-                pos.x -= 200;
-                pos.y -= 100;
+                pos.x -= 200 *fd;
+                pos.y -= 100 *fd;
             } else if (idx == 2) {
-                pos.x += 200;
-                pos.y -= 100;
+                pos.x += 200 *fd;
+                pos.y -= 100 *fd;
             }
         }
 

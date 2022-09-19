@@ -698,6 +698,7 @@ cc.Class({
         } else if (id==10) {
             pos.anmto.y -= 47;
         }
+        pos.sacleto = pos.sacleto*2;
         
         let emofun = ()=>{
             let emo = cc.g.interactEmoji[id];
@@ -706,6 +707,7 @@ cc.Class({
             let n = new cc.Node();
             n.addComponent(cc.Sprite).spriteFrame = cc.g.atlas.interact.getSpriteFrame('hd_img_bq' + emo.Idx);
             n.position = pos.from;
+            n.scaleX = n.scaleY = 2.0;
             this.node.addChild(n);
     
             let actto = null;
