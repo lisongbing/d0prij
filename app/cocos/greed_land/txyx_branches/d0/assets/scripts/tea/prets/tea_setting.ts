@@ -1129,6 +1129,7 @@ export default class NewClass extends cc.Component {
 
                 dlg.grp.name = dlg.curitm.number.string = req.groupName;
 
+                // @ts-ignore
                 cc.g.global.hint('更改名称成功');
             } else {
                 cc.log('茶馆小黑屋更改名称 失败');

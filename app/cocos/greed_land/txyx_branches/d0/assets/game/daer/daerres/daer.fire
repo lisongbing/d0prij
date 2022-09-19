@@ -43420,8 +43420,8 @@
     "target": {
       "__id__": 2
     },
-    "component": "daer",
-    "_componentId": "",
+    "component": "",
+    "_componentId": "5505cSeyoNLcqy8oYrTP4SL",
     "handler": "onButtonOperate",
     "customEventData": "6"
   },
@@ -43606,7 +43606,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e9e31188-8115-4e10-af3f-7cf6aaaa81f9"
+      "__uuid__": "0db0a0e6-2eba-4540-af26-a2920d5978c0"
     },
     "_type": 0,
     "_sizeMode": 0,

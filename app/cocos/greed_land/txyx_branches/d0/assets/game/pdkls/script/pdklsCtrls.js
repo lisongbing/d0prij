@@ -1510,23 +1510,24 @@ let LocPlayerView = cc.Class({
         let tn = this.pGame.roomInfo.total;
 
         let pos = this.pPage.node.convertToNodeSpaceAR(this.headPos);
+        let fd = 1.8;
         if (this.index == 0) {
-            pos.x = p.x - 350;
-            pos.y += 100;
+            pos.x = p.x - 350*fd;
+            pos.y += 100 *fd;
         } else if (this.index == 1) {
-            pos.x = p.x - 800;
-            pos.y -= 50;
+            pos.x = p.x - 800*fd;
+            pos.y -= 50 *fd;
         }  else if (this.index == 2) {
             if (this.pGame.roomInfo.total==4) {
-                pos.x = p.x - 350;
-                pos.y -= 100;
+                pos.x = p.x - 350*fd;
+                pos.y -= 100 *fd;
             } else {
-                pos.x += 200;
-                pos.y -= 100;
+                pos.x += 200 *fd;
+                pos.y -= 100 *fd;
             }
         } else if (this.index == 3) {
-            pos.x = p.x - 350;
-            pos.y -= 100;
+            pos.x = p.x - 350*fd;
+            pos.y -= 100 *fd;
         }
 
         this.pPage.showInteractDlg(this.player ? this.player.d : null, pos);

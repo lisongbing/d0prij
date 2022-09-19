@@ -5,7 +5,7 @@ var cfg_dbg = {
     gameConfigUrl:'https://pzlj.xinyuexinxi.com',
     playBackIDUrl:'https://qd2.wucylm.com/getrecord',
     playBackDataUrl:'https://hf.wucylm.com/',
-    subGameUrl:'http://119.23.235.127:80/',
+    subGameUrl:'http://47.242.27.30:80/',
     miniGameUrl:'https://down.qqqpgame.com/',
     useGameConfigBak:false,
     gameConfigBakUrl: 'https://www.0838.cn.com/greedland/',

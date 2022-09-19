@@ -175,7 +175,7 @@ MajhDef.QiCardPos = [
             y: 80
         },
         moveZhiBy: {
-            x: 545,//500,
+            x: 515,//500,
             y: 50,
         },
         moveZhiTo: {

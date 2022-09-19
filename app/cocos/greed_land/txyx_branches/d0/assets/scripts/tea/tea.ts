@@ -911,7 +911,7 @@ export default class TeaClass extends cc.Component {
         let cardNode = null;
         let playNum = item.playNum
         // @ts-ignore
-        if ((gameType == GMID.XZMJ) || (gameType == GMID.XZMJER) ||(gameType == GMID.YJMJ) || (gameType == GMID.HZMJ) || (gameType == GMID.YBMJ) || (gameType == GMID.NYMJ) || (gameType == GMID.LZMJ) || (gameType == GMID.NJMJ|| (gameType == GMID.LCMJ) || (gameType == GMID.GXMJ)) {
+        if ((gameType == GMID.XZMJ) || (gameType == GMID.XZMJER) ||(gameType == GMID.YJMJ) || (gameType == GMID.HZMJ) || (gameType == GMID.YBMJ) || (gameType == GMID.NYMJ) || (gameType == GMID.LZMJ) || (gameType == GMID.NJMJ) || (gameType == GMID.LCMJ) || (gameType == GMID.GXMJ)) {
             // deskName = '血战麻将';
             let preIndex = playNum - 2;
             if (this.useSecdDesk) {

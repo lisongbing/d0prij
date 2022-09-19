@@ -4,21 +4,21 @@ var cfg_dbg = {
 	gameVersion: '1.1112.0',
     gameConfigUrl:'http://120.77.173.104:10100', //120-app // 120.77.85.34 | 120.77.173.104
     //gameConfigUrl:'https://xyx.qqqpgame.com',   //120-小程序
-    //gameConfigUrl:'http://119.23.235.127:10100',  //119-app
+    //gameConfigUrl:'http://47.242.27.30:10100',  //119-app
     playBackIDUrl:'http://120.77.173.104:11111/getrecord',
     playBackDataUrl:'http://120.77.173.104:8090/',
-    subGameUrl:'http://119.23.235.127:80/',
+    subGameUrl:'http://47.242.27.30:80/',
     miniGameUrl:'https://down.qqqpgame.com/',
     useGameConfigBak:false,
     gameConfigBakUrl: 'https://www.0838.cn.com/greedland/',
     hotUpdateEnable: false,
-    hotUpdateUrl: '"http://119.23.235.127:80/"',
+    hotUpdateUrl: '"http://47.242.27.30:80/"',
     //wsAddress: ["wss://qqqpgame.com/ws"],
     //wsAddress: ["ws://192.168.0.62:8082/ws"], //糖饼
     //wsAddress: ["ws://192.168.0.102:8082/ws"],
     //wsAddress: ["wss://zhouwei520.picp.vip/ws"],
     //wsAddress: ["ws://tianxingyun.cn:8082/ws"],
-    //wsAddress: ["ws://119.23.235.127:8082/ws"],
+    //wsAddress: ["ws://47.242.27.30:8082/ws"],
     wsAddress: ["ws://120.77.173.104:8082/ws"],
     //wsAddress: ["ws://192.168.0.99:8082/ws"],
     //wsAddress: ["ws://lisongbing.net/ws"],

@@ -2627,7 +2627,10 @@ let D2PlayerView = cc.Class({
         }
 
         if (this.pGame.roomInfo.status <= DEF.RMSTA.Free.v) {
-            this.Sprite_cardNumBg.node.active = false;
+            if (this.Sprite_cardNumBg) {
+                this.Sprite_cardNumBg.node.active = false;
+            }
+
             if (this.handCardView) {
                 this.handCardView.clear();
             }
@@ -2813,6 +2816,10 @@ let D2PlayerView = cc.Class({
 
     // 更新出牌 
     upOutCards: function () {
+        if (!this.Node_ocLay) {
+            return;
+        }
+
         this.Node_ocLay.removeAllChildren();
 
         let codes = this.player.outCodes;

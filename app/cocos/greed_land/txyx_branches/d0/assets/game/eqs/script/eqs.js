@@ -388,9 +388,13 @@ cc.Class({
             p.removeFromParent();
         }
 
-        if (this.pGame.roomInfo.total <= 3) {
+        if (this.pGame.roomInfo.total == 3) {
             let pp = this.anmView.ppos;
             pp = [pp[0],pp[1],pp[3]];
+            this.anmView.ppos = pp;
+        } else if (this.pGame.roomInfo.total == 2) {
+            let pp = this.anmView.ppos;
+            pp = [pp[0],pp[2]];
             this.anmView.ppos = pp;
         }
 

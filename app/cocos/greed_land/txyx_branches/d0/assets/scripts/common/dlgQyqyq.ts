@@ -232,13 +232,17 @@ export default class NewClass extends cc.Component {
         // @ts-ignore
         cc.g.utils.btnShake();
 
+        // @ts-ignore
         if (!cc.g.qyqyjyqCD) {
+            // @ts-ignore
             cc.g.qyqyjyqCD = 0;
         }
 
         let now = Date.now();
+        // @ts-ignore
         let past = now - cc.g.qyqyjyqCD;
         if (past <= 15*1000) {
+            // @ts-ignore
             cc.g.global.hint('已发送邀请，请稍后再试');
             this.onBtnClose(0,0);
             return;
@@ -268,7 +272,9 @@ export default class NewClass extends cc.Component {
             // @ts-ignore
             if (!resp.err || resp.err == PB.ERROR.OK) {
                 //cc.log('创建俱乐部包间 成功');
+                // @ts-ignore
                 cc.g.global.hint('邀请成功');
+                // @ts-ignore
                 cc.g.qyqyjyqCD = Date.now();
 
                 this.onBtnClose(0,0);

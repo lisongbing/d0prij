@@ -2393,7 +2393,7 @@ let D2PlayerView = cc.Class({
         this.headPos = this.Sprite_headbg.convertToWorldSpaceAR(cc.Vec2(0,0));
         
         let pos = this.pPage.node.convertToNodeSpaceAR(this.headPos);
-        let fd =  1.8;
+        let fd = 1.8;
         if (this.index == 0) {
             pos.x += 200 *fd;
             pos.y += 100 *fd;
@@ -2626,7 +2626,10 @@ let D2PlayerView = cc.Class({
             cc.log('this.pGame.roomInfo.status ', this.pGame.roomInfo.status);
             cc.log('DEF.RMSTA.Free.v ', this.pGame.roomInfo.status);
 
-            this.Sprite_cardNumBg.node.active = false;
+            if (this.Sprite_cardNumBg) {
+                this.Sprite_cardNumBg.node.active = false;
+            }
+            
             if (this.handCardView) {
                 this.handCardView.clear();
             }

@@ -31769,7 +31769,7 @@
         "__id__": 824
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 830
@@ -32414,7 +32414,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        87.518,
+        -294.253,
         0,
         0,
         0,
