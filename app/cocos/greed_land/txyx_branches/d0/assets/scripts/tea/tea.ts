@@ -2045,7 +2045,7 @@ export default class TeaClass extends cc.Component {
             cc.dlog('enterTeaHall currentItem....', currentItem);
 
             this.getTeaJrcjPopPreNode().active = true;
-            this.getTeaJrcj().showDataView(currentItem, 1);
+            this.getTeaJrcj().showDataView(currentItem, 2);
         }
     }
     doRealEnterTeaHall(item: any, type: any) {
@@ -2161,7 +2161,10 @@ export default class TeaClass extends cc.Component {
                 }
             }
 
-            if (nojoin) {
+            //所在职位(圈主=71,超管=61,管理员=51,队长=41,组长=31,小组长=21,推荐人=11,普通成员=1) 
+            let iscg = (this.position==71 || this.position==61);
+
+            if (!iscg && nojoin && !currentItem.isStart) {
                 this.onBtnQuickStar();
             } else {
                 this.getTeaJrcjPopPreNode().active = true;
@@ -2203,7 +2206,7 @@ export default class TeaClass extends cc.Component {
             cc.dlog('加入茶馆房间 不需要定位 >>>>>');
 
             // @ts-ignore
-            cc.g.hallMgr.joinTeaHouse(this.teaHouseId, item.floor, item.deskNo, true,  (resp)=>{
+            cc.g.hallMgr.joinTeaHouse(this.teaHouseId, item.floor, item.deskNo||0, true,  (resp)=>{
                 // @ts-ignore
                 cc.dlog('joinTeaHouse', resp)
             });
@@ -2227,7 +2230,7 @@ export default class TeaClass extends cc.Component {
                 cc.log('加入茶馆房间 需要定位 >>>>>');
 
                 // @ts-ignore
-                cc.g.hallMgr.joinTeaHouse(this.teaHouseId, item.floor, item.deskNo, true,  (resp)=>{
+                cc.g.hallMgr.joinTeaHouse(this.teaHouseId, item.floor, item.deskNo||0, true,  (resp)=>{
                     // @ts-ignore
                     cc.log('joinTeaHouse', resp)
                 });

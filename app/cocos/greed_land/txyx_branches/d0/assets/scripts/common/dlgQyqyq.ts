@@ -195,7 +195,7 @@ export default class NewClass extends cc.Component {
         {/*
             //(游戏内)邀请亲友圈玩家加入游戏
             //@api:2315,@type:req
-            message  InviteThPlayerJoinGameReq{
+            message  InviteThPlayerJoinGameReq {
                 int32    teaHouseId=1;//茶馆Id
                 int64    userId=2;//用户Id
                 int32    floor = 3;//楼层号(0-50)

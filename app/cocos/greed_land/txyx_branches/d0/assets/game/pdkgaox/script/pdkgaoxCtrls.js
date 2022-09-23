@@ -569,7 +569,7 @@ let LocSettleFinalView = cc.Class({
             Lay.paddingLeft = Lay.paddingRight = 80;
         } else {
             let vs = cc.view.getVisibleSize();
-            this.ScrollView_player.node.width = vs.width - 10*2;
+            this.ScrollView_player.node.width = 4*446 + (4-1)*25 + 20*2;
             Lay.spacingX = 25;
             Lay.paddingLeft = Lay.paddingRight = 20;
         }

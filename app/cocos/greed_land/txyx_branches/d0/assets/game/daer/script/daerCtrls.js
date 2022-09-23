@@ -2253,9 +2253,11 @@ let D2PlayerView = cc.Class({
         this.Node_txtEmoji.ox = this.Node_txtEmoji.x;
 
         if (! this.xjp0) {
+            let vs = cc.view.getVisibleSize();
+
             this.xjp0 = this.root.position;
-            this.xjp1 = new cc.Vec2(841, 552);
-            this.xjp2 = new cc.Vec2(220, 552);
+            this.xjp1 = new cc.Vec2(373, 875);
+            this.xjp2 = new cc.Vec2(vs.width-488, 849);
         }
     },
     upViewxj: function () {

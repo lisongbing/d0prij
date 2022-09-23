@@ -474,6 +474,8 @@ cc.Class({
 
     // 爆动画
     baoAnm:function (isPlay) {
+        return;
+        
         if (!this.anmView.bao) {
             return;
         }

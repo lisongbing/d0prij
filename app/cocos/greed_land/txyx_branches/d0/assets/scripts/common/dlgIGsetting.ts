@@ -111,7 +111,7 @@ export default class NewClass extends cc.Component {
 
         // @ts-ignore
         let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
-        this.showDeskMjBg(this.togCfg['mjzt2'].isChecked)
+
         // for (let i = 0; i < GMGrp.mahjong.length; i++) {
         //     if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
         //         gmbg = gmbg || '3';
@@ -157,6 +157,8 @@ export default class NewClass extends cc.Component {
         this.togbg[gmbg].check();
 
         uping = false;
+
+        this.showDeskMjBg()
         return;
 
         {/*
@@ -207,32 +209,44 @@ export default class NewClass extends cc.Component {
         });
     }
 
-    showDeskMjBg(curCheck) {
-        console.log('showDeskMjBg-->' + curCheck)
-        // @ts-ignore
-        let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
-        for (let i = 0; i < GMGrp.mahjong.length; i++) {
-            if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
-                gmbg = gmbg || '3';
-                console.log('gmbg-->' + gmbg)
-                let gmbgInt = parseInt(gmbg)
-                console.log('gmbgInt-->' + gmbgInt)
-                if (curCheck) {
-                    this.togbg[3].node.active = false;
-                    this.togbg[4].node.active = false;
-                    this.togbg[5].node.active = true;
-                    this.togbg[5].check()
-                } else {
-                    this.togbg[3].node.active = true;
-                    this.togbg[4].node.active = true;
-                    this.togbg[5].node.active = true;
-                    this.togbg[gmbgInt].check()
-                }
+    showDeskMjBg() {
+        // console.log('showDeskMjBg-->' + curCheck)
+        // // @ts-ignore
+        // let gmbg = cc.sys.localStorage.getItem(`${cc.g.hallMgr.curGameType}_deskbg`);
+        // for (let i = 0; i < GMGrp.mahjong.length; i++) {
+        //     if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
+        //         gmbg = gmbg || '3';
+        //         console.log('gmbg-->' + gmbg)
+        //         let gmbgInt = parseInt(gmbg)
+        //         console.log('gmbgInt-->' + gmbgInt)
+        //         if (curCheck) {
+        //             this.togbg[3].node.active = false;
+        //             this.togbg[4].node.active = false;
+        //             this.togbg[5].node.active = true;
+        //             this.togbg[5].check()
+        //         } else {
+        //             this.togbg[3].node.active = true;
+        //             this.togbg[4].node.active = true;
+        //             this.togbg[5].node.active = true;
+        //             this.togbg[gmbgInt].check()
+        //         }
+        //
+        //         break;
+        //     }
+        // }
 
+        // @ts-ignore
+        for (let i = 0; i < GMGrp.mahjong.length; i++) {
+            // @ts-ignore
+            if (GMGrp.mahjong[i] == cc.g.hallMgr.curGameType) {
+                this.togbg[3].node.active = false;
+                this.togbg[4].node.active = false;
+                this.togbg[5].node.active = true;
+                this.togbg[5].check()
                 break;
             }
         }
-    },
+    }
 
     onTogCfg(evt, data) {
         cc.log('onTogCfg', data);
@@ -278,7 +292,8 @@ export default class NewClass extends cc.Component {
             // @ts-ignore
             cc.sys.localStorage.setItem(`${cc.g.hallMgr.curGameType}_mjIGS`, mjIGS);
 
-            this.showDeskMjBg((mjzt>0) ? true : false)
+            // this.showDeskMjBg((mjzt>0) ? true : false)
+            this.showDeskMjBg()
         }
     }
 
@@ -351,9 +366,11 @@ export default class NewClass extends cc.Component {
         let gmbg = `${cc.g.hallMgr.curGameType}_deskbg`;
 
         cc.sys.localStorage.setItem(gmbg, data);
-
         // @ts-ignore
-        cc.g.hallMgr.curGameMgr.gameScript.upDeskbg();
+        if (cc.g.hallMgr.curGameMgr.gameScript) {
+            // @ts-ignore
+            cc.g.hallMgr.curGameMgr.gameScript.upDeskbg();
+        }
     }
 
 

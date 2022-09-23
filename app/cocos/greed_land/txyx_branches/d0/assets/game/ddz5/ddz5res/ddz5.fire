@@ -479,7 +479,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Sprite_df_js",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -672,8 +672,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 15.57,
-      "height": 35.28
+      "width": 20.02,
+      "height": 45.36
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -726,8 +726,8 @@
     "_dstBlendFactor": 771,
     "_string": "1",
     "_N$string": "1",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 36,
+    "_lineHeight": 36,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -771,8 +771,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 70.07,
-      "height": 35.28
+      "width": 90.09,
+      "height": 45.36
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -921,8 +921,8 @@
     "_dstBlendFactor": 771,
     "_string": "01/04",
     "_N$string": "01/04",
-    "_fontSize": 28,
-    "_lineHeight": 28,
+    "_fontSize": 36,
+    "_lineHeight": 36,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
@@ -25592,7 +25592,7 @@
         "__id__": 622
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 691
@@ -29072,7 +29072,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "e9f8c97f-8a28-4f7a-821e-8a24b10835d1"
+      "__uuid__": "c4c211e5-0db2-4532-a16d-c66ae73d417b"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -29367,7 +29367,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "c4c211e5-0db2-4532-a16d-c66ae73d417b"
+      "__uuid__": "e9f8c97f-8a28-4f7a-821e-8a24b10835d1"
     },
     "_type": 0,
     "_sizeMode": 2,

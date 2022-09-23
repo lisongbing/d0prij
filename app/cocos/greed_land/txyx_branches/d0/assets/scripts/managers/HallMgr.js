@@ -1314,7 +1314,7 @@ cc.Class({
         // 清空
         let info={}
 
-        //游戏ID
+        // 游戏ID
         info.gameId = crtifo.gameId
 
         // 地区

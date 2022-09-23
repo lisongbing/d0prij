@@ -251,7 +251,7 @@
   {
     "__type__": "cc.Node",
     "_name": "login",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -407,7 +407,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "35b64bdf-1bf2-43b8-9a5f-244d890e66d6"
+      "__uuid__": "ac22ce5f-c88d-46f0-986b-cbbeb42903db"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -451,8 +451,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 650,
-      "height": 131
+      "width": 308,
+      "height": 111
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -463,8 +463,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -584.744,
-        443.088,
+        -774.752,
+        452.172,
         0,
         0,
         0,
@@ -504,7 +504,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "cb73c87b-279c-449d-8401-367a3b42bdc3"
+      "__uuid__": "0b8cfed0-0195-460f-b1c3-0a1c2a7f7c59"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -531,9 +531,9 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 9,
-    "_left": 50.25599999999997,
+    "_left": 31.248000000000047,
     "_right": 0,
-    "_top": 31.411999999999978,
+    "_top": 32.327999999999975,
     "_bottom": 0,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
@@ -582,7 +582,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1501,
+      "width": 1485,
       "height": 139
     },
     "_anchorPoint": {
@@ -594,8 +594,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -325.766,
+        -16,
+        -342.251,
         0,
         0,
         0,
@@ -647,8 +647,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 423,
-      "height": 138
+      "width": 455,
+      "height": 139
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -659,7 +659,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -539,
+        -515,
         0,
         0,
         0,
@@ -804,7 +804,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "wxLogin",
+    "_name": "sjLogin",
     "_objFlags": 0,
     "_parent": {
       "__id__": 11
@@ -830,7 +830,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 425,
+      "width": 455,
       "height": 139
     },
     "_anchorPoint": {
@@ -842,7 +842,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -1,
+        0,
         0,
         0,
         0,
@@ -865,7 +865,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "e0yiU7d/BJCK2+mogIBLok"
+    "_id": "76WvTdru9HwJbNx5aL5FJE"
   },
   {
     "__type__": "cc.Button",
@@ -941,7 +941,7 @@
     "_N$target": {
       "__id__": 16
     },
-    "_id": "cdFq1gwTJBtqB7SEpQRMOS"
+    "_id": "503cSVTmFMvJU2YvLDqx5a"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -950,7 +950,7 @@
     },
     "component": "",
     "_componentId": "d4a7fhTaZ1K6rfpewasx9Nb",
-    "handler": "onClickLoginWithWX",
+    "handler": "onClickLoginWithPhone",
     "customEventData": ""
   },
   {
@@ -969,7 +969,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "ebf28178-c884-4954-ad33-03b97533ac26"
+      "__uuid__": "1df7fbe4-2c06-4b2e-b1be-a56c99af04fe"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -983,11 +983,11 @@
     "_fillRange": 0,
     "_isTrimmedMode": false,
     "_atlas": null,
-    "_id": "edI+EOu2JG5ZJdaIVedmoI"
+    "_id": "1dBjUiFD5HqrSpq4pf/jx+"
   },
   {
     "__type__": "cc.Node",
-    "_name": "sjLogin",
+    "_name": "wxLogin",
     "_objFlags": 0,
     "_parent": {
       "__id__": 11
@@ -1013,7 +1013,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 425,
+      "width": 455,
       "height": 139
     },
     "_anchorPoint": {
@@ -1025,7 +1025,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        538,
+        515,
         0,
         0,
         0,
@@ -1048,7 +1048,7 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "76WvTdru9HwJbNx5aL5FJE"
+    "_id": "e0yiU7d/BJCK2+mogIBLok"
   },
   {
     "__type__": "cc.Button",
@@ -1124,7 +1124,7 @@
     "_N$target": {
       "__id__": 20
     },
-    "_id": "503cSVTmFMvJU2YvLDqx5a"
+    "_id": "cdFq1gwTJBtqB7SEpQRMOS"
   },
   {
     "__type__": "cc.ClickEvent",
@@ -1133,7 +1133,7 @@
     },
     "component": "",
     "_componentId": "d4a7fhTaZ1K6rfpewasx9Nb",
-    "handler": "onClickLoginWithPhone",
+    "handler": "onClickLoginWithWX",
     "customEventData": ""
   },
   {
@@ -1152,7 +1152,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "1df7fbe4-2c06-4b2e-b1be-a56c99af04fe"
+      "__uuid__": "ebf28178-c884-4954-ad33-03b97533ac26"
     },
     "_type": 0,
     "_sizeMode": 2,
@@ -1166,7 +1166,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": false,
     "_atlas": null,
-    "_id": "1dBjUiFD5HqrSpq4pf/jx+"
+    "_id": "edI+EOu2JG5ZJdaIVedmoI"
   },
   {
     "__type__": "cc.Layout",
@@ -1178,7 +1178,7 @@
     "_enabled": true,
     "_layoutSize": {
       "__type__": "cc.Size",
-      "width": 1501,
+      "width": 1485,
       "height": 139
     },
     "_resize": 1,
@@ -1193,7 +1193,7 @@
     "_N$paddingRight": 0,
     "_N$paddingTop": 0,
     "_N$paddingBottom": 0,
-    "_N$spacingX": 114,
+    "_N$spacingX": 60,
     "_N$spacingY": 0,
     "_N$verticalDirection": 1,
     "_N$horizontalDirection": 0,
@@ -1238,7 +1238,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -295,
+        -205.19,
         0,
         0,
         0,
@@ -1609,7 +1609,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Toggle_xieyi",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 2
     },
@@ -1651,7 +1651,7 @@
       "ctor": "Float64Array",
       "array": [
         -409.319,
-        -296.457,
+        -426.445,
         0,
         0,
         0,
@@ -1981,7 +1981,7 @@
       "ctor": "Float64Array",
       "array": [
         59.473,
-        -295.96,
+        -425.948,
         0,
         0,
         0,
@@ -2197,7 +2197,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 2
     },
@@ -2232,7 +2232,7 @@
       "ctor": "Float64Array",
       "array": [
         -11.425,
-        -416.337,
+        -461.242,
         0,
         0,
         0,
@@ -2327,7 +2327,7 @@
       "ctor": "Float64Array",
       "array": [
         7.98,
-        -471.132,
+        -516.037,
         0,
         0,
         0,
@@ -2417,7 +2417,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -5.206,
+        528.927,
         62.183,
         0,
         0,

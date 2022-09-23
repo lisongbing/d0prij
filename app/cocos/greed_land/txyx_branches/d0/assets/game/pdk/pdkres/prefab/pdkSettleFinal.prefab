@@ -14,7 +14,7 @@
   {
     "__type__": "cc.Node",
     "_name": "pdkSettlement",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": null,
     "_children": [
       {
@@ -104,7 +104,7 @@
   {
     "__type__": "cc.Node",
     "_name": "color_bg",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -241,7 +241,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Sprite",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -605,7 +605,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Node_ri",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -1062,9 +1062,9 @@
     "_enabled": true,
     "alignMode": 1,
     "_target": null,
-    "_alignFlags": 9,
+    "_alignFlags": 33,
     "_left": 1575.512,
-    "_right": 0,
+    "_right": 13.628000000000043,
     "_top": 112.34999999999994,
     "_bottom": 0,
     "_verticalCenter": 0,
@@ -1930,7 +1930,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Button_share",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -2251,7 +2251,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Button_backhall",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
@@ -2558,7 +2558,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 1
     },
